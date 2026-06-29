@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-06-29  
+更新日：2026-06-29（clothing_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -36,6 +36,9 @@
 - 打ち消しとセットになりやすい語、副詞系語句、抽象語の補足ルールを追加
 - `subtype: "onomatopoeia_word"` を追加
 - オノマトペ問題の出題・解説・画像化方針を追加
+- p026作問結果を反映
+- `subtype: "clothing_word"` を追加
+- 和服・衣服部位名の出題方針・hint方針・画像ファイル名ルールを追加
 
 ---
 
@@ -714,6 +717,71 @@ p014のように、気づかい・マナー・しぐさを表す語は、`image_
 }
 ```
 
+### clothing_word
+
+p026のように、和服や衣服の部位名・種類を表す語は、`image_word` のまま扱い、`subtype: "clothing_word"` を入れる。
+
+対象例：
+
+- 裾
+- 袂
+- 懐
+- 法被
+- 留め袖
+- 振り袖
+
+基本形：
+
+```json
+{
+  "type": "image_word",
+  "subtype": "clothing_word",
+  "word": "袂",
+  "image": "images/clothing_tamoto.png",
+  "hint": "和服の袖の下に、袋のようにたれている部分です。"
+}
+```
+
+#### 出題方針
+
+衣服の部位名や種類は、言葉だけでは小学生がイメージしにくい場合があるため、`image_word` として扱ってよい。
+
+ただし、画像がなくても意味が伝わる語句は `meaning_context` として扱ってもよい。
+
+#### hint の方針
+
+`clothing_word` では、画像だけで見る場所が分かりにくい場合があるため、`hint` に見る場所や特徴を短く入れる。
+
+例：
+
+- 着物の下のはしの部分を見ています。
+- 和服の袖の下に、袋のようにたれている部分です。
+- 和服の胸のあたりを見ています。
+- 成人式などで見かける、袖の長い着物です。
+
+#### 画像ファイル名
+
+`clothing_word` の画像ファイル名は `images/clothing_*.png` 形式にする。
+
+例：
+
+```txt
+images/clothing_kimono_suso.png
+images/clothing_happi.png
+images/clothing_tomesode.png
+images/clothing_tamoto.png
+images/clothing_furisode.png
+images/clothing_futokoro.png
+```
+
+#### 画像生成時の注意
+
+- 教材画像は使わず、生成AIで作るオリジナル画像を使う
+- 留め袖・振り袖のように似ている語句は、画像生成時に違いが分かるようにする
+  - 振り袖：袖が長いことが分かるようにする
+  - 留め袖：袖が短めで、礼装用の落ち着いた着物であることが分かるようにする
+  - 裾・袂・懐などの部位名：対象部分が分かりやすい構図にする
+
 ### 画像の注意
 
 - 教材画像は流用しない
@@ -736,6 +804,8 @@ images/manners_katahiki.png
 images/manners_ukatsu_ayamari.png
 images/manners_shichisan_no_michi.png
 images/manners_toki_dorobou.png
+images/clothing_kimono_suso.png
+images/clothing_tamoto.png
 images/time_tasogare.png
 images/counter_hashi.png
 ```
@@ -1107,6 +1177,8 @@ vocab1300_p205_001
 - [ ] `hint` がある場合、答えを直接言いすぎていない
 - [ ] `subtype` がある場合、typeとの関係が自然
 - [ ] `subtype: "onomatopoeia_word"` の場合、音・光・動き・気持ちなどの説明が明確
+- [ ] `subtype: "clothing_word"` の場合、`hint` に見る場所や特徴が入っている
+- [ ] `subtype: "clothing_word"` の画像ファイル名が `images/clothing_*.png` 形式になっている
 - [ ] `month` がある場合、1〜12の数値になっている
 - [ ] `reading_context` で必要な場合、`answerReading` が入っている
 - [ ] `counter_image` で必要な場合、`counterTarget` / `counter` / `counterReading` が入っている
