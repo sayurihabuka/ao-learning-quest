@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 教材スキャン・元資料（著作物 — 絶対にpushしない）
+scans/
+*.pdf
+
+# 一時ファイル
+tmp/
+*.tmp
+
+# Node.jsを使う場合
+node_modules/
+dist/
+
+# 環境変数・秘密情報
+.env
+.env.*
+credentials.json
+*.pem
+*.key
