@@ -1,0 +1,756 @@
+[
+{
+"sourcePage": 7,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "キャリア",
+"reading": "キャリア",
+"meaning": "仕事や技術などで積んできた経験や経歴",
+"detectedType": "meaning_context"
+},
+{
+"word": "さえぎる",
+"reading": "さえぎる",
+"meaning": "進むものや見えるものなどを途中でじゃますること",
+"detectedType": "meaning_context"
+},
+{
+"word": "状況",
+"reading": "じょうきょう",
+"meaning": "そのときの様子や状態",
+"detectedType": "meaning_context"
+},
+{
+"word": "居心地",
+"reading": "いごこち",
+"meaning": "その場所にいるときの気分",
+"detectedType": "meaning_context"
+},
+{
+"word": "出し抜く",
+"reading": "だしぬく",
+"meaning": "相手をだましたり、先に行動したりして、自分が有利になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "手ぬかり",
+"reading": "てぬかり",
+"meaning": "注意や準備が十分でないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p007_001",
+"source": "vocab1300",
+"sourcePage": 7,
+"type": "meaning_context",
+"word": "キャリア",
+"reading": "キャリア",
+"sentence": "その先生は、長いキャリアを生かして、分かりやすく教えてくれました。",
+"question": "キャリア の意味はどれ？",
+"choices": [
+"その場所にいるときの気分",
+"仕事や技術などで積んできた経験",
+"注意や準備が足りないこと",
+"途中でじゃますること"
+],
+"answerIndex": 1,
+"explanation": "キャリアは、仕事や技術などで積んできた経験や経歴のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p007"]
+},
+{
+"id": "vocab1300_p007_002",
+"source": "vocab1300",
+"sourcePage": 7,
+"type": "meaning_context",
+"word": "さえぎる",
+"reading": "さえぎる",
+"sentence": "大きな木が道をさえぎっていて、前に進めませんでした。",
+"question": "さえぎる の意味はどれ？",
+"choices": [
+"相手を先に出しぬくこと",
+"そのときの様子",
+"途中でじゃますること",
+"居やすい気分"
+],
+"answerIndex": 2,
+"explanation": "さえぎるは、進むものや見えるものなどを途中でじゃますることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p007"]
+},
+{
+"id": "vocab1300_p007_003",
+"source": "vocab1300",
+"sourcePage": 7,
+"type": "meaning_context",
+"word": "状況",
+"reading": "じょうきょう",
+"sentence": "先生は、教室の状況を見てから、外で遊ぶか決めました。",
+"question": "状況 の意味はどれ？",
+"choices": [
+"そのときの様子や状態",
+"注意が足りないこと",
+"仕事で積んだ経験",
+"人をだまして先に進むこと"
+],
+"answerIndex": 0,
+"explanation": "状況は、そのときの様子や状態のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p007"]
+},
+{
+"id": "vocab1300_p007_004",
+"source": "vocab1300",
+"sourcePage": 7,
+"type": "meaning_context",
+"word": "居心地",
+"reading": "いごこち",
+"sentence": "図書室は静かで、居心地がよい場所です。",
+"question": "居心地 の意味はどれ？",
+"choices": [
+"途中でじゃますること",
+"相手をだまして有利になること",
+"仕事などの経験",
+"その場所にいるときの気分"
+],
+"answerIndex": 3,
+"explanation": "居心地は、その場所にいるときの気分のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p007"]
+},
+{
+"id": "vocab1300_p007_005",
+"source": "vocab1300",
+"sourcePage": 7,
+"type": "meaning_context",
+"word": "出し抜く",
+"reading": "だしぬく",
+"sentence": "友だちを出し抜くようなやり方では、あとで信じてもらえなくなります。",
+"question": "出し抜く の意味はどれ？",
+"choices": [
+"その場所にいるときの気分",
+"相手をだましたり先に動いたりして有利になること",
+"そのときの様子や状態",
+"注意や準備が足りないこと"
+],
+"answerIndex": 1,
+"explanation": "出し抜くは、相手をだましたり先に行動したりして、自分が有利になることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p007"]
+},
+{
+"id": "vocab1300_p007_006",
+"source": "vocab1300",
+"sourcePage": 7,
+"type": "meaning_context",
+"word": "手ぬかり",
+"reading": "てぬかり",
+"sentence": "発表の前に何度も確認したので、手ぬかりはありませんでした。",
+"question": "手ぬかり の意味はどれ？",
+"choices": [
+"仕事や技術の経験",
+"途中でじゃますること",
+"注意や準備が十分でないこと",
+"居やすい気分"
+],
+"answerIndex": 2,
+"explanation": "手ぬかりは、注意や準備が十分でないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p007"]
+}
+],
+"answerIndexCheck": {
+"target": "p007_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 0, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 8,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "うやうやしい",
+"reading": "うやうやしい",
+"meaning": "ていねいで、礼儀正しいようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "つじつま",
+"reading": "つじつま",
+"meaning": "話や物事の筋道が合っていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "えんえん",
+"reading": "えんえん",
+"meaning": "非常に長く続くようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "仕向ける",
+"reading": "しむける",
+"meaning": "人に働きかけて、何かをさせること",
+"detectedType": "meaning_context"
+},
+{
+"word": "目が高い",
+"reading": "めがたかい",
+"meaning": "物や人のよしあしを見分ける力があること",
+"detectedType": "meaning_context"
+},
+{
+"word": "こき使う",
+"reading": "こきつかう",
+"meaning": "人を休ませず、ひどく働かせること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p008_001",
+"source": "vocab1300",
+"sourcePage": 8,
+"type": "meaning_context",
+"word": "うやうやしい",
+"reading": "うやうやしい",
+"sentence": "その子は、おじぎをして、うやうやしく先生にあいさつしました。",
+"question": "うやうやしい の意味はどれ？",
+"choices": [
+"人をひどく働かせること",
+"話の筋道が合うこと",
+"ていねいで礼儀正しいようす",
+"長く続くようす"
+],
+"answerIndex": 2,
+"explanation": "うやうやしいは、ていねいで、礼儀正しいようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p008"]
+},
+{
+"id": "vocab1300_p008_002",
+"source": "vocab1300",
+"sourcePage": 8,
+"type": "meaning_context",
+"word": "つじつま",
+"reading": "つじつま",
+"sentence": "話のつじつまが合わないので、もう一度たしかめました。",
+"question": "つじつま の意味はどれ？",
+"choices": [
+"人を休ませずに使うこと",
+"話や物事の筋道",
+"よしあしを見分ける力",
+"礼儀正しいようす"
+],
+"answerIndex": 1,
+"explanation": "つじつまは、話や物事の筋道のことです。つじつまが合うとは、話が自然につながることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p008"]
+},
+{
+"id": "vocab1300_p008_003",
+"source": "vocab1300",
+"sourcePage": 8,
+"type": "meaning_context",
+"word": "えんえん",
+"reading": "えんえん",
+"sentence": "校長先生の話は、えんえんと続きました。",
+"question": "えんえん の意味はどれ？",
+"choices": [
+"非常に長く続くようす",
+"ていねいなようす",
+"何かをさせること",
+"見分ける力があること"
+],
+"answerIndex": 0,
+"explanation": "えんえんは、非常に長く続くようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p008"]
+},
+{
+"id": "vocab1300_p008_004",
+"source": "vocab1300",
+"sourcePage": 8,
+"type": "meaning_context",
+"word": "仕向ける",
+"reading": "しむける",
+"sentence": "先生は、みんなが自分で考えるように仕向けました。",
+"question": "仕向ける の意味はどれ？",
+"choices": [
+"筋道が合うこと",
+"長く続くようす",
+"よしあしを見分けること",
+"人に働きかけて何かをさせること"
+],
+"answerIndex": 3,
+"explanation": "仕向けるは、人に働きかけて、何かをさせることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p008"]
+},
+{
+"id": "vocab1300_p008_005",
+"source": "vocab1300",
+"sourcePage": 8,
+"type": "meaning_context",
+"word": "目が高い",
+"reading": "めがたかい",
+"sentence": "その絵のよさに気づくなんて、君は目が高いね。",
+"question": "目が高い の意味はどれ？",
+"choices": [
+"物や人のよしあしを見分ける力があること",
+"人をひどく働かせること",
+"礼儀正しくすること",
+"長く続くこと"
+],
+"answerIndex": 0,
+"explanation": "目が高いは、物や人のよしあしを見分ける力があることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p008"]
+},
+{
+"id": "vocab1300_p008_006",
+"source": "vocab1300",
+"sourcePage": 8,
+"type": "meaning_context",
+"word": "こき使う",
+"reading": "こきつかう",
+"sentence": "弟に片づけを全部させて、こき使うのはよくありません。",
+"question": "こき使う の意味はどれ？",
+"choices": [
+"話の筋道が合うこと",
+"見分ける力があること",
+"人を休ませず、ひどく働かせること",
+"礼儀正しいようす"
+],
+"answerIndex": 2,
+"explanation": "こき使うは、人を休ませず、ひどく働かせることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p008"]
+}
+],
+"answerIndexCheck": {
+"target": "p008_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 0, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "ひらがな語句の扱い",
+"suggestion": "『うやうやしい』『えんえん』のように語句自体がひらがなの場合も、readingには同じ表記を入れる運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 9,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "よりほかない",
+"reading": "よりほかない",
+"meaning": "それ以外に方法がないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "相性",
+"reading": "あいしょう",
+"meaning": "相手と気持ちや調子が合うかどうかということ",
+"detectedType": "meaning_context"
+},
+{
+"word": "弱みにつけこむ",
+"reading": "よわみにつけこむ",
+"meaning": "相手の弱いところを利用して、自分に都合よくすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "いぶかしい",
+"reading": "いぶかしい",
+"meaning": "はっきりしなくて、あやしく思うようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "さすらう",
+"reading": "さすらう",
+"meaning": "あてもなく、あちこち歩き回ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "率直",
+"reading": "そっちょく",
+"meaning": "かざらず、ありのままに言うようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p009_001",
+"source": "vocab1300",
+"sourcePage": 9,
+"type": "meaning_context",
+"word": "よりほかない",
+"reading": "よりほかない",
+"sentence": "電車が止まってしまったので、歩いて帰るよりほかありません。",
+"question": "よりほかない の意味はどれ？",
+"choices": [
+"それ以外に方法がないこと",
+"相手と調子が合うこと",
+"あやしく思うこと",
+"あてもなく歩くこと"
+],
+"answerIndex": 0,
+"explanation": "よりほかないは、それ以外に方法がないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p009"]
+},
+{
+"id": "vocab1300_p009_002",
+"source": "vocab1300",
+"sourcePage": 9,
+"type": "meaning_context",
+"word": "相性",
+"reading": "あいしょう",
+"sentence": "その友だちとは相性がよく、すぐに仲よくなりました。",
+"question": "相性 の意味はどれ？",
+"choices": [
+"はっきりしなくてあやしいこと",
+"相手と気持ちや調子が合うかどうか",
+"ありのままに言うこと",
+"弱いところを利用すること"
+],
+"answerIndex": 1,
+"explanation": "相性は、相手と気持ちや調子が合うかどうかということです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p009"]
+},
+{
+"id": "vocab1300_p009_003",
+"source": "vocab1300",
+"sourcePage": 9,
+"type": "meaning_context",
+"word": "弱みにつけこむ",
+"reading": "よわみにつけこむ",
+"sentence": "相手の弱みにつけこむようなやり方は、正しいとは言えません。",
+"question": "弱みにつけこむ の意味はどれ？",
+"choices": [
+"あてもなく歩き回ること",
+"それ以外に方法がないこと",
+"相手の弱いところを利用すること",
+"かざらずに言うこと"
+],
+"answerIndex": 2,
+"explanation": "弱みにつけこむは、相手の弱いところを利用して、自分に都合よくすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p009"]
+},
+{
+"id": "vocab1300_p009_004",
+"source": "vocab1300",
+"sourcePage": 9,
+"type": "meaning_context",
+"word": "いぶかしい",
+"reading": "いぶかしい",
+"sentence": "だれもいないはずの部屋から音がして、いぶかしく思いました。",
+"question": "いぶかしい の意味はどれ？",
+"choices": [
+"相手と調子が合うこと",
+"あてもなく歩き回ること",
+"ありのままに話すこと",
+"はっきりしなくて、あやしく思うようす"
+],
+"answerIndex": 3,
+"explanation": "いぶかしいは、はっきりしなくて、あやしく思うようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p009"]
+},
+{
+"id": "vocab1300_p009_005",
+"source": "vocab1300",
+"sourcePage": 9,
+"type": "meaning_context",
+"word": "さすらう",
+"reading": "さすらう",
+"sentence": "物語の主人公は、知らない国をさすらいました。",
+"question": "さすらう の意味はどれ？",
+"choices": [
+"あてもなく、あちこち歩き回ること",
+"相手の弱いところを利用すること",
+"それ以外に方法がないこと",
+"はっきりしなくて疑うこと"
+],
+"answerIndex": 0,
+"explanation": "さすらうは、あてもなく、あちこち歩き回ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p009"]
+},
+{
+"id": "vocab1300_p009_006",
+"source": "vocab1300",
+"sourcePage": 9,
+"type": "meaning_context",
+"word": "率直",
+"reading": "そっちょく",
+"sentence": "先生に、作文の感想を率直に伝えました。",
+"question": "率直 の意味はどれ？",
+"choices": [
+"相手と調子が合うこと",
+"かざらず、ありのままに言うようす",
+"相手の弱いところを利用すること",
+"あやしく思うようす"
+],
+"answerIndex": 1,
+"explanation": "率直は、かざらず、ありのままに言うようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p009"]
+}
+],
+"answerIndexCheck": {
+"target": "p009_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 1],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 10,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "そりが合わない",
+"reading": "そりがあわない",
+"meaning": "考え方や性格が合わないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "歯を食いしばる",
+"reading": "はをくいしばる",
+"meaning": "苦しさやつらさにじっとたえること",
+"detectedType": "meaning_context"
+},
+{
+"word": "丹念",
+"reading": "たんねん",
+"meaning": "心をこめて、細かいところまでていねいにするようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "信念",
+"reading": "しんねん",
+"meaning": "自分が正しいと強く信じる気持ち",
+"detectedType": "meaning_context"
+},
+{
+"word": "妨害",
+"reading": "ぼうがい",
+"meaning": "人の行動や物事の進みをじゃますること",
+"detectedType": "meaning_context"
+},
+{
+"word": "得体の知れない",
+"reading": "えたいのしれない",
+"meaning": "正体や本当の姿がよく分からないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p010_001",
+"source": "vocab1300",
+"sourcePage": 10,
+"type": "meaning_context",
+"word": "そりが合わない",
+"reading": "そりがあわない",
+"sentence": "その子とは遊び方の考えがちがって、少しそりが合いません。",
+"question": "そりが合わない の意味はどれ？",
+"choices": [
+"正体が分からないこと",
+"人の行動をじゃますること",
+"考え方や性格が合わないこと",
+"細かくていねいにすること"
+],
+"answerIndex": 2,
+"explanation": "そりが合わないは、考え方や性格が合わないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p010"]
+},
+{
+"id": "vocab1300_p010_002",
+"source": "vocab1300",
+"sourcePage": 10,
+"type": "meaning_context",
+"word": "歯を食いしばる",
+"reading": "はをくいしばる",
+"sentence": "最後まで走るために、歯を食いしばってがんばりました。",
+"question": "歯を食いしばる の意味はどれ？",
+"choices": [
+"強く信じる気持ち",
+"苦しさやつらさにたえること",
+"正体が分からないこと",
+"考え方が合わないこと"
+],
+"answerIndex": 1,
+"explanation": "歯を食いしばるは、苦しさやつらさにじっとたえることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p010"]
+},
+{
+"id": "vocab1300_p010_003",
+"source": "vocab1300",
+"sourcePage": 10,
+"type": "meaning_context",
+"word": "丹念",
+"reading": "たんねん",
+"sentence": "ノートの図を、丹念に色分けしてまとめました。",
+"question": "丹念 の意味はどれ？",
+"choices": [
+"心をこめて細かくていねいにするようす",
+"人の行動をじゃますること",
+"考え方が合わないこと",
+"本当の姿が分からないこと"
+],
+"answerIndex": 0,
+"explanation": "丹念は、心をこめて、細かいところまでていねいにするようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p010"]
+},
+{
+"id": "vocab1300_p010_004",
+"source": "vocab1300",
+"sourcePage": 10,
+"type": "meaning_context",
+"word": "信念",
+"reading": "しんねん",
+"sentence": "その選手は、必ずうまくなるという信念を持って練習しました。",
+"question": "信念 の意味はどれ？",
+"choices": [
+"苦しさにたえること",
+"人をじゃますること",
+"正体が分からないこと",
+"自分が正しいと強く信じる気持ち"
+],
+"answerIndex": 3,
+"explanation": "信念は、自分が正しいと強く信じる気持ちです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p010"]
+},
+{
+"id": "vocab1300_p010_005",
+"source": "vocab1300",
+"sourcePage": 10,
+"type": "meaning_context",
+"word": "妨害",
+"reading": "ぼうがい",
+"sentence": "話している人の前で大声を出すと、発表の妨害になります。",
+"question": "妨害 の意味はどれ？",
+"choices": [
+"細かくていねいにすること",
+"考え方が合わないこと",
+"人の行動や物事の進みをじゃますること",
+"強く信じる気持ち"
+],
+"answerIndex": 2,
+"explanation": "妨害は、人の行動や物事の進みをじゃますることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p010"]
+},
+{
+"id": "vocab1300_p010_006",
+"source": "vocab1300",
+"sourcePage": 10,
+"type": "meaning_context",
+"word": "得体の知れない",
+"reading": "えたいのしれない",
+"sentence": "森の奥から、得体の知れない音が聞こえてきました。",
+"question": "得体の知れない の意味はどれ？",
+"choices": [
+"苦しさにじっとたえること",
+"正体や本当の姿がよく分からないこと",
+"人の行動をじゃますること",
+"考え方が合わないこと"
+],
+"answerIndex": 1,
+"explanation": "得体の知れないは、正体や本当の姿がよく分からないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p010"]
+}
+],
+"answerIndexCheck": {
+"target": "p010_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 0, 3, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "慣用句の読み",
+"suggestion": "『歯を食いしばる』『得体の知れない』のような慣用句は、wordには漢字かな交じり、readingには全文ひらがなを入れる形で統一するとよさそうです。"
+}
+]
+}
+]

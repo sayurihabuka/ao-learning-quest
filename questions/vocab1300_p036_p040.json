@@ -1,0 +1,991 @@
+[
+{
+"sourcePage": 36,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "明け暮れる",
+"reading": "あけくれる",
+"meaning": "一つのことに集中して、毎日そればかりをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "好奇心",
+"reading": "こうきしん",
+"meaning": "知らないことに興味を持つ心",
+"detectedType": "meaning_context"
+},
+{
+"word": "なけなし",
+"reading": "なけなし",
+"meaning": "ほんの少ししかないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "デリケート",
+"reading": "デリケート",
+"meaning": "繊細で、傷つきやすく、取り扱いに注意が必要なようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "心もとない",
+"reading": "こころもとない",
+"meaning": "頼りなくて、不安なようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "授ける",
+"reading": "さずける",
+"meaning": "地位や年齢が上の人が、下の人に何かを与えること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p036_001",
+"source": "vocab1300",
+"sourcePage": 36,
+"type": "meaning_context",
+"word": "明け暮れる",
+"reading": "あけくれる",
+"sentence": "夏休みの間、兄は自由研究の実験に明け暮れました。",
+"question": "明け暮れる の意味はどれ？",
+"choices": [
+"頼りなくて不安なようす",
+"ほんの少ししかないこと",
+"一つのことに集中してやり続けること",
+"上の人が下の人に何かを与えること"
+],
+"answerIndex": 2,
+"explanation": "明け暮れるは、一つのことに集中して、毎日そればかりをすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p036"]
+},
+{
+"id": "vocab1300_p036_002",
+"source": "vocab1300",
+"sourcePage": 36,
+"type": "meaning_context",
+"word": "好奇心",
+"reading": "こうきしん",
+"sentence": "青ちゃんは、知らない虫を見つけると好奇心いっぱいで観察します。",
+"question": "好奇心 の意味はどれ？",
+"choices": [
+"知らないことに興味を持つ心",
+"繊細で傷つきやすいこと",
+"頼りなくて不安なこと",
+"集中して続けること"
+],
+"answerIndex": 0,
+"explanation": "好奇心は、知らないことに興味を持つ心です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p036"]
+},
+{
+"id": "vocab1300_p036_003",
+"source": "vocab1300",
+"sourcePage": 36,
+"type": "meaning_context",
+"word": "なけなし",
+"reading": "なけなし",
+"sentence": "なけなしのおこづかいで、母への小さなプレゼントを買いました。",
+"question": "なけなし の意味はどれ？",
+"choices": [
+"知らないことに興味を持つ心",
+"ほんの少ししかないこと",
+"上の人から何かをもらうこと",
+"繊細で傷つきやすいこと"
+],
+"answerIndex": 1,
+"explanation": "なけなしは、ほんの少ししかないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p036"]
+},
+{
+"id": "vocab1300_p036_004",
+"source": "vocab1300",
+"sourcePage": 36,
+"type": "meaning_context",
+"word": "デリケート",
+"reading": "デリケート",
+"sentence": "その花はデリケートなので、そっと持たないとすぐ傷みます。",
+"question": "デリケート の意味はどれ？",
+"choices": [
+"集中してやり続けること",
+"頼りなくて不安なようす",
+"上の人が何かを与えること",
+"繊細で、取り扱いに注意が必要なようす"
+],
+"answerIndex": 3,
+"explanation": "デリケートは、繊細で傷つきやすく、取り扱いに注意が必要なようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p036"]
+},
+{
+"id": "vocab1300_p036_005",
+"source": "vocab1300",
+"sourcePage": 36,
+"type": "meaning_context",
+"word": "心もとない",
+"reading": "こころもとない",
+"sentence": "初めて一人で電車に乗るのは、少し心もとない気持ちでした。",
+"question": "心もとない の意味はどれ？",
+"choices": [
+"頼りなくて、不安なようす",
+"知らないことに興味を持つ心",
+"少ししかないこと",
+"傷つきやすいこと"
+],
+"answerIndex": 0,
+"explanation": "心もとないは、頼りなくて、不安なようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p036"]
+},
+{
+"id": "vocab1300_p036_006",
+"source": "vocab1300",
+"sourcePage": 36,
+"type": "meaning_context",
+"word": "授ける",
+"reading": "さずける",
+"sentence": "校長先生は、代表の子に賞状を授けました。",
+"question": "授ける の意味はどれ？",
+"choices": [
+"頼りなくて不安になること",
+"繊細で傷つきやすいこと",
+"上の人が下の人に何かを与えること",
+"一つのことを続けること"
+],
+"answerIndex": 2,
+"explanation": "授けるは、地位や年齢が上の人が、下の人に何かを与えることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p036"]
+}
+],
+"answerIndexCheck": {
+"target": "p036_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 1, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『デリケート』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 37,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word",
+"reason": "動物を含むことわざ・慣用句を扱うページです。基本はmeaning_contextで問題化できますが、管理用にsubtype: animal_idiom_wordを提案します。"
+},
+"extractedWords": [
+{
+"word": "犬も食わない",
+"reading": "いぬもくわない",
+"meaning": "だれも相手にしないこと",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "馬が合う",
+"reading": "うまがあう",
+"meaning": "気が合うこと",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "閑古鳥が鳴く",
+"reading": "かんこどりがなく",
+"meaning": "店などに客がいなくて、さびれているようす",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "猿も木から落ちる",
+"reading": "さるもきからおちる",
+"meaning": "その道の得意な人でも、時には失敗するというたとえ",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "おうむ返し",
+"reading": "おうむがえし",
+"meaning": "相手が言ったことを、そのまま返すこと",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "猫の手も借りたい",
+"reading": "ねこのてもかりたい",
+"meaning": "とても忙しくて、だれかの助けを借りたいようす",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p037_001",
+"source": "vocab1300",
+"sourcePage": 37,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "犬も食わない",
+"reading": "いぬもくわない",
+"sentence": "小さなけんかの話を長く続けても、まわりの人は犬も食わないという顔をしていました。",
+"question": "犬も食わない の意味はどれ？",
+"choices": [
+"気が合うこと",
+"だれも相手にしないこと",
+"とても忙しいこと",
+"時には失敗するというたとえ"
+],
+"answerIndex": 1,
+"explanation": "犬も食わないは、だれも相手にしないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p037"]
+},
+{
+"id": "vocab1300_p037_002",
+"source": "vocab1300",
+"sourcePage": 37,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "馬が合う",
+"reading": "うまがあう",
+"sentence": "その友だちとは好きな本も遊び方も似ていて、馬が合います。",
+"question": "馬が合う の意味はどれ？",
+"choices": [
+"相手の言葉をそのまま返すこと",
+"客がいなくてさびれていること",
+"気が合うこと",
+"だれも相手にしないこと"
+],
+"answerIndex": 2,
+"explanation": "馬が合うは、気が合うという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p037"]
+},
+{
+"id": "vocab1300_p037_003",
+"source": "vocab1300",
+"sourcePage": 37,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "閑古鳥が鳴く",
+"reading": "かんこどりがなく",
+"sentence": "雨の日の公園の売店は、閑古鳥が鳴くように静かでした。",
+"question": "閑古鳥が鳴く の意味はどれ？",
+"choices": [
+"とても忙しいこと",
+"気が合うこと",
+"相手にしないこと",
+"客がいなくてさびれているようす"
+],
+"answerIndex": 3,
+"explanation": "閑古鳥が鳴くは、店などに客がいなくて、さびれているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p037"]
+},
+{
+"id": "vocab1300_p037_004",
+"source": "vocab1300",
+"sourcePage": 37,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "猿も木から落ちる",
+"reading": "さるもきからおちる",
+"sentence": "計算が得意な兄もまちがえました。猿も木から落ちるですね。",
+"question": "猿も木から落ちる の意味はどれ？",
+"choices": [
+"得意な人でも、時には失敗するというたとえ",
+"だれも相手にしないこと",
+"客がいなくて静かなこと",
+"気が合うこと"
+],
+"answerIndex": 0,
+"explanation": "猿も木から落ちるは、その道の得意な人でも、時には失敗するというたとえです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p037"]
+},
+{
+"id": "vocab1300_p037_005",
+"source": "vocab1300",
+"sourcePage": 37,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "おうむ返し",
+"reading": "おうむがえし",
+"sentence": "先生の質問に、友だちは言われた言葉をおうむ返しに答えました。",
+"question": "おうむ返し の意味はどれ？",
+"choices": [
+"時には失敗するというたとえ",
+"相手が言ったことをそのまま返すこと",
+"客がいないこと",
+"だれかの助けを借りたいこと"
+],
+"answerIndex": 1,
+"explanation": "おうむ返しは、相手が言ったことを、そのまま返すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p037"]
+},
+{
+"id": "vocab1300_p037_006",
+"source": "vocab1300",
+"sourcePage": 37,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "猫の手も借りたい",
+"reading": "ねこのてもかりたい",
+"sentence": "発表会の準備で、先生たちは猫の手も借りたいほど忙しそうでした。",
+"question": "猫の手も借りたい の意味はどれ？",
+"choices": [
+"気が合うこと",
+"得意な人でも失敗すること",
+"とても忙しくて、だれかの助けを借りたいようす",
+"相手にしないこと"
+],
+"answerIndex": 2,
+"explanation": "猫の手も借りたいは、とても忙しくて、だれかの助けを借りたいようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p037"]
+}
+],
+"answerIndexCheck": {
+"target": "p037_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 3, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "subtype: animal_idiom_word の追加候補",
+"suggestion": "動物を含むことわざ・慣用句のページなので、typeはmeaning_contextのまま、subtypeにanimal_idiom_wordを追加すると管理しやすいです。"
+}
+]
+},
+{
+"sourcePage": 38,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "weather_word",
+"reason": "雨に関する語句を絵や場面で判定するページなので、image_wordに適しています。語句カテゴリとしてsubtype: weather_wordを提案します。"
+},
+"extractedWords": [
+{
+"word": "篠突く雨",
+"reading": "しのつくあめ",
+"meaning": "細い竹を束ねたように、激しくたくさん降る雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "通り雨",
+"reading": "とおりあめ",
+"meaning": "さっと降って、すぐにやんでしまう雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "にわか雨",
+"reading": "にわかあめ",
+"meaning": "急に降り出して、すぐにやんでしまう雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "夕立",
+"reading": "ゆうだち",
+"meaning": "夏の午後などに、急に激しく降ってすぐやむ雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "菜種梅雨",
+"reading": "なたねづゆ",
+"meaning": "菜の花が咲くころに長く降り続く雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "空梅雨",
+"reading": "からつゆ",
+"meaning": "梅雨の季節なのに、あまり雨が降らないこと",
+"detectedType": "image_word",
+"subtype": "weather_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p038_001",
+"source": "vocab1300",
+"sourcePage": 38,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "篠突く雨",
+"reading": "しのつくあめ",
+"image": "images/weather_shinotsuku_ame.png",
+"hint": "雨が細い線のように、激しくたくさん降っています。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"通り雨",
+"篠突く雨",
+"空梅雨",
+"菜種梅雨"
+],
+"answerIndex": 1,
+"explanation": "篠突く雨は、細い竹を束ねたように、激しくたくさん降る雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p038"]
+},
+{
+"id": "vocab1300_p038_002",
+"source": "vocab1300",
+"sourcePage": 38,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "通り雨",
+"reading": "とおりあめ",
+"image": "images/weather_tooriame.png",
+"hint": "少しだけ降って、すぐにやみそうな雨です。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"夕立",
+"空梅雨",
+"通り雨",
+"篠突く雨"
+],
+"answerIndex": 2,
+"explanation": "通り雨は、さっと降って、すぐにやんでしまう雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p038"]
+},
+{
+"id": "vocab1300_p038_003",
+"source": "vocab1300",
+"sourcePage": 38,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "にわか雨",
+"reading": "にわかあめ",
+"image": "images/weather_niwakaame.png",
+"hint": "さっきまで晴れていたのに、急に雨が降り出しました。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"菜種梅雨",
+"にわか雨",
+"空梅雨",
+"篠突く雨"
+],
+"answerIndex": 1,
+"explanation": "にわか雨は、急に降り出して、すぐにやんでしまう雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p038"]
+},
+{
+"id": "vocab1300_p038_004",
+"source": "vocab1300",
+"sourcePage": 38,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "夕立",
+"reading": "ゆうだち",
+"image": "images/weather_yuudachi.png",
+"hint": "夏の午後、急に強い雨が降っています。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"夕立",
+"通り雨",
+"菜種梅雨",
+"空梅雨"
+],
+"answerIndex": 0,
+"explanation": "夕立は、夏の午後などに急に激しく降って、すぐにやむ雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p038"]
+},
+{
+"id": "vocab1300_p038_005",
+"source": "vocab1300",
+"sourcePage": 38,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "菜種梅雨",
+"reading": "なたねづゆ",
+"image": "images/weather_natanezuyu.png",
+"hint": "春、菜の花が咲くころに雨が続いています。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"空梅雨",
+"篠突く雨",
+"夕立",
+"菜種梅雨"
+],
+"answerIndex": 3,
+"explanation": "菜種梅雨は、菜の花が咲くころに長く降り続く雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p038"]
+},
+{
+"id": "vocab1300_p038_006",
+"source": "vocab1300",
+"sourcePage": 38,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "空梅雨",
+"reading": "からつゆ",
+"image": "images/weather_karatsuyu.png",
+"hint": "梅雨の季節なのに、空が晴れて雨があまり降りません。",
+"question": "この天気を表す言葉はどれ？",
+"choices": [
+"にわか雨",
+"空梅雨",
+"通り雨",
+"菜種梅雨"
+],
+"answerIndex": 1,
+"explanation": "空梅雨は、梅雨の季節なのに、あまり雨が降らないことです。",
+"tags": ["vocab1300", "image_word", "weather_word", "p038"]
+}
+],
+"answerIndexCheck": {
+"target": "p038_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 1, 0, 3, 1],
+"countByIndex": {
+"0": 1,
+"1": 3,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 3,
+"ウ": 1,
+"エ": 1
+},
+"result": "answerIndex 1が3回でやや多めですが、6問中3回までであり、アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "subtype: weather_word の追加候補",
+"suggestion": "p038は雨や天気に関する語句なので、typeはimage_wordのまま、subtypeにweather_wordを追加すると管理しやすいです。"
+},
+{
+"point": "似た雨語の区別",
+"suggestion": "『通り雨』『にわか雨』『夕立』は意味が近いため、hintと解説で『時間帯』『季節』『降り方』の違いを短く示すとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 39,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "依然として",
+"reading": "いぜんとして",
+"meaning": "あいかわらず。前と同じ状態が続いているようす。",
+"detectedType": "meaning_context"
+},
+{
+"word": "たどたどしい",
+"reading": "たどたどしい",
+"meaning": "危なっかしい。慣れていなくて、ぎこちないようす。",
+"detectedType": "meaning_context"
+},
+{
+"word": "ほくそ笑む",
+"reading": "ほくそえむ",
+"meaning": "思い通りになって、一人でこっそり満足して笑うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "かけがえのない",
+"reading": "かけがえのない",
+"meaning": "代わりがなく、とても大切なこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "淡々と",
+"reading": "たんたんと",
+"meaning": "感情的にならず、落ち着いているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "物騒",
+"reading": "ぶっそう",
+"meaning": "危険なことが起きそうで、落ち着かないようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p039_001",
+"source": "vocab1300",
+"sourcePage": 39,
+"type": "meaning_context",
+"word": "依然として",
+"reading": "いぜんとして",
+"sentence": "雨はやみましたが、川の水は依然として多いままでした。",
+"question": "依然として の意味はどれ？",
+"choices": [
+"あいかわらず",
+"とても大切な",
+"危なっかしい",
+"こっそり満足して笑う"
+],
+"answerIndex": 0,
+"explanation": "依然としては、あいかわらず、前と同じ状態が続いているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p039"]
+},
+{
+"id": "vocab1300_p039_002",
+"source": "vocab1300",
+"sourcePage": 39,
+"type": "meaning_context",
+"word": "たどたどしい",
+"reading": "たどたどしい",
+"sentence": "習い始めたばかりなので、妹のピアノはまだたどたどしい演奏です。",
+"question": "たどたどしい の意味はどれ？",
+"choices": [
+"前と同じ状態で",
+"危なっかしく、ぎこちないようす",
+"感情的にならず落ち着いたようす",
+"代わりがないこと"
+],
+"answerIndex": 1,
+"explanation": "たどたどしいは、慣れていなくて、危なっかしくぎこちないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p039"]
+},
+{
+"id": "vocab1300_p039_003",
+"source": "vocab1300",
+"sourcePage": 39,
+"type": "meaning_context",
+"word": "ほくそ笑む",
+"reading": "ほくそえむ",
+"sentence": "作戦がうまくいき、兄は一人でほくそ笑みました。",
+"question": "ほくそ笑む の意味はどれ？",
+"choices": [
+"危険なことが起きそうなようす",
+"代わりがなく大切なこと",
+"思い通りになって、こっそり満足して笑うこと",
+"ぎこちなく動くこと"
+],
+"answerIndex": 2,
+"explanation": "ほくそ笑むは、思い通りになって、一人でこっそり満足して笑うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p039"]
+},
+{
+"id": "vocab1300_p039_004",
+"source": "vocab1300",
+"sourcePage": 39,
+"type": "meaning_context",
+"word": "かけがえのない",
+"reading": "かけがえのない",
+"sentence": "家族と過ごす時間は、かけがえのないものです。",
+"question": "かけがえのない の意味はどれ？",
+"choices": [
+"代わりがなく、とても大切な",
+"危なっかしい",
+"あいかわらず",
+"危険なことが起きそうな"
+],
+"answerIndex": 0,
+"explanation": "かけがえのないは、代わりがなく、とても大切なという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p039"]
+},
+{
+"id": "vocab1300_p039_005",
+"source": "vocab1300",
+"sourcePage": 39,
+"type": "meaning_context",
+"word": "淡々と",
+"reading": "たんたんと",
+"sentence": "試合に負けても、先生は淡々と次の練習について話しました。",
+"question": "淡々と の意味はどれ？",
+"choices": [
+"ぎこちなく",
+"感情的にならず、落ち着いて",
+"こっそり満足して",
+"危険そうに"
+],
+"answerIndex": 1,
+"explanation": "淡々とは、感情的にならず、落ち着いているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p039"]
+},
+{
+"id": "vocab1300_p039_006",
+"source": "vocab1300",
+"sourcePage": 39,
+"type": "meaning_context",
+"word": "物騒",
+"reading": "ぶっそう",
+"sentence": "夜の道で大きな音が続き、少し物騒な感じがしました。",
+"question": "物騒 の意味はどれ？",
+"choices": [
+"あいかわらず",
+"大切で代わりがないこと",
+"落ち着いているようす",
+"危険なことが起きそうなようす"
+],
+"answerIndex": 3,
+"explanation": "物騒は、危険なことが起きそうで、落ち着かないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p039"]
+}
+],
+"answerIndexCheck": {
+"target": "p039_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 0, 1, 3],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "副詞系語句の扱い",
+"suggestion": "『依然として』『淡々と』は副詞的に使う語句なので、例文内で自然な形にし、解説ではやさしい言い換えを入れるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 40,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "腹黒い",
+"reading": "はらぐろい",
+"meaning": "悪い考えを持っていて、性格がひねくれているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "刷新",
+"reading": "さっしん",
+"meaning": "悪いところをなくしたり改めたりして、新しくすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "おのずと",
+"reading": "おのずと",
+"meaning": "自然に。ひとりでに。",
+"detectedType": "meaning_context"
+},
+{
+"word": "さげすむ",
+"reading": "さげすむ",
+"meaning": "相手を見下して、軽蔑すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "伴う",
+"reading": "ともなう",
+"meaning": "ある事柄と一緒に生じること",
+"detectedType": "meaning_context"
+},
+{
+"word": "とまどう",
+"reading": "とまどう",
+"meaning": "予想外のことにまごつくこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p040_001",
+"source": "vocab1300",
+"sourcePage": 40,
+"type": "meaning_context",
+"word": "腹黒い",
+"reading": "はらぐろい",
+"sentence": "やさしそうに見えても、人をだますつもりなら腹黒い考えです。",
+"question": "腹黒い の意味はどれ？",
+"choices": [
+"自然に起こること",
+"予想外でまごつくこと",
+"相手を見下すこと",
+"悪い考えを持っているようす"
+],
+"answerIndex": 3,
+"explanation": "腹黒いは、悪い考えを持っていて、性格がひねくれているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p040"]
+},
+{
+"id": "vocab1300_p040_002",
+"source": "vocab1300",
+"sourcePage": 40,
+"type": "meaning_context",
+"word": "刷新",
+"reading": "さっしん",
+"sentence": "学校のルールをよりよくするために、委員会で内容を刷新しました。",
+"question": "刷新 の意味はどれ？",
+"choices": [
+"一緒に生じること",
+"悪いところを改めて新しくすること",
+"相手を軽蔑すること",
+"自然にそうなること"
+],
+"answerIndex": 1,
+"explanation": "刷新は、悪いところをなくしたり改めたりして、新しくすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p040"]
+},
+{
+"id": "vocab1300_p040_003",
+"source": "vocab1300",
+"sourcePage": 40,
+"type": "meaning_context",
+"word": "おのずと",
+"reading": "おのずと",
+"sentence": "毎日練習していると、おのずとコツが分かってきます。",
+"question": "おのずと の意味はどれ？",
+"choices": [
+"相手を見下して",
+"悪い考えを持って",
+"自然に、ひとりでに",
+"予想外でまごついて"
+],
+"answerIndex": 2,
+"explanation": "おのずとは、自然に、ひとりでに、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p040"]
+},
+{
+"id": "vocab1300_p040_004",
+"source": "vocab1300",
+"sourcePage": 40,
+"type": "meaning_context",
+"word": "さげすむ",
+"reading": "さげすむ",
+"sentence": "できない人をさげすむのではなく、どうしたらできるか一緒に考えたいです。",
+"question": "さげすむ の意味はどれ？",
+"choices": [
+"相手を見下して軽蔑すること",
+"自然に分かること",
+"一緒に生じること",
+"悪いところを直すこと"
+],
+"answerIndex": 0,
+"explanation": "さげすむは、相手を見下して、軽蔑することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p040"]
+},
+{
+"id": "vocab1300_p040_005",
+"source": "vocab1300",
+"sourcePage": 40,
+"type": "meaning_context",
+"word": "伴う",
+"reading": "ともなう",
+"sentence": "新しいことに挑戦すると、失敗も伴うことがあります。",
+"question": "伴う の意味はどれ？",
+"choices": [
+"予想外でまごつくこと",
+"悪い考えを持つこと",
+"ある事柄と一緒に生じること",
+"相手を見下すこと"
+],
+"answerIndex": 2,
+"explanation": "伴うは、ある事柄と一緒に生じることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p040"]
+},
+{
+"id": "vocab1300_p040_006",
+"source": "vocab1300",
+"sourcePage": 40,
+"type": "meaning_context",
+"word": "とまどう",
+"reading": "とまどう",
+"sentence": "急に発表の順番が変わり、少しとまどいました。",
+"question": "とまどう の意味はどれ？",
+"choices": [
+"自然にそうなること",
+"予想外のことにまごつくこと",
+"悪いところを改めること",
+"一緒に起こること"
+],
+"answerIndex": 1,
+"explanation": "とまどうは、予想外のことにまごつくことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p040"]
+}
+],
+"answerIndexCheck": {
+"target": "p040_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 1, 2, 0, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "悪いニュアンスの語句",
+"suggestion": "『腹黒い』『さげすむ』は悪いニュアンスが強い語なので、例文では人を傷つける方向に寄せすぎず、意味が分かる程度にするのがよさそうです。"
+},
+{
+"point": "副詞系語句",
+"suggestion": "『おのずと』は副詞系語句なので、解説で『自然に、ひとりでに』とやさしく言い換えると理解しやすいです。"
+}
+]
+}
+]

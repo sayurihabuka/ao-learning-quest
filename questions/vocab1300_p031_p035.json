@@ -1,0 +1,965 @@
+[
+{
+"sourcePage": 31,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "軽はずみ",
+"reading": "かるはずみ",
+"meaning": "調子に乗って、よく考えずに何かをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "鼻であしらう",
+"reading": "はなであしらう",
+"meaning": "冷たい態度や言葉で、相手を軽く扱うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "顔ぶれ",
+"reading": "かおぶれ",
+"meaning": "何かに参加する人たち。メンバー。",
+"detectedType": "meaning_context"
+},
+{
+"word": "うずうずする",
+"reading": "うずうずする",
+"meaning": "何かをしたくて、じっと待っていられないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "目をうるませる",
+"reading": "めをうるませる",
+"meaning": "泣きそうになって、目に涙がたまること",
+"detectedType": "meaning_context"
+},
+{
+"word": "脱落",
+"reading": "だつらく",
+"meaning": "途中で抜け落ちること。ついていけなくなること。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p031_001",
+"source": "vocab1300",
+"sourcePage": 31,
+"type": "meaning_context",
+"word": "軽はずみ",
+"reading": "かるはずみ",
+"sentence": "よく考えずに軽はずみなことを言って、友だちを傷つけてしまいました。",
+"question": "軽はずみ の意味はどれ？",
+"choices": [
+"途中でついていけなくなること",
+"泣きそうになって目に涙がたまること",
+"よく考えずに何かをすること",
+"参加する人たちのこと"
+],
+"answerIndex": 2,
+"explanation": "軽はずみは、調子に乗って、よく考えずに何かをすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p031"]
+},
+{
+"id": "vocab1300_p031_002",
+"source": "vocab1300",
+"sourcePage": 31,
+"type": "meaning_context",
+"word": "鼻であしらう",
+"reading": "はなであしらう",
+"sentence": "まじめに相談したのに、相手は鼻であしらうような返事をしました。",
+"question": "鼻であしらう の意味はどれ？",
+"choices": [
+"冷たい態度で相手を軽く扱うこと",
+"何かをしたくて待ちきれないこと",
+"途中で抜け落ちること",
+"目に涙がたまること"
+],
+"answerIndex": 0,
+"explanation": "鼻であしらうは、冷たい態度や言葉で、相手を軽く扱うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p031"]
+},
+{
+"id": "vocab1300_p031_003",
+"source": "vocab1300",
+"sourcePage": 31,
+"type": "meaning_context",
+"word": "顔ぶれ",
+"reading": "かおぶれ",
+"sentence": "発表会には、ピアノが上手な子や歌が好きな子など、楽しい顔ぶれがそろいました。",
+"question": "顔ぶれ の意味はどれ？",
+"choices": [
+"よく考えずに動くこと",
+"冷たく相手を扱うこと",
+"何かに参加する人たち",
+"泣きそうな目になること"
+],
+"answerIndex": 2,
+"explanation": "顔ぶれは、何かに参加する人たち、メンバーのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p031"]
+},
+{
+"id": "vocab1300_p031_004",
+"source": "vocab1300",
+"sourcePage": 31,
+"type": "meaning_context",
+"word": "うずうずする",
+"reading": "うずうずする",
+"sentence": "休み時間になったら外で遊びたくて、青ちゃんはうずうずしていました。",
+"question": "うずうずする の意味はどれ？",
+"choices": [
+"途中でついていけなくなること",
+"参加する人たちのこと",
+"相手を軽く扱うこと",
+"何かをしたくて待ちきれないようす"
+],
+"answerIndex": 3,
+"explanation": "うずうずするは、何かをしたくて、じっと待っていられないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p031"]
+},
+{
+"id": "vocab1300_p031_005",
+"source": "vocab1300",
+"sourcePage": 31,
+"type": "meaning_context",
+"word": "目をうるませる",
+"reading": "めをうるませる",
+"sentence": "友だちから手紙をもらって、妹は目をうるませました。",
+"question": "目をうるませる の意味はどれ？",
+"choices": [
+"何かをしたくて待ちきれないこと",
+"泣きそうになって目に涙がたまること",
+"よく考えずに何かをすること",
+"冷たく相手を扱うこと"
+],
+"answerIndex": 1,
+"explanation": "目をうるませるは、泣きそうになって、目に涙がたまることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p031"]
+},
+{
+"id": "vocab1300_p031_006",
+"source": "vocab1300",
+"sourcePage": 31,
+"type": "meaning_context",
+"word": "脱落",
+"reading": "だつらく",
+"sentence": "途中で体力がなくなり、マラソン大会から脱落してしまいました。",
+"question": "脱落 の意味はどれ？",
+"choices": [
+"参加する人たちのこと",
+"泣きそうな目になること",
+"途中で抜け落ちること",
+"冷たく相手を扱うこと"
+],
+"answerIndex": 2,
+"explanation": "脱落は、途中で抜け落ちたり、ついていけなくなったりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p031"]
+}
+],
+"answerIndexCheck": {
+"target": "p031_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 3,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 3,
+"エ": 1
+},
+"result": "answerIndex 2が3回でやや多めですが、6問中3回までであり、アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の部位を含む慣用句",
+"suggestion": "『鼻であしらう』『目をうるませる』は体の部位を含む語句ですが、v1ではmeaning_contextで扱えば十分です。将来的に必要ならimage_word化できます。"
+}
+]
+},
+{
+"sourcePage": 32,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "晴れがましい",
+"reading": "はれがましい",
+"meaning": "華やかで、注目される状態",
+"detectedType": "meaning_context"
+},
+{
+"word": "栄える",
+"reading": "さかえる",
+"meaning": "人や町などの勢いがさかんになること",
+"detectedType": "meaning_context"
+},
+{
+"word": "ユーモラス",
+"reading": "ユーモラス",
+"meaning": "面白さがあるようす。ユーモアがあるようす。",
+"detectedType": "meaning_context"
+},
+{
+"word": "秀でる",
+"reading": "ひいでる",
+"meaning": "他の人よりも優れていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "うごめく",
+"reading": "うごめく",
+"meaning": "もぞもぞと動くこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "観点",
+"reading": "かんてん",
+"meaning": "物事を見たり考えたりするときの基本となる視点",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p032_001",
+"source": "vocab1300",
+"sourcePage": 32,
+"type": "meaning_context",
+"word": "晴れがましい",
+"reading": "はれがましい",
+"sentence": "表彰式で名前を呼ばれて、少し晴れがましい気持ちになりました。",
+"question": "晴れがましい の意味はどれ？",
+"choices": [
+"もぞもぞと動くようす",
+"華やかで、注目される状態",
+"他の人よりも優れていること",
+"考えるときの視点"
+],
+"answerIndex": 1,
+"explanation": "晴れがましいは、華やかで、注目される状態を表します。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p032"]
+},
+{
+"id": "vocab1300_p032_002",
+"source": "vocab1300",
+"sourcePage": 32,
+"type": "meaning_context",
+"word": "栄える",
+"reading": "さかえる",
+"sentence": "駅ができて人が増え、その町は少しずつ栄えていきました。",
+"question": "栄える の意味はどれ？",
+"choices": [
+"ユーモアがあること",
+"物事を見るときの視点",
+"人や町の勢いがさかんになること",
+"他の人より優れていること"
+],
+"answerIndex": 2,
+"explanation": "栄えるは、人や町などの勢いがさかんになることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p032"]
+},
+{
+"id": "vocab1300_p032_003",
+"source": "vocab1300",
+"sourcePage": 32,
+"type": "meaning_context",
+"word": "ユーモラス",
+"reading": "ユーモラス",
+"sentence": "先生のユーモラスな話に、教室のみんなが笑いました。",
+"question": "ユーモラス の意味はどれ？",
+"choices": [
+"もぞもぞと動くようす",
+"華やかで注目されること",
+"勢いがさかんになること",
+"面白さがあるようす"
+],
+"answerIndex": 3,
+"explanation": "ユーモラスは、面白さがあるようす、ユーモアがあるようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p032"]
+},
+{
+"id": "vocab1300_p032_004",
+"source": "vocab1300",
+"sourcePage": 32,
+"type": "meaning_context",
+"word": "秀でる",
+"reading": "ひいでる",
+"sentence": "その子は絵をかく力に秀でていて、作品がいつも目を引きます。",
+"question": "秀でる の意味はどれ？",
+"choices": [
+"他の人よりも優れていること",
+"面白さがあること",
+"視点を変えること",
+"町がにぎわうこと"
+],
+"answerIndex": 0,
+"explanation": "秀でるは、他の人よりも優れていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p032"]
+},
+{
+"id": "vocab1300_p032_005",
+"source": "vocab1300",
+"sourcePage": 32,
+"type": "meaning_context",
+"word": "うごめく",
+"reading": "うごめく",
+"sentence": "土の中で小さな虫がうごめいていました。",
+"question": "うごめく の意味はどれ？",
+"choices": [
+"華やかに注目されること",
+"もぞもぞと動くこと",
+"他より優れていること",
+"面白さがあること"
+],
+"answerIndex": 1,
+"explanation": "うごめくは、もぞもぞと動くことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p032"]
+},
+{
+"id": "vocab1300_p032_006",
+"source": "vocab1300",
+"sourcePage": 32,
+"type": "meaning_context",
+"word": "観点",
+"reading": "かんてん",
+"sentence": "友だちの観点から考えると、ちがう見方ができました。",
+"question": "観点 の意味はどれ？",
+"choices": [
+"人や町がさかんになること",
+"面白さがあるようす",
+"物事を見たり考えたりするときの視点",
+"もぞもぞと動くこと"
+],
+"answerIndex": 2,
+"explanation": "観点は、物事を見たり考えたりするときの基本となる視点のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p032"]
+}
+],
+"answerIndexCheck": {
+"target": "p032_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 3, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "抽象語の扱い",
+"suggestion": "『観点』は抽象語なので、友だち・先生・自分など、誰の見方かが分かる例文にすると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 33,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "障害",
+"reading": "しょうがい",
+"meaning": "行く手をはばむもの。じゃまをするもの。",
+"detectedType": "meaning_context"
+},
+{
+"word": "かさばる",
+"reading": "かさばる",
+"meaning": "量が多くなって、場所を取ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "察する",
+"reading": "さっする",
+"meaning": "相手の気持ちや事情を想像して思いやること",
+"detectedType": "meaning_context"
+},
+{
+"word": "足取り",
+"reading": "あしどり",
+"meaning": "歩くときの調子",
+"detectedType": "meaning_context"
+},
+{
+"word": "言いがかり",
+"reading": "いいがかり",
+"meaning": "筋の通らない文句をつけること。いちゃもんをつけること。",
+"detectedType": "meaning_context"
+},
+{
+"word": "とってつけたよう",
+"reading": "とってつけたよう",
+"meaning": "形だけで、心がこもっていないようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p033_001",
+"source": "vocab1300",
+"sourcePage": 33,
+"type": "meaning_context",
+"word": "障害",
+"reading": "しょうがい",
+"sentence": "大きな石が道の真ん中にあり、進むための障害になっていました。",
+"question": "障害 の意味はどれ？",
+"choices": [
+"行く手をはばむもの",
+"歩くときの調子",
+"心のこもらないようす",
+"相手の気持ちを思いやること"
+],
+"answerIndex": 0,
+"explanation": "障害は、行く手をはばむもの、じゃまをするもののことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p033"]
+},
+{
+"id": "vocab1300_p033_002",
+"source": "vocab1300",
+"sourcePage": 33,
+"type": "meaning_context",
+"word": "かさばる",
+"reading": "かさばる",
+"sentence": "冬の上着は大きいので、ランドセルに入れるとかさばります。",
+"question": "かさばる の意味はどれ？",
+"choices": [
+"心がこもっていないようす",
+"量が多くなって場所を取ること",
+"文句をつけること",
+"相手を思いやること"
+],
+"answerIndex": 1,
+"explanation": "かさばるは、量が多くなって、場所を取ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p033"]
+},
+{
+"id": "vocab1300_p033_003",
+"source": "vocab1300",
+"sourcePage": 33,
+"type": "meaning_context",
+"word": "察する",
+"reading": "さっする",
+"sentence": "友だちが元気のない顔をしていたので、何かあったのだと察しました。",
+"question": "察する の意味はどれ？",
+"choices": [
+"歩くときの調子",
+"場所を取ること",
+"相手の気持ちや事情を想像して思いやること",
+"筋の通らない文句を言うこと"
+],
+"answerIndex": 2,
+"explanation": "察するは、相手の気持ちや事情を想像して思いやることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p033"]
+},
+{
+"id": "vocab1300_p033_004",
+"source": "vocab1300",
+"sourcePage": 33,
+"type": "meaning_context",
+"word": "足取り",
+"reading": "あしどり",
+"sentence": "遠足の日、みんなは軽い足取りで学校を出発しました。",
+"question": "足取り の意味はどれ？",
+"choices": [
+"場所を取ること",
+"行く手をはばむもの",
+"心がこもらないこと",
+"歩くときの調子"
+],
+"answerIndex": 3,
+"explanation": "足取りは、歩くときの調子のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p033"]
+},
+{
+"id": "vocab1300_p033_005",
+"source": "vocab1300",
+"sourcePage": 33,
+"type": "meaning_context",
+"word": "言いがかり",
+"reading": "いいがかり",
+"sentence": "何もしていないのに責められて、言いがかりだと思いました。",
+"question": "言いがかり の意味はどれ？",
+"choices": [
+"歩くときの調子",
+"筋の通らない文句をつけること",
+"相手の気持ちを思いやること",
+"場所を取ること"
+],
+"answerIndex": 1,
+"explanation": "言いがかりは、筋の通らない文句をつけることです。いちゃもんをつけることとも言います。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p033"]
+},
+{
+"id": "vocab1300_p033_006",
+"source": "vocab1300",
+"sourcePage": 33,
+"type": "meaning_context",
+"word": "とってつけたよう",
+"reading": "とってつけたよう",
+"sentence": "とってつけたようなお礼ではなく、気持ちをこめて言いたいです。",
+"question": "とってつけたよう の意味はどれ？",
+"choices": [
+"行く手をはばむようす",
+"場所を取るようす",
+"形だけで心がこもっていないようす",
+"相手を思いやるようす"
+],
+"answerIndex": 2,
+"explanation": "とってつけたようは、形だけで、心がこもっていないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p033"]
+}
+],
+"answerIndexCheck": {
+"target": "p033_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "心情理解を伴う語",
+"suggestion": "『察する』は心情理解を伴う語なので、表情や様子から気持ちを想像する例文にすると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 34,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ひたむき",
+"reading": "ひたむき",
+"meaning": "一所懸命に何かに取り組むようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "一生もの",
+"reading": "いっしょうもの",
+"meaning": "一生使えるくらい価値があり、立派なもの",
+"detectedType": "meaning_context"
+},
+{
+"word": "おしきせ",
+"reading": "おしきせ",
+"meaning": "上の者から、有無を言わさず押しつけられること",
+"detectedType": "meaning_context"
+},
+{
+"word": "火を見るよりも明らか",
+"reading": "ひをみるよりもあきらか",
+"meaning": "疑う余地がないくらい、結果がはっきりしていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "目をつぶる",
+"reading": "めをつぶる",
+"meaning": "失敗やミスを見て見ぬふりをすること。大目に見ること。",
+"detectedType": "meaning_context"
+},
+{
+"word": "思い過ごし",
+"reading": "おもいすごし",
+"meaning": "考えすぎること。心配しすぎること。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p034_001",
+"source": "vocab1300",
+"sourcePage": 34,
+"type": "meaning_context",
+"word": "ひたむき",
+"reading": "ひたむき",
+"sentence": "その選手は、最後までひたむきにボールを追いかけました。",
+"question": "ひたむき の意味はどれ？",
+"choices": [
+"考えすぎること",
+"一生使えるくらい価値があること",
+"一所懸命に何かに取り組むようす",
+"失敗を大目に見ること"
+],
+"answerIndex": 2,
+"explanation": "ひたむきは、一所懸命に何かに取り組むようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p034"]
+},
+{
+"id": "vocab1300_p034_002",
+"source": "vocab1300",
+"sourcePage": 34,
+"type": "meaning_context",
+"word": "一生もの",
+"reading": "いっしょうもの",
+"sentence": "祖母からもらった時計は、大切に使えば一生ものです。",
+"question": "一生もの の意味はどれ？",
+"choices": [
+"押しつけられること",
+"一生使えるくらい価値があるもの",
+"結果がはっきりしていること",
+"心配しすぎること"
+],
+"answerIndex": 1,
+"explanation": "一生ものは、一生使えるくらい価値があり、立派なもののことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p034"]
+},
+{
+"id": "vocab1300_p034_003",
+"source": "vocab1300",
+"sourcePage": 34,
+"type": "meaning_context",
+"word": "おしきせ",
+"reading": "おしきせ",
+"sentence": "やり方を自分で考えたいのに、おしきせの方法だけを命じられて困りました。",
+"question": "おしきせ の意味はどれ？",
+"choices": [
+"失敗を見て見ぬふりすること",
+"一所懸命に取り組むこと",
+"上の者から有無を言わさず押しつけられること",
+"結果が明らかなこと"
+],
+"answerIndex": 2,
+"explanation": "おしきせは、上の者から有無を言わさず押しつけられることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p034"]
+},
+{
+"id": "vocab1300_p034_004",
+"source": "vocab1300",
+"sourcePage": 34,
+"type": "meaning_context",
+"word": "火を見るよりも明らか",
+"reading": "ひをみるよりもあきらか",
+"sentence": "このまま練習をしなければ、試合で困るのは火を見るよりも明らかです。",
+"question": "火を見るよりも明らか の意味はどれ？",
+"choices": [
+"考えすぎていること",
+"一生使えるもの",
+"大目に見ること",
+"結果がはっきりしていて疑う余地がないこと"
+],
+"answerIndex": 3,
+"explanation": "火を見るよりも明らかは、結果がはっきりしていて、疑う余地がないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p034"]
+},
+{
+"id": "vocab1300_p034_005",
+"source": "vocab1300",
+"sourcePage": 34,
+"type": "meaning_context",
+"word": "目をつぶる",
+"reading": "めをつぶる",
+"sentence": "小さなまちがいだったので、今回は目をつぶることにしました。",
+"question": "目をつぶる の意味はどれ？",
+"choices": [
+"失敗やミスを大目に見ること",
+"心配しすぎること",
+"無理に押しつけること",
+"一所懸命に取り組むこと"
+],
+"answerIndex": 0,
+"explanation": "目をつぶるは、失敗やミスを見て見ぬふりをしたり、大目に見たりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p034"]
+},
+{
+"id": "vocab1300_p034_006",
+"source": "vocab1300",
+"sourcePage": 34,
+"type": "meaning_context",
+"word": "思い過ごし",
+"reading": "おもいすごし",
+"sentence": "友だちが怒っていると思ったけれど、あとで聞いたら思い過ごしでした。",
+"question": "思い過ごし の意味はどれ？",
+"choices": [
+"一生使えるもの",
+"結果がはっきりしていること",
+"考えすぎること、心配しすぎること",
+"押しつけられること"
+],
+"answerIndex": 2,
+"explanation": "思い過ごしは、考えすぎることや、心配しすぎることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p034"]
+}
+],
+"answerIndexCheck": {
+"target": "p034_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 2, 3, 0, 2],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 3,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 3,
+"エ": 1
+},
+"result": "answerIndex 2が3回でやや多めですが、6問中3回までであり、アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『火を見るよりも明らか』は長い慣用句なので、アプリ側でword表示の折り返しを前提にするとよさそうです。"
+},
+{
+"point": "よくある誤解の補足",
+"suggestion": "『目をつぶる』は実際に目を閉じる意味ではなく、失敗を大目に見る意味で出題しているため、解説で意味を明確にした方がよいです。"
+}
+]
+},
+{
+"sourcePage": 35,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "息抜き",
+"reading": "いきぬき",
+"meaning": "気分転換にひと休みすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "冷静",
+"reading": "れいせい",
+"meaning": "気持ちや態度が落ち着いているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "逆恨み",
+"reading": "さかうらみ",
+"meaning": "こちらが恨みたいくらいの相手に、逆に恨まれること",
+"detectedType": "meaning_context"
+},
+{
+"word": "身内",
+"reading": "みうち",
+"meaning": "親しい親戚や家族",
+"detectedType": "meaning_context"
+},
+{
+"word": "過大評価",
+"reading": "かだいひょうか",
+"meaning": "実際よりも価値を高く評価すること。買いかぶること。",
+"detectedType": "meaning_context"
+},
+{
+"word": "独り善がり",
+"reading": "ひとりよがり",
+"meaning": "自分だけが正しいと決めて、周りの意見を聞かないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p035_001",
+"source": "vocab1300",
+"sourcePage": 35,
+"type": "meaning_context",
+"word": "息抜き",
+"reading": "いきぬき",
+"sentence": "長く勉強したあと、少しだけ散歩をして息抜きしました。",
+"question": "息抜き の意味はどれ？",
+"choices": [
+"家族や親戚のこと",
+"実際より高く評価すること",
+"気分転換にひと休みすること",
+"逆に恨まれること"
+],
+"answerIndex": 2,
+"explanation": "息抜きは、気分転換にひと休みすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p035"]
+},
+{
+"id": "vocab1300_p035_002",
+"source": "vocab1300",
+"sourcePage": 35,
+"type": "meaning_context",
+"word": "冷静",
+"reading": "れいせい",
+"sentence": "急に予定が変わっても、先生は冷静にみんなへ説明しました。",
+"question": "冷静 の意味はどれ？",
+"choices": [
+"気持ちや態度が落ち着いているようす",
+"自分だけが正しいと思うこと",
+"親しい家族や親戚",
+"気分転換に休むこと"
+],
+"answerIndex": 0,
+"explanation": "冷静は、気持ちや態度が落ち着いているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p035"]
+},
+{
+"id": "vocab1300_p035_003",
+"source": "vocab1300",
+"sourcePage": 35,
+"type": "meaning_context",
+"word": "逆恨み",
+"reading": "さかうらみ",
+"sentence": "危ないことを注意しただけなのに、相手に逆恨みされてしまいました。",
+"question": "逆恨み の意味はどれ？",
+"choices": [
+"気分転換に休むこと",
+"実際より高く評価すること",
+"相手に逆に恨まれること",
+"親しい親戚のこと"
+],
+"answerIndex": 2,
+"explanation": "逆恨みは、こちらが恨みたいくらいの相手に、逆に恨まれることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p035"]
+},
+{
+"id": "vocab1300_p035_004",
+"source": "vocab1300",
+"sourcePage": 35,
+"type": "meaning_context",
+"word": "身内",
+"reading": "みうち",
+"sentence": "身内だけで集まって、おじいちゃんの誕生日を祝いました。",
+"question": "身内 の意味はどれ？",
+"choices": [
+"気持ちが落ち着いていること",
+"親しい親戚や家族",
+"自分だけが正しいと思うこと",
+"逆に恨まれること"
+],
+"answerIndex": 1,
+"explanation": "身内は、親しい親戚や家族のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p035"]
+},
+{
+"id": "vocab1300_p035_005",
+"source": "vocab1300",
+"sourcePage": 35,
+"type": "meaning_context",
+"word": "過大評価",
+"reading": "かだいひょうか",
+"sentence": "その絵はすてきですが、世界一だと言うのは少し過大評価かもしれません。",
+"question": "過大評価 の意味はどれ？",
+"choices": [
+"自分だけが正しいと思うこと",
+"気分転換に休むこと",
+"実際よりも価値を高く評価すること",
+"家族や親戚のこと"
+],
+"answerIndex": 2,
+"explanation": "過大評価は、実際よりも価値を高く評価することです。買いかぶることとも言います。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p035"]
+},
+{
+"id": "vocab1300_p035_006",
+"source": "vocab1300",
+"sourcePage": 35,
+"type": "meaning_context",
+"word": "独り善がり",
+"reading": "ひとりよがり",
+"sentence": "みんなの意見を聞かずに決めるのは、独り善がりなやり方です。",
+"question": "独り善がり の意味はどれ？",
+"choices": [
+"相手に逆に恨まれること",
+"実際より高く評価すること",
+"親しい家族のこと",
+"自分だけが正しいと決めて、周りの意見を聞かないこと"
+],
+"answerIndex": 3,
+"explanation": "独り善がりは、自分だけが正しいと決めて、周りの意見を聞かないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p035"]
+}
+],
+"answerIndexCheck": {
+"target": "p035_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 2, 1, 2, 3],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 3,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 3,
+"エ": 1
+},
+"result": "answerIndex 2が3回でやや多めですが、6問中3回までであり、アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "評価語の補足",
+"suggestion": "『過大評価』は『高く評価する』だけだと正しい評価にも見えるため、『実際よりも』を解説に必ず入れるとよさそうです。"
+},
+{
+"point": "態度を表す語句",
+"suggestion": "『独り善がり』は悪いニュアンスがあるため、例文では『周りの意見を聞かない』場面を入れると理解しやすいです。"
+}
+]
+}
+]

@@ -1,0 +1,973 @@
+[
+{
+"sourcePage": 41,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "逆上",
+"reading": "ぎゃくじょう",
+"meaning": "怒りのために興奮して、正しく判断できなくなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "いそいそと",
+"reading": "いそいそと",
+"meaning": "うれしそうに、はりきって何かをするようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "めかす",
+"reading": "めかす",
+"meaning": "きれいに着飾ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "顔が広い",
+"reading": "かおがひろい",
+"meaning": "知り合いが多く、交友関係が広いこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ストレス",
+"reading": "ストレス",
+"meaning": "心や体にとってつらく、負担になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "あがめる",
+"reading": "あがめる",
+"meaning": "この上ないものとして尊敬すること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p041_001",
+"source": "vocab1300",
+"sourcePage": 41,
+"type": "meaning_context",
+"word": "逆上",
+"reading": "ぎゃくじょう",
+"sentence": "ひどいことを言われても、逆上せずに落ち着いて話しました。",
+"question": "逆上 の意味はどれ？",
+"choices": [
+"きれいに着飾ること",
+"心や体に負担がかかること",
+"怒りで興奮し、正しく判断できなくなること",
+"知り合いが多いこと"
+],
+"answerIndex": 2,
+"explanation": "逆上は、怒りのために興奮して、正しく判断できなくなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p041"]
+},
+{
+"id": "vocab1300_p041_002",
+"source": "vocab1300",
+"sourcePage": 41,
+"type": "meaning_context",
+"word": "いそいそと",
+"reading": "いそいそと",
+"sentence": "妹は、新しいぬいぐるみを持って、いそいそと部屋へ向かいました。",
+"question": "いそいそと の意味はどれ？",
+"choices": [
+"うれしそうに、はりきって",
+"怒って興奮して",
+"心や体がつらくて",
+"この上なく尊敬して"
+],
+"answerIndex": 0,
+"explanation": "いそいそとは、うれしそうに、はりきって何かをするようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p041"]
+},
+{
+"id": "vocab1300_p041_003",
+"source": "vocab1300",
+"sourcePage": 41,
+"type": "meaning_context",
+"word": "めかす",
+"reading": "めかす",
+"sentence": "発表会の日、姉はワンピースを着て、少しめかしていました。",
+"question": "めかす の意味はどれ？",
+"choices": [
+"人を広く知っていること",
+"きれいに着飾ること",
+"心や体が疲れること",
+"うれしそうに出かけること"
+],
+"answerIndex": 1,
+"explanation": "めかすは、きれいに着飾ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p041"]
+},
+{
+"id": "vocab1300_p041_004",
+"source": "vocab1300",
+"sourcePage": 41,
+"type": "meaning_context",
+"word": "顔が広い",
+"reading": "かおがひろい",
+"sentence": "母は顔が広いので、町のいろいろな人と知り合いです。",
+"question": "顔が広い の意味はどれ？",
+"choices": [
+"怒りで興奮すること",
+"きれいに着飾ること",
+"知り合いが多く、交友関係が広いこと",
+"心や体に負担がかかること"
+],
+"answerIndex": 2,
+"explanation": "顔が広いは、知り合いが多く、交友関係が広いことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p041"]
+},
+{
+"id": "vocab1300_p041_005",
+"source": "vocab1300",
+"sourcePage": 41,
+"type": "meaning_context",
+"word": "ストレス",
+"reading": "ストレス",
+"sentence": "宿題が多すぎると、心にも体にもストレスがかかります。",
+"question": "ストレス の意味はどれ？",
+"choices": [
+"この上なく尊敬すること",
+"うれしそうにすること",
+"心や体にとってつらい負担",
+"知り合いが多いこと"
+],
+"answerIndex": 2,
+"explanation": "ストレスは、心や体にとってつらく、負担になることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p041"]
+},
+{
+"id": "vocab1300_p041_006",
+"source": "vocab1300",
+"sourcePage": 41,
+"type": "meaning_context",
+"word": "あがめる",
+"reading": "あがめる",
+"sentence": "村の人たちは、昔からその山を大切なものとしてあがめてきました。",
+"question": "あがめる の意味はどれ？",
+"choices": [
+"この上ないものとして尊敬すること",
+"きれいに着飾ること",
+"怒りで判断できなくなること",
+"心や体が疲れること"
+],
+"answerIndex": 0,
+"explanation": "あがめるは、この上ないものとして尊敬することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p041"]
+}
+],
+"answerIndexCheck": {
+"target": "p041_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 1, 2, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 3,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 3,
+"エ": 0
+},
+"result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲ですが、作問データ上の分散を優先するなら1問をanswerIndex 3に調整してもよいです。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『ストレス』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+},
+{
+"point": "副詞系語句",
+"suggestion": "『いそいそと』は副詞系語句なので、解説で『うれしそうに、はりきって』のようにやさしく言い換えるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 42,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "生態系",
+"reading": "せいたいけい",
+"meaning": "生き物と周りの環境を、一体として見たもの",
+"detectedType": "meaning_context"
+},
+{
+"word": "紛らわしい",
+"reading": "まぎらわしい",
+"meaning": "そっくりで、間違えやすいこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "洗礼を受ける",
+"reading": "せんれいをうける",
+"meaning": "その後の考え方などに影響する大きな経験をすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "上旬",
+"reading": "じょうじゅん",
+"meaning": "その月の最初の十日間",
+"detectedType": "meaning_context"
+},
+{
+"word": "弁護",
+"reading": "べんご",
+"meaning": "その人のためになるように事情を説明し、助けること",
+"detectedType": "meaning_context"
+},
+{
+"word": "仕える",
+"reading": "つかえる",
+"meaning": "そばにいて、その人の指示に従って働くこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p042_001",
+"source": "vocab1300",
+"sourcePage": 42,
+"type": "meaning_context",
+"word": "生態系",
+"reading": "せいたいけい",
+"sentence": "池の水がよごれると、そこにすむ魚や虫の生態系にも影響があります。",
+"question": "生態系 の意味はどれ？",
+"choices": [
+"その月の最初の十日間",
+"生き物と周りの環境を一体として見たもの",
+"そっくりで間違えやすいこと",
+"人のために事情を説明すること"
+],
+"answerIndex": 1,
+"explanation": "生態系は、生き物と周りの環境を、一体として見たものです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p042"]
+},
+{
+"id": "vocab1300_p042_002",
+"source": "vocab1300",
+"sourcePage": 42,
+"type": "meaning_context",
+"word": "紛らわしい",
+"reading": "まぎらわしい",
+"sentence": "『犬』と『太』の字は形が似ていて、少し紛らわしいです。",
+"question": "紛らわしい の意味はどれ？",
+"choices": [
+"そっくりで間違えやすいこと",
+"大きな経験をすること",
+"人の指示に従うこと",
+"生き物と環境のつながり"
+],
+"answerIndex": 0,
+"explanation": "紛らわしいは、そっくりで、間違えやすいことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p042"]
+},
+{
+"id": "vocab1300_p042_003",
+"source": "vocab1300",
+"sourcePage": 42,
+"type": "meaning_context",
+"word": "洗礼を受ける",
+"reading": "せんれいをうける",
+"sentence": "初めての大会で強い相手と当たり、青ちゃんは大きな洗礼を受けました。",
+"question": "洗礼を受ける の意味はどれ？",
+"choices": [
+"その月の最初の十日間",
+"そばで働くこと",
+"その後に影響する大きな経験をすること",
+"事情を説明して助けること"
+],
+"answerIndex": 2,
+"explanation": "洗礼を受けるは、その後の考え方などに影響する大きな経験をすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p042"]
+},
+{
+"id": "vocab1300_p042_004",
+"source": "vocab1300",
+"sourcePage": 42,
+"type": "meaning_context",
+"word": "上旬",
+"reading": "じょうじゅん",
+"sentence": "六月の上旬に、学校でプール開きがあります。",
+"question": "上旬 の意味はどれ？",
+"choices": [
+"そっくりで間違えやすいこと",
+"その月の最初の十日間",
+"人のために説明すること",
+"生き物と環境のつながり"
+],
+"answerIndex": 1,
+"explanation": "上旬は、その月の最初の十日間のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p042"]
+},
+{
+"id": "vocab1300_p042_005",
+"source": "vocab1300",
+"sourcePage": 42,
+"type": "meaning_context",
+"word": "弁護",
+"reading": "べんご",
+"sentence": "友だちが誤解されていたので、先生に事情を話して弁護しました。",
+"question": "弁護 の意味はどれ？",
+"choices": [
+"そばにいて指示に従うこと",
+"人のためになるよう事情を説明し助けること",
+"大きな経験をすること",
+"月の初めの十日間"
+],
+"answerIndex": 1,
+"explanation": "弁護は、その人のためになるように事情を説明し、助けることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p042"]
+},
+{
+"id": "vocab1300_p042_006",
+"source": "vocab1300",
+"sourcePage": 42,
+"type": "meaning_context",
+"word": "仕える",
+"reading": "つかえる",
+"sentence": "昔の物語では、家来が王様に仕えていました。",
+"question": "仕える の意味はどれ？",
+"choices": [
+"そばにいて、その人の指示に従って働くこと",
+"生き物と環境を一体として見ること",
+"そっくりで間違えやすいこと",
+"事情を説明して助けること"
+],
+"answerIndex": 0,
+"explanation": "仕えるは、そばにいて、その人の指示に従って働くことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p042"]
+}
+],
+"answerIndexCheck": {
+"target": "p042_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 1, 1, 0],
+"countByIndex": {
+"0": 2,
+"1": 3,
+"2": 1,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 3,
+"ウ": 1,
+"エ": 0
+},
+"result": "answerIndex 1が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲ですが、作問データ上の分散を優先するなら1問をanswerIndex 3に調整してもよいです。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "時期を表す語",
+"suggestion": "『上旬』のような時期語は、今後『中旬』『下旬』とまとめて復習できるよう、将来的にsubtype: period_wordを付けてもよさそうです。"
+},
+{
+"point": "抽象語の扱い",
+"suggestion": "『生態系』は抽象語なので、池・森・川など、青ちゃんが想像しやすい自然の場面に寄せると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 43,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "無愛想",
+"reading": "ぶあいそう",
+"meaning": "態度や表情がそっけないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "いとおしい",
+"reading": "いとおしい",
+"meaning": "たまらなくかわいくて、大事にしたいと思うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "有頂天",
+"reading": "うちょうてん",
+"meaning": "とても喜んで、舞い上がっていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "隣人",
+"reading": "りんじん",
+"meaning": "隣に住んでいる人",
+"detectedType": "meaning_context"
+},
+{
+"word": "あらいざらい",
+"reading": "あらいざらい",
+"meaning": "何もかもすべて",
+"detectedType": "meaning_context"
+},
+{
+"word": "みがきをかける",
+"reading": "みがきをかける",
+"meaning": "能力をさらに高めるために努力すること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p043_001",
+"source": "vocab1300",
+"sourcePage": 43,
+"type": "meaning_context",
+"word": "無愛想",
+"reading": "ぶあいそう",
+"sentence": "話しかけても返事が短く、その人は少し無愛想に見えました。",
+"question": "無愛想 の意味はどれ？",
+"choices": [
+"隣に住んでいる人",
+"何もかもすべて",
+"とても喜んでいること",
+"態度や表情がそっけないこと"
+],
+"answerIndex": 3,
+"explanation": "無愛想は、態度や表情がそっけないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p043"]
+},
+{
+"id": "vocab1300_p043_002",
+"source": "vocab1300",
+"sourcePage": 43,
+"type": "meaning_context",
+"word": "いとおしい",
+"reading": "いとおしい",
+"sentence": "小さな妹が一生懸命に歩く姿を見て、いとおしく感じました。",
+"question": "いとおしい の意味はどれ？",
+"choices": [
+"能力を高めること",
+"たまらなくかわいくて大事にしたいこと",
+"態度がそっけないこと",
+"隣に住んでいる人"
+],
+"answerIndex": 1,
+"explanation": "いとおしいは、たまらなくかわいくて、大事にしたいと思うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p043"]
+},
+{
+"id": "vocab1300_p043_003",
+"source": "vocab1300",
+"sourcePage": 43,
+"type": "meaning_context",
+"word": "有頂天",
+"reading": "うちょうてん",
+"sentence": "リレーで一位になり、チームのみんなは有頂天になりました。",
+"question": "有頂天 の意味はどれ？",
+"choices": [
+"とても喜んで、舞い上がっていること",
+"何もかもすべて話すこと",
+"態度がそっけないこと",
+"能力を高めること"
+],
+"answerIndex": 0,
+"explanation": "有頂天は、とても喜んで、舞い上がっていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p043"]
+},
+{
+"id": "vocab1300_p043_004",
+"source": "vocab1300",
+"sourcePage": 43,
+"type": "meaning_context",
+"word": "隣人",
+"reading": "りんじん",
+"sentence": "引っこしてきた隣人に、家族であいさつをしました。",
+"question": "隣人 の意味はどれ？",
+"choices": [
+"大事にしたい人",
+"態度がそっけない人",
+"隣に住んでいる人",
+"喜んでいる人"
+],
+"answerIndex": 2,
+"explanation": "隣人は、隣に住んでいる人のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p043"]
+},
+{
+"id": "vocab1300_p043_005",
+"source": "vocab1300",
+"sourcePage": 43,
+"type": "meaning_context",
+"word": "あらいざらい",
+"reading": "あらいざらい",
+"sentence": "何があったのか、先生にあらいざらい話しました。",
+"question": "あらいざらい の意味はどれ？",
+"choices": [
+"能力をさらに高めること",
+"とても喜ぶこと",
+"隣に住む人",
+"何もかもすべて"
+],
+"answerIndex": 3,
+"explanation": "あらいざらいは、何もかもすべてという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p043"]
+},
+{
+"id": "vocab1300_p043_006",
+"source": "vocab1300",
+"sourcePage": 43,
+"type": "meaning_context",
+"word": "みがきをかける",
+"reading": "みがきをかける",
+"sentence": "毎日練習して、ピアノの腕にみがきをかけました。",
+"question": "みがきをかける の意味はどれ？",
+"choices": [
+"態度をそっけなくすること",
+"能力をさらに高めるために努力すること",
+"何もかも話すこと",
+"隣に住むこと"
+],
+"answerIndex": 1,
+"explanation": "みがきをかけるは、能力をさらに高めるために努力することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p043"]
+}
+],
+"answerIndexCheck": {
+"target": "p043_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 1, 0, 2, 3, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "感情語の例文",
+"suggestion": "『いとおしい』『有頂天』は感情語なので、家族・試合・発表など気持ちが想像しやすい場面に寄せるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 44,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ほおを染める",
+"reading": "ほおをそめる",
+"meaning": "恥ずかしさなどで顔が赤くなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "まばら",
+"reading": "まばら",
+"meaning": "ぱらぱらとすきまが空いているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "関の山",
+"reading": "せきのやま",
+"meaning": "がんばっても、これ以上はできないという限度",
+"detectedType": "meaning_context"
+},
+{
+"word": "頭をかすめる",
+"reading": "あたまをかすめる",
+"meaning": "別の考えや不安が、ふと心に浮かぶこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "初歩的",
+"reading": "しょほてき",
+"meaning": "まだ最初の段階にあること",
+"detectedType": "meaning_context"
+},
+{
+"word": "やみくも",
+"reading": "やみくも",
+"meaning": "きちんとした考えや計画もなく、何かをしようとするようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p044_001",
+"source": "vocab1300",
+"sourcePage": 44,
+"type": "meaning_context",
+"word": "ほおを染める",
+"reading": "ほおをそめる",
+"sentence": "みんなの前でほめられて、青ちゃんはほおを染めました。",
+"question": "ほおを染める の意味はどれ？",
+"choices": [
+"恥ずかしさなどで顔が赤くなること",
+"すきまが空いていること",
+"考えや不安がふと浮かぶこと",
+"計画なく動くこと"
+],
+"answerIndex": 0,
+"explanation": "ほおを染めるは、恥ずかしさなどで顔が赤くなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p044"]
+},
+{
+"id": "vocab1300_p044_002",
+"source": "vocab1300",
+"sourcePage": 44,
+"type": "meaning_context",
+"word": "まばら",
+"reading": "まばら",
+"sentence": "雨の日の公園には、人がまばらにしかいませんでした。",
+"question": "まばら の意味はどれ？",
+"choices": [
+"最初の段階にあること",
+"ぱらぱらとすきまが空いているようす",
+"これ以上はできない限度",
+"顔が赤くなること"
+],
+"answerIndex": 1,
+"explanation": "まばらは、ぱらぱらとすきまが空いているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p044"]
+},
+{
+"id": "vocab1300_p044_003",
+"source": "vocab1300",
+"sourcePage": 44,
+"type": "meaning_context",
+"word": "関の山",
+"reading": "せきのやま",
+"sentence": "今日は疲れているので、漢字を十個覚えるのが関の山です。",
+"question": "関の山 の意味はどれ？",
+"choices": [
+"考えがふと浮かぶこと",
+"すきまが空いていること",
+"がんばっても、これ以上はできない限度",
+"最初の段階にあること"
+],
+"answerIndex": 2,
+"explanation": "関の山は、がんばっても、これ以上はできないという限度のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p044"]
+},
+{
+"id": "vocab1300_p044_004",
+"source": "vocab1300",
+"sourcePage": 44,
+"type": "meaning_context",
+"word": "頭をかすめる",
+"reading": "あたまをかすめる",
+"sentence": "発表の前に、『失敗したらどうしよう』という考えが頭をかすめました。",
+"question": "頭をかすめる の意味はどれ？",
+"choices": [
+"計画なく動くこと",
+"顔が赤くなること",
+"最初の段階にあること",
+"考えや不安がふと心に浮かぶこと"
+],
+"answerIndex": 3,
+"explanation": "頭をかすめるは、別の考えや不安が、ふと心に浮かぶことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p044"]
+},
+{
+"id": "vocab1300_p044_005",
+"source": "vocab1300",
+"sourcePage": 44,
+"type": "meaning_context",
+"word": "初歩的",
+"reading": "しょほてき",
+"sentence": "これは初歩的なミスなので、次は気をつければ直せます。",
+"question": "初歩的 の意味はどれ？",
+"choices": [
+"まだ最初の段階にあること",
+"考えがふと浮かぶこと",
+"すきまが空いていること",
+"顔が赤くなること"
+],
+"answerIndex": 0,
+"explanation": "初歩的は、まだ最初の段階にあることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p044"]
+},
+{
+"id": "vocab1300_p044_006",
+"source": "vocab1300",
+"sourcePage": 44,
+"type": "meaning_context",
+"word": "やみくも",
+"reading": "やみくも",
+"sentence": "やみくもに探すより、まず机の上から順番に探しましょう。",
+"question": "やみくも の意味はどれ？",
+"choices": [
+"これ以上はできないこと",
+"計画なく何かをしようとするようす",
+"顔が赤くなること",
+"すきまが空いていること"
+],
+"answerIndex": 1,
+"explanation": "やみくもは、きちんとした考えや計画もなく、何かをしようとするようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p044"]
+}
+],
+"answerIndexCheck": {
+"target": "p044_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 1],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の部位を含む慣用句",
+"suggestion": "『ほおを染める』『頭をかすめる』は体の部位を含む語句ですが、v1ではmeaning_contextで扱えば十分です。必要に応じて将来的にimage_word化できます。"
+},
+{
+"point": "副詞系語句",
+"suggestion": "『やみくも』は副詞的に使われることが多いため、解説で『計画なく』とやさしく言い換えるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 45,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "有り様",
+"reading": "ありさま",
+"meaning": "物事の状態や様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "下旬",
+"reading": "げじゅん",
+"meaning": "月末の十日間",
+"detectedType": "meaning_context"
+},
+{
+"word": "善悪",
+"reading": "ぜんあく",
+"meaning": "良いことと悪いこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "不向き",
+"reading": "ふむき",
+"meaning": "合わないこと。向いていないこと。",
+"detectedType": "meaning_context"
+},
+{
+"word": "とりも直さず",
+"reading": "とりもなおさず",
+"meaning": "言い換えれば。すなわち。つまり。",
+"detectedType": "meaning_context"
+},
+{
+"word": "さかのぼる",
+"reading": "さかのぼる",
+"meaning": "過去の事柄に戻ること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p045_001",
+"source": "vocab1300",
+"sourcePage": 45,
+"type": "meaning_context",
+"word": "有り様",
+"reading": "ありさま",
+"sentence": "発表会の有り様を、家族にくわしく話しました。",
+"question": "有り様 の意味はどれ？",
+"choices": [
+"物事の状態や様子",
+"良いことと悪いこと",
+"月末の十日間",
+"過去に戻ること"
+],
+"answerIndex": 0,
+"explanation": "有り様は、物事の状態や様子のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p045"]
+},
+{
+"id": "vocab1300_p045_002",
+"source": "vocab1300",
+"sourcePage": 45,
+"type": "meaning_context",
+"word": "下旬",
+"reading": "げじゅん",
+"sentence": "八月の下旬には、夏休みの終わりが近づいてきます。",
+"question": "下旬 の意味はどれ？",
+"choices": [
+"向いていないこと",
+"月末の十日間",
+"言い換えればということ",
+"良いことと悪いこと"
+],
+"answerIndex": 1,
+"explanation": "下旬は、月末の十日間のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p045"]
+},
+{
+"id": "vocab1300_p045_003",
+"source": "vocab1300",
+"sourcePage": 45,
+"type": "meaning_context",
+"word": "善悪",
+"reading": "ぜんあく",
+"sentence": "小さい子にも、少しずつ善悪の区別を教えることが大切です。",
+"question": "善悪 の意味はどれ？",
+"choices": [
+"過去に戻ること",
+"合わないこと",
+"良いことと悪いこと",
+"物事の状態"
+],
+"answerIndex": 2,
+"explanation": "善悪は、良いことと悪いことのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p045"]
+},
+{
+"id": "vocab1300_p045_004",
+"source": "vocab1300",
+"sourcePage": 45,
+"type": "meaning_context",
+"word": "不向き",
+"reading": "ふむき",
+"sentence": "細かい作業が苦手なので、わたしにはこの係は少し不向きです。",
+"question": "不向き の意味はどれ？",
+"choices": [
+"月末の十日間",
+"合わないこと、向いていないこと",
+"言い換えればということ",
+"良いことと悪いこと"
+],
+"answerIndex": 1,
+"explanation": "不向きは、合わないこと、向いていないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p045"]
+},
+{
+"id": "vocab1300_p045_005",
+"source": "vocab1300",
+"sourcePage": 45,
+"type": "meaning_context",
+"word": "とりも直さず",
+"reading": "とりもなおさず",
+"sentence": "毎日少しずつ続けることは、とりも直さず力をつける近道です。",
+"question": "とりも直さず の意味はどれ？",
+"choices": [
+"物事の状態",
+"月末の十日間",
+"言い換えれば、つまり",
+"過去に戻ること"
+],
+"answerIndex": 2,
+"explanation": "とりも直さずは、言い換えれば、すなわち、つまり、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p045"]
+},
+{
+"id": "vocab1300_p045_006",
+"source": "vocab1300",
+"sourcePage": 45,
+"type": "meaning_context",
+"word": "さかのぼる",
+"reading": "さかのぼる",
+"sentence": "この話の始まりは、三年前までさかのぼります。",
+"question": "さかのぼる の意味はどれ？",
+"choices": [
+"過去の事柄に戻ること",
+"良いことと悪いこと",
+"合わないこと",
+"言い換えること"
+],
+"answerIndex": 0,
+"explanation": "さかのぼるは、過去の事柄に戻ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p045"]
+}
+],
+"answerIndexCheck": {
+"target": "p045_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 1, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 3が0回ですが、6問では大きな偏りではありません。アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "時期を表す語",
+"suggestion": "『下旬』は『上旬』と合わせて学ぶと定着しやすいため、将来的にsubtype: period_wordを付ける候補です。"
+},
+{
+"point": "副詞系語句",
+"suggestion": "『とりも直さず』は小3には難しい語なので、解説で『言い換えれば、つまり』と短く言い換えるのがよさそうです。"
+}
+]
+}
+]

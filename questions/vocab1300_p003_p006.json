@@ -1,0 +1,880 @@
+[
+{
+"sourcePage": 3,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "心にくい",
+"reading": "こころにくい",
+"meaning": "にくらしいほどすぐれていて、感心してしまうようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "熱を上げる",
+"reading": "ねつをあげる",
+"meaning": "夢中になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "見下す",
+"reading": "みくだす",
+"meaning": "相手をばかにして、下に見ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "反論",
+"reading": "はんろん",
+"meaning": "相手の意見に対して、反対の意見を言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "均等",
+"reading": "きんとう",
+"meaning": "同じくらいにそろっていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "ありきたり",
+"reading": "ありきたり",
+"meaning": "よくある普通のことで、新しさがないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p003_001",
+"source": "vocab1300",
+"sourcePage": 3,
+"type": "meaning_context",
+"word": "心にくい",
+"reading": "こころにくい",
+"sentence": "その子のスピーチは、言葉の選び方まで心にくいものでした。",
+"question": "心にくい の意味はどれ？",
+"choices": [
+"同じくらいに分けること",
+"夢中になること",
+"すぐれていて感心するようす",
+"よくある普通のこと"
+],
+"answerIndex": 2,
+"explanation": "心にくいは、にくらしいほどすぐれていて、感心してしまうようすです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p003"
+]
+},
+{
+"id": "vocab1300_p003_002",
+"source": "vocab1300",
+"sourcePage": 3,
+"type": "meaning_context",
+"word": "熱を上げる",
+"reading": "ねつをあげる",
+"sentence": "青ちゃんは、新しい本のシリーズに熱を上げています。",
+"question": "熱を上げる の意味はどれ？",
+"choices": [
+"夢中になること",
+"相手をばかにすること",
+"反対の意見を言うこと",
+"普通で新しさがないこと"
+],
+"answerIndex": 0,
+"explanation": "熱を上げるは、あることに夢中になるという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p003"
+]
+},
+{
+"id": "vocab1300_p003_003",
+"source": "vocab1300",
+"sourcePage": 3,
+"type": "meaning_context",
+"word": "見下す",
+"reading": "みくだす",
+"sentence": "できない友だちを見下すような言い方はよくありません。",
+"question": "見下す の意味はどれ？",
+"choices": [
+"同じくらいにすること",
+"夢中になること",
+"相手をばかにして下に見ること",
+"反対の意見を言うこと"
+],
+"answerIndex": 2,
+"explanation": "見下すは、相手をばかにして、自分より下だと思うことです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p003"
+]
+},
+{
+"id": "vocab1300_p003_004",
+"source": "vocab1300",
+"sourcePage": 3,
+"type": "meaning_context",
+"word": "反論",
+"reading": "はんろん",
+"sentence": "友だちの考えに納得できなかったので、理由をつけて反論しました。",
+"question": "反論 の意味はどれ？",
+"choices": [
+"相手の意見に反対して意見を言うこと",
+"よくある普通のこと",
+"感心してしまうようす",
+"同じくらいに分けること"
+],
+"answerIndex": 0,
+"explanation": "反論は、相手の意見に対して、反対の意見を言うことです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p003"
+]
+},
+{
+"id": "vocab1300_p003_005",
+"source": "vocab1300",
+"sourcePage": 3,
+"type": "meaning_context",
+"word": "均等",
+"reading": "きんとう",
+"sentence": "おかしを三人で均等に分けました。",
+"question": "均等 の意味はどれ？",
+"choices": [
+"相手をばかにすること",
+"夢中になること",
+"反対の意見を言うこと",
+"同じくらいにそろっていること"
+],
+"answerIndex": 3,
+"explanation": "均等は、量や数が同じくらいにそろっていることです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p003"
+]
+},
+{
+"id": "vocab1300_p003_006",
+"source": "vocab1300",
+"sourcePage": 3,
+"type": "meaning_context",
+"word": "ありきたり",
+"reading": "ありきたり",
+"sentence": "作文の題名がありきたりだったので、もう少し工夫しました。",
+"question": "ありきたり の意味はどれ？",
+"choices": [
+"にくらしいほどすぐれていること",
+"よくある普通のことで新しさがないこと",
+"相手に反対すること",
+"同じくらいに分けること"
+],
+"answerIndex": 1,
+"explanation": "ありきたりは、よくある普通のことで、新しさがないという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p003"
+]
+}
+],
+"answerIndexCheck": {
+"target": "p003_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [
+2,
+0,
+2,
+0,
+3,
+1
+],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 4,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "強制的",
+"reading": "きょうせいてき",
+"meaning": "相手の気持ちに関係なく、無理にさせるようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "頭ごなし",
+"reading": "あたまごなし",
+"meaning": "相手の話を聞かずに、最初から一方的に決めつけること",
+"detectedType": "meaning_context"
+},
+{
+"word": "横行",
+"reading": "おうこう",
+"meaning": "よくないことが、あちこちで行われること",
+"detectedType": "meaning_context"
+},
+{
+"word": "手がつけられない",
+"reading": "てがつけられない",
+"meaning": "ひどすぎて、どうにもできないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ありのまま",
+"reading": "ありのまま",
+"meaning": "かざったり変えたりしない、そのままのようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "口実",
+"reading": "こうじつ",
+"meaning": "言い訳や、何かをするための理由として使う言葉",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p004_001",
+"source": "vocab1300",
+"sourcePage": 4,
+"type": "meaning_context",
+"word": "強制的",
+"reading": "きょうせいてき",
+"sentence": "係を決めるとき、先生は強制的に決めず、みんなの希望を聞きました。",
+"question": "強制的 の意味はどれ？",
+"choices": [
+"相手の話を聞かずに決めること",
+"無理に何かをさせるようす",
+"そのままのようす",
+"よくないことが広がること"
+],
+"answerIndex": 1,
+"explanation": "強制的は、相手の気持ちに関係なく、無理に何かをさせるようすです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p004"
+]
+},
+{
+"id": "vocab1300_p004_002",
+"source": "vocab1300",
+"sourcePage": 4,
+"type": "meaning_context",
+"word": "頭ごなし",
+"reading": "あたまごなし",
+"sentence": "理由を聞かずに頭ごなしに叱ると、相手は悲しい気持ちになります。",
+"question": "頭ごなし の意味はどれ？",
+"choices": [
+"言い訳に使う言葉",
+"そのままのようす",
+"ひどすぎてどうにもできないこと",
+"話を聞かずに一方的に決めつけること"
+],
+"answerIndex": 3,
+"explanation": "頭ごなしは、相手の話を聞かずに、最初から一方的に決めつけることです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p004"
+]
+},
+{
+"id": "vocab1300_p004_003",
+"source": "vocab1300",
+"sourcePage": 4,
+"type": "meaning_context",
+"word": "横行",
+"reading": "おうこう",
+"sentence": "うそを書いたメールが横行して、みんなが困りました。",
+"question": "横行 の意味はどれ？",
+"choices": [
+"よくないことがあちこちで行われること",
+"無理に何かをさせること",
+"相手の話を聞かないこと",
+"言い訳として使うこと"
+],
+"answerIndex": 0,
+"explanation": "横行は、よくないことがあちこちで行われることです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p004"
+]
+},
+{
+"id": "vocab1300_p004_004",
+"source": "vocab1300",
+"sourcePage": 4,
+"type": "meaning_context",
+"word": "手がつけられない",
+"reading": "てがつけられない",
+"sentence": "部屋がちらかりすぎて、どこから片づければよいか手がつけられません。",
+"question": "手がつけられない の意味はどれ？",
+"choices": [
+"そのままのようす",
+"言い訳に使うこと",
+"ひどすぎてどうにもできないこと",
+"よくないことが広がること"
+],
+"answerIndex": 2,
+"explanation": "手がつけられないは、ひどすぎて、どうにもできないという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p004"
+]
+},
+{
+"id": "vocab1300_p004_005",
+"source": "vocab1300",
+"sourcePage": 4,
+"type": "meaning_context",
+"word": "ありのまま",
+"reading": "ありのまま",
+"sentence": "作文には、見たことをありのままに書きました。",
+"question": "ありのまま の意味はどれ？",
+"choices": [
+"無理にさせること",
+"一方的に決めつけること",
+"よくないことが広がること",
+"かざらず、そのままであること"
+],
+"answerIndex": 3,
+"explanation": "ありのままは、かざったり変えたりせず、そのままであることです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p004"
+]
+},
+{
+"id": "vocab1300_p004_006",
+"source": "vocab1300",
+"sourcePage": 4,
+"type": "meaning_context",
+"word": "口実",
+"reading": "こうじつ",
+"sentence": "宿題をしない口実を考えるより、少しずつ進めた方がよいです。",
+"question": "口実 の意味はどれ？",
+"choices": [
+"言い訳や理由として使う言葉",
+"そのままのようす",
+"ひどすぎる状態",
+"あちこちで悪いことが起こること"
+],
+"answerIndex": 0,
+"explanation": "口実は、言い訳や、何かをするための理由として使う言葉です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p004"
+]
+}
+],
+"answerIndexCheck": {
+"target": "p004_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [
+1,
+3,
+0,
+2,
+3,
+0
+],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 5,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "妨げる",
+"reading": "さまたげる",
+"meaning": "進むことや行うことのじゃまをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "仮に",
+"reading": "かりに",
+"meaning": "本当かどうかは別として、一時的にそうだと考えること",
+"detectedType": "meaning_context"
+},
+{
+"word": "なみなみ",
+"reading": "なみなみ",
+"meaning": "液体があふれそうなくらいたっぷり入っているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "度重なる",
+"reading": "たびかさなる",
+"meaning": "同じようなことが何度も続けて起こること",
+"detectedType": "meaning_context"
+},
+{
+"word": "きつねにつままれたよう",
+"reading": "きつねにつままれたよう",
+"meaning": "思いがけないことが起きて、ぼんやりするほど驚くようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "険悪",
+"reading": "けんあく",
+"meaning": "関係や雰囲気が悪く、ぴりぴりしているようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p005_001",
+"source": "vocab1300",
+"sourcePage": 5,
+"type": "meaning_context",
+"word": "妨げる",
+"reading": "さまたげる",
+"sentence": "通路に荷物を置くと、人が歩くのを妨げてしまいます。",
+"question": "妨げる の意味はどれ？",
+"choices": [
+"一時的に考えること",
+"行うことのじゃまをすること",
+"何度も続けて起こること",
+"雰囲気が悪くなること"
+],
+"answerIndex": 1,
+"explanation": "妨げるは、進むことや行うことのじゃまをするという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p005"
+]
+},
+{
+"id": "vocab1300_p005_002",
+"source": "vocab1300",
+"sourcePage": 5,
+"type": "meaning_context",
+"word": "仮に",
+"reading": "かりに",
+"sentence": "仮に雨が降ったら、体育は体育館で行います。",
+"question": "仮に の意味はどれ？",
+"choices": [
+"たっぷり入っているようす",
+"関係が悪いようす",
+"本当かは別として一時的に考えること",
+"じゃまをすること"
+],
+"answerIndex": 2,
+"explanation": "仮には、本当かどうかは別として、一時的にそうだと考えるときに使います。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p005"
+]
+},
+{
+"id": "vocab1300_p005_003",
+"source": "vocab1300",
+"sourcePage": 5,
+"type": "meaning_context",
+"word": "なみなみ",
+"reading": "なみなみ",
+"sentence": "コップに麦茶をなみなみと注ぎました。",
+"question": "なみなみ の意味はどれ？",
+"choices": [
+"何度も続けて起こること",
+"あふれそうなくらいたっぷり入っているようす",
+"一時的に考えること",
+"ぴりぴりした雰囲気"
+],
+"answerIndex": 1,
+"explanation": "なみなみは、液体があふれそうなくらいたっぷり入っているようすです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p005"
+]
+},
+{
+"id": "vocab1300_p005_004",
+"source": "vocab1300",
+"sourcePage": 5,
+"type": "meaning_context",
+"word": "度重なる",
+"reading": "たびかさなる",
+"sentence": "度重なる忘れ物で、先生に注意されました。",
+"question": "度重なる の意味はどれ？",
+"choices": [
+"同じようなことが何度も続くこと",
+"あふれそうに入っていること",
+"進むのをじゃますること",
+"思いがけず驚くこと"
+],
+"answerIndex": 0,
+"explanation": "度重なるは、同じようなことが何度も続けて起こるという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p005"
+]
+},
+{
+"id": "vocab1300_p005_005",
+"source": "vocab1300",
+"sourcePage": 5,
+"type": "meaning_context",
+"word": "きつねにつままれたよう",
+"reading": "きつねにつままれたよう",
+"sentence": "さっきまで机の上にあった消しゴムが急になくなり、きつねにつままれたような気分になりました。",
+"question": "きつねにつままれたよう の意味はどれ？",
+"choices": [
+"関係が悪くなるようす",
+"何度も続いて起こるようす",
+"進むことをじゃまするようす",
+"思いがけないことに驚いてぼんやりするようす"
+],
+"answerIndex": 3,
+"explanation": "きつねにつままれたようは、思いがけないことが起きて、ぼんやりするほど驚くようすです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p005"
+]
+},
+{
+"id": "vocab1300_p005_006",
+"source": "vocab1300",
+"sourcePage": 5,
+"type": "meaning_context",
+"word": "険悪",
+"reading": "けんあく",
+"sentence": "けんかのあと、二人の間には険悪な空気が流れていました。",
+"question": "険悪 の意味はどれ？",
+"choices": [
+"一時的に考えること",
+"じゃまをすること",
+"関係や雰囲気が悪くぴりぴりしているようす",
+"あふれそうなくらい入っているようす"
+],
+"answerIndex": 2,
+"explanation": "険悪は、関係や雰囲気が悪く、ぴりぴりしているようすです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p005"
+]
+}
+],
+"answerIndexCheck": {
+"target": "p005_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [
+1,
+2,
+1,
+0,
+3,
+2
+],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句の表示",
+"suggestion": "『きつねにつままれたよう』は語句が長いため、アプリ側ではword表示の折り返しを前提にするとよいです。"
+}
+]
+},
+{
+"sourcePage": 6,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "願ったりかなったり",
+"reading": "ねがったりかなったり",
+"meaning": "自分の希望どおりになって、とても都合がよいこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "首をすくめる",
+"reading": "くびをすくめる",
+"meaning": "こわさや寒さなどで、首をちぢめるようにすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "行き当たりばったり",
+"reading": "いきあたりばったり",
+"meaning": "きちんと計画せず、その場その場で行動すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "未熟",
+"reading": "みじゅく",
+"meaning": "経験や力がまだ十分でないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "目を輝かせる",
+"reading": "めをかがやかせる",
+"meaning": "喜びや期待で、わくわくしたようすになること",
+"detectedType": "meaning_context"
+},
+{
+"word": "願ってもない",
+"reading": "ねがってもない",
+"meaning": "思ってもいなかったほど、都合がよくありがたいこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p006_001",
+"source": "vocab1300",
+"sourcePage": 6,
+"type": "meaning_context",
+"word": "願ったりかなったり",
+"reading": "ねがったりかなったり",
+"sentence": "読みたかった本を友だちが貸してくれるなんて、願ったりかなったりです。",
+"question": "願ったりかなったり の意味はどれ？",
+"choices": [
+"こわくて体を小さくすること",
+"希望どおりで、とても都合がよいこと",
+"計画せずに行動すること",
+"まだ力が十分でないこと"
+],
+"answerIndex": 1,
+"explanation": "願ったりかなったりは、自分の希望どおりになって、とても都合がよいという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p006"
+]
+},
+{
+"id": "vocab1300_p006_002",
+"source": "vocab1300",
+"sourcePage": 6,
+"type": "meaning_context",
+"word": "首をすくめる",
+"reading": "くびをすくめる",
+"sentence": "大きな音がして、思わず首をすくめました。",
+"question": "首をすくめる の意味はどれ？",
+"choices": [
+"喜びでわくわくすること",
+"希望どおりになること",
+"こわさなどで首をちぢめること",
+"経験がまだ十分でないこと"
+],
+"answerIndex": 2,
+"explanation": "首をすくめるは、こわさや寒さなどで、首をちぢめるようにすることです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p006"
+]
+},
+{
+"id": "vocab1300_p006_003",
+"source": "vocab1300",
+"sourcePage": 6,
+"type": "meaning_context",
+"word": "行き当たりばったり",
+"reading": "いきあたりばったり",
+"sentence": "行き当たりばったりで準備をしたので、発表の日にあわてました。",
+"question": "行き当たりばったり の意味はどれ？",
+"choices": [
+"経験が少なく、まだ十分でないこと",
+"きちんと計画せず、その場で行動すること",
+"思いがけずありがたいこと",
+"期待して目を輝かせること"
+],
+"answerIndex": 1,
+"explanation": "行き当たりばったりは、きちんと計画せず、その場その場で行動することです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p006"
+]
+},
+{
+"id": "vocab1300_p006_004",
+"source": "vocab1300",
+"sourcePage": 6,
+"type": "meaning_context",
+"word": "未熟",
+"reading": "みじゅく",
+"sentence": "まだ未熟ですが、ピアノの練習を毎日続けています。",
+"question": "未熟 の意味はどれ？",
+"choices": [
+"思ってもいないほどありがたいこと",
+"こわくて首をちぢめること",
+"喜んでわくわくすること",
+"経験や力がまだ十分でないこと"
+],
+"answerIndex": 3,
+"explanation": "未熟は、経験や力がまだ十分でないという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p006"
+]
+},
+{
+"id": "vocab1300_p006_005",
+"source": "vocab1300",
+"sourcePage": 6,
+"type": "meaning_context",
+"word": "目を輝かせる",
+"reading": "めをかがやかせる",
+"sentence": "新しい図鑑を見つけて、青ちゃんは目を輝かせました。",
+"question": "目を輝かせる の意味はどれ？",
+"choices": [
+"計画せずに進めること",
+"希望どおりになること",
+"喜びや期待でわくわくしたようすになること",
+"まだ力が十分でないこと"
+],
+"answerIndex": 2,
+"explanation": "目を輝かせるは、喜びや期待で、わくわくしたようすになることです。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p006"
+]
+},
+{
+"id": "vocab1300_p006_006",
+"source": "vocab1300",
+"sourcePage": 6,
+"type": "meaning_context",
+"word": "願ってもない",
+"reading": "ねがってもない",
+"sentence": "急に休みができて、家族で出かけられるなんて願ってもない話です。",
+"question": "願ってもない の意味はどれ？",
+"choices": [
+"こわくて小さくなること",
+"思ってもいなかったほど都合がよくありがたいこと",
+"経験がまだ足りないこと",
+"計画を立てずに動くこと"
+],
+"answerIndex": 1,
+"explanation": "願ってもないは、思ってもいなかったほど都合がよく、ありがたいという意味です。",
+"image": null,
+"tags": [
+"vocab1300",
+"meaning_context",
+"p006"
+]
+}
+],
+"answerIndexCheck": {
+"target": "p006_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [
+1,
+2,
+1,
+3,
+2,
+1
+],
+"countByIndex": {
+"0": 0,
+"1": 3,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 0,
+"イ": 3,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問中answerIndex 1が3回でやや多めです。アプリ側でシャッフルする前提なら許容できますが、作問データ上の分散を優先するなら1問だけanswerIndex 0へ調整してもよいです。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "似た意味の語句の扱い",
+"suggestion": "『願ったりかなったり』と『願ってもない』は意味が近いため、誤答選択肢として互いを入れると混乱しやすいです。同じページ内でも、近すぎる語は誤答に使いすぎないルールを明記するとよさそうです。"
+}
+]
+}
+]

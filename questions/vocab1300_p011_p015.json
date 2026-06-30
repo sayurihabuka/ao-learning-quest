@@ -1,0 +1,954 @@
+[
+{
+"sourcePage": 11,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "眉をひそめる",
+"reading": "まゆをひそめる",
+"meaning": "心配や不快なことで、顔をしかめること",
+"detectedType": "meaning_context"
+},
+{
+"word": "つど",
+"reading": "つど",
+"meaning": "そうするたびに、毎回という意味",
+"detectedType": "meaning_context"
+},
+{
+"word": "さほど",
+"reading": "さほど",
+"meaning": "それほど。たいして。",
+"detectedType": "meaning_context"
+},
+{
+"word": "側面",
+"reading": "そくめん",
+"meaning": "ものごとの一つの面や見方",
+"detectedType": "meaning_context"
+},
+{
+"word": "良心",
+"reading": "りょうしん",
+"meaning": "正しいことをしようとする心",
+"detectedType": "meaning_context"
+},
+{
+"word": "もたらす",
+"reading": "もたらす",
+"meaning": "何かを持ってきたり、よいこと・悪いことを起こしたりすること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p011_001",
+"source": "vocab1300",
+"sourcePage": 11,
+"type": "meaning_context",
+"word": "眉をひそめる",
+"reading": "まゆをひそめる",
+"sentence": "友だちが人の悪口を言っているのを聞いて、先生は眉をひそめました。",
+"question": "眉をひそめる の意味はどれ？",
+"choices": [
+"うれしそうに笑うこと",
+"心配や不快なことで顔をしかめること",
+"何かを持ってくること",
+"正しいことをしようとする心"
+],
+"answerIndex": 1,
+"explanation": "眉をひそめるは、心配や不快なことで、顔をしかめることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p011"]
+},
+{
+"id": "vocab1300_p011_002",
+"source": "vocab1300",
+"sourcePage": 11,
+"type": "meaning_context",
+"word": "つど",
+"reading": "つど",
+"sentence": "図書室へ行くつど、新しい本を一冊ずつ借りています。",
+"question": "つど の意味はどれ？",
+"choices": [
+"そうするたびに",
+"たいして",
+"正しい心",
+"一つの見方"
+],
+"answerIndex": 0,
+"explanation": "つどは、そうするたびに、毎回という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p011"]
+},
+{
+"id": "vocab1300_p011_003",
+"source": "vocab1300",
+"sourcePage": 11,
+"type": "meaning_context",
+"word": "さほど",
+"reading": "さほど",
+"sentence": "テスト前は心配でしたが、問題はさほど難しくありませんでした。",
+"question": "さほど の意味はどれ？",
+"choices": [
+"そのたびに",
+"顔をしかめて",
+"それほど、たいして",
+"何かを持ってきて"
+],
+"answerIndex": 2,
+"explanation": "さほどは、それほど、たいして、という意味です。多くの場合、後ろに打ち消しの言葉が続きます。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p011"]
+},
+{
+"id": "vocab1300_p011_004",
+"source": "vocab1300",
+"sourcePage": 11,
+"type": "meaning_context",
+"word": "側面",
+"reading": "そくめん",
+"sentence": "その出来事には、楽しい側面だけでなく、反省するところもありました。",
+"question": "側面 の意味はどれ？",
+"choices": [
+"毎回ということ",
+"正しいことをしようとする心",
+"不快そうな顔",
+"ものごとの一つの面や見方"
+],
+"answerIndex": 3,
+"explanation": "側面は、ものごとの一つの面や見方のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p011"]
+},
+{
+"id": "vocab1300_p011_005",
+"source": "vocab1300",
+"sourcePage": 11,
+"type": "meaning_context",
+"word": "良心",
+"reading": "りょうしん",
+"sentence": "落とし物を見つけたので、良心にしたがって先生に届けました。",
+"question": "良心 の意味はどれ？",
+"choices": [
+"ものごとの一つの面",
+"正しいことをしようとする心",
+"それほど、たいして",
+"そのたびに"
+],
+"answerIndex": 1,
+"explanation": "良心は、正しいことをしようとする心のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p011"]
+},
+{
+"id": "vocab1300_p011_006",
+"source": "vocab1300",
+"sourcePage": 11,
+"type": "meaning_context",
+"word": "もたらす",
+"reading": "もたらす",
+"sentence": "毎日の練習は、少しずつよい結果をもたらしました。",
+"question": "もたらす の意味はどれ？",
+"choices": [
+"何かを起こしたり持ってきたりすること",
+"顔をしかめること",
+"一つの見方をすること",
+"正しい心を持つこと"
+],
+"answerIndex": 0,
+"explanation": "もたらすは、何かを持ってきたり、よいこと・悪いことを起こしたりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p011"]
+}
+],
+"answerIndexCheck": {
+"target": "p011_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 3, 1, 0],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "打ち消しとセットになりやすい語",
+"suggestion": "『さほど』のように後ろに打ち消しが続きやすい語は、解説に一文だけ使い方の補足を入れるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 12,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "したたか",
+"reading": "したたか",
+"meaning": "ねばり強く、簡単には負けないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "口下手",
+"reading": "くちべた",
+"meaning": "話すことがあまり上手ではないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "客観的",
+"reading": "きゃっかんてき",
+"meaning": "自分の気持ちだけでなく、いろいろな見方から考えること",
+"detectedType": "meaning_context"
+},
+{
+"word": "兼ねる",
+"reading": "かねる",
+"meaning": "一つのものや人が、二つ以上の役目をすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "居ても立ってもいられない",
+"reading": "いてもたってもいられない",
+"meaning": "心配やうれしさなどで、じっとしていられないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "陰口",
+"reading": "かげぐち",
+"meaning": "本人がいないところで言う悪口",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p012_001",
+"source": "vocab1300",
+"sourcePage": 12,
+"type": "meaning_context",
+"word": "口下手",
+"reading": "くちべた",
+"sentence": "発表の内容は考えていたのに、みんなの前に出るとうまく話せませんでした。わたしは少し口下手です。",
+"question": "口下手 の意味はどれ？",
+"choices": [
+"人の悪口をこっそり言うこと",
+"二つの役目をいっしょにすること",
+"話すことがあまり上手ではないこと",
+"心配でじっとしていられないこと"
+],
+"answerIndex": 2,
+"explanation": "口下手は、話すことがあまり上手ではないことです。話したくない、という意味ではありません。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p012"]
+},
+{
+"id": "vocab1300_p012_002",
+"source": "vocab1300",
+"sourcePage": 12,
+"type": "meaning_context",
+"word": "客観的",
+"reading": "きゃっかんてき",
+"sentence": "けんかの話を聞くときは、どちらか一人の気持ちだけで決めず、客観的に考えることが大切です。",
+"question": "客観的 の意味はどれ？",
+"choices": [
+"いろいろな見方から考えること",
+"ねばり強くて負けにくいこと",
+"話すのがあまり上手ではないこと",
+"本人がいないところで悪く言うこと"
+],
+"answerIndex": 0,
+"explanation": "客観的は、自分の気持ちだけでなく、広い見方で考えることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p012"]
+},
+{
+"id": "vocab1300_p012_003",
+"source": "vocab1300",
+"sourcePage": 12,
+"type": "meaning_context",
+"word": "居ても立ってもいられない",
+"reading": "いてもたってもいられない",
+"sentence": "大切なぬいぐるみが見つからなくて、青ちゃんは居ても立ってもいられませんでした。",
+"question": "居ても立ってもいられない の意味はどれ？",
+"choices": [
+"一人で二つの役目をすること",
+"話すことがあまり上手ではないこと",
+"いろいろな見方から考えること",
+"心配などでじっとしていられないこと"
+],
+"answerIndex": 3,
+"explanation": "居ても立ってもいられないは、心配やうれしさなどで落ち着かず、じっとしていられないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p012"]
+},
+{
+"id": "vocab1300_p012_004",
+"source": "vocab1300",
+"sourcePage": 12,
+"type": "meaning_context",
+"word": "したたか",
+"reading": "したたか",
+"sentence": "相手チームに先に点を取られても、最後まであきらめず、したたかに試合を続けました。",
+"question": "したたか の意味はどれ？",
+"choices": [
+"本人がいないところで悪く言うこと",
+"ねばり強く、簡単には負けないようす",
+"話すことがあまり上手ではないこと",
+"一つのものが二つの役目をすること"
+],
+"answerIndex": 1,
+"explanation": "したたかは、すぐに負けたりあきらめたりせず、ねばり強いようすです。悪い意味で使われることもありますが、ここでは強さを表しています。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p012"]
+},
+{
+"id": "vocab1300_p012_005",
+"source": "vocab1300",
+"sourcePage": 12,
+"type": "meaning_context",
+"word": "兼ねる",
+"reading": "かねる",
+"sentence": "この箱は、おもちゃ入れといすの二つの役目を兼ねています。",
+"question": "兼ねる の意味はどれ？",
+"choices": [
+"話すことがあまり上手ではないこと",
+"心配でじっとしていられないこと",
+"一つのものや人が、二つ以上の役目をすること",
+"いろいろな見方から考えること"
+],
+"answerIndex": 2,
+"explanation": "兼ねるは、一つのものや人が、二つ以上の役目をすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p012"]
+},
+{
+"id": "vocab1300_p012_006",
+"source": "vocab1300",
+"sourcePage": 12,
+"type": "meaning_context",
+"word": "陰口",
+"reading": "かげぐち",
+"sentence": "その人がいないところで悪く言うのは、陰口になるのでやめた方がよいです。",
+"question": "陰口 の意味はどれ？",
+"choices": [
+"本人がいないところで言う悪口",
+"ねばり強く、簡単には負けないようす",
+"一つのものが二つ以上の役目をすること",
+"自分の気持ちだけでなく、広い見方で考えること"
+],
+"answerIndex": 0,
+"explanation": "陰口は、本人がいないところで言う悪口です。本人に直接伝える注意や相談とはちがいます。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p012"]
+}
+],
+"answerIndexCheck": {
+"target": "p012_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 3, 1, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "ニュアンス補足",
+"suggestion": "『したたか』のように良い意味・悪い意味の両方で使われる語は、解説に一文だけ補足を入れるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 13,
+"pageTypeJudgement": {
+"detectedType": "age_word",
+"reason": "年齢を表す特別な語を扱うページなので、最新版ルールではage_wordに分類します。"
+},
+"extractedWords": [
+{
+"word": "不惑",
+"reading": "ふわく",
+"meaning": "四十歳を表す言葉",
+"detectedType": "age_word",
+"age": 40
+},
+{
+"word": "還暦",
+"reading": "かんれき",
+"meaning": "六十歳を表す言葉",
+"detectedType": "age_word",
+"age": 60
+},
+{
+"word": "喜寿",
+"reading": "きじゅ",
+"meaning": "七十七歳を表す言葉",
+"detectedType": "age_word",
+"age": 77
+},
+{
+"word": "白寿",
+"reading": "はくじゅ",
+"meaning": "九十九歳を表す言葉",
+"detectedType": "age_word",
+"age": 99
+},
+{
+"word": "卒寿",
+"reading": "そつじゅ",
+"meaning": "九十歳を表す言葉",
+"detectedType": "age_word",
+"age": 90
+}
+],
+"questions": [
+{
+"id": "vocab1300_p013_001",
+"source": "vocab1300",
+"sourcePage": 13,
+"type": "age_word",
+"questionMode": "reading",
+"word": "不惑",
+"reading": "ふわく",
+"age": 40,
+"sentence": "四十歳のお祝いで、不惑という言葉を知りました。",
+"question": "文の中の 不惑 の読み方はどれ？",
+"choices": [
+"ふまど",
+"ふわく",
+"ふこう",
+"ぶわく"
+],
+"answerIndex": 1,
+"explanation": "不惑は『ふわく』と読みます。四十歳を表す言葉です。",
+"image": null,
+"tags": ["vocab1300", "age_word", "p013"]
+},
+{
+"id": "vocab1300_p013_002",
+"source": "vocab1300",
+"sourcePage": 13,
+"type": "age_word",
+"questionMode": "reading",
+"word": "還暦",
+"reading": "かんれき",
+"age": 60,
+"sentence": "祖父の還暦のお祝いに、家族で赤い花を用意しました。",
+"question": "文の中の 還暦 の読み方はどれ？",
+"choices": [
+"かんれき",
+"かんりゃく",
+"げんれき",
+"こうれき"
+],
+"answerIndex": 0,
+"explanation": "還暦は『かんれき』と読みます。六十歳を表す言葉です。",
+"image": null,
+"tags": ["vocab1300", "age_word", "p013"]
+},
+{
+"id": "vocab1300_p013_003",
+"source": "vocab1300",
+"sourcePage": 13,
+"type": "age_word",
+"questionMode": "reading",
+"word": "白寿",
+"reading": "はくじゅ",
+"age": 99,
+"sentence": "ひいおばあちゃんの白寿を祝って、みんなで写真を撮りました。",
+"question": "文の中の 白寿 の読み方はどれ？",
+"choices": [
+"しろじゅ",
+"はくとし",
+"はくじゅ",
+"しらじゅ"
+],
+"answerIndex": 2,
+"explanation": "白寿は『はくじゅ』と読みます。九十九歳を表す言葉です。『百』から『一』を取ると『白』になることからきています。",
+"image": null,
+"tags": ["vocab1300", "age_word", "p013"]
+},
+{
+"id": "vocab1300_p013_004",
+"source": "vocab1300",
+"sourcePage": 13,
+"type": "age_word",
+"questionMode": "reading",
+"word": "喜寿",
+"reading": "きじゅ",
+"age": 77,
+"sentence": "おばあちゃんの喜寿のお祝いに、みんなで手紙を書きました。",
+"question": "文の中の 喜寿 の読み方はどれ？",
+"choices": [
+"きことぶき",
+"よろこびじゅ",
+"きじゅう",
+"きじゅ"
+],
+"answerIndex": 3,
+"explanation": "喜寿は『きじゅ』と読みます。七十七歳を表す言葉です。『喜』の字をくずすと七十七に見えることからきています。",
+"image": null,
+"tags": ["vocab1300", "age_word", "p013"]
+},
+{
+"id": "vocab1300_p013_005",
+"source": "vocab1300",
+"sourcePage": 13,
+"type": "age_word",
+"questionMode": "reading",
+"word": "卒寿",
+"reading": "そつじゅ",
+"age": 90,
+"sentence": "九十歳になった祖母の卒寿を、家族でお祝いしました。",
+"question": "文の中の 卒寿 の読み方はどれ？",
+"choices": [
+"そつことぶき",
+"そつじゅ",
+"そつじゅう",
+"そっじゅ"
+],
+"answerIndex": 1,
+"explanation": "卒寿は『そつじゅ』と読みます。九十歳を表す言葉です。『卒』の字が九十に見える形からきています。",
+"image": null,
+"tags": ["vocab1300", "age_word", "p013"]
+}
+],
+"answerIndexCheck": {
+"target": "p013_all_5_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 3, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "5問中answerIndex 1のみ2回で、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "age_wordへの変更",
+"suggestion": "p013は以前reading_contextで試作しましたが、最新版ルールではage_wordとして扱うのが適切です。"
+}
+]
+},
+{
+"sourcePage": 14,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "manner_word",
+"reason": "絵を見て、気づかい・マナー・しぐさを表す語を選ぶページなので、image_wordに適しています。"
+},
+"extractedWords": [
+{
+"word": "うかつあやまり",
+"reading": "うかつあやまり",
+"meaning": "相手に足を踏まれたときなどに、相手が謝る前に自分から謝り、その場を丸くおさめる気づかい",
+"detectedType": "image_word",
+"subtype": "manner_word"
+},
+{
+"word": "七三の道",
+"reading": "しちさんのみち",
+"meaning": "道を歩くとき、自分は道の三割ほどを使い、残りをほかの人のためにあけておく気づかい",
+"detectedType": "image_word",
+"subtype": "manner_word"
+},
+{
+"word": "時どろぼう",
+"reading": "ときどろぼう",
+"meaning": "前もって知らせずに相手を訪ねるなどして、相手の時間をうばってしまうこと",
+"detectedType": "image_word",
+"subtype": "manner_word"
+},
+{
+"word": "傘かしげ",
+"reading": "かさかしげ",
+"meaning": "雨の日に人とすれちがうとき、傘がぶつからないように少し傾ける気づかい",
+"detectedType": "image_word",
+"subtype": "manner_word"
+},
+{
+"word": "こぶし腰浮かせ",
+"reading": "こぶしこしうかせ",
+"meaning": "あとから乗ってきた人のために、座席でこぶし一つ分くらい腰を浮かせてつめる気づかい",
+"detectedType": "image_word",
+"subtype": "manner_word"
+},
+{
+"word": "肩ひき",
+"reading": "かたひき",
+"meaning": "せまい場所ですれちがうとき、ぶつからないように肩を後ろへ引く気づかい",
+"detectedType": "image_word",
+"subtype": "manner_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p014_001",
+"source": "vocab1300",
+"sourcePage": 14,
+"type": "image_word",
+"subtype": "manner_word",
+"word": "傘かしげ",
+"reading": "かさかしげ",
+"image": "images/manners_kasakashige.png",
+"hint": "雨の日、すれちがう人の傘にぶつからないようにします。",
+"question": "この場面を表す言葉はどれ？",
+"choices": [
+"時どろぼう",
+"七三の道",
+"傘かしげ",
+"肩ひき"
+],
+"answerIndex": 2,
+"explanation": "傘かしげは、雨の日に人とすれちがうとき、傘がぶつからないように少し傾ける気づかいです。",
+"tags": ["vocab1300", "image_word", "manner_word", "p014"]
+},
+{
+"id": "vocab1300_p014_002",
+"source": "vocab1300",
+"sourcePage": 14,
+"type": "image_word",
+"subtype": "manner_word",
+"word": "こぶし腰浮かせ",
+"reading": "こぶしこしうかせ",
+"image": "images/manners_kobushi_koshi_ukase.png",
+"hint": "あとから座る人のために、少しだけつめます。",
+"question": "この場面を表す言葉はどれ？",
+"choices": [
+"こぶし腰浮かせ",
+"うかつあやまり",
+"肩ひき",
+"時どろぼう"
+],
+"answerIndex": 0,
+"explanation": "こぶし腰浮かせは、あとから乗ってきた人のために、座席でこぶし一つ分くらい腰を浮かせてつめる気づかいです。",
+"tags": ["vocab1300", "image_word", "manner_word", "p014"]
+},
+{
+"id": "vocab1300_p014_003",
+"source": "vocab1300",
+"sourcePage": 14,
+"type": "image_word",
+"subtype": "manner_word",
+"word": "肩ひき",
+"reading": "かたひき",
+"image": "images/manners_katahiki.png",
+"hint": "せまい場所で、人とぶつからないようにします。",
+"question": "この場面を表す言葉はどれ？",
+"choices": [
+"七三の道",
+"傘かしげ",
+"時どろぼう",
+"肩ひき"
+],
+"answerIndex": 3,
+"explanation": "肩ひきは、せまい場所ですれちがうとき、ぶつからないように肩を後ろへ引く気づかいです。",
+"tags": ["vocab1300", "image_word", "manner_word", "p014"]
+},
+{
+"id": "vocab1300_p014_004",
+"source": "vocab1300",
+"sourcePage": 14,
+"type": "image_word",
+"subtype": "manner_word",
+"word": "うかつあやまり",
+"reading": "うかつあやまり",
+"image": "images/manners_ukatsu_ayamari.png",
+"hint": "人に足をふまれた場面です。相手が言う前に、自分から一言伝えます。",
+"question": "この場面を表す言葉はどれ？",
+"choices": [
+"時どろぼう",
+"うかつあやまり",
+"七三の道",
+"傘かしげ"
+],
+"answerIndex": 1,
+"explanation": "うかつあやまりは、相手に足をふまれたときなどに、相手が謝る前に自分から謝り、その場を丸くおさめる気づかいです。",
+"tags": ["vocab1300", "image_word", "manner_word", "p014"]
+},
+{
+"id": "vocab1300_p014_005",
+"source": "vocab1300",
+"sourcePage": 14,
+"type": "image_word",
+"subtype": "manner_word",
+"word": "七三の道",
+"reading": "しちさんのみち",
+"image": "images/manners_shichisan_no_michi.png",
+"hint": "道を歩くとき、自分の通る場所を少しにして、相手の場所を広くあけます。",
+"question": "この場面を表す言葉はどれ？",
+"choices": [
+"肩ひき",
+"こぶし腰浮かせ",
+"七三の道",
+"うかつあやまり"
+],
+"answerIndex": 2,
+"explanation": "七三の道は、道を歩くとき、自分は三割ほどを使い、残りをほかの人のためにあけておく気づかいです。",
+"tags": ["vocab1300", "image_word", "manner_word", "p014"]
+},
+{
+"id": "vocab1300_p014_006",
+"source": "vocab1300",
+"sourcePage": 14,
+"type": "image_word",
+"subtype": "manner_word",
+"word": "時どろぼう",
+"reading": "ときどろぼう",
+"image": "images/manners_toki_dorobou.png",
+"hint": "急にたずねて、相手の予定していた時間を使わせてしまいます。",
+"question": "この場面を表す言葉はどれ？",
+"choices": [
+"傘かしげ",
+"時どろぼう",
+"肩ひき",
+"七三の道"
+],
+"answerIndex": 1,
+"explanation": "時どろぼうは、前もって知らせずに相手を訪ねるなどして、相手の時間をうばってしまうことです。",
+"tags": ["vocab1300", "image_word", "manner_word", "p014"]
+}
+],
+"answerIndexCheck": {
+"target": "p014_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 3, 1, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 15,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "半ば",
+"reading": "なかば",
+"meaning": "ものごとの中ほど。半分くらいのところ。",
+"detectedType": "meaning_context"
+},
+{
+"word": "せきとめる",
+"reading": "せきとめる",
+"meaning": "流れを止めること",
+"detectedType": "meaning_context"
+},
+{
+"word": "閉口する",
+"reading": "へいこうする",
+"meaning": "どうしてよいか分からず、困りはてること",
+"detectedType": "meaning_context"
+},
+{
+"word": "形式",
+"reading": "けいしき",
+"meaning": "何かをするときの決まった形ややり方",
+"detectedType": "meaning_context"
+},
+{
+"word": "発揮",
+"reading": "はっき",
+"meaning": "持っている力を十分にあらわすこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "頭が上がらない",
+"reading": "あたまがあがらない",
+"meaning": "相手に引け目や負い目があり、対等にふるまえないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p015_001",
+"source": "vocab1300",
+"sourcePage": 15,
+"type": "meaning_context",
+"word": "半ば",
+"reading": "なかば",
+"sentence": "マラソンの半ばで、少し足が重くなってきました。",
+"question": "半ば の意味はどれ？",
+"choices": [
+"流れを止めること",
+"ものごとの中ほど",
+"力を十分に出すこと",
+"困りはてること"
+],
+"answerIndex": 1,
+"explanation": "半ばは、ものごとの中ほど、半分くらいのところという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p015"]
+},
+{
+"id": "vocab1300_p015_002",
+"source": "vocab1300",
+"sourcePage": 15,
+"type": "meaning_context",
+"word": "せきとめる",
+"reading": "せきとめる",
+"sentence": "大雨で流れてきた枝が、水の流れをせきとめました。",
+"question": "せきとめる の意味はどれ？",
+"choices": [
+"何かをするときの形",
+"力を十分に出すこと",
+"対等にふるまえないこと",
+"流れを止めること"
+],
+"answerIndex": 3,
+"explanation": "せきとめるは、水などの流れを止めることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p015"]
+},
+{
+"id": "vocab1300_p015_003",
+"source": "vocab1300",
+"sourcePage": 15,
+"type": "meaning_context",
+"word": "閉口する",
+"reading": "へいこうする",
+"sentence": "同じ質問を何度もされて、先生は少し閉口していました。",
+"question": "閉口する の意味はどれ？",
+"choices": [
+"どうしてよいか分からず困りはてること",
+"ものごとの中ほど",
+"決まった形で進めること",
+"持っている力を出すこと"
+],
+"answerIndex": 0,
+"explanation": "閉口するは、どうしてよいか分からず、困りはてることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p015"]
+},
+{
+"id": "vocab1300_p015_004",
+"source": "vocab1300",
+"sourcePage": 15,
+"type": "meaning_context",
+"word": "形式",
+"reading": "けいしき",
+"sentence": "発表会は、去年と同じ形式で行われました。",
+"question": "形式 の意味はどれ？",
+"choices": [
+"流れを止めること",
+"困りはてること",
+"何かをするときの決まった形ややり方",
+"相手に引け目を感じること"
+],
+"answerIndex": 2,
+"explanation": "形式は、何かをするときの決まった形ややり方のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p015"]
+},
+{
+"id": "vocab1300_p015_005",
+"source": "vocab1300",
+"sourcePage": 15,
+"type": "meaning_context",
+"word": "発揮",
+"reading": "はっき",
+"sentence": "練習の成果を発揮して、試合でよいプレーができました。",
+"question": "発揮 の意味はどれ？",
+"choices": [
+"持っている力を十分にあらわすこと",
+"ものごとの中ほど",
+"水などの流れを止めること",
+"困ってしまうこと"
+],
+"answerIndex": 0,
+"explanation": "発揮は、持っている力を十分にあらわすことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p015"]
+},
+{
+"id": "vocab1300_p015_006",
+"source": "vocab1300",
+"sourcePage": 15,
+"type": "meaning_context",
+"word": "頭が上がらない",
+"reading": "あたまがあがらない",
+"sentence": "いつも助けてもらっているので、その友だちには頭が上がりません。",
+"question": "頭が上がらない の意味はどれ？",
+"choices": [
+"決まった形で進めること",
+"力を十分に出すこと",
+"流れを止めること",
+"相手に引け目を感じ、対等にふるまえないこと"
+],
+"answerIndex": 3,
+"explanation": "頭が上がらないは、相手に引け目や負い目があり、対等にふるまえないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p015"]
+}
+],
+"answerIndexCheck": {
+"target": "p015_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 3, 0, 2, 0, 3],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "やや抽象的な語の例文",
+"suggestion": "『形式』『発揮』のような抽象語は、学校行事・発表・試合など、青ちゃんが想像しやすい場面に寄せると理解しやすくなります。"
+}
+]
+}
+]

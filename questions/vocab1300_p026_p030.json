@@ -1,0 +1,974 @@
+[
+{
+"sourcePage": 26,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "clothing_word",
+"reason": "和服に関する語句を、絵や場面から選ぶページなので、image_wordに適しています。語句カテゴリとしてsubtype: clothing_wordを提案します。"
+},
+"extractedWords": [
+{
+"word": "裾",
+"reading": "すそ",
+"meaning": "着物や服の下のはしの部分",
+"detectedType": "image_word",
+"subtype": "clothing_word"
+},
+{
+"word": "法被",
+"reading": "はっぴ",
+"meaning": "祭りや仕事などで着る、短い上着",
+"detectedType": "image_word",
+"subtype": "clothing_word"
+},
+{
+"word": "留め袖",
+"reading": "とめそで",
+"meaning": "結婚した女性が着る、袖の短めの礼装用の着物",
+"detectedType": "image_word",
+"subtype": "clothing_word"
+},
+{
+"word": "袂",
+"reading": "たもと",
+"meaning": "和服の袖の下にたれている袋のような部分",
+"detectedType": "image_word",
+"subtype": "clothing_word"
+},
+{
+"word": "振り袖",
+"reading": "ふりそで",
+"meaning": "結婚していない女性が着る、袖の長い着物",
+"detectedType": "image_word",
+"subtype": "clothing_word"
+},
+{
+"word": "懐",
+"reading": "ふところ",
+"meaning": "和服の胸のあたり",
+"detectedType": "image_word",
+"subtype": "clothing_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p026_001",
+"source": "vocab1300",
+"sourcePage": 26,
+"type": "image_word",
+"subtype": "clothing_word",
+"word": "裾",
+"reading": "すそ",
+"image": "images/clothing_kimono_suso.png",
+"hint": "着物の下のはしの部分を見ています。",
+"question": "この部分を表す言葉はどれ？",
+"choices": [
+"袂",
+"裾",
+"懐",
+"振り袖"
+],
+"answerIndex": 1,
+"explanation": "裾は、着物や服の下のはしの部分です。",
+"tags": ["vocab1300", "image_word", "clothing_word", "p026"]
+},
+{
+"id": "vocab1300_p026_002",
+"source": "vocab1300",
+"sourcePage": 26,
+"type": "image_word",
+"subtype": "clothing_word",
+"word": "法被",
+"reading": "はっぴ",
+"image": "images/clothing_happi.png",
+"hint": "祭りで太鼓をたたく人が着ていそうな上着です。",
+"question": "この着物を表す言葉はどれ？",
+"choices": [
+"留め袖",
+"振り袖",
+"法被",
+"袂"
+],
+"answerIndex": 2,
+"explanation": "法被は、祭りや仕事などで着る、短い上着です。",
+"tags": ["vocab1300", "image_word", "clothing_word", "p026"]
+},
+{
+"id": "vocab1300_p026_003",
+"source": "vocab1300",
+"sourcePage": 26,
+"type": "image_word",
+"subtype": "clothing_word",
+"word": "留め袖",
+"reading": "とめそで",
+"image": "images/clothing_tomesode.png",
+"hint": "大人の女性が、あらたまった場で着る着物です。",
+"question": "この着物を表す言葉はどれ？",
+"choices": [
+"法被",
+"裾",
+"懐",
+"留め袖"
+],
+"answerIndex": 3,
+"explanation": "留め袖は、結婚した女性が着る、袖の短めの礼装用の着物です。",
+"tags": ["vocab1300", "image_word", "clothing_word", "p026"]
+},
+{
+"id": "vocab1300_p026_004",
+"source": "vocab1300",
+"sourcePage": 26,
+"type": "image_word",
+"subtype": "clothing_word",
+"word": "袂",
+"reading": "たもと",
+"image": "images/clothing_tamoto.png",
+"hint": "和服の袖の下に、袋のようにたれている部分です。",
+"question": "この部分を表す言葉はどれ？",
+"choices": [
+"袂",
+"裾",
+"懐",
+"法被"
+],
+"answerIndex": 0,
+"explanation": "袂は、和服の袖の下にたれている袋のような部分です。",
+"tags": ["vocab1300", "image_word", "clothing_word", "p026"]
+},
+{
+"id": "vocab1300_p026_005",
+"source": "vocab1300",
+"sourcePage": 26,
+"type": "image_word",
+"subtype": "clothing_word",
+"word": "振り袖",
+"reading": "ふりそで",
+"image": "images/clothing_furisode.png",
+"hint": "成人式などで見かける、袖の長い着物です。",
+"question": "この着物を表す言葉はどれ？",
+"choices": [
+"留め袖",
+"法被",
+"振り袖",
+"裾"
+],
+"answerIndex": 2,
+"explanation": "振り袖は、結婚していない女性が着る、袖の長い着物です。成人式でもよく着られます。",
+"tags": ["vocab1300", "image_word", "clothing_word", "p026"]
+},
+{
+"id": "vocab1300_p026_006",
+"source": "vocab1300",
+"sourcePage": 26,
+"type": "image_word",
+"subtype": "clothing_word",
+"word": "懐",
+"reading": "ふところ",
+"image": "images/clothing_futokoro.png",
+"hint": "和服の胸のあたりを見ています。",
+"question": "この部分を表す言葉はどれ？",
+"choices": [
+"袂",
+"懐",
+"裾",
+"振り袖"
+],
+"answerIndex": 1,
+"explanation": "懐は、和服の胸のあたりを表す言葉です。",
+"tags": ["vocab1300", "image_word", "clothing_word", "p026"]
+}
+],
+"answerIndexCheck": {
+"target": "p026_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 3, 0, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "subtype: clothing_word の追加候補",
+"suggestion": "p026は和服・衣服の部分名を扱うため、typeはimage_wordのまま、subtypeにclothing_wordを追加すると管理しやすいです。"
+},
+{
+"point": "image_wordのhint",
+"suggestion": "衣服の部分名は画像だけでは迷いやすいため、hintで『袖の下』『胸のあたり』『下のはし』のように見る場所を短く示すとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 27,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "けなげ",
+"reading": "けなげ",
+"meaning": "ひたむきで、一生懸命なようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "終始する",
+"reading": "しゅうしする",
+"meaning": "始めから終わりまで同じことを続けること",
+"detectedType": "meaning_context"
+},
+{
+"word": "創造",
+"reading": "そうぞう",
+"meaning": "新しいものをつくり出すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "足手まとい",
+"reading": "あしでまとい",
+"meaning": "まわりについて、じゃまになること",
+"detectedType": "meaning_context"
+},
+{
+"word": "見聞",
+"reading": "けんぶん",
+"meaning": "見たり聞いたりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "やおら",
+"reading": "やおら",
+"meaning": "ゆっくりと動き出すようす。おもむろに。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p027_001",
+"source": "vocab1300",
+"sourcePage": 27,
+"type": "meaning_context",
+"word": "けなげ",
+"reading": "けなげ",
+"sentence": "小さな子が、転んでも泣かずに走り続ける姿はけなげでした。",
+"question": "けなげ の意味はどれ？",
+"choices": [
+"見たり聞いたりすること",
+"新しいものをつくること",
+"ひたむきで一生懸命なようす",
+"まわりについてじゃまになること"
+],
+"answerIndex": 2,
+"explanation": "けなげは、ひたむきで、一生懸命なようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p027"]
+},
+{
+"id": "vocab1300_p027_002",
+"source": "vocab1300",
+"sourcePage": 27,
+"type": "meaning_context",
+"word": "終始する",
+"reading": "しゅうしする",
+"sentence": "話し合いは、始めから終わりまで勉強の話に終始しました。",
+"question": "終始する の意味はどれ？",
+"choices": [
+"始めから終わりまで同じことを続けること",
+"ゆっくり動き出すこと",
+"じゃまになること",
+"見たり聞いたりすること"
+],
+"answerIndex": 0,
+"explanation": "終始するは、始めから終わりまで同じことを続けることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p027"]
+},
+{
+"id": "vocab1300_p027_003",
+"source": "vocab1300",
+"sourcePage": 27,
+"type": "meaning_context",
+"word": "創造",
+"reading": "そうぞう",
+"sentence": "空き箱を使って、新しいおもちゃを創造しました。",
+"question": "創造 の意味はどれ？",
+"choices": [
+"一生懸命なようす",
+"ゆっくり動くこと",
+"見たり聞いたりすること",
+"新しいものをつくり出すこと"
+],
+"answerIndex": 3,
+"explanation": "創造は、新しいものをつくり出すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p027"]
+},
+{
+"id": "vocab1300_p027_004",
+"source": "vocab1300",
+"sourcePage": 27,
+"type": "meaning_context",
+"word": "足手まとい",
+"reading": "あしでまとい",
+"sentence": "小さい子を連れて急ぐと、本人に悪気はなくても足手まといになることがあります。",
+"question": "足手まとい の意味はどれ？",
+"choices": [
+"新しく作ること",
+"まわりについて、じゃまになること",
+"おもむろに動くこと",
+"見たり聞いたりすること"
+],
+"answerIndex": 1,
+"explanation": "足手まといは、まわりについて、じゃまになることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p027"]
+},
+{
+"id": "vocab1300_p027_005",
+"source": "vocab1300",
+"sourcePage": 27,
+"type": "meaning_context",
+"word": "見聞",
+"reading": "けんぶん",
+"sentence": "旅行先でいろいろなものを見て、見聞を広めました。",
+"question": "見聞 の意味はどれ？",
+"choices": [
+"見たり聞いたりすること",
+"一生懸命なようす",
+"同じことを続けること",
+"新しいものを作ること"
+],
+"answerIndex": 0,
+"explanation": "見聞は、見たり聞いたりすることです。見聞を広めるとは、経験を広げることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p027"]
+},
+{
+"id": "vocab1300_p027_006",
+"source": "vocab1300",
+"sourcePage": 27,
+"type": "meaning_context",
+"word": "やおら",
+"reading": "やおら",
+"sentence": "校長先生は、やおら立ち上がって話し始めました。",
+"question": "やおら の意味はどれ？",
+"choices": [
+"新しく作って",
+"じゃまになって",
+"ゆっくりと動き出して",
+"見たり聞いたりして"
+],
+"answerIndex": 2,
+"explanation": "やおらは、ゆっくりと動き出すようすです。おもむろに、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p027"]
+}
+],
+"answerIndexCheck": {
+"target": "p027_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 3, 1, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "副詞系語句",
+"suggestion": "『やおら』は副詞系語句なので、解説で『ゆっくりと』『おもむろに』のような言い換えを入れるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 28,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "共倒れ",
+"reading": "ともだおれ",
+"meaning": "両方とも無理をした結果、どちらもだめになること",
+"detectedType": "meaning_context"
+},
+{
+"word": "薄笑い",
+"reading": "うすわらい",
+"meaning": "相手を軽く見るような、かすかな笑い",
+"detectedType": "meaning_context"
+},
+{
+"word": "典型的",
+"reading": "てんけいてき",
+"meaning": "あるものの特徴をよく表しているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "思い上がる",
+"reading": "おもいあがる",
+"meaning": "自分をえらいと思いすぎて、いい気になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "足を引っ張る",
+"reading": "あしをひっぱる",
+"meaning": "うまくいっている人のじゃまをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "見過ごす",
+"reading": "みすごす",
+"meaning": "気づいているのに、そのままにすること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p028_001",
+"source": "vocab1300",
+"sourcePage": 28,
+"type": "meaning_context",
+"word": "共倒れ",
+"reading": "ともだおれ",
+"sentence": "二人とも無理をして練習しすぎたため、試合前に共倒れになりました。",
+"question": "共倒れ の意味はどれ？",
+"choices": [
+"両方とも無理をして、どちらもだめになること",
+"自分をえらいと思いすぎること",
+"人のじゃまをすること",
+"気づいているのにそのままにすること"
+],
+"answerIndex": 0,
+"explanation": "共倒れは、両方とも無理をした結果、どちらもだめになることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p028"]
+},
+{
+"id": "vocab1300_p028_002",
+"source": "vocab1300",
+"sourcePage": 28,
+"type": "meaning_context",
+"word": "薄笑い",
+"reading": "うすわらい",
+"sentence": "失敗した人を見て薄笑いを浮かべるのは、よい態度ではありません。",
+"question": "薄笑い の意味はどれ？",
+"choices": [
+"特徴をよく表していること",
+"気づかず通りすぎること",
+"相手を軽く見るような、かすかな笑い",
+"両方ともだめになること"
+],
+"answerIndex": 2,
+"explanation": "薄笑いは、相手を軽く見るような、かすかな笑いです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p028"]
+},
+{
+"id": "vocab1300_p028_003",
+"source": "vocab1300",
+"sourcePage": 28,
+"type": "meaning_context",
+"word": "典型的",
+"reading": "てんけいてき",
+"sentence": "鼻水とせきが出るのは、典型的な風邪の症状です。",
+"question": "典型的 の意味はどれ？",
+"choices": [
+"いい気になること",
+"あるものの特徴をよく表しているようす",
+"じゃまをすること",
+"かすかに笑うこと"
+],
+"answerIndex": 1,
+"explanation": "典型的は、あるものの特徴をよく表しているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p028"]
+},
+{
+"id": "vocab1300_p028_004",
+"source": "vocab1300",
+"sourcePage": 28,
+"type": "meaning_context",
+"word": "思い上がる",
+"reading": "おもいあがる",
+"sentence": "一度ほめられただけで思い上がらず、練習を続けることが大切です。",
+"question": "思い上がる の意味はどれ？",
+"choices": [
+"人のじゃまをすること",
+"見て見ぬふりをすること",
+"両方ともだめになること",
+"自分をえらいと思いすぎて、いい気になること"
+],
+"answerIndex": 3,
+"explanation": "思い上がるは、自分をえらいと思いすぎて、いい気になることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p028"]
+},
+{
+"id": "vocab1300_p028_005",
+"source": "vocab1300",
+"sourcePage": 28,
+"type": "meaning_context",
+"word": "足を引っ張る",
+"reading": "あしをひっぱる",
+"sentence": "ふざけてばかりいると、チームの足を引っ張ってしまいます。",
+"question": "足を引っ張る の意味はどれ？",
+"choices": [
+"相手を軽く見て笑うこと",
+"うまくいっている人のじゃまをすること",
+"特徴をよく表すこと",
+"自分をえらいと思うこと"
+],
+"answerIndex": 1,
+"explanation": "足を引っ張るは、うまくいっている人やチームのじゃまをすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p028"]
+},
+{
+"id": "vocab1300_p028_006",
+"source": "vocab1300",
+"sourcePage": 28,
+"type": "meaning_context",
+"word": "見過ごす",
+"reading": "みすごす",
+"sentence": "友だちが困っているのに気づいたので、見過ごさずに声をかけました。",
+"question": "見過ごす の意味はどれ？",
+"choices": [
+"人のじゃまをすること",
+"いい気になること",
+"気づいているのに、そのままにすること",
+"特徴を表すこと"
+],
+"answerIndex": 2,
+"explanation": "見過ごすは、気づいているのに、そのままにすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p028"]
+}
+],
+"answerIndexCheck": {
+"target": "p028_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 2, 1, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "態度を表す語句",
+"suggestion": "『薄笑い』『思い上がる』のような態度を表す語は、例文で悪いニュアンスが伝わるようにすると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 29,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "おももち",
+"reading": "おももち",
+"meaning": "気持ちや心情が表れた顔つきや表情",
+"detectedType": "meaning_context"
+},
+{
+"word": "地団駄を踏む",
+"reading": "じだんだをふむ",
+"meaning": "悔しさで足を踏み鳴らすこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "寛大",
+"reading": "かんだい",
+"meaning": "心が広く、やさしいこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "拒否",
+"reading": "きょひ",
+"meaning": "断ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "証",
+"reading": "あかし",
+"meaning": "事実であると証明するもの。証拠。",
+"detectedType": "meaning_context"
+},
+{
+"word": "丸め込む",
+"reading": "まるめこむ",
+"meaning": "うまい言葉で、自分に都合のよいように相手を操ること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p029_001",
+"source": "vocab1300",
+"sourcePage": 29,
+"type": "meaning_context",
+"word": "おももち",
+"reading": "おももち",
+"sentence": "結果を待つあいだ、青ちゃんは不安なおももちでした。",
+"question": "おももち の意味はどれ？",
+"choices": [
+"心が広くやさしいこと",
+"気持ちが表れた顔つきや表情",
+"断ること",
+"証拠になるもの"
+],
+"answerIndex": 1,
+"explanation": "おももちは、気持ちや心情が表れた顔つきや表情のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p029"]
+},
+{
+"id": "vocab1300_p029_002",
+"source": "vocab1300",
+"sourcePage": 29,
+"type": "meaning_context",
+"word": "地団駄を踏む",
+"reading": "じだんだをふむ",
+"sentence": "あと少しで勝てたのに負けてしまい、弟は地団駄を踏みました。",
+"question": "地団駄を踏む の意味はどれ？",
+"choices": [
+"悔しさで足を踏み鳴らすこと",
+"うまい言葉で相手を動かすこと",
+"心が広いこと",
+"証拠を見せること"
+],
+"answerIndex": 0,
+"explanation": "地団駄を踏むは、悔しさで足を踏み鳴らすことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p029"]
+},
+{
+"id": "vocab1300_p029_003",
+"source": "vocab1300",
+"sourcePage": 29,
+"type": "meaning_context",
+"word": "寛大",
+"reading": "かんだい",
+"sentence": "先生は、失敗した友だちにも寛大な態度で話を聞きました。",
+"question": "寛大 の意味はどれ？",
+"choices": [
+"断ること",
+"事実を示すもの",
+"心が広く、やさしいこと",
+"悔しがること"
+],
+"answerIndex": 2,
+"explanation": "寛大は、心が広く、やさしいことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p029"]
+},
+{
+"id": "vocab1300_p029_004",
+"source": "vocab1300",
+"sourcePage": 29,
+"type": "meaning_context",
+"word": "拒否",
+"reading": "きょひ",
+"sentence": "その申し出は自分に合わないと思い、きっぱり拒否しました。",
+"question": "拒否 の意味はどれ？",
+"choices": [
+"相手を操ること",
+"顔つきのこと",
+"心が広いこと",
+"断ること"
+],
+"answerIndex": 3,
+"explanation": "拒否は、相手の申し出などを断ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p029"]
+},
+{
+"id": "vocab1300_p029_005",
+"source": "vocab1300",
+"sourcePage": 29,
+"type": "meaning_context",
+"word": "証",
+"reading": "あかし",
+"sentence": "毎日練習したノートは、努力の証です。",
+"question": "証 の意味はどれ？",
+"choices": [
+"顔に出た気持ち",
+"断ること",
+"事実であると証明するもの",
+"悔しがること"
+],
+"answerIndex": 2,
+"explanation": "証は、事実であると証明するもの、証拠のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p029"]
+},
+{
+"id": "vocab1300_p029_006",
+"source": "vocab1300",
+"sourcePage": 29,
+"type": "meaning_context",
+"word": "丸め込む",
+"reading": "まるめこむ",
+"sentence": "うまい言葉で友だちを丸め込んで、自分だけ楽をするのはよくありません。",
+"question": "丸め込む の意味はどれ？",
+"choices": [
+"うまい言葉で、自分に都合よく相手を操ること",
+"心が広くやさしいこと",
+"証拠を見せること",
+"断ること"
+],
+"answerIndex": 0,
+"explanation": "丸め込むは、うまい言葉で、自分に都合のよいように相手を操ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p029"]
+}
+],
+"answerIndexCheck": {
+"target": "p029_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 3, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "感情表現の語句",
+"suggestion": "『おももち』『地団駄を踏む』は感情が表れる語なので、例文では気持ちが想像しやすい場面にするとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 30,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "まんべんなく",
+"reading": "まんべんなく",
+"meaning": "すみずみまで同じように行き届いているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "内弁慶",
+"reading": "うちべんけい",
+"meaning": "外ではおとなしいのに、家の中ではいばっている人",
+"detectedType": "meaning_context"
+},
+{
+"word": "的外れ",
+"reading": "まとはずれ",
+"meaning": "大事な点から外れていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "戦法",
+"reading": "せんぽう",
+"meaning": "戦い方。勝つためのやり方。",
+"detectedType": "meaning_context"
+},
+{
+"word": "異なる",
+"reading": "ことなる",
+"meaning": "違いや差があること",
+"detectedType": "meaning_context"
+},
+{
+"word": "毛嫌い",
+"reading": "けぎらい",
+"meaning": "はっきりした理由もなく嫌うこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p030_001",
+"source": "vocab1300",
+"sourcePage": 30,
+"type": "meaning_context",
+"word": "まんべんなく",
+"reading": "まんべんなく",
+"sentence": "パンにジャムをまんべんなくぬりました。",
+"question": "まんべんなく の意味はどれ？",
+"choices": [
+"理由もなく嫌って",
+"戦うためのやり方で",
+"すみずみまで同じように",
+"大事な点から外れて"
+],
+"answerIndex": 2,
+"explanation": "まんべんなくは、すみずみまで同じように行き届いているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p030"]
+},
+{
+"id": "vocab1300_p030_002",
+"source": "vocab1300",
+"sourcePage": 30,
+"type": "meaning_context",
+"word": "内弁慶",
+"reading": "うちべんけい",
+"sentence": "弟は学校では静かなのに、家ではいばるので内弁慶です。",
+"question": "内弁慶 の意味はどれ？",
+"choices": [
+"違いや差があること",
+"大事な点から外れていること",
+"勝つためのやり方",
+"外ではおとなしいのに、家ではいばる人"
+],
+"answerIndex": 3,
+"explanation": "内弁慶は、外ではおとなしいのに、家の中ではいばっている人のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p030"]
+},
+{
+"id": "vocab1300_p030_003",
+"source": "vocab1300",
+"sourcePage": 30,
+"type": "meaning_context",
+"word": "的外れ",
+"reading": "まとはずれ",
+"sentence": "質問と関係のない答えだったので、少し的外れでした。",
+"question": "的外れ の意味はどれ？",
+"choices": [
+"理由もなく嫌うこと",
+"大事な点から外れていること",
+"すみずみまで行き届くこと",
+"家の中でいばる人"
+],
+"answerIndex": 1,
+"explanation": "的外れは、大事な点から外れていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p030"]
+},
+{
+"id": "vocab1300_p030_004",
+"source": "vocab1300",
+"sourcePage": 30,
+"type": "meaning_context",
+"word": "戦法",
+"reading": "せんぽう",
+"sentence": "相手の動きを見て、試合の戦法を変えました。",
+"question": "戦法 の意味はどれ？",
+"choices": [
+"戦い方、勝つためのやり方",
+"違いがあること",
+"理由なく嫌うこと",
+"大事な点を外すこと"
+],
+"answerIndex": 0,
+"explanation": "戦法は、戦い方や、勝つためのやり方のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p030"]
+},
+{
+"id": "vocab1300_p030_005",
+"source": "vocab1300",
+"sourcePage": 30,
+"type": "meaning_context",
+"word": "異なる",
+"reading": "ことなる",
+"sentence": "同じクラスでも、一人ひとり好きな本は異なります。",
+"question": "異なる の意味はどれ？",
+"choices": [
+"家の中だけでいばること",
+"違いや差があること",
+"勝つためのやり方",
+"すみずみまで行き届くこと"
+],
+"answerIndex": 1,
+"explanation": "異なるは、違いや差があることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p030"]
+},
+{
+"id": "vocab1300_p030_006",
+"source": "vocab1300",
+"sourcePage": 30,
+"type": "meaning_context",
+"word": "毛嫌い",
+"reading": "けぎらい",
+"sentence": "食べたことがないのに、その野菜を毛嫌いするのはもったいないです。",
+"question": "毛嫌い の意味はどれ？",
+"choices": [
+"大事な点から外れること",
+"差があること",
+"はっきりした理由もなく嫌うこと",
+"戦い方を考えること"
+],
+"answerIndex": 2,
+"explanation": "毛嫌いは、はっきりした理由もなく嫌うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p030"]
+}
+],
+"answerIndexCheck": {
+"target": "p030_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 3, 1, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "対比で理解しやすい語句",
+"suggestion": "『内弁慶』『異なる』『的外れ』は対比があると理解しやすいため、例文内で『外では／家では』『同じでも／違う』のような対比を入れるとよさそうです。"
+}
+]
+}
+]

@@ -1,0 +1,969 @@
+[
+{
+"sourcePage": 21,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "挑発",
+"reading": "ちょうはつ",
+"meaning": "相手の気持ちを乱して、何かをさせようとすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "公算",
+"reading": "こうさん",
+"meaning": "あることが起こる見込みや可能性",
+"detectedType": "meaning_context"
+},
+{
+"word": "概念",
+"reading": "がいねん",
+"meaning": "ある物事のおおよその意味や考え",
+"detectedType": "meaning_context"
+},
+{
+"word": "口論",
+"reading": "こうろん",
+"meaning": "言い争い。口げんか。",
+"detectedType": "meaning_context"
+},
+{
+"word": "腹に収める",
+"reading": "はらにおさめる",
+"meaning": "怒りや不満を、外に出さずにこらえること",
+"detectedType": "meaning_context"
+},
+{
+"word": "借りてきた猫のよう",
+"reading": "かりてきたねこのよう",
+"meaning": "いつもと違って、とてもおとなしいようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p021_001",
+"source": "vocab1300",
+"sourcePage": 21,
+"type": "meaning_context",
+"word": "挑発",
+"reading": "ちょうはつ",
+"sentence": "相手にわざといやなことを言われても、挑発に乗らないようにしました。",
+"question": "挑発 の意味はどれ？",
+"choices": [
+"あることが起こる見込み",
+"言い争いのこと",
+"相手の気持ちを乱して何かをさせようとすること",
+"とてもおとなしいようす"
+],
+"answerIndex": 2,
+"explanation": "挑発は、相手の気持ちを乱して、何かをさせようとすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p021"]
+},
+{
+"id": "vocab1300_p021_002",
+"source": "vocab1300",
+"sourcePage": 21,
+"type": "meaning_context",
+"word": "公算",
+"reading": "こうさん",
+"sentence": "練習の様子を見ると、試合に勝つ公算は高そうです。",
+"question": "公算 の意味はどれ？",
+"choices": [
+"あることが起こる見込みや可能性",
+"怒りを外に出さずこらえること",
+"口げんかをすること",
+"物事のおおよその意味"
+],
+"answerIndex": 0,
+"explanation": "公算は、あることが起こる見込みや可能性のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p021"]
+},
+{
+"id": "vocab1300_p021_003",
+"source": "vocab1300",
+"sourcePage": 21,
+"type": "meaning_context",
+"word": "概念",
+"reading": "がいねん",
+"sentence": "先生は、『公平』という概念を、身近な例で説明してくれました。",
+"question": "概念 の意味はどれ？",
+"choices": [
+"相手を怒らせること",
+"いつもよりおとなしいこと",
+"不満を外に出さないこと",
+"物事のおおよその意味や考え"
+],
+"answerIndex": 3,
+"explanation": "概念は、ある物事のおおよその意味や考えのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p021"]
+},
+{
+"id": "vocab1300_p021_004",
+"source": "vocab1300",
+"sourcePage": 21,
+"type": "meaning_context",
+"word": "口論",
+"reading": "こうろん",
+"sentence": "意見が合わず、二人は口論になってしまいました。",
+"question": "口論 の意味はどれ？",
+"choices": [
+"見込みがあること",
+"言い争い、口げんか",
+"とてもおとなしいこと",
+"相手を仕向けること"
+],
+"answerIndex": 1,
+"explanation": "口論は、言い争いや口げんかのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p021"]
+},
+{
+"id": "vocab1300_p021_005",
+"source": "vocab1300",
+"sourcePage": 21,
+"type": "meaning_context",
+"word": "腹に収める",
+"reading": "はらにおさめる",
+"sentence": "言いたいことはありましたが、けんかにならないように腹に収めました。",
+"question": "腹に収める の意味はどれ？",
+"choices": [
+"相手をわざと怒らせること",
+"物事のおおよその意味",
+"怒りや不満を外に出さずにこらえること",
+"言い争いをすること"
+],
+"answerIndex": 2,
+"explanation": "腹に収めるは、怒りや不満を外に出さずに、こらえることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p021"]
+},
+{
+"id": "vocab1300_p021_006",
+"source": "vocab1300",
+"sourcePage": 21,
+"type": "meaning_context",
+"word": "借りてきた猫のよう",
+"reading": "かりてきたねこのよう",
+"sentence": "いつもは元気な弟が、知らない人の前では借りてきた猫のようでした。",
+"question": "借りてきた猫のよう の意味はどれ？",
+"choices": [
+"いつもと違って、とてもおとなしいようす",
+"相手の気持ちを乱すこと",
+"あることが起こる見込み",
+"怒りをこらえること"
+],
+"answerIndex": 0,
+"explanation": "借りてきた猫のようは、いつもと違って、とてもおとなしいようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p021"]
+}
+],
+"answerIndexCheck": {
+"target": "p021_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 3, 1, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "慣用句の長さ",
+"suggestion": "『借りてきた猫のよう』のような長い語句は、アプリ側でword表示が折り返される前提にするとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 22,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "首を縦にふる",
+"reading": "くびをたてにふる",
+"meaning": "うなずく。相手の意見に賛成すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "たち",
+"reading": "たち",
+"meaning": "生まれながらに持っている人柄や性質",
+"detectedType": "meaning_context"
+},
+{
+"word": "外見",
+"reading": "がいけん",
+"meaning": "うわべや見かけ",
+"detectedType": "meaning_context"
+},
+{
+"word": "率いる",
+"reading": "ひきいる",
+"meaning": "多くの人をまとめて連れて行くこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ほてる",
+"reading": "ほてる",
+"meaning": "顔や体が熱っぽくなり、赤くなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "いかつい",
+"reading": "いかつい",
+"meaning": "かたくて、ごつごつしているようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p022_001",
+"source": "vocab1300",
+"sourcePage": 22,
+"type": "meaning_context",
+"word": "首を縦にふる",
+"reading": "くびをたてにふる",
+"sentence": "何度お願いしても、母はなかなか首を縦にふってくれませんでした。",
+"question": "首を縦にふる の意味はどれ？",
+"choices": [
+"顔や体が熱っぽくなること",
+"うなずいて、相手の意見に賛成すること",
+"人をまとめて連れて行くこと",
+"うわべや見かけ"
+],
+"answerIndex": 1,
+"explanation": "首を縦にふるは、うなずいて、相手の意見に賛成することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p022"]
+},
+{
+"id": "vocab1300_p022_002",
+"source": "vocab1300",
+"sourcePage": 22,
+"type": "meaning_context",
+"word": "たち",
+"reading": "たち",
+"sentence": "姉は小さいころから、がまん強いたちです。",
+"question": "たち の意味はどれ？",
+"choices": [
+"生まれながらに持っている人柄や性質",
+"かたくてごつごつしていること",
+"多くの人を連れて行くこと",
+"うなずくこと"
+],
+"answerIndex": 0,
+"explanation": "たちは、生まれながらに持っている人柄や性質のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p022"]
+},
+{
+"id": "vocab1300_p022_003",
+"source": "vocab1300",
+"sourcePage": 22,
+"type": "meaning_context",
+"word": "外見",
+"reading": "がいけん",
+"sentence": "外見だけでは、その人のよさは分かりません。",
+"question": "外見 の意味はどれ？",
+"choices": [
+"生まれつきの性質",
+"人をまとめること",
+"体が熱っぽくなること",
+"うわべや見かけ"
+],
+"answerIndex": 3,
+"explanation": "外見は、うわべや見かけのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p022"]
+},
+{
+"id": "vocab1300_p022_004",
+"source": "vocab1300",
+"sourcePage": 22,
+"type": "meaning_context",
+"word": "率いる",
+"reading": "ひきいる",
+"sentence": "先生はクラスのみんなを率いて、体育館へ向かいました。",
+"question": "率いる の意味はどれ？",
+"choices": [
+"見かけだけで判断すること",
+"かたくてごつごつしていること",
+"多くの人をまとめて連れて行くこと",
+"顔が赤くなること"
+],
+"answerIndex": 2,
+"explanation": "率いるは、多くの人をまとめて連れて行くことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p022"]
+},
+{
+"id": "vocab1300_p022_005",
+"source": "vocab1300",
+"sourcePage": 22,
+"type": "meaning_context",
+"word": "ほてる",
+"reading": "ほてる",
+"sentence": "走ったあと、顔がほてって赤くなりました。",
+"question": "ほてる の意味はどれ？",
+"choices": [
+"顔や体が熱っぽくなり、赤くなること",
+"うなずいて賛成すること",
+"人を連れて行くこと",
+"見かけのこと"
+],
+"answerIndex": 0,
+"explanation": "ほてるは、顔や体が熱っぽくなり、赤くなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p022"]
+},
+{
+"id": "vocab1300_p022_006",
+"source": "vocab1300",
+"sourcePage": 22,
+"type": "meaning_context",
+"word": "いかつい",
+"reading": "いかつい",
+"sentence": "その岩は大きくて、いかつい形をしていました。",
+"question": "いかつい の意味はどれ？",
+"choices": [
+"うわべや見かけ",
+"かたくて、ごつごつしているようす",
+"人柄や性質",
+"賛成すること"
+],
+"answerIndex": 1,
+"explanation": "いかついは、かたくて、ごつごつしているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p022"]
+}
+],
+"answerIndexCheck": {
+"target": "p022_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 3, 2, 0, 1],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の動作を含む慣用句",
+"suggestion": "『首を縦にふる』のような体の動作を含む慣用句は、必要に応じて将来image_word化もできますが、今回は意味文脈で十分です。"
+}
+]
+},
+{
+"sourcePage": 23,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "安静",
+"reading": "あんせい",
+"meaning": "体を休めて静かにしていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "根をおろす",
+"reading": "ねをおろす",
+"meaning": "物事が定着したり、受け入れられたりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "ねぎらう",
+"reading": "ねぎらう",
+"meaning": "苦労してくれたことに感謝すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "いさかい",
+"reading": "いさかい",
+"meaning": "けんか。言い争い。",
+"detectedType": "meaning_context"
+},
+{
+"word": "手招き",
+"reading": "てまねき",
+"meaning": "こちらへ来るように手で合図すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "率先",
+"reading": "そっせん",
+"meaning": "自分から先頭に立って行動すること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p023_001",
+"source": "vocab1300",
+"sourcePage": 23,
+"type": "meaning_context",
+"word": "安静",
+"reading": "あんせい",
+"sentence": "熱があるので、今日は家で安静にしていました。",
+"question": "安静 の意味はどれ？",
+"choices": [
+"体を休めて静かにしていること",
+"自分から先に行動すること",
+"けんかをすること",
+"手で合図すること"
+],
+"answerIndex": 0,
+"explanation": "安静は、体を休めて静かにしていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p023"]
+},
+{
+"id": "vocab1300_p023_002",
+"source": "vocab1300",
+"sourcePage": 23,
+"type": "meaning_context",
+"word": "根をおろす",
+"reading": "ねをおろす",
+"sentence": "その新しい習慣は、少しずつクラスに根をおろしました。",
+"question": "根をおろす の意味はどれ？",
+"choices": [
+"体を休めること",
+"苦労に感謝すること",
+"物事が定着したり受け入れられたりすること",
+"こちらへ来るように手で合図すること"
+],
+"answerIndex": 2,
+"explanation": "根をおろすは、物事が定着したり、受け入れられたりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p023"]
+},
+{
+"id": "vocab1300_p023_003",
+"source": "vocab1300",
+"sourcePage": 23,
+"type": "meaning_context",
+"word": "ねぎらう",
+"reading": "ねぎらう",
+"sentence": "先生は、準備をがんばった係の人たちをねぎらいました。",
+"question": "ねぎらう の意味はどれ？",
+"choices": [
+"けんかをすること",
+"苦労してくれたことに感謝すること",
+"先頭に立って行動すること",
+"静かに休むこと"
+],
+"answerIndex": 1,
+"explanation": "ねぎらうは、苦労してくれたことに感謝することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p023"]
+},
+{
+"id": "vocab1300_p023_004",
+"source": "vocab1300",
+"sourcePage": 23,
+"type": "meaning_context",
+"word": "いさかい",
+"reading": "いさかい",
+"sentence": "小さないさかいが起きたので、先生が話を聞きました。",
+"question": "いさかい の意味はどれ？",
+"choices": [
+"手で合図すること",
+"苦労に感謝すること",
+"体を休めること",
+"けんか、言い争い"
+],
+"answerIndex": 3,
+"explanation": "いさかいは、けんかや言い争いのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p023"]
+},
+{
+"id": "vocab1300_p023_005",
+"source": "vocab1300",
+"sourcePage": 23,
+"type": "meaning_context",
+"word": "手招き",
+"reading": "てまねき",
+"sentence": "母は、こちらへ来るように手招きしました。",
+"question": "手招き の意味はどれ？",
+"choices": [
+"こちらへ来るように手で合図すること",
+"先に立って行動すること",
+"根づくこと",
+"言い争うこと"
+],
+"answerIndex": 0,
+"explanation": "手招きは、こちらへ来るように手で合図することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p023"]
+},
+{
+"id": "vocab1300_p023_006",
+"source": "vocab1300",
+"sourcePage": 23,
+"type": "meaning_context",
+"word": "率先",
+"reading": "そっせん",
+"sentence": "青ちゃんは率先して、教室の片づけを手伝いました。",
+"question": "率先 の意味はどれ？",
+"choices": [
+"体を休めること",
+"感謝すること",
+"自分から先頭に立って行動すること",
+"手で呼ぶこと"
+],
+"answerIndex": 2,
+"explanation": "率先は、自分から先頭に立って行動することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p023"]
+}
+],
+"answerIndexCheck": {
+"target": "p023_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 2, 1, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 24,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "消極的",
+"reading": "しょうきょくてき",
+"meaning": "自分から進んで何かをしようとしないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "そくざに",
+"reading": "そくざに",
+"meaning": "すぐに。その場ですぐ。",
+"detectedType": "meaning_context"
+},
+{
+"word": "くまなく",
+"reading": "くまなく",
+"meaning": "すみずみまで。残すところなく。",
+"detectedType": "meaning_context"
+},
+{
+"word": "試み",
+"reading": "こころみ",
+"meaning": "試しに何かをやってみること",
+"detectedType": "meaning_context"
+},
+{
+"word": "いささか",
+"reading": "いささか",
+"meaning": "少し。ちょっと。",
+"detectedType": "meaning_context"
+},
+{
+"word": "えてして",
+"reading": "えてして",
+"meaning": "とかく。大体の場合において。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p024_001",
+"source": "vocab1300",
+"sourcePage": 24,
+"type": "meaning_context",
+"word": "消極的",
+"reading": "しょうきょくてき",
+"sentence": "授業参観で、いつもは手をあげる青ちゃんが消極的でした。",
+"question": "消極的 の意味はどれ？",
+"choices": [
+"すみずみまで調べること",
+"すぐに返事をすること",
+"自分から進んで何かをしようとしないようす",
+"試しにやってみること"
+],
+"answerIndex": 2,
+"explanation": "消極的は、自分から進んで何かをしようとしないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p024"]
+},
+{
+"id": "vocab1300_p024_002",
+"source": "vocab1300",
+"sourcePage": 24,
+"type": "meaning_context",
+"word": "そくざに",
+"reading": "そくざに",
+"sentence": "名前を呼ばれて、そくざに返事をしました。",
+"question": "そくざに の意味はどれ？",
+"choices": [
+"すぐに、その場ですぐ",
+"少し、ちょっと",
+"大体の場合において",
+"残すところなく"
+],
+"answerIndex": 0,
+"explanation": "そくざには、すぐに、その場ですぐ、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p024"]
+},
+{
+"id": "vocab1300_p024_003",
+"source": "vocab1300",
+"sourcePage": 24,
+"type": "meaning_context",
+"word": "くまなく",
+"reading": "くまなく",
+"sentence": "なくしたハンカチを、部屋の中でくまなく探しました。",
+"question": "くまなく の意味はどれ？",
+"choices": [
+"試しにやってみること",
+"少しだけ",
+"自分から進まないようす",
+"すみずみまで、残すところなく"
+],
+"answerIndex": 3,
+"explanation": "くまなくは、すみずみまで、残すところなく、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p024"]
+},
+{
+"id": "vocab1300_p024_004",
+"source": "vocab1300",
+"sourcePage": 24,
+"type": "meaning_context",
+"word": "試み",
+"reading": "こころみ",
+"sentence": "先生は、新しい方法で授業をする試みをしました。",
+"question": "試み の意味はどれ？",
+"choices": [
+"その場ですぐにすること",
+"試しに何かをやってみること",
+"すみずみまで調べること",
+"少しだけあること"
+],
+"answerIndex": 1,
+"explanation": "試みは、試しに何かをやってみることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p024"]
+},
+{
+"id": "vocab1300_p024_005",
+"source": "vocab1300",
+"sourcePage": 24,
+"type": "meaning_context",
+"word": "いささか",
+"reading": "いささか",
+"sentence": "その話は、いささか大げさに聞こえました。",
+"question": "いささか の意味はどれ？",
+"choices": [
+"大体の場合",
+"自分から進まないこと",
+"少し、ちょっと",
+"すぐに"
+],
+"answerIndex": 2,
+"explanation": "いささかは、少し、ちょっと、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p024"]
+},
+{
+"id": "vocab1300_p024_006",
+"source": "vocab1300",
+"sourcePage": 24,
+"type": "meaning_context",
+"word": "えてして",
+"reading": "えてして",
+"sentence": "急いでいるときは、えてして忘れ物をしやすいものです。",
+"question": "えてして の意味はどれ？",
+"choices": [
+"とかく、大体の場合において",
+"すみずみまで",
+"試しにやってみること",
+"すぐに"
+],
+"answerIndex": 0,
+"explanation": "えてしては、とかく、大体の場合において、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p024"]
+}
+],
+"answerIndexCheck": {
+"target": "p024_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 3, 1, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "副詞系語句の例文",
+"suggestion": "『そくざに』『いささか』『えてして』のような副詞は、短い例文だけでは意味が取りにくいことがあるため、解説で言い換えを必ず入れるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 25,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"subtype": "onomatopoeia_word",
+"reason": "オノマトペを扱うページです。現行typeではmeaning_contextで問題化できますが、語句カテゴリとしてsubtype: onomatopoeia_wordを付けると管理しやすいです。"
+},
+"extractedWords": [
+{
+"word": "ごうごう",
+"reading": "ごうごう",
+"meaning": "大きな音が響いて、騒がしいようす",
+"detectedType": "meaning_context",
+"subtype": "onomatopoeia_word"
+},
+{
+"word": "さんさん",
+"reading": "さんさん",
+"meaning": "太陽が光り輝くようす",
+"detectedType": "meaning_context",
+"subtype": "onomatopoeia_word"
+},
+{
+"word": "とうとう",
+"reading": "とうとう",
+"meaning": "水などがとめどなく流れるようす",
+"detectedType": "meaning_context",
+"subtype": "onomatopoeia_word"
+},
+{
+"word": "まんまん",
+"reading": "まんまん",
+"meaning": "いっぱいに満ちているようす",
+"detectedType": "meaning_context",
+"subtype": "onomatopoeia_word"
+},
+{
+"word": "こうこう",
+"reading": "こうこう",
+"meaning": "明るく、きらきらと輝くようす",
+"detectedType": "meaning_context",
+"subtype": "onomatopoeia_word"
+},
+{
+"word": "せつせつ",
+"reading": "せつせつ",
+"meaning": "心に強くうったえかけるようす。思いがこもっているようす。",
+"detectedType": "meaning_context",
+"subtype": "onomatopoeia_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p025_001",
+"source": "vocab1300",
+"sourcePage": 25,
+"type": "meaning_context",
+"subtype": "onomatopoeia_word",
+"word": "ごうごう",
+"reading": "ごうごう",
+"sentence": "台風の日、外では風がごうごうと鳴っていました。",
+"question": "ごうごう の意味はどれ？",
+"choices": [
+"水がとめどなく流れるようす",
+"大きな音が響いて騒がしいようす",
+"心に強くうったえるようす",
+"太陽が光り輝くようす"
+],
+"answerIndex": 1,
+"explanation": "ごうごうは、大きな音が響いて、騒がしいようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "onomatopoeia_word", "p025"]
+},
+{
+"id": "vocab1300_p025_002",
+"source": "vocab1300",
+"sourcePage": 25,
+"type": "meaning_context",
+"subtype": "onomatopoeia_word",
+"word": "さんさん",
+"reading": "さんさん",
+"sentence": "夏の朝、太陽がさんさんと照っていました。",
+"question": "さんさん の意味はどれ？",
+"choices": [
+"音が大きく響くようす",
+"明るくきらきら輝くようす",
+"太陽が光り輝くようす",
+"いっぱいに満ちているようす"
+],
+"answerIndex": 2,
+"explanation": "さんさんは、太陽が光り輝くようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "onomatopoeia_word", "p025"]
+},
+{
+"id": "vocab1300_p025_003",
+"source": "vocab1300",
+"sourcePage": 25,
+"type": "meaning_context",
+"subtype": "onomatopoeia_word",
+"word": "とうとう",
+"reading": "とうとう",
+"sentence": "山の雪がとけて、川の水がとうとうと流れていました。",
+"question": "とうとう の意味はどれ？",
+"choices": [
+"水などがとめどなく流れるようす",
+"太陽が強く照るようす",
+"心に強くうったえるようす",
+"音が騒がしいようす"
+],
+"answerIndex": 0,
+"explanation": "とうとうは、水などがとめどなく流れるようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "onomatopoeia_word", "p025"]
+},
+{
+"id": "vocab1300_p025_004",
+"source": "vocab1300",
+"sourcePage": 25,
+"type": "meaning_context",
+"subtype": "onomatopoeia_word",
+"word": "まんまん",
+"reading": "まんまん",
+"sentence": "大きな池には、水がまんまんとたたえられていました。",
+"question": "まんまん の意味はどれ？",
+"choices": [
+"大きな音がするようす",
+"光がきらきらするようす",
+"水が流れるようす",
+"いっぱいに満ちているようす"
+],
+"answerIndex": 3,
+"explanation": "まんまんは、いっぱいに満ちているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "onomatopoeia_word", "p025"]
+},
+{
+"id": "vocab1300_p025_005",
+"source": "vocab1300",
+"sourcePage": 25,
+"type": "meaning_context",
+"subtype": "onomatopoeia_word",
+"word": "こうこう",
+"reading": "こうこう",
+"sentence": "夜道に、車のライトがこうこうと輝いていました。",
+"question": "こうこう の意味はどれ？",
+"choices": [
+"心に強くうったえるようす",
+"明るく、きらきらと輝くようす",
+"水がとめどなく流れるようす",
+"太陽が照るようす"
+],
+"answerIndex": 1,
+"explanation": "こうこうは、明るく、きらきらと輝くようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "onomatopoeia_word", "p025"]
+},
+{
+"id": "vocab1300_p025_006",
+"source": "vocab1300",
+"sourcePage": 25,
+"type": "meaning_context",
+"subtype": "onomatopoeia_word",
+"word": "せつせつ",
+"reading": "せつせつ",
+"sentence": "その人は、平和への願いをせつせつと語りました。",
+"question": "せつせつ の意味はどれ？",
+"choices": [
+"太陽が光り輝くようす",
+"音が大きく響くようす",
+"心に強くうったえかけるようす",
+"水が流れるようす"
+],
+"answerIndex": 2,
+"explanation": "せつせつは、心に強くうったえかけるようす、思いがこもっているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "onomatopoeia_word", "p025"]
+}
+],
+"answerIndexCheck": {
+"target": "p025_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 0, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "onomatopoeia_word subtypeの追加",
+"suggestion": "p025はオノマトペを扱うページなので、typeはmeaning_contextのまま、subtypeとしてonomatopoeia_wordを追加すると管理しやすいです。"
+},
+{
+"point": "オノマトペの画像化",
+"suggestion": "『さんさん』『ごうごう』『とうとう』などは将来的にimage_word化もできますが、現時点では意味文脈問題として扱えば十分です。"
+}
+]
+}
+]
