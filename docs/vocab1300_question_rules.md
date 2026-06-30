@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-06-30（animal_idiom_word / weather_word追加）  
+更新日：2026-06-30（period_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -44,6 +44,8 @@
 - `subtype: "weather_word"` を追加
 - 動物ことわざ・慣用句の出題方針を追加
 - 天候語の出題方針・hint方針・画像ファイル名ルールを追加
+- `subtype: "period_word"` を追加
+- 時期・期間語の出題方針と month_hint との区別を追加
 
 ---
 
@@ -549,6 +551,49 @@ v1では基本的に `meaning_context` として扱い、管理用に `subtype: 
   "explanation": "猿も木から落ちるは、どんなに得意なことでも失敗することがある、というたとえです。本物の猿の話ではありません。"
 }
 ```
+
+---
+
+## 8.1.3 `meaning_context` + `subtype: "period_word"`
+
+### 用途
+
+時期・期間を表す語句を扱う問題。
+
+例：
+
+- 上旬
+- 中旬
+- 下旬
+- 年始
+- 年末
+
+v1では基本的に `meaning_context` として扱い、管理用に `subtype: "period_word"` を付ける。
+
+```json
+{
+  "type": "meaning_context",
+  "subtype": "period_word"
+}
+```
+
+### 出題方針
+
+- 「いつごろか」「どの期間か」が分かるように、例文や解説で具体的に示す
+
+各語の目安：
+
+- 上旬：月の初めのころ。およそ1日〜10日。
+- 中旬：月の真ん中のころ。およそ11日〜20日。
+- 下旬：月の終わりのころ。およそ21日〜月末。
+- 年始：年の初め。
+- 年末：年の終わり。
+
+### 注意
+
+月の異名を問う `month_hint` / `month_word` とは分ける。
+
+`period_word` は、月名そのものではなく、時期・期間を表す語句に使う。
 
 ---
 
@@ -1280,6 +1325,7 @@ vocab1300_p205_001
 - [ ] `subtype: "clothing_word"` の場合、`hint` に見る場所や特徴が入っている
 - [ ] `subtype: "clothing_word"` の画像ファイル名が `images/clothing_*.png` 形式になっている
 - [ ] `subtype: "animal_idiom_word"` の場合、解説でたとえであることが分かるようにしている
+- [ ] `subtype: "period_word"` の場合、例文や解説で「いつごろか」「どの期間か」が具体的に示されている
 - [ ] `subtype: "weather_word"` の場合、`hint` に雨の強さ・季節・時間帯・続き方が入っている
 - [ ] `subtype: "weather_word"` の画像ファイル名が `images/weather_*.png` 形式になっている
 - [ ] `month` がある場合、1〜12の数値になっている
