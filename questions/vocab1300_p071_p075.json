@@ -1,0 +1,986 @@
+[
+{
+"sourcePage": 71,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "互い違い",
+"reading": "たがいちがい",
+"meaning": "交互に並ぶこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "貢献",
+"reading": "こうけん",
+"meaning": "社会や人のために役立つこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "おくびにも出さない",
+"reading": "おくびにもださない",
+"meaning": "口に出さず、知っている素振りを見せないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "茶化す",
+"reading": "ちゃかす",
+"meaning": "真剣な話を冗談めかして、はぐらかすこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "見かけ倒し",
+"reading": "みかけだおし",
+"meaning": "外側ばかりよく見えて、中身が伴わないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "陥れる",
+"reading": "おとしいれる",
+"meaning": "だまして、苦しい立場に追いやること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p071_001",
+"source": "vocab1300",
+"sourcePage": 71,
+"type": "meaning_context",
+"word": "互い違い",
+"reading": "たがいちがい",
+"sentence": "赤と白のカードを互い違いに並べました。",
+"question": "互い違い の意味はどれ？",
+"choices": [
+"外側だけよく見えること",
+"口に出さず隠すこと",
+"交互に並ぶこと",
+"社会のために役立つこと"
+],
+"answerIndex": 2,
+"explanation": "互い違いは、二つのものが交互に並ぶことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p071"]
+},
+{
+"id": "vocab1300_p071_002",
+"source": "vocab1300",
+"sourcePage": 71,
+"type": "meaning_context",
+"word": "貢献",
+"reading": "こうけん",
+"sentence": "ごみ拾いをして、町の美化に貢献しました。",
+"question": "貢献 の意味はどれ？",
+"choices": [
+"真剣な話をはぐらかすこと",
+"社会や人のために役立つこと",
+"交互に並ぶこと",
+"だまして苦しい立場にすること"
+],
+"answerIndex": 1,
+"explanation": "貢献は、社会や人のために役立つことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p071"]
+},
+{
+"id": "vocab1300_p071_003",
+"source": "vocab1300",
+"sourcePage": 71,
+"type": "meaning_context",
+"word": "おくびにも出さない",
+"reading": "おくびにもださない",
+"sentence": "結果を知っていたのに、兄はおくびにも出しませんでした。",
+"question": "おくびにも出さない の意味はどれ？",
+"choices": [
+"だまして苦しい立場にすること",
+"外側だけよく見えること",
+"社会に役立つこと",
+"口に出さず、知っている素振りを見せないこと"
+],
+"answerIndex": 3,
+"explanation": "おくびにも出さないは、口に出さず、知っている素振りを見せないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p071"]
+},
+{
+"id": "vocab1300_p071_004",
+"source": "vocab1300",
+"sourcePage": 71,
+"type": "meaning_context",
+"word": "茶化す",
+"reading": "ちゃかす",
+"sentence": "まじめに相談しているのに、友だちは話を茶化しました。",
+"question": "茶化す の意味はどれ？",
+"choices": [
+"真剣な話を冗談めかして、はぐらかすこと",
+"交互に並べること",
+"知っていることを隠すこと",
+"人のために役立つこと"
+],
+"answerIndex": 0,
+"explanation": "茶化すは、真剣な話を冗談めかして、はぐらかすことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p071"]
+},
+{
+"id": "vocab1300_p071_005",
+"source": "vocab1300",
+"sourcePage": 71,
+"type": "meaning_context",
+"word": "見かけ倒し",
+"reading": "みかけだおし",
+"sentence": "見た目は立派でもすぐ壊れるなら、見かけ倒しです。",
+"question": "見かけ倒し の意味はどれ？",
+"choices": [
+"だまして困らせること",
+"外側ばかりよく見えて、中身が伴わないこと",
+"真剣な話をはぐらかすこと",
+"交互に並ぶこと"
+],
+"answerIndex": 1,
+"explanation": "見かけ倒しは、外側ばかりよく見えて、中身が伴わないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p071"]
+},
+{
+"id": "vocab1300_p071_006",
+"source": "vocab1300",
+"sourcePage": 71,
+"type": "meaning_context",
+"word": "陥れる",
+"reading": "おとしいれる",
+"sentence": "うそをついて友だちを陥れるようなことはしてはいけません。",
+"question": "陥れる の意味はどれ？",
+"choices": [
+"社会のために役立つこと",
+"知っている素振りを見せないこと",
+"交互に並ぶこと",
+"だまして、苦しい立場に追いやること"
+],
+"answerIndex": 3,
+"explanation": "陥れるは、だまして、苦しい立場に追いやることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p071"]
+}
+],
+"answerIndexCheck": {
+"target": "p071_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 3, 0, 1, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『おくびにも出さない』は長い語句なので、アプリ側でword表示が折り返される前提にするとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 72,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "言いよどむ",
+"reading": "いいよどむ",
+"meaning": "ためらって、言いたいことがなかなか言い出せないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "とりわけ",
+"reading": "とりわけ",
+"meaning": "特に",
+"detectedType": "meaning_context"
+},
+{
+"word": "ひっきりなし",
+"reading": "ひっきりなし",
+"meaning": "とだえることなく、切れ目なく続くこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ぎくしゃく",
+"reading": "ぎくしゃく",
+"meaning": "人間関係などがうまくいっていないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "頻繁",
+"reading": "ひんぱん",
+"meaning": "ひっきりなしに、何度も行われること",
+"detectedType": "meaning_context"
+},
+{
+"word": "支持",
+"reading": "しじ",
+"meaning": "他の人の意見をよいと認めて後押しすること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p072_001",
+"source": "vocab1300",
+"sourcePage": 72,
+"type": "meaning_context",
+"word": "言いよどむ",
+"reading": "いいよどむ",
+"sentence": "本当のことを言いにくくて、少し言いよどみました。",
+"question": "言いよどむ の意味はどれ？",
+"choices": [
+"何度も行われること",
+"他の人を後押しすること",
+"ためらって、なかなか言い出せないこと",
+"人間関係がうまくいかないこと"
+],
+"answerIndex": 2,
+"explanation": "言いよどむは、ためらって、言いたいことがなかなか言い出せないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p072"]
+},
+{
+"id": "vocab1300_p072_002",
+"source": "vocab1300",
+"sourcePage": 72,
+"type": "meaning_context",
+"word": "とりわけ",
+"reading": "とりわけ",
+"sentence": "果物はどれも好きですが、とりわけいちごが好きです。",
+"question": "とりわけ の意味はどれ？",
+"choices": [
+"特に",
+"何度も",
+"切れ目なく",
+"後押しして"
+],
+"answerIndex": 0,
+"explanation": "とりわけは、特に、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p072"]
+},
+{
+"id": "vocab1300_p072_003",
+"source": "vocab1300",
+"sourcePage": 72,
+"type": "meaning_context",
+"word": "ひっきりなし",
+"reading": "ひっきりなし",
+"sentence": "人気の店には、ひっきりなしにお客さんが来ました。",
+"question": "ひっきりなし の意味はどれ？",
+"choices": [
+"ためらって",
+"特に",
+"切れ目なく続くこと",
+"意見を後押しすること"
+],
+"answerIndex": 2,
+"explanation": "ひっきりなしは、とだえることなく、切れ目なく続くことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p072"]
+},
+{
+"id": "vocab1300_p072_004",
+"source": "vocab1300",
+"sourcePage": 72,
+"type": "meaning_context",
+"word": "ぎくしゃく",
+"reading": "ぎくしゃく",
+"sentence": "けんかのあと、友だちとの会話がぎくしゃくしました。",
+"question": "ぎくしゃく の意味はどれ？",
+"choices": [
+"人間関係などがうまくいっていないようす",
+"何度も行われること",
+"言い出せないこと",
+"特にということ"
+],
+"answerIndex": 0,
+"explanation": "ぎくしゃくは、人間関係などがうまくいっていないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p072"]
+},
+{
+"id": "vocab1300_p072_005",
+"source": "vocab1300",
+"sourcePage": 72,
+"type": "meaning_context",
+"word": "頻繁",
+"reading": "ひんぱん",
+"sentence": "最近、学校から頻繁にお知らせが届きます。",
+"question": "頻繁 の意味はどれ？",
+"choices": [
+"人間関係が悪いこと",
+"ひっきりなしに、何度も行われること",
+"ためらって話すこと",
+"意見を後押しすること"
+],
+"answerIndex": 1,
+"explanation": "頻繁は、ひっきりなしに、何度も行われることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p072"]
+},
+{
+"id": "vocab1300_p072_006",
+"source": "vocab1300",
+"sourcePage": 72,
+"type": "meaning_context",
+"word": "支持",
+"reading": "しじ",
+"sentence": "わたしは、友だちの考えを支持しました。",
+"question": "支持 の意味はどれ？",
+"choices": [
+"何度も続くこと",
+"特にということ",
+"他の人の意見をよいと認めて後押しすること",
+"関係がうまくいかないこと"
+],
+"answerIndex": 2,
+"explanation": "支持は、他の人の意見をよいと認めて後押しすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p072"]
+}
+],
+"answerIndexCheck": {
+"target": "p072_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 2, 0, 1, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 3,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 3,
+"エ": 0
+},
+"result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲ですが、作問データ上の分散を優先するなら1問をanswerIndex 3に調整してもよいです。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "副詞系語句",
+"suggestion": "『とりわけ』『ひっきりなし』『頻繁』は副詞的に使われることが多いため、例文内で自然な形にすると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 73,
+"pageTypeJudgement": {
+"detectedType": "reading_context",
+"reason": "同じ漢字でも読み方によって意味が変わる語を扱うページなので、reading_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "大事",
+"readings": [
+{
+"reading": "だいじ",
+"meaning": "大切に扱う様子"
+},
+{
+"reading": "おおごと",
+"meaning": "大変な結果や影響をもたらす出来事"
+}
+],
+"detectedType": "reading_context"
+},
+{
+"word": "人気",
+"readings": [
+{
+"reading": "にんき",
+"meaning": "世間の評判や受けがよいこと"
+},
+{
+"reading": "ひとけ",
+"meaning": "人の気配や、人がいる様子"
+}
+],
+"detectedType": "reading_context"
+},
+{
+"word": "上手",
+"readings": [
+{
+"reading": "じょうず",
+"meaning": "手際がよく、やり方が巧みな様子"
+},
+{
+"reading": "うわて",
+"meaning": "技能や知識などが、他の人より勝っていること"
+}
+],
+"detectedType": "reading_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p073_001",
+"source": "vocab1300",
+"sourcePage": 73,
+"type": "reading_context",
+"word": "大事",
+"readings": ["だいじ", "おおごと"],
+"answerReading": "だいじ",
+"sentence": "これは、おばあちゃんからもらった大事な本です。",
+"question": "この文の 大事 の読み方はどれ？",
+"choices": [
+"たいじ",
+"だいじ",
+"おおごと",
+"だいこと"
+],
+"answerIndex": 1,
+"explanation": "大切に扱うという意味の大事は、だいじ と読みます。",
+"image": null,
+"tags": ["vocab1300", "reading_context", "p073"]
+},
+{
+"id": "vocab1300_p073_002",
+"source": "vocab1300",
+"sourcePage": 73,
+"type": "reading_context",
+"word": "大事",
+"readings": ["だいじ", "おおごと"],
+"answerReading": "おおごと",
+"sentence": "早く手当てできたので、大事にならずにすみました。",
+"question": "この文の 大事 の読み方はどれ？",
+"choices": [
+"おおごと",
+"だいじ",
+"おおじ",
+"たいこと"
+],
+"answerIndex": 0,
+"explanation": "大変な出来事という意味の大事は、おおごと と読みます。",
+"image": null,
+"tags": ["vocab1300", "reading_context", "p073"]
+},
+{
+"id": "vocab1300_p073_003",
+"source": "vocab1300",
+"sourcePage": 73,
+"type": "reading_context",
+"word": "人気",
+"readings": ["にんき", "ひとけ"],
+"answerReading": "にんき",
+"sentence": "その遊びはクラスで人気があります。",
+"question": "この文の 人気 の読み方はどれ？",
+"choices": [
+"ひとけ",
+"にんき",
+"じんき",
+"ひとき"
+],
+"answerIndex": 1,
+"explanation": "評判や受けがよいという意味の人気は、にんき と読みます。",
+"image": null,
+"tags": ["vocab1300", "reading_context", "p073"]
+},
+{
+"id": "vocab1300_p073_004",
+"source": "vocab1300",
+"sourcePage": 73,
+"type": "reading_context",
+"word": "人気",
+"readings": ["にんき", "ひとけ"],
+"answerReading": "ひとけ",
+"sentence": "夜の公園は人気がなくて、少しこわく感じました。",
+"question": "この文の 人気 の読み方はどれ？",
+"choices": [
+"にんき",
+"ひとき",
+"じんき",
+"ひとけ"
+],
+"answerIndex": 3,
+"explanation": "人がいる気配という意味の人気は、ひとけ と読みます。",
+"image": null,
+"tags": ["vocab1300", "reading_context", "p073"]
+},
+{
+"id": "vocab1300_p073_005",
+"source": "vocab1300",
+"sourcePage": 73,
+"type": "reading_context",
+"word": "上手",
+"readings": ["じょうず", "うわて"],
+"answerReading": "うわて",
+"sentence": "将棋では、兄の方が一枚上手です。",
+"question": "この文の 上手 の読み方はどれ？",
+"choices": [
+"じょうず",
+"うえて",
+"うわて",
+"かみて"
+],
+"answerIndex": 2,
+"explanation": "相手より勝っているという意味の上手は、うわて と読みます。",
+"image": null,
+"tags": ["vocab1300", "reading_context", "p073"]
+},
+{
+"id": "vocab1300_p073_006",
+"source": "vocab1300",
+"sourcePage": 73,
+"type": "reading_context",
+"word": "上手",
+"readings": ["じょうず", "うわて"],
+"answerReading": "じょうず",
+"sentence": "妹は絵をかくのが上手です。",
+"question": "この文の 上手 の読み方はどれ？",
+"choices": [
+"うわて",
+"かみて",
+"じょうず",
+"うえて"
+],
+"answerIndex": 2,
+"explanation": "手際がよく、やり方が巧みという意味の上手は、じょうず と読みます。",
+"image": null,
+"tags": ["vocab1300", "reading_context", "p073"]
+}
+],
+"answerIndexCheck": {
+"target": "p073_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 1, 3, 2, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "reading_context",
+"suggestion": "p073は同じ表記で読みと意味が変わる語なので、meaning_contextではなくreading_contextで扱います。readingsとanswerReadingを持たせる形が適しています。"
+}
+]
+},
+{
+"sourcePage": 74,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "weather_word",
+"reason": "風に関する語句を絵や場面から選ぶページなので、image_wordに適しています。p062と同じくsubtype: weather_wordで管理します。"
+},
+"extractedWords": [
+{
+"word": "つむじ風",
+"reading": "つむじかぜ",
+"meaning": "うずまき状に吹き上がる強い風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "空っ風",
+"reading": "からっかぜ",
+"meaning": "雨や雪を伴わない、晩秋から初冬にかけて吹く北風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "花風",
+"reading": "はなかぜ",
+"meaning": "桜の花が咲きほこる頃に吹く風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "追い風",
+"reading": "おいかぜ",
+"meaning": "後方から吹く風。行く方向に吹く風。",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "青嵐",
+"reading": "せいらん",
+"meaning": "初夏の頃、青々とした若葉を揺すって吹き渡るやや強い風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "向かい風",
+"reading": "むかいかぜ",
+"meaning": "行く方向から吹いてくる風。逆風。",
+"detectedType": "image_word",
+"subtype": "weather_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p074_001",
+"source": "vocab1300",
+"sourcePage": 74,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "つむじ風",
+"reading": "つむじかぜ",
+"image": "images/weather_tsumujikaze.png",
+"hint": "風がうずまきのように、ぐるぐる吹き上がっています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"追い風",
+"つむじ風",
+"空っ風",
+"青嵐"
+],
+"answerIndex": 1,
+"explanation": "つむじ風は、うずまき状に吹き上がる強い風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p074"]
+},
+{
+"id": "vocab1300_p074_002",
+"source": "vocab1300",
+"sourcePage": 74,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "空っ風",
+"reading": "からっかぜ",
+"image": "images/weather_karakkaze.png",
+"hint": "雨や雪はなく、冷たい北風だけが強く吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"花風",
+"青嵐",
+"向かい風",
+"空っ風"
+],
+"answerIndex": 3,
+"explanation": "空っ風は、雨や雪を伴わない、晩秋から初冬にかけて吹く北風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p074"]
+},
+{
+"id": "vocab1300_p074_003",
+"source": "vocab1300",
+"sourcePage": 74,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "花風",
+"reading": "はなかぜ",
+"image": "images/weather_hanakaze.png",
+"hint": "桜の花が咲くころ、花びらを揺らす風が吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"花風",
+"追い風",
+"つむじ風",
+"空っ風"
+],
+"answerIndex": 0,
+"explanation": "花風は、桜の花が咲きほこる頃に吹く風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p074"]
+},
+{
+"id": "vocab1300_p074_004",
+"source": "vocab1300",
+"sourcePage": 74,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "追い風",
+"reading": "おいかぜ",
+"image": "images/weather_oikaze.png",
+"hint": "進む方向と同じ向きに、後ろから風が吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"向かい風",
+"空っ風",
+"追い風",
+"青嵐"
+],
+"answerIndex": 2,
+"explanation": "追い風は、後方から吹く風、行く方向に吹く風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p074"]
+},
+{
+"id": "vocab1300_p074_005",
+"source": "vocab1300",
+"sourcePage": 74,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "青嵐",
+"reading": "せいらん",
+"image": "images/weather_seiran.png",
+"hint": "初夏、青い若葉を大きく揺らす風が吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"花風",
+"青嵐",
+"空っ風",
+"つむじ風"
+],
+"answerIndex": 1,
+"explanation": "青嵐は、初夏の頃、青々とした若葉を揺すって吹き渡るやや強い風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p074"]
+},
+{
+"id": "vocab1300_p074_006",
+"source": "vocab1300",
+"sourcePage": 74,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "向かい風",
+"reading": "むかいかぜ",
+"image": "images/weather_mukaikaze.png",
+"hint": "進む方向から風が吹いてきて、前に進みにくそうです。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"追い風",
+"空っ風",
+"花風",
+"向かい風"
+],
+"answerIndex": 3,
+"explanation": "向かい風は、行く方向から吹いてくる風、逆風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p074"]
+}
+],
+"answerIndexCheck": {
+"target": "p074_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 3, 0, 2, 1, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "weather_wordの継続",
+"suggestion": "p074は風に関する天候語なので、p062と同じくsubtype: weather_wordで管理できます。"
+},
+{
+"point": "似た風語の区別",
+"suggestion": "『追い風』『向かい風』は方向、『花風』『青嵐』『空っ風』は季節をhintに入れると区別しやすいです。"
+}
+]
+},
+{
+"sourcePage": 75,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "いやが上にも",
+"reading": "いやがうえにも",
+"meaning": "なお、ますます。いっそう。",
+"detectedType": "meaning_context"
+},
+{
+"word": "がてら",
+"reading": "がてら",
+"meaning": "何かをするついでに",
+"detectedType": "meaning_context"
+},
+{
+"word": "潔白",
+"reading": "けっぱく",
+"meaning": "何も悪いことをしていないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "耳が早い",
+"reading": "みみがはやい",
+"meaning": "うわさなどを人よりも早く聞きつけること",
+"detectedType": "meaning_context"
+},
+{
+"word": "折半",
+"reading": "せっぱん",
+"meaning": "半分に分けること",
+"detectedType": "meaning_context"
+},
+{
+"word": "しおらしい",
+"reading": "しおらしい",
+"meaning": "控えめでおとなしいようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p075_001",
+"source": "vocab1300",
+"sourcePage": 75,
+"type": "meaning_context",
+"word": "いやが上にも",
+"reading": "いやがうえにも",
+"sentence": "前にほめられたので、いやが上にもやる気が高まりました。",
+"question": "いやが上にも の意味はどれ？",
+"choices": [
+"何かをするついでに",
+"半分に分けること",
+"なお、ますます、いっそう",
+"控えめでおとなしいこと"
+],
+"answerIndex": 2,
+"explanation": "いやが上にもは、なお、ますます、いっそう、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p075"]
+},
+{
+"id": "vocab1300_p075_002",
+"source": "vocab1300",
+"sourcePage": 75,
+"type": "meaning_context",
+"word": "がてら",
+"reading": "がてら",
+"sentence": "散歩がてら、近くの公園に行きました。",
+"question": "がてら の意味はどれ？",
+"choices": [
+"何も悪いことをしていないこと",
+"何かをするついでに",
+"うわさを早く聞くこと",
+"ますますということ"
+],
+"answerIndex": 1,
+"explanation": "がてらは、何かをするついでに、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p075"]
+},
+{
+"id": "vocab1300_p075_003",
+"source": "vocab1300",
+"sourcePage": 75,
+"type": "meaning_context",
+"word": "潔白",
+"reading": "けっぱく",
+"sentence": "自分は何もしていないので、潔白を証明したいと思いました。",
+"question": "潔白 の意味はどれ？",
+"choices": [
+"うわさを早く聞くこと",
+"半分に分けること",
+"何も悪いことをしていないこと",
+"控えめな態度"
+],
+"answerIndex": 2,
+"explanation": "潔白は、何も悪いことをしていないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p075"]
+},
+{
+"id": "vocab1300_p075_004",
+"source": "vocab1300",
+"sourcePage": 75,
+"type": "meaning_context",
+"word": "耳が早い",
+"reading": "みみがはやい",
+"sentence": "姉は耳が早く、新しい店の話をすぐ知っていました。",
+"question": "耳が早い の意味はどれ？",
+"choices": [
+"ますます気持ちが高まること",
+"何かのついでにすること",
+"半分に分けること",
+"うわさなどを人よりも早く聞きつけること"
+],
+"answerIndex": 3,
+"explanation": "耳が早いは、うわさなどを人よりも早く聞きつけることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p075"]
+},
+{
+"id": "vocab1300_p075_005",
+"source": "vocab1300",
+"sourcePage": 75,
+"type": "meaning_context",
+"word": "折半",
+"reading": "せっぱん",
+"sentence": "材料費を二人で折半することにしました。",
+"question": "折半 の意味はどれ？",
+"choices": [
+"半分に分けること",
+"悪いことをしていないこと",
+"うわさを早く聞くこと",
+"控えめでおとなしいこと"
+],
+"answerIndex": 0,
+"explanation": "折半は、半分に分けることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p075"]
+},
+{
+"id": "vocab1300_p075_006",
+"source": "vocab1300",
+"sourcePage": 75,
+"type": "meaning_context",
+"word": "しおらしい",
+"reading": "しおらしい",
+"sentence": "先生の前では、弟は少ししおらしい態度でした。",
+"question": "しおらしい の意味はどれ？",
+"choices": [
+"何かのついでにすること",
+"悪いことをしていないこと",
+"控えめでおとなしいようす",
+"半分に分けること"
+],
+"answerIndex": 2,
+"explanation": "しおらしいは、控えめでおとなしいようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p075"]
+}
+],
+"answerIndexCheck": {
+"target": "p075_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 2, 3, 0, 2],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 3,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 3,
+"エ": 1
+},
+"result": "answerIndex 2が3回でやや多めですが、6問中3回までであり、アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "副詞系語句",
+"suggestion": "『いやが上にも』『がてら』は副詞的に使われる語句なので、例文の中で自然な形にして出題すると理解しやすいです。"
+}
+]
+}
+]
