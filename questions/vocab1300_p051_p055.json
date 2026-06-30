@@ -1,0 +1,961 @@
+[
+{
+"sourcePage": 51,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "無難",
+"reading": "ぶなん",
+"meaning": "危険がなく、安心できること",
+"detectedType": "meaning_context"
+},
+{
+"word": "心身",
+"reading": "しんしん",
+"meaning": "心と体",
+"detectedType": "meaning_context"
+},
+{
+"word": "ものおじ",
+"reading": "ものおじ",
+"meaning": "こわがったり、びくびくしたりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "偽る",
+"reading": "いつわる",
+"meaning": "事実や本心を隠して、うそを言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "身の丈以上",
+"reading": "みのたけいじょう",
+"meaning": "本来の自分の力や実力をこえていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "理にかなう",
+"reading": "りにかなう",
+"meaning": "筋が通っていて、理屈に合うこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p051_001",
+"source": "vocab1300",
+"sourcePage": 51,
+"type": "meaning_context",
+"word": "無難",
+"reading": "ぶなん",
+"sentence": "暗い道より、人通りの多い道を選ぶ方が無難です。",
+"question": "無難 の意味はどれ？",
+"choices": [
+"心と体のこと",
+"本当のことを隠すこと",
+"危険がなく、安心できること",
+"こわがってびくびくすること"
+],
+"answerIndex": 2,
+"explanation": "無難は、危険がなく、安心できることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p051"]
+},
+{
+"id": "vocab1300_p051_002",
+"source": "vocab1300",
+"sourcePage": 51,
+"type": "meaning_context",
+"word": "心身",
+"reading": "しんしん",
+"sentence": "よく寝ると、心身の疲れが少し取れます。",
+"question": "心身 の意味はどれ？",
+"choices": [
+"心と体",
+"危険がないこと",
+"筋が通っていること",
+"自分の力をこえていること"
+],
+"answerIndex": 0,
+"explanation": "心身は、心と体のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p051"]
+},
+{
+"id": "vocab1300_p051_003",
+"source": "vocab1300",
+"sourcePage": 51,
+"type": "meaning_context",
+"word": "ものおじ",
+"reading": "ものおじ",
+"sentence": "青ちゃんはものおじせず、初めて会う子にも話しかけました。",
+"question": "ものおじ の意味はどれ？",
+"choices": [
+"本心を隠してうそを言うこと",
+"こわがったり、びくびくしたりすること",
+"理屈に合うこと",
+"心と体のこと"
+],
+"answerIndex": 1,
+"explanation": "ものおじは、こわがったり、びくびくしたりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p051"]
+},
+{
+"id": "vocab1300_p051_004",
+"source": "vocab1300",
+"sourcePage": 51,
+"type": "meaning_context",
+"word": "偽る",
+"reading": "いつわる",
+"sentence": "本当は忘れたのに、やったと偽るのはよくありません。",
+"question": "偽る の意味はどれ？",
+"choices": [
+"安心できること",
+"こわがること",
+"自分の力をこえること",
+"事実や本心を隠して、うそを言うこと"
+],
+"answerIndex": 3,
+"explanation": "偽るは、事実や本心を隠して、うそを言うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p051"]
+},
+{
+"id": "vocab1300_p051_005",
+"source": "vocab1300",
+"sourcePage": 51,
+"type": "meaning_context",
+"word": "身の丈以上",
+"reading": "みのたけいじょう",
+"sentence": "身の丈以上の目標でも、少しずつ近づこうと努力しました。",
+"question": "身の丈以上 の意味はどれ？",
+"choices": [
+"心と体のこと",
+"本来の自分の力や実力をこえていること",
+"危険がないこと",
+"筋が通っていること"
+],
+"answerIndex": 1,
+"explanation": "身の丈以上は、本来の自分の力や実力をこえていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p051"]
+},
+{
+"id": "vocab1300_p051_006",
+"source": "vocab1300",
+"sourcePage": 51,
+"type": "meaning_context",
+"word": "理にかなう",
+"reading": "りにかなう",
+"sentence": "寒い日に上着を着て出かけるのは、理にかなっています。",
+"question": "理にかなう の意味はどれ？",
+"choices": [
+"うそを言うこと",
+"びくびくすること",
+"筋が通っていて、理屈に合うこと",
+"自分の力をこえること"
+],
+"answerIndex": 2,
+"explanation": "理にかなうは、筋が通っていて、理屈に合うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p051"]
+}
+],
+"answerIndexCheck": {
+"target": "p051_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 1, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "抽象語の例文",
+"suggestion": "『無難』『理にかなう』は抽象的なので、安全な道・寒い日の上着など、青ちゃんが想像しやすい生活場面に寄せると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 52,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "蚊の鳴くような声",
+"reading": "かのなくようなこえ",
+"meaning": "弱々しくて、とても小さい声",
+"detectedType": "meaning_context"
+},
+{
+"word": "故意",
+"reading": "こい",
+"meaning": "わざとすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "太鼓判を押す",
+"reading": "たいこばんをおす",
+"meaning": "人物や物のよさが確かだと保証すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "曲解する",
+"reading": "きょっかいする",
+"meaning": "わざとひねくれて解釈すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "高飛車",
+"reading": "たかびしゃ",
+"meaning": "相手を見下すように、偉そうな態度をとるようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "見ず知らず",
+"reading": "みずしらず",
+"meaning": "一度も会ったことがないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p052_001",
+"source": "vocab1300",
+"sourcePage": 52,
+"type": "meaning_context",
+"word": "蚊の鳴くような声",
+"reading": "かのなくようなこえ",
+"sentence": "発表のとき、緊張して蚊の鳴くような声になってしまいました。",
+"question": "蚊の鳴くような声 の意味はどれ？",
+"choices": [
+"わざとすること",
+"弱々しくて、とても小さい声",
+"偉そうな態度",
+"一度も会ったことがないこと"
+],
+"answerIndex": 1,
+"explanation": "蚊の鳴くような声は、弱々しくて、とても小さい声のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p052"]
+},
+{
+"id": "vocab1300_p052_002",
+"source": "vocab1300",
+"sourcePage": 52,
+"type": "meaning_context",
+"word": "故意",
+"reading": "こい",
+"sentence": "間違えたのではなく、故意に水をこぼしたのなら注意が必要です。",
+"question": "故意 の意味はどれ？",
+"choices": [
+"わざとすること",
+"保証すること",
+"小さい声で話すこと",
+"知らない人のこと"
+],
+"answerIndex": 0,
+"explanation": "故意は、わざとすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p052"]
+},
+{
+"id": "vocab1300_p052_003",
+"source": "vocab1300",
+"sourcePage": 52,
+"type": "meaning_context",
+"word": "太鼓判を押す",
+"reading": "たいこばんをおす",
+"sentence": "先生は、その作文のよさに太鼓判を押しました。",
+"question": "太鼓判を押す の意味はどれ？",
+"choices": [
+"ひねくれて解釈すること",
+"偉そうな態度をとること",
+"人物や物のよさが確かだと保証すること",
+"わざとすること"
+],
+"answerIndex": 2,
+"explanation": "太鼓判を押すは、人物や物のよさが確かだと保証することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p052"]
+},
+{
+"id": "vocab1300_p052_004",
+"source": "vocab1300",
+"sourcePage": 52,
+"type": "meaning_context",
+"word": "曲解する",
+"reading": "きょっかいする",
+"sentence": "相手の言葉を曲解せず、まずは本当の意味をたしかめましょう。",
+"question": "曲解する の意味はどれ？",
+"choices": [
+"小さい声で話すこと",
+"一度も会ったことがないこと",
+"確かだと保証すること",
+"わざとひねくれて解釈すること"
+],
+"answerIndex": 3,
+"explanation": "曲解するは、わざとひねくれて解釈することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p052"]
+},
+{
+"id": "vocab1300_p052_005",
+"source": "vocab1300",
+"sourcePage": 52,
+"type": "meaning_context",
+"word": "高飛車",
+"reading": "たかびしゃ",
+"sentence": "勝ったからといって、高飛車な言い方をするのはよくありません。",
+"question": "高飛車 の意味はどれ？",
+"choices": [
+"わざとすること",
+"相手を見下すように、偉そうな態度をとるようす",
+"よさを保証すること",
+"知らない人のこと"
+],
+"answerIndex": 1,
+"explanation": "高飛車は、相手を見下すように、偉そうな態度をとるようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p052"]
+},
+{
+"id": "vocab1300_p052_006",
+"source": "vocab1300",
+"sourcePage": 52,
+"type": "meaning_context",
+"word": "見ず知らず",
+"reading": "みずしらず",
+"sentence": "見ず知らずの人に、急に名前を教えるのはやめましょう。",
+"question": "見ず知らず の意味はどれ？",
+"choices": [
+"一度も会ったことがないこと",
+"弱々しい声のこと",
+"わざとすること",
+"曲がった受け取り方をすること"
+],
+"answerIndex": 0,
+"explanation": "見ず知らずは、一度も会ったことがないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p052"]
+}
+],
+"answerIndexCheck": {
+"target": "p052_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 3, 1, 0],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『蚊の鳴くような声』『太鼓判を押す』は長めの語句なので、アプリ側でword表示の折り返しを前提にするとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 53,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "疑惑",
+"reading": "ぎわく",
+"meaning": "本当かどうか疑うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "顔がほころぶ",
+"reading": "かおがほころぶ",
+"meaning": "うれしさで笑顔になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "いがみ合い",
+"reading": "いがみあい",
+"meaning": "お互いに敵意を持って争うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "奥歯にものがはさまったよう",
+"reading": "おくばにものがはさまったよう",
+"meaning": "思っていることをはっきりと言わないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "奥行き",
+"reading": "おくゆき",
+"meaning": "表から奥までの長さや距離",
+"detectedType": "meaning_context"
+},
+{
+"word": "眉間にしわをよせる",
+"reading": "みけんにしわをよせる",
+"meaning": "考え事や不愉快なことで、顔をしかめること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p053_001",
+"source": "vocab1300",
+"sourcePage": 53,
+"type": "meaning_context",
+"word": "疑惑",
+"reading": "ぎわく",
+"sentence": "本当に自分で作ったのか、少し疑惑の目で見られました。",
+"question": "疑惑 の意味はどれ？",
+"choices": [
+"うれしくて笑顔になること",
+"表から奥までの長さ",
+"本当かどうか疑うこと",
+"顔をしかめること"
+],
+"answerIndex": 2,
+"explanation": "疑惑は、本当かどうか疑うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p053"]
+},
+{
+"id": "vocab1300_p053_002",
+"source": "vocab1300",
+"sourcePage": 53,
+"type": "meaning_context",
+"word": "顔がほころぶ",
+"reading": "かおがほころぶ",
+"sentence": "妹はプレゼントをもらって、顔がほころびました。",
+"question": "顔がほころぶ の意味はどれ？",
+"choices": [
+"うれしさで笑顔になること",
+"本当か疑うこと",
+"はっきり言わないこと",
+"敵意を持って争うこと"
+],
+"answerIndex": 0,
+"explanation": "顔がほころぶは、うれしさで笑顔になることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p053"]
+},
+{
+"id": "vocab1300_p053_003",
+"source": "vocab1300",
+"sourcePage": 53,
+"type": "meaning_context",
+"word": "いがみ合い",
+"reading": "いがみあい",
+"sentence": "兄弟でいがみ合いばかりせず、話し合うことにしました。",
+"question": "いがみ合い の意味はどれ？",
+"choices": [
+"表から奥までの長さ",
+"お互いに敵意を持って争うこと",
+"顔をしかめること",
+"うれしくて笑うこと"
+],
+"answerIndex": 1,
+"explanation": "いがみ合いは、お互いに敵意を持って争うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p053"]
+},
+{
+"id": "vocab1300_p053_004",
+"source": "vocab1300",
+"sourcePage": 53,
+"type": "meaning_context",
+"word": "奥歯にものがはさまったよう",
+"reading": "おくばにものがはさまったよう",
+"sentence": "友だちは奥歯にものがはさまったような言い方で、はっきり答えませんでした。",
+"question": "奥歯にものがはさまったよう の意味はどれ？",
+"choices": [
+"お互いに争うようす",
+"考え事で顔をしかめるようす",
+"思っていることをはっきりと言わないようす",
+"本当か疑うようす"
+],
+"answerIndex": 2,
+"explanation": "奥歯にものがはさまったようは、思っていることをはっきりと言わないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p053"]
+},
+{
+"id": "vocab1300_p053_005",
+"source": "vocab1300",
+"sourcePage": 53,
+"type": "meaning_context",
+"word": "奥行き",
+"reading": "おくゆき",
+"sentence": "この本棚は奥行きがあるので、大きな本も入ります。",
+"question": "奥行き の意味はどれ？",
+"choices": [
+"本当か疑うこと",
+"表から奥までの長さや距離",
+"うれしくて笑うこと",
+"はっきり言わないこと"
+],
+"answerIndex": 1,
+"explanation": "奥行きは、表から奥までの長さや距離のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p053"]
+},
+{
+"id": "vocab1300_p053_006",
+"source": "vocab1300",
+"sourcePage": 53,
+"type": "meaning_context",
+"word": "眉間にしわをよせる",
+"reading": "みけんにしわをよせる",
+"sentence": "むずかしい問題を見て、青ちゃんは眉間にしわをよせました。",
+"question": "眉間にしわをよせる の意味はどれ？",
+"choices": [
+"お互いに争うこと",
+"うれしくて笑うこと",
+"考え事や不愉快なことで、顔をしかめること",
+"表から奥までの長さ"
+],
+"answerIndex": 2,
+"explanation": "眉間にしわをよせるは、考え事や不愉快なことで、顔をしかめることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p053"]
+}
+],
+"answerIndexCheck": {
+"target": "p053_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 1, 2, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 3,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 3,
+"エ": 0
+},
+"result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲ですが、作問データ上の分散を優先するなら1問をanswerIndex 3に調整してもよいです。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『奥歯にものがはさまったよう』『眉間にしわをよせる』は長い語句なので、アプリ側でword表示が折り返される前提にするとよさそうです。"
+},
+{
+"point": "表情語の扱い",
+"suggestion": "『顔がほころぶ』『眉間にしわをよせる』は表情を表す語なので、将来的にimage_word化もできますが、v1ではmeaning_contextで十分です。"
+}
+]
+},
+{
+"sourcePage": 54,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "怖じ気づく",
+"reading": "おじけづく",
+"meaning": "こわくて、びくびくすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "帳尻を合わせる",
+"reading": "ちょうじりをあわせる",
+"meaning": "最終的に予定通りになるようにすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "手を広げる",
+"reading": "てをひろげる",
+"meaning": "仕事や活動の範囲を広げること",
+"detectedType": "meaning_context"
+},
+{
+"word": "虫がいい",
+"reading": "むしがいい",
+"meaning": "自分のことばかり考えていて、ずうずうしいこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "割り切る",
+"reading": "わりきる",
+"meaning": "自分の中の原則にそって、きっぱりと結論を出すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "気がかり",
+"reading": "きがかり",
+"meaning": "心配で、頭から離れないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p054_001",
+"source": "vocab1300",
+"sourcePage": 54,
+"type": "meaning_context",
+"word": "怖じ気づく",
+"reading": "おじけづく",
+"sentence": "相手が強そうに見えても、怖じ気づかずに試合に出ました。",
+"question": "怖じ気づく の意味はどれ？",
+"choices": [
+"心配で頭から離れないこと",
+"予定通りになるようにすること",
+"こわくて、びくびくすること",
+"活動の範囲を広げること"
+],
+"answerIndex": 2,
+"explanation": "怖じ気づくは、こわくて、びくびくすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p054"]
+},
+{
+"id": "vocab1300_p054_002",
+"source": "vocab1300",
+"sourcePage": 54,
+"type": "meaning_context",
+"word": "帳尻を合わせる",
+"reading": "ちょうじりをあわせる",
+"sentence": "予定より遅れた分、最後に急いで帳尻を合わせました。",
+"question": "帳尻を合わせる の意味はどれ？",
+"choices": [
+"自分勝手でずうずうしいこと",
+"最終的に予定通りになるようにすること",
+"こわがること",
+"きっぱり結論を出すこと"
+],
+"answerIndex": 1,
+"explanation": "帳尻を合わせるは、最終的に予定通りになるようにすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p054"]
+},
+{
+"id": "vocab1300_p054_003",
+"source": "vocab1300",
+"sourcePage": 54,
+"type": "meaning_context",
+"word": "手を広げる",
+"reading": "てをひろげる",
+"sentence": "母は仕事の手を広げて、新しい教室も始めました。",
+"question": "手を広げる の意味はどれ？",
+"choices": [
+"活動の範囲を広げること",
+"心配で離れないこと",
+"こわくてびくびくすること",
+"自分勝手なこと"
+],
+"answerIndex": 0,
+"explanation": "手を広げるは、仕事や活動の範囲を広げることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p054"]
+},
+{
+"id": "vocab1300_p054_004",
+"source": "vocab1300",
+"sourcePage": 54,
+"type": "meaning_context",
+"word": "虫がいい",
+"reading": "むしがいい",
+"sentence": "自分は手伝わないのに、分け前だけほしがるのは虫がいい話です。",
+"question": "虫がいい の意味はどれ？",
+"choices": [
+"予定を合わせること",
+"自分のことばかり考えていて、ずうずうしいこと",
+"活動を広げること",
+"心配で仕方ないこと"
+],
+"answerIndex": 1,
+"explanation": "虫がいいは、自分のことばかり考えていて、ずうずうしいことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p054"]
+},
+{
+"id": "vocab1300_p054_005",
+"source": "vocab1300",
+"sourcePage": 54,
+"type": "meaning_context",
+"word": "割り切る",
+"reading": "わりきる",
+"sentence": "全員に好かれるのはむずかしいと割り切って、自分らしく話しました。",
+"question": "割り切る の意味はどれ？",
+"choices": [
+"こわがること",
+"活動を広げること",
+"自分の中で、きっぱりと結論を出すこと",
+"予定を直すこと"
+],
+"answerIndex": 2,
+"explanation": "割り切るは、自分の中の原則にそって、きっぱりと結論を出すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p054"]
+},
+{
+"id": "vocab1300_p054_006",
+"source": "vocab1300",
+"sourcePage": 54,
+"type": "meaning_context",
+"word": "気がかり",
+"reading": "きがかり",
+"sentence": "明日の発表がうまくいくか、ずっと気がかりでした。",
+"question": "気がかり の意味はどれ？",
+"choices": [
+"心配で、頭から離れないこと",
+"ずうずうしいこと",
+"仕事の範囲を広げること",
+"こわくて動けないこと"
+],
+"answerIndex": 0,
+"explanation": "気がかりは、心配で、頭から離れないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p054"]
+}
+],
+"answerIndexCheck": {
+"target": "p054_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 0, 1, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 3が0回ですが、6問では大きな偏りではありません。アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "慣用句のニュアンス",
+"suggestion": "『虫がいい』は悪いニュアンスがあるため、例文で『自分は手伝わないのに分け前だけほしい』のように状況を具体化すると分かりやすいです。"
+}
+]
+},
+{
+"sourcePage": 55,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "顔がきく",
+"reading": "かおがきく",
+"meaning": "相手に無理を言ったり、特別な扱いをしてもらえたりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "板ばさみ",
+"reading": "いたばさみ",
+"meaning": "対立する二人の間で、どちらの味方もできず困ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "補足",
+"reading": "ほそく",
+"meaning": "足りない部分を補うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "好意",
+"reading": "こうい",
+"meaning": "誰かを好ましく思い、慕う気持ち",
+"detectedType": "meaning_context"
+},
+{
+"word": "まつわる",
+"reading": "まつわる",
+"meaning": "つながりや関係があること",
+"detectedType": "meaning_context"
+},
+{
+"word": "すげなく",
+"reading": "すげなく",
+"meaning": "冷たくて、思いやりがないようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p055_001",
+"source": "vocab1300",
+"sourcePage": 55,
+"type": "meaning_context",
+"word": "顔がきく",
+"reading": "かおがきく",
+"sentence": "その店では父の顔がきくので、店長さんが親切にしてくれました。",
+"question": "顔がきく の意味はどれ？",
+"choices": [
+"相手に無理を言ったり、特別な扱いをしてもらえたりすること",
+"冷たくて思いやりがないこと",
+"足りない部分を補うこと",
+"関係があること"
+],
+"answerIndex": 0,
+"explanation": "顔がきくは、相手に無理を言ったり、特別な扱いをしてもらえたりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p055"]
+},
+{
+"id": "vocab1300_p055_002",
+"source": "vocab1300",
+"sourcePage": 55,
+"type": "meaning_context",
+"word": "板ばさみ",
+"reading": "いたばさみ",
+"sentence": "二人の友だちがけんかをして、どちらにもつけず板ばさみになりました。",
+"question": "板ばさみ の意味はどれ？",
+"choices": [
+"好きだと思う気持ち",
+"対立する二人の間で、どちらの味方もできず困ること",
+"つながりがあること",
+"冷たく断ること"
+],
+"answerIndex": 1,
+"explanation": "板ばさみは、対立する二人の間で、どちらの味方もできず困ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p055"]
+},
+{
+"id": "vocab1300_p055_003",
+"source": "vocab1300",
+"sourcePage": 55,
+"type": "meaning_context",
+"word": "補足",
+"reading": "ほそく",
+"sentence": "先生は、足りない説明をあとから補足しました。",
+"question": "補足 の意味はどれ？",
+"choices": [
+"特別に扱ってもらうこと",
+"関係があること",
+"足りない部分を補うこと",
+"誰かを好ましく思うこと"
+],
+"answerIndex": 2,
+"explanation": "補足は、足りない部分を補うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p055"]
+},
+{
+"id": "vocab1300_p055_004",
+"source": "vocab1300",
+"sourcePage": 55,
+"type": "meaning_context",
+"word": "好意",
+"reading": "こうい",
+"sentence": "友だちの親切な言葉に、好意を感じました。",
+"question": "好意 の意味はどれ？",
+"choices": [
+"冷たい態度",
+"足りない部分",
+"困っている状態",
+"誰かを好ましく思い、慕う気持ち"
+],
+"answerIndex": 3,
+"explanation": "好意は、誰かを好ましく思い、慕う気持ちです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p055"]
+},
+{
+"id": "vocab1300_p055_005",
+"source": "vocab1300",
+"sourcePage": 55,
+"type": "meaning_context",
+"word": "まつわる",
+"reading": "まつわる",
+"sentence": "祖母から、昔のお祭りにまつわる話を聞きました。",
+"question": "まつわる の意味はどれ？",
+"choices": [
+"誰かを好きだと思うこと",
+"つながりや関係があること",
+"特別に扱ってもらうこと",
+"足りないところを補うこと"
+],
+"answerIndex": 1,
+"explanation": "まつわるは、つながりや関係があることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p055"]
+},
+{
+"id": "vocab1300_p055_006",
+"source": "vocab1300",
+"sourcePage": 55,
+"type": "meaning_context",
+"word": "すげなく",
+"reading": "すげなく",
+"sentence": "一緒に遊ぼうとさそったのに、すげなく断られて悲しくなりました。",
+"question": "すげなく の意味はどれ？",
+"choices": [
+"特別に扱われて",
+"関係があって",
+"冷たくて、思いやりがないようす",
+"足りない部分を補って"
+],
+"answerIndex": 2,
+"explanation": "すげなくは、冷たくて、思いやりがないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p055"]
+}
+],
+"answerIndexCheck": {
+"target": "p055_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "人間関係語の例文",
+"suggestion": "『板ばさみ』『好意』『すげなく』は人間関係の語なので、友だち・家族・先生など身近な場面にすると理解しやすいです。"
+}
+]
+}
+]

@@ -1,0 +1,952 @@
+[
+{
+"sourcePage": 66,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ひんしゅく",
+"reading": "ひんしゅく",
+"meaning": "自分の言動のせいで、反感を買ったり軽蔑されたりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "明け渡す",
+"reading": "あけわたす",
+"meaning": "自分の土地や家などを、ほかの人に渡すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "うりふたつ",
+"reading": "うりふたつ",
+"meaning": "そっくりであること",
+"detectedType": "meaning_context"
+},
+{
+"word": "おざなり",
+"reading": "おざなり",
+"meaning": "その場かぎりの、いい加減なことをするようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "飢餓",
+"reading": "きが",
+"meaning": "食べ物がなくて、飢えること",
+"detectedType": "meaning_context"
+},
+{
+"word": "尻込み",
+"reading": "しりごみ",
+"meaning": "こわがったりためらったりして、前に進めないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p066_001",
+"source": "vocab1300",
+"sourcePage": 66,
+"type": "meaning_context",
+"word": "ひんしゅく",
+"reading": "ひんしゅく",
+"sentence": "人が話しているのに大声で笑って、まわりのひんしゅくを買いました。",
+"question": "ひんしゅく の意味はどれ？",
+"choices": [
+"そっくりであること",
+"前に進めなくなること",
+"反感を買ったり軽蔑されたりすること",
+"食べ物がなくて飢えること"
+],
+"answerIndex": 2,
+"explanation": "ひんしゅくは、自分の言動のせいで、反感を買ったり軽蔑されたりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p066"]
+},
+{
+"id": "vocab1300_p066_002",
+"source": "vocab1300",
+"sourcePage": 66,
+"type": "meaning_context",
+"word": "明け渡す",
+"reading": "あけわたす",
+"sentence": "工事のため、古い家を明け渡すことになりました。",
+"question": "明け渡す の意味はどれ？",
+"choices": [
+"自分の土地や家などを、ほかの人に渡すこと",
+"いい加減にすませること",
+"反感を買うこと",
+"こわがって下がること"
+],
+"answerIndex": 0,
+"explanation": "明け渡すは、自分の土地や家などを、ほかの人に渡すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p066"]
+},
+{
+"id": "vocab1300_p066_003",
+"source": "vocab1300",
+"sourcePage": 66,
+"type": "meaning_context",
+"word": "うりふたつ",
+"reading": "うりふたつ",
+"sentence": "姉妹の顔がうりふたつで、初めて会った人はよく間違えます。",
+"question": "うりふたつ の意味はどれ？",
+"choices": [
+"食べ物がなくなること",
+"土地を渡すこと",
+"そっくりであること",
+"前に進めないこと"
+],
+"answerIndex": 2,
+"explanation": "うりふたつは、そっくりであることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p066"]
+},
+{
+"id": "vocab1300_p066_004",
+"source": "vocab1300",
+"sourcePage": 66,
+"type": "meaning_context",
+"word": "おざなり",
+"reading": "おざなり",
+"sentence": "おざなりな返事ではなく、相手の話をきちんと聞きたいです。",
+"question": "おざなり の意味はどれ？",
+"choices": [
+"そっくりなこと",
+"その場かぎりの、いい加減なことをするようす",
+"家を渡すこと",
+"食べ物がないこと"
+],
+"answerIndex": 1,
+"explanation": "おざなりは、その場かぎりの、いい加減なことをするようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p066"]
+},
+{
+"id": "vocab1300_p066_005",
+"source": "vocab1300",
+"sourcePage": 66,
+"type": "meaning_context",
+"word": "飢餓",
+"reading": "きが",
+"sentence": "世界には、飢餓で苦しむ人たちがいます。",
+"question": "飢餓 の意味はどれ？",
+"choices": [
+"食べ物がなくて、飢えること",
+"こわがって下がること",
+"反感を買うこと",
+"いい加減にすませること"
+],
+"answerIndex": 0,
+"explanation": "飢餓は、食べ物がなくて、飢えることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p066"]
+},
+{
+"id": "vocab1300_p066_006",
+"source": "vocab1300",
+"sourcePage": 66,
+"type": "meaning_context",
+"word": "尻込み",
+"reading": "しりごみ",
+"sentence": "高い台の上に立つのがこわくて、少し尻込みしました。",
+"question": "尻込み の意味はどれ？",
+"choices": [
+"土地を人に渡すこと",
+"そっくりであること",
+"いい加減にすること",
+"こわがったりためらったりして、前に進めないこと"
+],
+"answerIndex": 3,
+"explanation": "尻込みは、こわがったりためらったりして、前に進めないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p066"]
+}
+],
+"answerIndexCheck": {
+"target": "p066_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 2, 1, 0, 3],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 67,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "目の敵",
+"reading": "めのかたき",
+"meaning": "誰かを敵視して、にくらしく思うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "手軽",
+"reading": "てがる",
+"meaning": "手間がかからず簡単なこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "雲をつかむよう",
+"reading": "くもをつかむよう",
+"meaning": "とらえどころがなく、内容がはっきりしないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "似たり寄ったり",
+"reading": "にたりよったり",
+"meaning": "どれも同じようで、あまり違いがないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "首をひねる",
+"reading": "くびをひねる",
+"meaning": "納得できずに考え込んだり、疑わしく思ったりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "何しろ",
+"reading": "なにしろ",
+"meaning": "何と言っても。とにかく。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p067_001",
+"source": "vocab1300",
+"sourcePage": 67,
+"type": "meaning_context",
+"word": "目の敵",
+"reading": "めのかたき",
+"sentence": "弟は、いつも自分をからかう相手を目の敵にしていました。",
+"question": "目の敵 の意味はどれ？",
+"choices": [
+"手間がかからず簡単なこと",
+"どれも同じようなこと",
+"納得できず考え込むこと",
+"誰かを敵視して、にくらしく思うこと"
+],
+"answerIndex": 3,
+"explanation": "目の敵は、誰かを敵視して、にくらしく思うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p067"]
+},
+{
+"id": "vocab1300_p067_002",
+"source": "vocab1300",
+"sourcePage": 67,
+"type": "meaning_context",
+"word": "手軽",
+"reading": "てがる",
+"sentence": "この料理は、電子レンジで作れるので手軽です。",
+"question": "手軽 の意味はどれ？",
+"choices": [
+"内容がはっきりしないこと",
+"手間がかからず簡単なこと",
+"とにかくということ",
+"敵のように思うこと"
+],
+"answerIndex": 1,
+"explanation": "手軽は、手間がかからず簡単なことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p067"]
+},
+{
+"id": "vocab1300_p067_003",
+"source": "vocab1300",
+"sourcePage": 67,
+"type": "meaning_context",
+"word": "雲をつかむよう",
+"reading": "くもをつかむよう",
+"sentence": "『すごいものを作る』だけでは、雲をつかむような話です。",
+"question": "雲をつかむよう の意味はどれ？",
+"choices": [
+"とらえどころがなく、はっきりしないようす",
+"手間がかからないこと",
+"どれも同じようなこと",
+"疑わしく思うこと"
+],
+"answerIndex": 0,
+"explanation": "雲をつかむようは、とらえどころがなく、内容がはっきりしないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p067"]
+},
+{
+"id": "vocab1300_p067_004",
+"source": "vocab1300",
+"sourcePage": 67,
+"type": "meaning_context",
+"word": "似たり寄ったり",
+"reading": "にたりよったり",
+"sentence": "二つのかばんは、色も形も似たり寄ったりでした。",
+"question": "似たり寄ったり の意味はどれ？",
+"choices": [
+"敵のように思うこと",
+"何と言ってもということ",
+"どれも同じようで、あまり違いがないこと",
+"内容がはっきりしないこと"
+],
+"answerIndex": 2,
+"explanation": "似たり寄ったりは、どれも同じようで、あまり違いがないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p067"]
+},
+{
+"id": "vocab1300_p067_005",
+"source": "vocab1300",
+"sourcePage": 67,
+"type": "meaning_context",
+"word": "首をひねる",
+"reading": "くびをひねる",
+"sentence": "友だちの説明を聞いても分からず、先生は首をひねりました。",
+"question": "首をひねる の意味はどれ？",
+"choices": [
+"納得できずに考え込んだり、疑わしく思ったりすること",
+"とにかくということ",
+"手間がかからないこと",
+"敵のように思うこと"
+],
+"answerIndex": 0,
+"explanation": "首をひねるは、納得できずに考え込んだり、疑わしく思ったりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p067"]
+},
+{
+"id": "vocab1300_p067_006",
+"source": "vocab1300",
+"sourcePage": 67,
+"type": "meaning_context",
+"word": "何しろ",
+"reading": "なにしろ",
+"sentence": "何しろ初めてなので、少し時間がかかりました。",
+"question": "何しろ の意味はどれ？",
+"choices": [
+"同じようで",
+"疑わしく思って",
+"何と言っても、とにかく",
+"はっきりしないで"
+],
+"answerIndex": 2,
+"explanation": "何しろは、何と言っても、とにかく、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p067"]
+}
+],
+"answerIndexCheck": {
+"target": "p067_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 1, 0, 2, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『雲をつかむよう』は比喩表現なので、解説で『はっきりしない話』と短く言い換えると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 68,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "猫かわいがり",
+"reading": "ねこかわいがり",
+"meaning": "非常にかわいがって甘やかすこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "あざける",
+"reading": "あざける",
+"meaning": "ばかにして悪口を言ったりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "ひもじい",
+"reading": "ひもじい",
+"meaning": "ひどくお腹がすいているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "ないがしろ",
+"reading": "ないがしろ",
+"meaning": "人や物をいい加減に扱うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "特色",
+"reading": "とくしょく",
+"meaning": "ほかと比べて、特に良いところや目立っているところ",
+"detectedType": "meaning_context"
+},
+{
+"word": "打ち込む",
+"reading": "うちこむ",
+"meaning": "没頭すること。一所懸命に何かをすること。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p068_001",
+"source": "vocab1300",
+"sourcePage": 68,
+"type": "meaning_context",
+"word": "猫かわいがり",
+"reading": "ねこかわいがり",
+"sentence": "祖父は小さな犬を猫かわいがりして、何でもしてあげます。",
+"question": "猫かわいがり の意味はどれ？",
+"choices": [
+"人や物をいい加減に扱うこと",
+"ひどくお腹がすくこと",
+"ばかにして悪口を言うこと",
+"非常にかわいがって甘やかすこと"
+],
+"answerIndex": 3,
+"explanation": "猫かわいがりは、非常にかわいがって甘やかすことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p068"]
+},
+{
+"id": "vocab1300_p068_002",
+"source": "vocab1300",
+"sourcePage": 68,
+"type": "meaning_context",
+"word": "あざける",
+"reading": "あざける",
+"sentence": "失敗した友だちをあざけるのではなく、助けたいです。",
+"question": "あざける の意味はどれ？",
+"choices": [
+"特色があること",
+"ばかにして悪口を言ったりすること",
+"一所懸命に取り組むこと",
+"ひどくお腹がすくこと"
+],
+"answerIndex": 1,
+"explanation": "あざけるは、ばかにして悪口を言ったりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p068"]
+},
+{
+"id": "vocab1300_p068_003",
+"source": "vocab1300",
+"sourcePage": 68,
+"type": "meaning_context",
+"word": "ひもじい",
+"reading": "ひもじい",
+"sentence": "朝ごはんを食べなかったので、昼前にはひもじくなりました。",
+"question": "ひもじい の意味はどれ？",
+"choices": [
+"人を甘やかすこと",
+"物をいい加減に扱うこと",
+"ひどくお腹がすいているようす",
+"ほかより目立つこと"
+],
+"answerIndex": 2,
+"explanation": "ひもじいは、ひどくお腹がすいているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p068"]
+},
+{
+"id": "vocab1300_p068_004",
+"source": "vocab1300",
+"sourcePage": 68,
+"type": "meaning_context",
+"word": "ないがしろ",
+"reading": "ないがしろ",
+"sentence": "約束をないがしろにすると、相手を悲しませてしまいます。",
+"question": "ないがしろ の意味はどれ？",
+"choices": [
+"人や物をいい加減に扱うこと",
+"ひどくお腹がすくこと",
+"一所懸命にすること",
+"かわいがって甘やかすこと"
+],
+"answerIndex": 0,
+"explanation": "ないがしろは、人や物をいい加減に扱うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p068"]
+},
+{
+"id": "vocab1300_p068_005",
+"source": "vocab1300",
+"sourcePage": 68,
+"type": "meaning_context",
+"word": "特色",
+"reading": "とくしょく",
+"sentence": "この学校の特色は、外で遊ぶ時間が長いことです。",
+"question": "特色 の意味はどれ？",
+"choices": [
+"ひどく空腹なこと",
+"ほかと比べて、特に良いところや目立つところ",
+"いい加減に扱うこと",
+"ばかにして笑うこと"
+],
+"answerIndex": 1,
+"explanation": "特色は、ほかと比べて、特に良いところや目立っているところです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p068"]
+},
+{
+"id": "vocab1300_p068_006",
+"source": "vocab1300",
+"sourcePage": 68,
+"type": "meaning_context",
+"word": "打ち込む",
+"reading": "うちこむ",
+"sentence": "青ちゃんは、ピアノの練習に打ち込んでいます。",
+"question": "打ち込む の意味はどれ？",
+"choices": [
+"人を甘やかすこと",
+"物を粗末にすること",
+"お腹がすくこと",
+"没頭して、一所懸命に何かをすること"
+],
+"answerIndex": 3,
+"explanation": "打ち込むは、没頭すること、一所懸命に何かをすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p068"]
+}
+],
+"answerIndexCheck": {
+"target": "p068_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 1, 2, 0, 1, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "動物を含む語句の扱い",
+"suggestion": "『猫かわいがり』は動物名を含みますが、ことわざ群ではなく通常語彙としてmeaning_contextで扱えば十分です。"
+}
+]
+},
+{
+"sourcePage": 69,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "強いる",
+"reading": "しいる",
+"meaning": "無理にさせること",
+"detectedType": "meaning_context"
+},
+{
+"word": "生々しい",
+"reading": "なまなましい",
+"meaning": "目に見えるようにリアルなようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "なじる",
+"reading": "なじる",
+"meaning": "良くない点や不満な点を責めること",
+"detectedType": "meaning_context"
+},
+{
+"word": "無礼",
+"reading": "ぶれい",
+"meaning": "礼儀をわきまえていないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "紙一重",
+"reading": "かみひとえ",
+"meaning": "違いがわずかであること",
+"detectedType": "meaning_context"
+},
+{
+"word": "手はない",
+"reading": "てはない",
+"meaning": "そうするべきだ、そうしないのはもったいない、という意味",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p069_001",
+"source": "vocab1300",
+"sourcePage": 69,
+"type": "meaning_context",
+"word": "強いる",
+"reading": "しいる",
+"sentence": "友だちに、いやな係を無理に強いるのはよくありません。",
+"question": "強いる の意味はどれ？",
+"choices": [
+"無理にさせること",
+"礼儀がないこと",
+"違いがわずかなこと",
+"責めること"
+],
+"answerIndex": 0,
+"explanation": "強いるは、無理にさせることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p069"]
+},
+{
+"id": "vocab1300_p069_002",
+"source": "vocab1300",
+"sourcePage": 69,
+"type": "meaning_context",
+"word": "生々しい",
+"reading": "なまなましい",
+"sentence": "祖父は、昔の地震の話を生々しく話してくれました。",
+"question": "生々しい の意味はどれ？",
+"choices": [
+"そうするべきだということ",
+"目に見えるようにリアルなようす",
+"礼儀を知らないこと",
+"違いが少ないこと"
+],
+"answerIndex": 1,
+"explanation": "生々しいは、目に見えるようにリアルなようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p069"]
+},
+{
+"id": "vocab1300_p069_003",
+"source": "vocab1300",
+"sourcePage": 69,
+"type": "meaning_context",
+"word": "なじる",
+"reading": "なじる",
+"sentence": "失敗した友だちをなじるより、次の方法を考えたいです。",
+"question": "なじる の意味はどれ？",
+"choices": [
+"無理にさせること",
+"リアルに話すこと",
+"良くない点や不満な点を責めること",
+"違いがわずかなこと"
+],
+"answerIndex": 2,
+"explanation": "なじるは、良くない点や不満な点を責めることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p069"]
+},
+{
+"id": "vocab1300_p069_004",
+"source": "vocab1300",
+"sourcePage": 69,
+"type": "meaning_context",
+"word": "無礼",
+"reading": "ぶれい",
+"sentence": "あいさつをしないのは、少し無礼な態度です。",
+"question": "無礼 の意味はどれ？",
+"choices": [
+"そうしないのはもったいないこと",
+"無理にさせること",
+"目に見えるようなこと",
+"礼儀をわきまえていないこと"
+],
+"answerIndex": 3,
+"explanation": "無礼は、礼儀をわきまえていないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p069"]
+},
+{
+"id": "vocab1300_p069_005",
+"source": "vocab1300",
+"sourcePage": 69,
+"type": "meaning_context",
+"word": "紙一重",
+"reading": "かみひとえ",
+"sentence": "一位と二位の差は紙一重でした。",
+"question": "紙一重 の意味はどれ？",
+"choices": [
+"違いがわずかであること",
+"礼儀がないこと",
+"強く言うこと",
+"責めること"
+],
+"answerIndex": 0,
+"explanation": "紙一重は、違いがわずかであることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p069"]
+},
+{
+"id": "vocab1300_p069_006",
+"source": "vocab1300",
+"sourcePage": 69,
+"type": "meaning_context",
+"word": "手はない",
+"reading": "てはない",
+"sentence": "せっかく近くに図書館があるなら、使わない手はありません。",
+"question": "手はない の意味はどれ？",
+"choices": [
+"無理にやらせること",
+"リアルなようす",
+"礼儀がないこと",
+"そうするべきだ、しないのはもったいないということ"
+],
+"answerIndex": 3,
+"explanation": "手はないは、そうするべきだ、そうしないのはもったいない、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p069"]
+}
+],
+"answerIndexCheck": {
+"target": "p069_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 3],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "慣用的な言い回し",
+"suggestion": "『手はない』は『手がない』とは違い、『使わない手はない』の形で出ることが多いため、例文もその形にすると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 70,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "おべっか",
+"reading": "おべっか",
+"meaning": "相手に気に入られるように、調子のよいことを言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "肩の荷が下りる",
+"reading": "かたのにがおりる",
+"meaning": "大きな仕事や負担から解放されて、気持ちが楽になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "観衆",
+"reading": "かんしゅう",
+"meaning": "大勢の見物客",
+"detectedType": "meaning_context"
+},
+{
+"word": "ひるむ",
+"reading": "ひるむ",
+"meaning": "強い相手やこわいことに気おくれして、思い切りが悪くなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "尻目に",
+"reading": "しりめに",
+"meaning": "気づいているが、無視すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "現状",
+"reading": "げんじょう",
+"meaning": "現在の状態や有り様",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p070_001",
+"source": "vocab1300",
+"sourcePage": 70,
+"type": "meaning_context",
+"word": "おべっか",
+"reading": "おべっか",
+"sentence": "おべっかばかり言うより、本当によいと思ったことを伝えたいです。",
+"question": "おべっか の意味はどれ？",
+"choices": [
+"大勢の見物客",
+"現在の状態",
+"気づいているが無視すること",
+"相手に気に入られるように、調子のよいことを言うこと"
+],
+"answerIndex": 3,
+"explanation": "おべっかは、相手に気に入られるように、調子のよいことを言うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p070"]
+},
+{
+"id": "vocab1300_p070_002",
+"source": "vocab1300",
+"sourcePage": 70,
+"type": "meaning_context",
+"word": "肩の荷が下りる",
+"reading": "かたのにがおりる",
+"sentence": "発表が終わって、やっと肩の荷が下りました。",
+"question": "肩の荷が下りる の意味はどれ？",
+"choices": [
+"気おくれすること",
+"大きな仕事や負担から解放されて、気持ちが楽になること",
+"調子のよいことを言うこと",
+"見物客のこと"
+],
+"answerIndex": 1,
+"explanation": "肩の荷が下りるは、大きな仕事や負担から解放されて、気持ちが楽になることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p070"]
+},
+{
+"id": "vocab1300_p070_003",
+"source": "vocab1300",
+"sourcePage": 70,
+"type": "meaning_context",
+"word": "観衆",
+"reading": "かんしゅう",
+"sentence": "試合でよいプレーをすると、観衆から大きな拍手が起きました。",
+"question": "観衆 の意味はどれ？",
+"choices": [
+"気づいていて無視すること",
+"現在の状態",
+"大勢の見物客",
+"気持ちが楽になること"
+],
+"answerIndex": 2,
+"explanation": "観衆は、大勢の見物客のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p070"]
+},
+{
+"id": "vocab1300_p070_004",
+"source": "vocab1300",
+"sourcePage": 70,
+"type": "meaning_context",
+"word": "ひるむ",
+"reading": "ひるむ",
+"sentence": "相手が強そうでも、ひるまずに試合を始めました。",
+"question": "ひるむ の意味はどれ？",
+"choices": [
+"大勢で見ること",
+"気づいても無視すること",
+"今の状態のこと",
+"強い相手やこわいことに気おくれすること"
+],
+"answerIndex": 3,
+"explanation": "ひるむは、強い相手やこわいことに気おくれして、思い切りが悪くなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p070"]
+},
+{
+"id": "vocab1300_p070_005",
+"source": "vocab1300",
+"sourcePage": 70,
+"type": "meaning_context",
+"word": "尻目に",
+"reading": "しりめに",
+"sentence": "片づける友だちを尻目に、弟は先に遊びに行ってしまいました。",
+"question": "尻目に の意味はどれ？",
+"choices": [
+"気づいているが、無視すること",
+"気持ちが楽になること",
+"見物客のこと",
+"調子のよいことを言うこと"
+],
+"answerIndex": 0,
+"explanation": "尻目には、気づいているが、無視することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p070"]
+},
+{
+"id": "vocab1300_p070_006",
+"source": "vocab1300",
+"sourcePage": 70,
+"type": "meaning_context",
+"word": "現状",
+"reading": "げんじょう",
+"sentence": "先生は、クラスの現状を見て席替えを考えました。",
+"question": "現状 の意味はどれ？",
+"choices": [
+"大きな負担がなくなること",
+"大勢の見物客",
+"現在の状態や有り様",
+"相手に気に入られる言葉"
+],
+"answerIndex": 2,
+"explanation": "現状は、現在の状態や有り様のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p070"]
+}
+],
+"answerIndexCheck": {
+"target": "p070_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 1, 2, 3, 0, 2],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 2,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 2,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『肩の荷が下りる』は長い慣用句なので、アプリ側でword表示が折り返される前提にするとよさそうです。"
+}
+]
+}
+]

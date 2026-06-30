@@ -1,0 +1,986 @@
+[
+{
+"sourcePage": 61,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word",
+"reason": "魚を含むことわざ・慣用句を扱うページです。基本はmeaning_contextで問題化し、管理用にsubtype: animal_idiom_wordを付けます。"
+},
+"extractedWords": [
+{
+"word": "うなぎの寝床",
+"reading": "うなぎのねどこ",
+"meaning": "細長い家や部屋のこと",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "えびで鯛を釣る",
+"reading": "えびでたいをつる",
+"meaning": "少しの元手や努力で、とても大きな利益を得ること",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "柳の下のどじょう",
+"reading": "やなぎのしたのどじょう",
+"meaning": "前と同じ方法で、また同じ幸運を得ようとすること",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "逃げた魚は大きい",
+"reading": "にげたさかなはおおきい",
+"meaning": "手に入れそこねたものほど、価値があるように感じること",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "腐っても鯛",
+"reading": "くさってもたい",
+"meaning": "落ちぶれても、もとの価値や品が残っていること",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "まな板の鯉",
+"reading": "まないたのこい",
+"meaning": "どうにもできず、相手に任せるしかない状態",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p061_001",
+"source": "vocab1300",
+"sourcePage": 61,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "うなぎの寝床",
+"reading": "うなぎのねどこ",
+"sentence": "その古い店は、入口はせまいけれど奥が長く、うなぎの寝床のようでした。",
+"question": "うなぎの寝床 の意味はどれ？",
+"choices": [
+"少しの元手で大きな利益を得ること",
+"細長い家や部屋のこと",
+"同じ幸運をまたねらうこと",
+"手に入らないものがよく見えること"
+],
+"answerIndex": 1,
+"explanation": "うなぎの寝床は、細長い家や部屋のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p061"]
+},
+{
+"id": "vocab1300_p061_002",
+"source": "vocab1300",
+"sourcePage": 61,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "えびで鯛を釣る",
+"reading": "えびでたいをつる",
+"sentence": "小さなお礼をしただけなのに大きなお返しをもらい、えびで鯛を釣るようでした。",
+"question": "えびで鯛を釣る の意味はどれ？",
+"choices": [
+"相手に任せるしかないこと",
+"落ちぶれても品があること",
+"少しの元手で大きな利益を得ること",
+"細長い家や部屋のこと"
+],
+"answerIndex": 2,
+"explanation": "えびで鯛を釣るは、少しの元手や努力で、とても大きな利益を得ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p061"]
+},
+{
+"id": "vocab1300_p061_003",
+"source": "vocab1300",
+"sourcePage": 61,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "柳の下のどじょう",
+"reading": "やなぎのしたのどじょう",
+"sentence": "一度当たったからといって、また同じ方法で当たるとは限りません。柳の下のどじょうですね。",
+"question": "柳の下のどじょう の意味はどれ？",
+"choices": [
+"同じ方法でまた同じ幸運を得ようとすること",
+"少しの元手で大きな利益を得ること",
+"手に入らないものがよく見えること",
+"相手に任せるしかないこと"
+],
+"answerIndex": 0,
+"explanation": "柳の下のどじょうは、前と同じ方法で、また同じ幸運を得ようとすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p061"]
+},
+{
+"id": "vocab1300_p061_004",
+"source": "vocab1300",
+"sourcePage": 61,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "逃げた魚は大きい",
+"reading": "にげたさかなはおおきい",
+"sentence": "買わなかったおもちゃが、あとからとてもよく見えてきました。逃げた魚は大きいですね。",
+"question": "逃げた魚は大きい の意味はどれ？",
+"choices": [
+"落ちぶれても品があること",
+"細長い家や部屋のこと",
+"同じ幸運をまたねらうこと",
+"手に入れそこねたものほど、よく見えること"
+],
+"answerIndex": 3,
+"explanation": "逃げた魚は大きいは、手に入れそこねたものほど価値があるように感じることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p061"]
+},
+{
+"id": "vocab1300_p061_005",
+"source": "vocab1300",
+"sourcePage": 61,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "腐っても鯛",
+"reading": "くさってもたい",
+"sentence": "古い道具ですが、もとはよい品なので、今でもしっかり使えます。腐っても鯛ですね。",
+"question": "腐っても鯛 の意味はどれ？",
+"choices": [
+"相手に任せるしかないこと",
+"少しの元手で大きな利益を得ること",
+"落ちぶれても、もとの価値や品が残ること",
+"同じ幸運をまたねらうこと"
+],
+"answerIndex": 2,
+"explanation": "腐っても鯛は、落ちぶれても、もとの価値や品が残っているという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p061"]
+},
+{
+"id": "vocab1300_p061_006",
+"source": "vocab1300",
+"sourcePage": 61,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "まな板の鯉",
+"reading": "まないたのこい",
+"sentence": "検査の結果を待つしかなく、私はまな板の鯉のような気持ちでした。",
+"question": "まな板の鯉 の意味はどれ？",
+"choices": [
+"細長い家や部屋のこと",
+"手に入らないものがよく見えること",
+"落ちぶれても品があること",
+"どうにもできず、相手に任せるしかない状態"
+],
+"answerIndex": 3,
+"explanation": "まな板の鯉は、どうにもできず、相手に任せるしかない状態です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p061"]
+}
+],
+"answerIndexCheck": {
+"target": "p061_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 0, 3, 2, 3],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 2,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 2,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "魚を含むことわざ",
+"suggestion": "p061は魚を含むことわざ・慣用句のページです。既存のanimal_idiom_wordに含めて管理できますが、魚だけを分けたい場合は将来的にfish_idiom_wordを検討してもよさそうです。"
+}
+]
+},
+{
+"sourcePage": 62,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "weather_word",
+"reason": "風に関する語句を絵や場面から選ぶページなので、image_wordに適しています。天候語としてsubtype: weather_wordを付けます。"
+},
+"extractedWords": [
+{
+"word": "はやて",
+"reading": "はやて",
+"meaning": "急に強く吹く風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "野分け",
+"reading": "のわけ",
+"meaning": "秋から冬にかけて吹く暴風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "春一番",
+"reading": "はるいちばん",
+"meaning": "立春のころ、その年で最初に強く吹く南風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "山背",
+"reading": "やませ",
+"meaning": "夏に東北地方の太平洋岸に吹く冷たい北東の風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "おろし",
+"reading": "おろし",
+"meaning": "山から吹きおろす風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "木枯らし",
+"reading": "こがらし",
+"meaning": "晩秋から初冬にかけて吹く冷たい強風",
+"detectedType": "image_word",
+"subtype": "weather_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p062_001",
+"source": "vocab1300",
+"sourcePage": 62,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "はやて",
+"reading": "はやて",
+"image": "images/weather_hayate.png",
+"hint": "急に強い風が吹いて、人がびっくりしています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"山背",
+"はやて",
+"春一番",
+"木枯らし"
+],
+"answerIndex": 1,
+"explanation": "はやては、急に強く吹く風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p062"]
+},
+{
+"id": "vocab1300_p062_002",
+"source": "vocab1300",
+"sourcePage": 62,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "野分け",
+"reading": "のわけ",
+"image": "images/weather_nowake.png",
+"hint": "秋から冬にかけて、強い風が吹き荒れています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"春一番",
+"おろし",
+"はやて",
+"野分け"
+],
+"answerIndex": 3,
+"explanation": "野分けは、秋から冬にかけて吹く暴風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p062"]
+},
+{
+"id": "vocab1300_p062_003",
+"source": "vocab1300",
+"sourcePage": 62,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "春一番",
+"reading": "はるいちばん",
+"image": "images/weather_haruichiban.png",
+"hint": "春の初めに、暖かい南風が強く吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"春一番",
+"山背",
+"木枯らし",
+"おろし"
+],
+"answerIndex": 0,
+"explanation": "春一番は、立春のころ、その年で最初に強く吹く南風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p062"]
+},
+{
+"id": "vocab1300_p062_004",
+"source": "vocab1300",
+"sourcePage": 62,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "山背",
+"reading": "やませ",
+"image": "images/weather_yamase.png",
+"hint": "夏、東北地方の海側に冷たい風が吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"木枯らし",
+"はやて",
+"山背",
+"春一番"
+],
+"answerIndex": 2,
+"explanation": "山背は、夏に東北地方の太平洋岸に吹く冷たい北東の風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p062"]
+},
+{
+"id": "vocab1300_p062_005",
+"source": "vocab1300",
+"sourcePage": 62,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "おろし",
+"reading": "おろし",
+"image": "images/weather_oroshi.png",
+"hint": "山の上から、下へ向かって風が吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"山背",
+"おろし",
+"野分け",
+"木枯らし"
+],
+"answerIndex": 1,
+"explanation": "おろしは、山から吹きおろす風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p062"]
+},
+{
+"id": "vocab1300_p062_006",
+"source": "vocab1300",
+"sourcePage": 62,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "木枯らし",
+"reading": "こがらし",
+"image": "images/weather_kogarashi.png",
+"hint": "秋の終わりから冬の初めに、冷たい強い風が吹いています。",
+"question": "この風を表す言葉はどれ？",
+"choices": [
+"春一番",
+"山背",
+"はやて",
+"木枯らし"
+],
+"answerIndex": 3,
+"explanation": "木枯らしは、晩秋から初冬にかけて吹く冷たい強風です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p062"]
+}
+],
+"answerIndexCheck": {
+"target": "p062_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 3, 0, 2, 1, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "weather_wordの継続",
+"suggestion": "p062は風に関する天候語なので、p038・p050と同じくsubtype: weather_wordで管理できます。"
+},
+{
+"point": "風語の区別",
+"suggestion": "『春一番』『木枯らし』『山背』は季節や地域が大事なので、hintに季節・場所・吹き方を短く入れるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 63,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "五十歩百歩",
+"reading": "ごじっぽひゃっぽ",
+"meaning": "少しの違いはあるが、大きな差はないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "よそよそしい",
+"reading": "よそよそしい",
+"meaning": "他人行儀で、打ち解けていないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "装う",
+"reading": "よそおう",
+"meaning": "違うように見せかけること",
+"detectedType": "meaning_context"
+},
+{
+"word": "念じる",
+"reading": "ねんじる",
+"meaning": "強く願うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "あどけない",
+"reading": "あどけない",
+"meaning": "天真らんまんな様子。素直でかわいらしいこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "先端",
+"reading": "せんたん",
+"meaning": "とがっている先の部分",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p063_001",
+"source": "vocab1300",
+"sourcePage": 63,
+"type": "meaning_context",
+"word": "五十歩百歩",
+"reading": "ごじっぽひゃっぽ",
+"sentence": "二人の点数は少し違いますが、どちらも同じくらいです。五十歩百歩ですね。",
+"question": "五十歩百歩 の意味はどれ？",
+"choices": [
+"強く願うこと",
+"少し違っても、大きな差はないこと",
+"違うように見せかけること",
+"とがっている先の部分"
+],
+"answerIndex": 1,
+"explanation": "五十歩百歩は、少しの違いはあっても、大きな差はないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p063"]
+},
+{
+"id": "vocab1300_p063_002",
+"source": "vocab1300",
+"sourcePage": 63,
+"type": "meaning_context",
+"word": "よそよそしい",
+"reading": "よそよそしい",
+"sentence": "転校したばかりで、友だちは少しよそよそしい態度でした。",
+"question": "よそよそしい の意味はどれ？",
+"choices": [
+"素直でかわいらしいようす",
+"強く願うこと",
+"他人行儀で、打ち解けていないようす",
+"少ししか違わないこと"
+],
+"answerIndex": 2,
+"explanation": "よそよそしいは、他人行儀で、打ち解けていないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p063"]
+},
+{
+"id": "vocab1300_p063_003",
+"source": "vocab1300",
+"sourcePage": 63,
+"type": "meaning_context",
+"word": "装う",
+"reading": "よそおう",
+"sentence": "電話の相手は、先生を装って名前を聞き出そうとしました。",
+"question": "装う の意味はどれ？",
+"choices": [
+"とがっている先を示すこと",
+"違うように見せかけること",
+"素直でかわいいこと",
+"打ち解けていないこと"
+],
+"answerIndex": 1,
+"explanation": "装うは、本当とは違うように見せかけることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p063"]
+},
+{
+"id": "vocab1300_p063_004",
+"source": "vocab1300",
+"sourcePage": 63,
+"type": "meaning_context",
+"word": "念じる",
+"reading": "ねんじる",
+"sentence": "試合の前に、みんなで勝てますようにと念じました。",
+"question": "念じる の意味はどれ？",
+"choices": [
+"少し違っても同じくらいなこと",
+"他人のふりをすること",
+"強く願うこと",
+"とがっている先の部分"
+],
+"answerIndex": 2,
+"explanation": "念じるは、心の中で強く願うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p063"]
+},
+{
+"id": "vocab1300_p063_005",
+"source": "vocab1300",
+"sourcePage": 63,
+"type": "meaning_context",
+"word": "あどけない",
+"reading": "あどけない",
+"sentence": "小さな子のあどけない笑顔を見て、みんながなごみました。",
+"question": "あどけない の意味はどれ？",
+"choices": [
+"素直でかわいらしいようす",
+"強く願うこと",
+"打ち解けていないようす",
+"違うふりをすること"
+],
+"answerIndex": 0,
+"explanation": "あどけないは、素直でかわいらしいようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p063"]
+},
+{
+"id": "vocab1300_p063_006",
+"source": "vocab1300",
+"sourcePage": 63,
+"type": "meaning_context",
+"word": "先端",
+"reading": "せんたん",
+"sentence": "えんぴつの先端がとがっているので、気をつけて持ちました。",
+"question": "先端 の意味はどれ？",
+"choices": [
+"違うように見せること",
+"大きな差がないこと",
+"打ち解けていないこと",
+"とがっている先の部分"
+],
+"answerIndex": 3,
+"explanation": "先端は、とがっている先の部分です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p063"]
+}
+],
+"answerIndexCheck": {
+"target": "p063_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 1, 2, 0, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 64,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ひときわ",
+"reading": "ひときわ",
+"meaning": "他よりもいっそう目立っているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "とりとめのない",
+"reading": "とりとめのない",
+"meaning": "話などに要点やまとまりがないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "警告",
+"reading": "けいこく",
+"meaning": "悪いことが起こらないように気をつけるよう言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "あらさがし",
+"reading": "あらさがし",
+"meaning": "悪いところばかり見つけようとすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "尻上がり",
+"reading": "しりあがり",
+"meaning": "後になればなるほど、良くなっていくこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "素質",
+"reading": "そしつ",
+"meaning": "生まれながらに備わっている性質や力",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p064_001",
+"source": "vocab1300",
+"sourcePage": 64,
+"type": "meaning_context",
+"word": "ひときわ",
+"reading": "ひときわ",
+"sentence": "発表会で、その子の歌声はひときわ目立っていました。",
+"question": "ひときわ の意味はどれ？",
+"choices": [
+"後になるほど良くなるようす",
+"他よりもいっそう目立って",
+"悪いところを探して",
+"要点がないようす"
+],
+"answerIndex": 1,
+"explanation": "ひときわは、他よりもいっそう目立っているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p064"]
+},
+{
+"id": "vocab1300_p064_002",
+"source": "vocab1300",
+"sourcePage": 64,
+"type": "meaning_context",
+"word": "とりとめのない",
+"reading": "とりとめのない",
+"sentence": "とりとめのない話が続き、何を言いたいのか分かりませんでした。",
+"question": "とりとめのない の意味はどれ？",
+"choices": [
+"気をつけるよう言うこと",
+"悪いところを探すこと",
+"生まれつきの力",
+"要点やまとまりがないようす"
+],
+"answerIndex": 3,
+"explanation": "とりとめのないは、話などに要点やまとまりがないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p064"]
+},
+{
+"id": "vocab1300_p064_003",
+"source": "vocab1300",
+"sourcePage": 64,
+"type": "meaning_context",
+"word": "警告",
+"reading": "けいこく",
+"sentence": "先生は、走ると危ない場所でみんなに警告しました。",
+"question": "警告 の意味はどれ？",
+"choices": [
+"悪いことが起こらないように気をつけるよう言うこと",
+"後になるほど良くなること",
+"他より目立つこと",
+"要点がないこと"
+],
+"answerIndex": 0,
+"explanation": "警告は、悪いことが起こらないように気をつけるよう言うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p064"]
+},
+{
+"id": "vocab1300_p064_004",
+"source": "vocab1300",
+"sourcePage": 64,
+"type": "meaning_context",
+"word": "あらさがし",
+"reading": "あらさがし",
+"sentence": "友だちのあらさがしばかりせず、よいところも見つけたいです。",
+"question": "あらさがし の意味はどれ？",
+"choices": [
+"要点をまとめること",
+"悪いところばかり見つけようとすること",
+"生まれつきの力",
+"気をつけるよう言うこと"
+],
+"answerIndex": 1,
+"explanation": "あらさがしは、悪いところばかり見つけようとすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p064"]
+},
+{
+"id": "vocab1300_p064_005",
+"source": "vocab1300",
+"sourcePage": 64,
+"type": "meaning_context",
+"word": "尻上がり",
+"reading": "しりあがり",
+"sentence": "試合の後半になるほど、チームの調子は尻上がりに良くなりました。",
+"question": "尻上がり の意味はどれ？",
+"choices": [
+"他より目立つこと",
+"悪いところを探すこと",
+"後になればなるほど良くなっていくこと",
+"危ないと知らせること"
+],
+"answerIndex": 2,
+"explanation": "尻上がりは、後になればなるほど良くなっていくことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p064"]
+},
+{
+"id": "vocab1300_p064_006",
+"source": "vocab1300",
+"sourcePage": 64,
+"type": "meaning_context",
+"word": "素質",
+"reading": "そしつ",
+"sentence": "青ちゃんには、物語を作る素質があるかもしれません。",
+"question": "素質 の意味はどれ？",
+"choices": [
+"要点がない話",
+"悪いところを探すこと",
+"危ないと知らせること",
+"生まれながらに備わっている性質や力"
+],
+"answerIndex": 3,
+"explanation": "素質は、生まれながらに備わっている性質や力です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p064"]
+}
+],
+"answerIndexCheck": {
+"target": "p064_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 3, 0, 1, 2, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "悪いニュアンスの語句",
+"suggestion": "『あらさがし』は悪いニュアンスがあるため、例文では人を責めすぎず、『よいところも見つけたい』のように補うとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 65,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "妥協する",
+"reading": "だきょうする",
+"meaning": "お互いにゆずり合って解決すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "スペース",
+"reading": "スペース",
+"meaning": "空間。空いている場所。",
+"detectedType": "meaning_context"
+},
+{
+"word": "腹を決める",
+"reading": "はらをきめる",
+"meaning": "決断すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "あたり障りのない",
+"reading": "あたりさわりのない",
+"meaning": "差し障りがなく、周囲に悪い影響を与えないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "格段",
+"reading": "かくだん",
+"meaning": "差や程度がとても大きいこと。けた違い。",
+"detectedType": "meaning_context"
+},
+{
+"word": "好転",
+"reading": "こうてん",
+"meaning": "事態が良い方向に変わること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p065_001",
+"source": "vocab1300",
+"sourcePage": 65,
+"type": "meaning_context",
+"word": "妥協する",
+"reading": "だきょうする",
+"sentence": "話し合いでお互いに少しずつゆずり、妥協することにしました。",
+"question": "妥協する の意味はどれ？",
+"choices": [
+"お互いにゆずり合って解決すること",
+"決断すること",
+"空いている場所",
+"事態が良い方向に変わること"
+],
+"answerIndex": 0,
+"explanation": "妥協するは、お互いにゆずり合って解決することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p065"]
+},
+{
+"id": "vocab1300_p065_002",
+"source": "vocab1300",
+"sourcePage": 65,
+"type": "meaning_context",
+"word": "スペース",
+"reading": "スペース",
+"sentence": "机を置くには、もう少し広いスペースが必要です。",
+"question": "スペース の意味はどれ？",
+"choices": [
+"差や程度が大きいこと",
+"差し障りがないこと",
+"空間、空いている場所",
+"決断すること"
+],
+"answerIndex": 2,
+"explanation": "スペースは、空間や空いている場所のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p065"]
+},
+{
+"id": "vocab1300_p065_003",
+"source": "vocab1300",
+"sourcePage": 65,
+"type": "meaning_context",
+"word": "腹を決める",
+"reading": "はらをきめる",
+"sentence": "むずかしい発表だけれど、やると腹を決めました。",
+"question": "腹を決める の意味はどれ？",
+"choices": [
+"お互いにゆずること",
+"決断すること",
+"空いている場所",
+"良い方向に変わること"
+],
+"answerIndex": 1,
+"explanation": "腹を決めるは、決断することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p065"]
+},
+{
+"id": "vocab1300_p065_004",
+"source": "vocab1300",
+"sourcePage": 65,
+"type": "meaning_context",
+"word": "あたり障りのない",
+"reading": "あたりさわりのない",
+"sentence": "けんかにならないよう、あたり障りのない言い方を選びました。",
+"question": "あたり障りのない の意味はどれ？",
+"choices": [
+"決断すること",
+"差し障りがなく、周囲に悪い影響を与えないこと",
+"差がとても大きいこと",
+"良い方向に変わること"
+],
+"answerIndex": 1,
+"explanation": "あたり障りのないは、差し障りがなく、周囲に悪い影響を与えないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p065"]
+},
+{
+"id": "vocab1300_p065_005",
+"source": "vocab1300",
+"sourcePage": 65,
+"type": "meaning_context",
+"word": "格段",
+"reading": "かくだん",
+"sentence": "毎日練習したので、ピアノの音が格段にきれいになりました。",
+"question": "格段 の意味はどれ？",
+"choices": [
+"空いている場所",
+"お互いにゆずること",
+"差や程度がとても大きいこと",
+"決断すること"
+],
+"answerIndex": 2,
+"explanation": "格段は、差や程度がとても大きいことです。けた違い、とも言えます。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p065"]
+},
+{
+"id": "vocab1300_p065_006",
+"source": "vocab1300",
+"sourcePage": 65,
+"type": "meaning_context",
+"word": "好転",
+"reading": "こうてん",
+"sentence": "薬を飲んで休んだら、体の具合が好転しました。",
+"question": "好転 の意味はどれ？",
+"choices": [
+"差がとても大きいこと",
+"空いている場所",
+"お互いに解決すること",
+"事態が良い方向に変わること"
+],
+"answerIndex": 3,
+"explanation": "好転は、事態が良い方向に変わることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p065"]
+}
+],
+"answerIndexCheck": {
+"target": "p065_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 2, 1, 1, 2, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『スペース』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+},
+{
+"point": "長い語句",
+"suggestion": "『あたり障りのない』は長い語句なので、アプリ側でword表示が折り返される前提にするとよさそうです。"
+}
+]
+}
+]

@@ -1,0 +1,956 @@
+[
+{
+"sourcePage": 56,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "臨時",
+"reading": "りんじ",
+"meaning": "決まった時ではなく、必要な時だけ行われること",
+"detectedType": "meaning_context"
+},
+{
+"word": "ユニーク",
+"reading": "ユニーク",
+"meaning": "独特で、ほかとは違っているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "でっち上げる",
+"reading": "でっちあげる",
+"meaning": "ない話を作り上げること",
+"detectedType": "meaning_context"
+},
+{
+"word": "悪事の報い",
+"reading": "あくじのむくい",
+"meaning": "悪いことをした結果が、自分に返ってくること",
+"detectedType": "meaning_context"
+},
+{
+"word": "おっくう",
+"reading": "おっくう",
+"meaning": "何かをするのが面倒くさいこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "重宝",
+"reading": "ちょうほう",
+"meaning": "とても役に立って便利なこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p056_001",
+"source": "vocab1300",
+"sourcePage": 56,
+"type": "meaning_context",
+"word": "臨時",
+"reading": "りんじ",
+"sentence": "大雨で電車が止まり、臨時のバスが出ました。",
+"question": "臨時 の意味はどれ？",
+"choices": [
+"とても役に立つこと",
+"独特でほかと違うこと",
+"必要な時だけ行われること",
+"悪いことが返ってくること"
+],
+"answerIndex": 2,
+"explanation": "臨時は、決まった時ではなく、必要な時だけ行われることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p056"]
+},
+{
+"id": "vocab1300_p056_002",
+"source": "vocab1300",
+"sourcePage": 56,
+"type": "meaning_context",
+"word": "ユニーク",
+"reading": "ユニーク",
+"sentence": "その子の絵は色の使い方がユニークで、すぐ目に入りました。",
+"question": "ユニーク の意味はどれ？",
+"choices": [
+"ない話を作ること",
+"独特で、ほかとは違っているようす",
+"面倒くさいこと",
+"必要な時だけ行うこと"
+],
+"answerIndex": 1,
+"explanation": "ユニークは、独特で、ほかとは違っているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p056"]
+},
+{
+"id": "vocab1300_p056_003",
+"source": "vocab1300",
+"sourcePage": 56,
+"type": "meaning_context",
+"word": "でっち上げる",
+"reading": "でっちあげる",
+"sentence": "友だちのせいにするため、ない話をでっち上げてはいけません。",
+"question": "でっち上げる の意味はどれ？",
+"choices": [
+"必要な時だけ行うこと",
+"とても便利なこと",
+"ない話を作り上げること",
+"何かをするのが面倒なこと"
+],
+"answerIndex": 2,
+"explanation": "でっち上げるは、ない話を作り上げることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p056"]
+},
+{
+"id": "vocab1300_p056_004",
+"source": "vocab1300",
+"sourcePage": 56,
+"type": "meaning_context",
+"word": "悪事の報い",
+"reading": "あくじのむくい",
+"sentence": "人をだましてばかりいたら、あとで悪事の報いを受けることがあります。",
+"question": "悪事の報い の意味はどれ？",
+"choices": [
+"独特で変わっていること",
+"悪いことをした結果が自分に返ってくること",
+"とても便利なこと",
+"ない話を作ること"
+],
+"answerIndex": 1,
+"explanation": "悪事の報いは、悪いことをした結果が、自分に返ってくることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p056"]
+},
+{
+"id": "vocab1300_p056_005",
+"source": "vocab1300",
+"sourcePage": 56,
+"type": "meaning_context",
+"word": "おっくう",
+"reading": "おっくう",
+"sentence": "寒い朝は、布団から出るのがおっくうになります。",
+"question": "おっくう の意味はどれ？",
+"choices": [
+"何かをするのが面倒くさいこと",
+"必要な時だけ行うこと",
+"悪いことが返ってくること",
+"独特で変わっていること"
+],
+"answerIndex": 0,
+"explanation": "おっくうは、何かをするのが面倒くさいことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p056"]
+},
+{
+"id": "vocab1300_p056_006",
+"source": "vocab1300",
+"sourcePage": 56,
+"type": "meaning_context",
+"word": "重宝",
+"reading": "ちょうほう",
+"sentence": "小さなライトは、暗い場所でとても重宝します。",
+"question": "重宝 の意味はどれ？",
+"choices": [
+"ない話を作ること",
+"とても役に立って便利なこと",
+"面倒くさいこと",
+"必要な時だけのこと"
+],
+"answerIndex": 1,
+"explanation": "重宝は、とても役に立って便利なことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p056"]
+}
+],
+"answerIndexCheck": {
+"target": "p056_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 2, 1, 0, 1],
+"countByIndex": {
+"0": 1,
+"1": 3,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 3,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 1が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲ですが、作問データ上の分散を優先するなら1問をanswerIndex 3に調整してもよいです。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『ユニーク』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 57,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "いなめない",
+"reading": "いなめない",
+"meaning": "否定できないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "安易",
+"reading": "あんい",
+"meaning": "深く考えないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "あらすじ",
+"reading": "あらすじ",
+"meaning": "物語の大まかな内容",
+"detectedType": "meaning_context"
+},
+{
+"word": "みくびる",
+"reading": "みくびる",
+"meaning": "相手の能力や力を軽く見ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "かたくなに",
+"reading": "かたくなに",
+"meaning": "意地っぱりで、頑固なようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "脅迫",
+"reading": "きょうはく",
+"meaning": "脅して何かをさせようとすること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p057_001",
+"source": "vocab1300",
+"sourcePage": 57,
+"type": "meaning_context",
+"word": "いなめない",
+"reading": "いなめない",
+"sentence": "練習不足だったことは、いなめません。",
+"question": "いなめない の意味はどれ？",
+"choices": [
+"深く考えないこと",
+"否定できないこと",
+"相手を軽く見ること",
+"脅して何かをさせること"
+],
+"answerIndex": 1,
+"explanation": "いなめないは、否定できないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p057"]
+},
+{
+"id": "vocab1300_p057_002",
+"source": "vocab1300",
+"sourcePage": 57,
+"type": "meaning_context",
+"word": "安易",
+"reading": "あんい",
+"sentence": "安易に答えを写すのではなく、自分で考えましょう。",
+"question": "安易 の意味はどれ？",
+"choices": [
+"物語の大まかな内容",
+"否定できないこと",
+"意地っぱりなようす",
+"深く考えないこと"
+],
+"answerIndex": 3,
+"explanation": "安易は、深く考えないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p057"]
+},
+{
+"id": "vocab1300_p057_003",
+"source": "vocab1300",
+"sourcePage": 57,
+"type": "meaning_context",
+"word": "あらすじ",
+"reading": "あらすじ",
+"sentence": "本を読んだあと、友だちにあらすじを短く話しました。",
+"question": "あらすじ の意味はどれ？",
+"choices": [
+"脅して何かをさせること",
+"相手を軽く見ること",
+"物語の大まかな内容",
+"深く考えないこと"
+],
+"answerIndex": 2,
+"explanation": "あらすじは、物語の大まかな内容です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p057"]
+},
+{
+"id": "vocab1300_p057_004",
+"source": "vocab1300",
+"sourcePage": 57,
+"type": "meaning_context",
+"word": "みくびる",
+"reading": "みくびる",
+"sentence": "相手が小さいからといって、力をみくびってはいけません。",
+"question": "みくびる の意味はどれ？",
+"choices": [
+"相手の能力や力を軽く見ること",
+"意地っぱりで頑固なようす",
+"否定できないこと",
+"物語の内容をまとめること"
+],
+"answerIndex": 0,
+"explanation": "みくびるは、相手の能力や力を軽く見ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p057"]
+},
+{
+"id": "vocab1300_p057_005",
+"source": "vocab1300",
+"sourcePage": 57,
+"type": "meaning_context",
+"word": "かたくなに",
+"reading": "かたくなに",
+"sentence": "弟はかたくなに『行かない』と言い続けました。",
+"question": "かたくなに の意味はどれ？",
+"choices": [
+"脅して",
+"否定できずに",
+"意地っぱりで、頑固に",
+"深く考えずに"
+],
+"answerIndex": 2,
+"explanation": "かたくなには、意地っぱりで、頑固なようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p057"]
+},
+{
+"id": "vocab1300_p057_006",
+"source": "vocab1300",
+"sourcePage": 57,
+"type": "meaning_context",
+"word": "脅迫",
+"reading": "きょうはく",
+"sentence": "人を脅迫して、無理に言うことを聞かせてはいけません。",
+"question": "脅迫 の意味はどれ？",
+"choices": [
+"相手を軽く見ること",
+"脅して何かをさせようとすること",
+"物語の大まかな内容",
+"否定できないこと"
+],
+"answerIndex": 1,
+"explanation": "脅迫は、脅して何かをさせようとすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p057"]
+}
+],
+"answerIndexCheck": {
+"target": "p057_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 3, 2, 0, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 58,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "後くされ",
+"reading": "あとくされ",
+"meaning": "物事が終わったあとも、問題や悪い影響が残ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "気まぐれ",
+"reading": "きまぐれ",
+"meaning": "気分次第で何かをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "てきめん",
+"reading": "てきめん",
+"meaning": "効果が目に見えてよく分かること",
+"detectedType": "meaning_context"
+},
+{
+"word": "先決",
+"reading": "せんけつ",
+"meaning": "先に決めるべきこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ふれこみ",
+"reading": "ふれこみ",
+"meaning": "事前に宣伝したり、周りに知らせたりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "うろ覚え",
+"reading": "うろおぼえ",
+"meaning": "しっかりと覚えていないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p058_001",
+"source": "vocab1300",
+"sourcePage": 58,
+"type": "meaning_context",
+"word": "後くされ",
+"reading": "あとくされ",
+"sentence": "きちんと謝ったので、後くされなく話し合いを終えられました。",
+"question": "後くされ の意味はどれ？",
+"choices": [
+"気分次第で動くこと",
+"先に決めるべきこと",
+"終わったあとも問題が残ること",
+"しっかり覚えていないこと"
+],
+"answerIndex": 2,
+"explanation": "後くされは、物事が終わったあとも、問題や悪い影響が残ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p058"]
+},
+{
+"id": "vocab1300_p058_002",
+"source": "vocab1300",
+"sourcePage": 58,
+"type": "meaning_context",
+"word": "気まぐれ",
+"reading": "きまぐれ",
+"sentence": "弟は気まぐれで、遊びたいものがすぐ変わります。",
+"question": "気まぐれ の意味はどれ？",
+"choices": [
+"効果がよく分かること",
+"事前に知らせること",
+"終わったあと問題が残ること",
+"気分次第で何かをすること"
+],
+"answerIndex": 3,
+"explanation": "気まぐれは、気分次第で何かをすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p058"]
+},
+{
+"id": "vocab1300_p058_003",
+"source": "vocab1300",
+"sourcePage": 58,
+"type": "meaning_context",
+"word": "てきめん",
+"reading": "てきめん",
+"sentence": "早く寝たら、朝の元気にてきめんの効果がありました。",
+"question": "てきめん の意味はどれ？",
+"choices": [
+"効果が目に見えてよく分かること",
+"先に決めるべきこと",
+"しっかり覚えていないこと",
+"気分で変わること"
+],
+"answerIndex": 0,
+"explanation": "てきめんは、効果が目に見えてよく分かることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p058"]
+},
+{
+"id": "vocab1300_p058_004",
+"source": "vocab1300",
+"sourcePage": 58,
+"type": "meaning_context",
+"word": "先決",
+"reading": "せんけつ",
+"sentence": "遊ぶ前に、宿題を終わらせることが先決です。",
+"question": "先決 の意味はどれ？",
+"choices": [
+"事前に宣伝すること",
+"終わったあと問題が残ること",
+"先に決めるべきこと",
+"気分次第で動くこと"
+],
+"answerIndex": 2,
+"explanation": "先決は、先に決めるべきことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p058"]
+},
+{
+"id": "vocab1300_p058_005",
+"source": "vocab1300",
+"sourcePage": 58,
+"type": "meaning_context",
+"word": "ふれこみ",
+"reading": "ふれこみ",
+"sentence": "その店は『大きなケーキが人気』というふれこみでした。",
+"question": "ふれこみ の意味はどれ？",
+"choices": [
+"先に決めること",
+"事前に宣伝したり知らせたりすること",
+"しっかり覚えていないこと",
+"効果が出ること"
+],
+"answerIndex": 1,
+"explanation": "ふれこみは、事前に宣伝したり、周りに知らせたりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p058"]
+},
+{
+"id": "vocab1300_p058_006",
+"source": "vocab1300",
+"sourcePage": 58,
+"type": "meaning_context",
+"word": "うろ覚え",
+"reading": "うろおぼえ",
+"sentence": "歌の歌詞をうろ覚えだったので、途中で止まってしまいました。",
+"question": "うろ覚え の意味はどれ？",
+"choices": [
+"気分次第で変わること",
+"しっかりと覚えていないこと",
+"効果がよく分かること",
+"先に決めること"
+],
+"answerIndex": 1,
+"explanation": "うろ覚えは、しっかりと覚えていないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p058"]
+}
+],
+"answerIndexCheck": {
+"target": "p058_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 3, 0, 2, 1, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "似た語との区別",
+"suggestion": "『後くされ』は『後味』と混同しやすいため、今後の復習では『終わったあとに問題が残る』と『終わったあとに気分が残る』を区別できるとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 59,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "自滅",
+"reading": "じめつ",
+"meaning": "自分自身の失敗でだめになること",
+"detectedType": "meaning_context"
+},
+{
+"word": "お膳立て",
+"reading": "おぜんだて",
+"meaning": "すぐに取りかかれるように用意しておくこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "耳をそろえて",
+"reading": "みみをそろえて",
+"meaning": "借りたお金などを全額きちんと用意すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "高をくくる",
+"reading": "たかをくくる",
+"meaning": "大体この程度だろうと軽く見ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "貫禄",
+"reading": "かんろく",
+"meaning": "態度や雰囲気が立派で、堂々としているようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "群がる",
+"reading": "むらがる",
+"meaning": "たくさんの人や物が一か所に集まること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p059_001",
+"source": "vocab1300",
+"sourcePage": 59,
+"type": "meaning_context",
+"word": "自滅",
+"reading": "じめつ",
+"sentence": "ふざけすぎて注意を聞かなかったため、試合で自滅してしまいました。",
+"question": "自滅 の意味はどれ？",
+"choices": [
+"自分自身の失敗でだめになること",
+"立派で堂々としているようす",
+"一か所に集まること",
+"用意しておくこと"
+],
+"answerIndex": 0,
+"explanation": "自滅は、自分自身の失敗でだめになることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p059"]
+},
+{
+"id": "vocab1300_p059_002",
+"source": "vocab1300",
+"sourcePage": 59,
+"type": "meaning_context",
+"word": "お膳立て",
+"reading": "おぜんだて",
+"sentence": "母がお膳立てをしてくれたので、すぐ工作を始められました。",
+"question": "お膳立て の意味はどれ？",
+"choices": [
+"軽く見ること",
+"すぐ取りかかれるように用意しておくこと",
+"全額用意すること",
+"堂々としていること"
+],
+"answerIndex": 1,
+"explanation": "お膳立ては、すぐに取りかかれるように用意しておくことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p059"]
+},
+{
+"id": "vocab1300_p059_003",
+"source": "vocab1300",
+"sourcePage": 59,
+"type": "meaning_context",
+"word": "耳をそろえて",
+"reading": "みみをそろえて",
+"sentence": "借りていたお金を、耳をそろえて返しました。",
+"question": "耳をそろえて の意味はどれ？",
+"choices": [
+"たくさん集まって",
+"自分の失敗でだめになって",
+"借りたお金などを全額きちんと用意して",
+"すぐ始められるようにして"
+],
+"answerIndex": 2,
+"explanation": "耳をそろえては、借りたお金などを全額きちんと用意することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p059"]
+},
+{
+"id": "vocab1300_p059_004",
+"source": "vocab1300",
+"sourcePage": 59,
+"type": "meaning_context",
+"word": "高をくくる",
+"reading": "たかをくくる",
+"sentence": "簡単だと高をくくっていたら、テストで時間が足りませんでした。",
+"question": "高をくくる の意味はどれ？",
+"choices": [
+"堂々としていること",
+"全額用意すること",
+"一か所に集まること",
+"大体この程度だろうと軽く見ること"
+],
+"answerIndex": 3,
+"explanation": "高をくくるは、大体この程度だろうと軽く見ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p059"]
+},
+{
+"id": "vocab1300_p059_005",
+"source": "vocab1300",
+"sourcePage": 59,
+"type": "meaning_context",
+"word": "貫禄",
+"reading": "かんろく",
+"sentence": "校長先生は落ち着いていて、貫禄があります。",
+"question": "貫禄 の意味はどれ？",
+"choices": [
+"自分の失敗でだめになること",
+"用意しておくこと",
+"堂々として立派な雰囲気",
+"軽く見ること"
+],
+"answerIndex": 2,
+"explanation": "貫禄は、態度や雰囲気が立派で、堂々としているようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p059"]
+},
+{
+"id": "vocab1300_p059_006",
+"source": "vocab1300",
+"sourcePage": 59,
+"type": "meaning_context",
+"word": "群がる",
+"reading": "むらがる",
+"sentence": "人気のパン屋さんの前に、人が群がっていました。",
+"question": "群がる の意味はどれ？",
+"choices": [
+"全額用意すること",
+"たくさんの人や物が一か所に集まること",
+"軽く見ること",
+"堂々としていること"
+],
+"answerIndex": 1,
+"explanation": "群がるは、たくさんの人や物が一か所に集まることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p059"]
+}
+],
+"answerIndexCheck": {
+"target": "p059_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "お金を含む慣用句",
+"suggestion": "『耳をそろえて』は小3には場面がやや難しいため、『借りたお金を全部返す』のように具体化すると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 60,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "もってこい",
+"reading": "もってこい",
+"meaning": "ちょうどよく、ぴったりのようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "年始",
+"reading": "ねんし",
+"meaning": "年の初め",
+"detectedType": "meaning_context"
+},
+{
+"word": "ことに",
+"reading": "ことに",
+"meaning": "特に。とりわけ。",
+"detectedType": "meaning_context"
+},
+{
+"word": "ちなんで",
+"reading": "ちなんで",
+"meaning": "何かに関連づけて",
+"detectedType": "meaning_context"
+},
+{
+"word": "ぎこちない",
+"reading": "ぎこちない",
+"meaning": "慣れていなくて、動きや話し方が滑らかでないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "一線を画する",
+"reading": "いっせんをかくする",
+"meaning": "はっきりと区別できること。明らかに違いがあること。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p060_001",
+"source": "vocab1300",
+"sourcePage": 60,
+"type": "meaning_context",
+"word": "もってこい",
+"reading": "もってこい",
+"sentence": "この広い公園は、走り回って遊ぶのにもってこいです。",
+"question": "もってこい の意味はどれ？",
+"choices": [
+"年の初め",
+"特に",
+"慣れていないようす",
+"ちょうどよく、ぴったりのようす"
+],
+"answerIndex": 3,
+"explanation": "もってこいは、ちょうどよく、ぴったりのようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p060"]
+},
+{
+"id": "vocab1300_p060_002",
+"source": "vocab1300",
+"sourcePage": 60,
+"type": "meaning_context",
+"word": "年始",
+"reading": "ねんし",
+"sentence": "年始には、家族で神社へ行きました。",
+"question": "年始 の意味はどれ？",
+"choices": [
+"年の初め",
+"はっきり違うこと",
+"何かに関連づけること",
+"ぴったりなこと"
+],
+"answerIndex": 0,
+"explanation": "年始は、年の初めのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p060"]
+},
+{
+"id": "vocab1300_p060_003",
+"source": "vocab1300",
+"sourcePage": 60,
+"type": "meaning_context",
+"word": "ことに",
+"reading": "ことに",
+"sentence": "今日はことに寒いので、手ぶくろを持って行きましょう。",
+"question": "ことに の意味はどれ？",
+"choices": [
+"年の初め",
+"慣れていなくて",
+"特に、とりわけ",
+"はっきり区別して"
+],
+"answerIndex": 2,
+"explanation": "ことには、特に、とりわけ、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p060"]
+},
+{
+"id": "vocab1300_p060_004",
+"source": "vocab1300",
+"sourcePage": 60,
+"type": "meaning_context",
+"word": "ちなんで",
+"reading": "ちなんで",
+"sentence": "学校の創立記念日にちなんで、昔の写真を見ました。",
+"question": "ちなんで の意味はどれ？",
+"choices": [
+"ぴったりで",
+"特に",
+"年の初めに",
+"何かに関連づけて"
+],
+"answerIndex": 3,
+"explanation": "ちなんでは、何かに関連づけて、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p060"]
+},
+{
+"id": "vocab1300_p060_005",
+"source": "vocab1300",
+"sourcePage": 60,
+"type": "meaning_context",
+"word": "ぎこちない",
+"reading": "ぎこちない",
+"sentence": "初めての英語の発表で、少しぎこちない話し方になりました。",
+"question": "ぎこちない の意味はどれ？",
+"choices": [
+"慣れていなくて、滑らかでないようす",
+"何かに関連づけること",
+"ちょうどよいこと",
+"年の初め"
+],
+"answerIndex": 0,
+"explanation": "ぎこちないは、慣れていなくて、動きや話し方が滑らかでないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p060"]
+},
+{
+"id": "vocab1300_p060_006",
+"source": "vocab1300",
+"sourcePage": 60,
+"type": "meaning_context",
+"word": "一線を画する",
+"reading": "いっせんをかくする",
+"sentence": "その作品は工夫が多く、ほかの作品とは一線を画していました。",
+"question": "一線を画する の意味はどれ？",
+"choices": [
+"特に目立つこと",
+"はっきりと区別できること",
+"慣れていないこと",
+"年の初めのこと"
+],
+"answerIndex": 1,
+"explanation": "一線を画するは、はっきりと区別できること、明らかに違いがあることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p060"]
+}
+],
+"answerIndexCheck": {
+"target": "p060_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 0, 2, 3, 0, 1],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "時期を表す語",
+"suggestion": "『年始』は時期を表す語なので、今後『上旬』『下旬』などと合わせてsubtype: period_wordで管理してもよさそうです。"
+},
+{
+"point": "長い慣用句",
+"suggestion": "『一線を画する』は小3には抽象的なので、解説で『ほかとははっきり違う』と補足すると理解しやすいです。"
+}
+]
+}
+]

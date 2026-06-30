@@ -1,0 +1,987 @@
+[
+{
+"sourcePage": 46,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "露骨",
+"reading": "ろこつ",
+"meaning": "感情や考えを、かくさずにはっきり出すようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "くちびるをかむ",
+"reading": "くちびるをかむ",
+"meaning": "悔しさや怒りをこらえること",
+"detectedType": "meaning_context"
+},
+{
+"word": "悔いる",
+"reading": "くいる",
+"meaning": "あとから残念に思い、後悔すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "無謀",
+"reading": "むぼう",
+"meaning": "先のことをよく考えず、無茶をすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "能率",
+"reading": "のうりつ",
+"meaning": "仕事や作業のはかどりぐあい",
+"detectedType": "meaning_context"
+},
+{
+"word": "気まま",
+"reading": "きまま",
+"meaning": "自分の好きなようにするようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p046_001",
+"source": "vocab1300",
+"sourcePage": 46,
+"type": "meaning_context",
+"word": "露骨",
+"reading": "ろこつ",
+"sentence": "友だちの発表を聞いて、つまらなそうな顔を露骨に出すのはよくありません。",
+"question": "露骨 の意味はどれ？",
+"choices": [
+"自分の好きなようにするようす",
+"後悔すること",
+"感情や考えをかくさず出すようす",
+"作業のはかどりぐあい"
+],
+"answerIndex": 2,
+"explanation": "露骨は、感情や考えをかくさずにはっきり出すようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p046"]
+},
+{
+"id": "vocab1300_p046_002",
+"source": "vocab1300",
+"sourcePage": 46,
+"type": "meaning_context",
+"word": "くちびるをかむ",
+"reading": "くちびるをかむ",
+"sentence": "あと少しで勝てたのに負けてしまい、青ちゃんはくちびるをかみました。",
+"question": "くちびるをかむ の意味はどれ？",
+"choices": [
+"先を考えず無茶をすること",
+"悔しさや怒りをこらえること",
+"気ままに楽しむこと",
+"能率が上がること"
+],
+"answerIndex": 1,
+"explanation": "くちびるをかむは、悔しさや怒りをこらえることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p046"]
+},
+{
+"id": "vocab1300_p046_003",
+"source": "vocab1300",
+"sourcePage": 46,
+"type": "meaning_context",
+"word": "悔いる",
+"reading": "くいる",
+"sentence": "言いすぎたことを悔いて、あとで友だちにあやまりました。",
+"question": "悔いる の意味はどれ？",
+"choices": [
+"あとから残念に思い、後悔すること",
+"作業がはかどること",
+"感情をむき出しにすること",
+"自分の好きなようにすること"
+],
+"answerIndex": 0,
+"explanation": "悔いるは、あとから残念に思い、後悔することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p046"]
+},
+{
+"id": "vocab1300_p046_004",
+"source": "vocab1300",
+"sourcePage": 46,
+"type": "meaning_context",
+"word": "無謀",
+"reading": "むぼう",
+"sentence": "準備をしないで山に登るのは、無謀な計画です。",
+"question": "無謀 の意味はどれ？",
+"choices": [
+"後悔すること",
+"自分の好きなようにすること",
+"仕事がはかどること",
+"先のことを考えず、無茶をすること"
+],
+"answerIndex": 3,
+"explanation": "無謀は、先のことをよく考えず、無茶をすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p046"]
+},
+{
+"id": "vocab1300_p046_005",
+"source": "vocab1300",
+"sourcePage": 46,
+"type": "meaning_context",
+"word": "能率",
+"reading": "のうりつ",
+"sentence": "机の上を片づけると、勉強の能率が上がりました。",
+"question": "能率 の意味はどれ？",
+"choices": [
+"感情をかくさず出すこと",
+"悔しさをこらえること",
+"仕事や作業のはかどりぐあい",
+"無茶をすること"
+],
+"answerIndex": 2,
+"explanation": "能率は、仕事や作業のはかどりぐあいのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p046"]
+},
+{
+"id": "vocab1300_p046_006",
+"source": "vocab1300",
+"sourcePage": 46,
+"type": "meaning_context",
+"word": "気まま",
+"reading": "きまま",
+"sentence": "休日は予定を決めず、気ままに本を読んだり散歩したりしました。",
+"question": "気まま の意味はどれ？",
+"choices": [
+"作業がはかどること",
+"自分の好きなようにするようす",
+"あとから後悔すること",
+"悔しさをこらえること"
+],
+"answerIndex": 1,
+"explanation": "気ままは、自分の好きなようにするようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p046"]
+}
+],
+"answerIndexCheck": {
+"target": "p046_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 0, 3, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の動作を含む慣用句",
+"suggestion": "『くちびるをかむ』は体の動作を含む慣用句ですが、v1ではmeaning_contextで扱えば十分です。将来的に必要ならimage_word化できます。"
+}
+]
+},
+{
+"sourcePage": 47,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "すがすがしい",
+"reading": "すがすがしい",
+"meaning": "すっきりさわやかで、気持ちがよいようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "できあい",
+"reading": "できあい",
+"meaning": "すでに作ってあるもの。既製品。",
+"detectedType": "meaning_context"
+},
+{
+"word": "苦しまぎれ",
+"reading": "くるしまぎれ",
+"meaning": "困ったり苦しくなったりして、その場を逃れようとすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "目に入れても痛くない",
+"reading": "めにいれてもいたくない",
+"meaning": "大変かわいがるようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "手を貸す",
+"reading": "てをかす",
+"meaning": "助けること。手伝うこと。",
+"detectedType": "meaning_context"
+},
+{
+"word": "やりきれない",
+"reading": "やりきれない",
+"meaning": "たまらないほどつらい、我慢できないようす",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p047_001",
+"source": "vocab1300",
+"sourcePage": 47,
+"type": "meaning_context",
+"word": "すがすがしい",
+"reading": "すがすがしい",
+"sentence": "朝の公園は空気がきれいで、すがすがしい気持ちになりました。",
+"question": "すがすがしい の意味はどれ？",
+"choices": [
+"すでに作ってあるもの",
+"助けること",
+"すっきりさわやかで気持ちがよいようす",
+"たまらないほどつらいこと"
+],
+"answerIndex": 2,
+"explanation": "すがすがしいは、すっきりさわやかで、気持ちがよいようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p047"]
+},
+{
+"id": "vocab1300_p047_002",
+"source": "vocab1300",
+"sourcePage": 47,
+"type": "meaning_context",
+"word": "できあい",
+"reading": "できあい",
+"sentence": "今日は時間がなかったので、できあいのおかずを買いました。",
+"question": "できあい の意味はどれ？",
+"choices": [
+"すでに作ってあるもの",
+"大変かわいがること",
+"困って言い訳をすること",
+"手伝うこと"
+],
+"answerIndex": 0,
+"explanation": "できあいは、すでに作ってあるもの、既製品のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p047"]
+},
+{
+"id": "vocab1300_p047_003",
+"source": "vocab1300",
+"sourcePage": 47,
+"type": "meaning_context",
+"word": "苦しまぎれ",
+"reading": "くるしまぎれ",
+"sentence": "宿題を忘れて、苦しまぎれに言い訳をしてしまいました。",
+"question": "苦しまぎれ の意味はどれ？",
+"choices": [
+"気持ちがよいこと",
+"助けること",
+"たまらないほどつらいこと",
+"困って、その場を逃れようとすること"
+],
+"answerIndex": 3,
+"explanation": "苦しまぎれは、困ったり苦しくなったりして、その場を逃れようとすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p047"]
+},
+{
+"id": "vocab1300_p047_004",
+"source": "vocab1300",
+"sourcePage": 47,
+"type": "meaning_context",
+"word": "目に入れても痛くない",
+"reading": "めにいれてもいたくない",
+"sentence": "祖母は小さな妹を、目に入れても痛くないほどかわいがっています。",
+"question": "目に入れても痛くない の意味はどれ？",
+"choices": [
+"困って言い訳すること",
+"大変かわいがるようす",
+"すでに作ってあるもの",
+"さわやかなこと"
+],
+"answerIndex": 1,
+"explanation": "目に入れても痛くないは、大変かわいがるようすを表します。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p047"]
+},
+{
+"id": "vocab1300_p047_005",
+"source": "vocab1300",
+"sourcePage": 47,
+"type": "meaning_context",
+"word": "手を貸す",
+"reading": "てをかす",
+"sentence": "重い荷物を持っていた友だちに、少し手を貸しました。",
+"question": "手を貸す の意味はどれ？",
+"choices": [
+"すでに作ること",
+"大変かわいがること",
+"助けること、手伝うこと",
+"我慢できないこと"
+],
+"answerIndex": 2,
+"explanation": "手を貸すは、助けること、手伝うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p047"]
+},
+{
+"id": "vocab1300_p047_006",
+"source": "vocab1300",
+"sourcePage": 47,
+"type": "meaning_context",
+"word": "やりきれない",
+"reading": "やりきれない",
+"sentence": "一生懸命に作った作品がこわれてしまい、やりきれない気持ちになりました。",
+"question": "やりきれない の意味はどれ？",
+"choices": [
+"困って言い訳すること",
+"たまらないほどつらい、我慢できないようす",
+"気持ちがよいこと",
+"手伝うこと"
+],
+"answerIndex": 1,
+"explanation": "やりきれないは、たまらないほどつらい、我慢できないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p047"]
+}
+],
+"answerIndexCheck": {
+"target": "p047_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 3, 1, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『目に入れても痛くない』は長い慣用句なので、アプリ側でword表示が折り返される前提にするとよさそうです。"
+}
+]
+},
+{
+"sourcePage": 48,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "不可欠",
+"reading": "ふかけつ",
+"meaning": "なくてはならないこと。必ず必要なこと。",
+"detectedType": "meaning_context"
+},
+{
+"word": "何気ない",
+"reading": "なにげない",
+"meaning": "はっきりした意図や考えがないようす",
+"detectedType": "meaning_context"
+},
+{
+"word": "釣り合う",
+"reading": "つりあう",
+"meaning": "二つの物事のバランスが取れていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "大半",
+"reading": "たいはん",
+"meaning": "半分以上であること。大部分。",
+"detectedType": "meaning_context"
+},
+{
+"word": "肩を持つ",
+"reading": "かたをもつ",
+"meaning": "どちらか一方をひいきすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "素手",
+"reading": "すで",
+"meaning": "武器や道具などを何も持っていないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p048_001",
+"source": "vocab1300",
+"sourcePage": 48,
+"type": "meaning_context",
+"word": "不可欠",
+"reading": "ふかけつ",
+"sentence": "ケーキを作るには、卵と小麦粉が不可欠です。",
+"question": "不可欠 の意味はどれ？",
+"choices": [
+"半分以上であること",
+"道具を持たないこと",
+"なくてはならないこと",
+"一方をひいきすること"
+],
+"answerIndex": 2,
+"explanation": "不可欠は、なくてはならないこと、必ず必要なことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p048"]
+},
+{
+"id": "vocab1300_p048_002",
+"source": "vocab1300",
+"sourcePage": 48,
+"type": "meaning_context",
+"word": "何気ない",
+"reading": "なにげない",
+"sentence": "何気ない一言でも、相手を元気にすることがあります。",
+"question": "何気ない の意味はどれ？",
+"choices": [
+"二つのバランスが取れていること",
+"はっきりした意図や考えがないようす",
+"必ず必要なこと",
+"武器や道具を持たないこと"
+],
+"answerIndex": 1,
+"explanation": "何気ないは、はっきりした意図や考えがないようすです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p048"]
+},
+{
+"id": "vocab1300_p048_003",
+"source": "vocab1300",
+"sourcePage": 48,
+"type": "meaning_context",
+"word": "釣り合う",
+"reading": "つりあう",
+"sentence": "左右の重さが釣り合うように、荷物を分けました。",
+"question": "釣り合う の意味はどれ？",
+"choices": [
+"一方をひいきすること",
+"大部分であること",
+"武器を持たないこと",
+"二つの物事のバランスが取れていること"
+],
+"answerIndex": 3,
+"explanation": "釣り合うは、二つの物事のバランスが取れていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p048"]
+},
+{
+"id": "vocab1300_p048_004",
+"source": "vocab1300",
+"sourcePage": 48,
+"type": "meaning_context",
+"word": "大半",
+"reading": "たいはん",
+"sentence": "クラスの大半の人が、外で遊ぶことに賛成しました。",
+"question": "大半 の意味はどれ？",
+"choices": [
+"半分以上であること、大部分",
+"なくてはならないこと",
+"考えがないようす",
+"道具を持たないこと"
+],
+"answerIndex": 0,
+"explanation": "大半は、半分以上であること、大部分という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p048"]
+},
+{
+"id": "vocab1300_p048_005",
+"source": "vocab1300",
+"sourcePage": 48,
+"type": "meaning_context",
+"word": "肩を持つ",
+"reading": "かたをもつ",
+"sentence": "けんかの話を聞くとき、どちらか一方の肩を持つのはよくありません。",
+"question": "肩を持つ の意味はどれ？",
+"choices": [
+"武器を持たないこと",
+"必ず必要なこと",
+"一方をひいきすること",
+"大部分であること"
+],
+"answerIndex": 2,
+"explanation": "肩を持つは、どちらか一方をひいきすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p048"]
+},
+{
+"id": "vocab1300_p048_006",
+"source": "vocab1300",
+"sourcePage": 48,
+"type": "meaning_context",
+"word": "素手",
+"reading": "すで",
+"sentence": "熱いなべを素手でさわると危ないので、ミトンを使いましょう。",
+"question": "素手 の意味はどれ？",
+"choices": [
+"二つの物事が安定していること",
+"武器や道具などを何も持っていないこと",
+"一方をひいきすること",
+"はっきりした意図がないこと"
+],
+"answerIndex": 1,
+"explanation": "素手は、武器や道具などを何も持っていないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p048"]
+}
+],
+"answerIndexCheck": {
+"target": "p048_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 3, 0, 2, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "抽象語の扱い",
+"suggestion": "『不可欠』『釣り合う』は抽象語ですが、料理・荷物・けんかなど、青ちゃんが想像しやすい場面に置くと理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 49,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word",
+"reason": "動物を含むことわざ・慣用句を扱うページです。基本はmeaning_contextで問題化できますが、管理用にsubtype: animal_idiom_wordを付けるとよさそうです。"
+},
+"extractedWords": [
+{
+"word": "袋のねずみ",
+"reading": "ふくろのねずみ",
+"meaning": "逃げ場を失った状態のたとえ",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "烏の行水",
+"reading": "からすのぎょうずい",
+"meaning": "お風呂に入る時間がとても短いことのたとえ",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "狸寝入り",
+"reading": "たぬきねいり",
+"meaning": "寝たふりをすること",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "鶴の一声",
+"reading": "つるのひとこえ",
+"meaning": "力のある人の一言で物事が決まってしまうたとえ",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "馬の耳に念仏",
+"reading": "うまのみみにねんぶつ",
+"meaning": "いくら意見を言っても、まったく効き目がないことのたとえ",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+},
+{
+"word": "雀の涙",
+"reading": "すずめのなみだ",
+"meaning": "わずかしかないことのたとえ",
+"detectedType": "meaning_context",
+"subtype": "animal_idiom_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p049_001",
+"source": "vocab1300",
+"sourcePage": 49,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "袋のねずみ",
+"reading": "ふくろのねずみ",
+"sentence": "出口をふさがれて、逃げる場所がなくなり、まるで袋のねずみでした。",
+"question": "袋のねずみ の意味はどれ？",
+"choices": [
+"少ししかないこと",
+"寝たふりをすること",
+"逃げ場を失った状態",
+"お風呂が短いこと"
+],
+"answerIndex": 2,
+"explanation": "袋のねずみは、逃げ場を失った状態のたとえです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p049"]
+},
+{
+"id": "vocab1300_p049_002",
+"source": "vocab1300",
+"sourcePage": 49,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "烏の行水",
+"reading": "からすのぎょうずい",
+"sentence": "弟はお風呂に入ってもすぐ出てくるので、烏の行水です。",
+"question": "烏の行水 の意味はどれ？",
+"choices": [
+"お風呂に入る時間がとても短いこと",
+"いくら言っても効き目がないこと",
+"力のある人の一言で決まること",
+"逃げ場を失うこと"
+],
+"answerIndex": 0,
+"explanation": "烏の行水は、お風呂に入る時間がとても短いことのたとえです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p049"]
+},
+{
+"id": "vocab1300_p049_003",
+"source": "vocab1300",
+"sourcePage": 49,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "狸寝入り",
+"reading": "たぬきねいり",
+"sentence": "名前を呼ばれているのに、弟は狸寝入りをしていました。",
+"question": "狸寝入り の意味はどれ？",
+"choices": [
+"わずかしかないこと",
+"寝たふりをすること",
+"意見が効かないこと",
+"一言で物事が決まること"
+],
+"answerIndex": 1,
+"explanation": "狸寝入りは、寝たふりをすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p049"]
+},
+{
+"id": "vocab1300_p049_004",
+"source": "vocab1300",
+"sourcePage": 49,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "鶴の一声",
+"reading": "つるのひとこえ",
+"sentence": "なかなか決まらなかった話が、先生の鶴の一声で決まりました。",
+"question": "鶴の一声 の意味はどれ？",
+"choices": [
+"寝たふりをすること",
+"逃げ場がないこと",
+"お風呂が短いこと",
+"力のある人の一言で物事が決まること"
+],
+"answerIndex": 3,
+"explanation": "鶴の一声は、力のある人の一言で物事が決まってしまうたとえです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p049"]
+},
+{
+"id": "vocab1300_p049_005",
+"source": "vocab1300",
+"sourcePage": 49,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "馬の耳に念仏",
+"reading": "うまのみみにねんぶつ",
+"sentence": "何度注意してもふざけてばかりで、馬の耳に念仏でした。",
+"question": "馬の耳に念仏 の意味はどれ？",
+"choices": [
+"少ししかないこと",
+"寝たふりをすること",
+"いくら意見を言っても効き目がないこと",
+"逃げ場がないこと"
+],
+"answerIndex": 2,
+"explanation": "馬の耳に念仏は、いくら意見を言っても、まったく効き目がないことのたとえです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p049"]
+},
+{
+"id": "vocab1300_p049_006",
+"source": "vocab1300",
+"sourcePage": 49,
+"type": "meaning_context",
+"subtype": "animal_idiom_word",
+"word": "雀の涙",
+"reading": "すずめのなみだ",
+"sentence": "おこづかいは残りが雀の涙ほどしかありませんでした。",
+"question": "雀の涙 の意味はどれ？",
+"choices": [
+"わずかしかないこと",
+"お風呂が短いこと",
+"力のある人が決めること",
+"寝たふりをすること"
+],
+"answerIndex": 0,
+"explanation": "雀の涙は、わずかしかないことのたとえです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "animal_idiom_word", "p049"]
+}
+],
+"answerIndexCheck": {
+"target": "p049_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 1, 3, 2, 0],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "animal_idiom_wordの継続",
+"suggestion": "p037と同じく、動物を含むことわざ・慣用句のため、subtype: animal_idiom_word を付けると管理しやすいです。"
+}
+]
+},
+{
+"sourcePage": 50,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "weather_word",
+"reason": "雨に関する語句を絵や場面で判定するページなので、image_wordに適しています。p038と同じくsubtype: weather_wordを提案します。"
+},
+"extractedWords": [
+{
+"word": "しぐれ",
+"reading": "しぐれ",
+"meaning": "晩秋から初冬にかけて、ぱらぱらと降る一時的な雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "五月雨",
+"reading": "さみだれ",
+"meaning": "梅雨のころに降り続く長雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "小糠雨",
+"reading": "こぬかあめ",
+"meaning": "霧のように細かく降る雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "狐の嫁入り",
+"reading": "きつねのよめいり",
+"meaning": "日が照っているのに降る雨。天気雨。",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "春雨",
+"reading": "はるさめ",
+"meaning": "春にしとしと降る雨",
+"detectedType": "image_word",
+"subtype": "weather_word"
+},
+{
+"word": "入梅",
+"reading": "にゅうばい",
+"meaning": "梅雨に入ること。梅雨になること。",
+"detectedType": "image_word",
+"subtype": "weather_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p050_001",
+"source": "vocab1300",
+"sourcePage": 50,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "しぐれ",
+"reading": "しぐれ",
+"image": "images/weather_shigure.png",
+"hint": "秋の終わりから冬の初めに、雨がぱらぱら降っています。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"五月雨",
+"春雨",
+"しぐれ",
+"狐の嫁入り"
+],
+"answerIndex": 2,
+"explanation": "しぐれは、晩秋から初冬にかけて、ぱらぱらと降る一時的な雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p050"]
+},
+{
+"id": "vocab1300_p050_002",
+"source": "vocab1300",
+"sourcePage": 50,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "五月雨",
+"reading": "さみだれ",
+"image": "images/weather_samidare.png",
+"hint": "梅雨のころに、雨が長く降り続いています。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"小糠雨",
+"入梅",
+"五月雨",
+"しぐれ"
+],
+"answerIndex": 2,
+"explanation": "五月雨は、梅雨のころに降り続く長雨のことです。",
+"tags": ["vocab1300", "image_word", "weather_word", "p050"]
+},
+{
+"id": "vocab1300_p050_003",
+"source": "vocab1300",
+"sourcePage": 50,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "小糠雨",
+"reading": "こぬかあめ",
+"image": "images/weather_konukaame.png",
+"hint": "霧のように、とても細かい雨が降っています。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"春雨",
+"小糠雨",
+"狐の嫁入り",
+"五月雨"
+],
+"answerIndex": 1,
+"explanation": "小糠雨は、霧のように細かく降る雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p050"]
+},
+{
+"id": "vocab1300_p050_004",
+"source": "vocab1300",
+"sourcePage": 50,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "狐の嫁入り",
+"reading": "きつねのよめいり",
+"image": "images/weather_kitsune_no_yomeiri.png",
+"hint": "日が照っているのに、雨が降っています。",
+"question": "この天気を表す言葉はどれ？",
+"choices": [
+"しぐれ",
+"春雨",
+"狐の嫁入り",
+"小糠雨"
+],
+"answerIndex": 2,
+"explanation": "狐の嫁入りは、日が照っているのに降る雨です。天気雨とも言います。",
+"tags": ["vocab1300", "image_word", "weather_word", "p050"]
+},
+{
+"id": "vocab1300_p050_005",
+"source": "vocab1300",
+"sourcePage": 50,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "春雨",
+"reading": "はるさめ",
+"image": "images/weather_harusame.png",
+"hint": "春、花の咲くころに、雨がしとしと降っています。",
+"question": "この雨を表す言葉はどれ？",
+"choices": [
+"春雨",
+"入梅",
+"五月雨",
+"しぐれ"
+],
+"answerIndex": 0,
+"explanation": "春雨は、春にしとしと降る雨です。",
+"tags": ["vocab1300", "image_word", "weather_word", "p050"]
+},
+{
+"id": "vocab1300_p050_006",
+"source": "vocab1300",
+"sourcePage": 50,
+"type": "image_word",
+"subtype": "weather_word",
+"word": "入梅",
+"reading": "にゅうばい",
+"image": "images/weather_nyuubai.png",
+"hint": "雨の季節に入り、これから梅雨が始まります。",
+"question": "この時期を表す言葉はどれ？",
+"choices": [
+"五月雨",
+"狐の嫁入り",
+"小糠雨",
+"入梅"
+],
+"answerIndex": 3,
+"explanation": "入梅は、梅雨に入ること、梅雨になることです。",
+"tags": ["vocab1300", "image_word", "weather_word", "p050"]
+}
+],
+"answerIndexCheck": {
+"target": "p050_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 2, 1, 2, 0, 3],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 3,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 3,
+"エ": 1
+},
+"result": "answerIndex 2が3回でやや多めですが、6問中3回までであり、アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "weather_wordの継続",
+"suggestion": "p038と同じく、雨や天気に関する語句なので、typeはimage_wordのまま、subtype: weather_word を付けると管理しやすいです。"
+},
+{
+"point": "雨語の区別",
+"suggestion": "『五月雨』『春雨』『小糠雨』などは雨の降り方や季節が近いため、hintで『季節』『降り方』『時期』を短く示すとよさそうです。"
+}
+]
+}
+]
