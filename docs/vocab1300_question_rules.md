@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-06-30（period_word追加）  
+更新日：2026-07-01（day_time_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -46,6 +46,8 @@
 - 天候語の出題方針・hint方針・画像ファイル名ルールを追加
 - `subtype: "period_word"` を追加
 - 時期・期間語の出題方針と month_hint との区別を追加
+- `subtype: "day_time_word"` を追加
+- 一日の時間帯語の出題方針・hint方針・period_word との区別を追加
 
 ---
 
@@ -927,6 +929,52 @@ images/weather_natanezuyu.png
 images/weather_karatsuyu.png
 ```
 
+### day_time_word
+
+一日の中の時間帯を表す語は、`image_word` のまま扱い、`subtype: "day_time_word"` を入れる。
+
+対象例：
+
+- あけぼの
+- 未明
+- 昼下がり
+- たそがれ
+- 宵の口
+- 夜半
+
+基本形：
+
+```json
+{
+  "type": "image_word",
+  "subtype": "day_time_word",
+  "word": "たそがれ",
+  "image": "images/time_tasogare.png",
+  "hint": "夕方、日が沈みかけて薄暗くなっています。"
+}
+```
+
+#### 出題方針
+
+- 空の明るさ、太陽の位置、町や家の様子などから時間帯をイメージできるようにする
+- `hint` には、画像を見るときの注目ポイントを短く入れる
+
+各語の目安：
+
+- あけぼの：夜が明け始め、空が少し明るくなっている
+- 未明：まだ暗く、夜が明けきっていない
+- 昼下がり：昼を少し過ぎ、明るい午後の様子
+- たそがれ：夕方、日が沈みかけて薄暗い
+- 宵の口：日が暮れて間もないころ
+- 夜半：夜中、あたりが暗く静かなころ
+
+#### 注意
+
+`period_word` とは分ける。
+
+- `period_word`：上旬・中旬・下旬・年始・年末など、日付や期間を表す語
+- `day_time_word`：一日の中の時間帯を表す語
+
 ### 画像の注意
 
 - 教材画像は流用しない
@@ -1328,6 +1376,7 @@ vocab1300_p205_001
 - [ ] `subtype: "period_word"` の場合、例文や解説で「いつごろか」「どの期間か」が具体的に示されている
 - [ ] `subtype: "weather_word"` の場合、`hint` に雨の強さ・季節・時間帯・続き方が入っている
 - [ ] `subtype: "weather_word"` の画像ファイル名が `images/weather_*.png` 形式になっている
+- [ ] `subtype: "day_time_word"` の場合、`hint` に空の明るさ・太陽の位置など注目ポイントが入っている
 - [ ] `month` がある場合、1〜12の数値になっている
 - [ ] `reading_context` で必要な場合、`answerReading` が入っている
 - [ ] `counter_image` で必要な場合、`counterTarget` / `counter` / `counterReading` が入っている
