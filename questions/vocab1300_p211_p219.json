@@ -1,0 +1,2018 @@
+[
+  {
+    "sourcePage": 211,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+    },
+    "extractedWords": [
+      {
+        "word": "充実",
+        "reading": "じゅうじつ",
+        "meaning": "内容がしっかりあって、申し分ないこと",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "仲たがい",
+        "reading": "なかたがい",
+        "meaning": "仲が悪くなること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "耳にする",
+        "reading": "みみにする",
+        "meaning": "何となく耳に入ってくること。聞くこと。",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "覆す",
+        "reading": "くつがえす",
+        "meaning": "ひっくり返すこと。これまでの考えや結果を反対にすること。",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "きずな",
+        "reading": "きずな",
+        "meaning": "人と人との強い結びつき",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "繕う",
+        "reading": "つくろう",
+        "meaning": "服の破れたところなどを直すこと",
+        "detectedType": "meaning_context"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p211_001",
+        "source": "vocab1300",
+        "sourcePage": 211,
+        "type": "meaning_context",
+        "word": "充実",
+        "reading": "じゅうじつ",
+        "sentence": "この夏休みは、読書も工作もできて、とても充実していました。",
+        "question": "充実 の意味はどれ？",
+        "choices": [
+          "内容がしっかりあって、申し分ないこと",
+          "仲が悪くなること",
+          "服の破れたところを直すこと",
+          "何となく聞くこと"
+        ],
+        "answerIndex": 0,
+        "explanation": "充実は、中身がしっかりしていて、満足できることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p211"
+        ]
+      },
+      {
+        "id": "vocab1300_p211_002",
+        "source": "vocab1300",
+        "sourcePage": 211,
+        "type": "meaning_context",
+        "word": "仲たがい",
+        "reading": "なかたがい",
+        "sentence": "小さなけんかがきっかけで、二人は仲たがいしてしまいました。",
+        "question": "仲たがい の意味はどれ？",
+        "choices": [
+          "人との強い結びつき",
+          "ひっくり返すこと",
+          "仲が悪くなること",
+          "内容がしっかりあること"
+        ],
+        "answerIndex": 2,
+        "explanation": "仲たがいは、仲がよかった人どうしの仲が悪くなることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p211"
+        ]
+      },
+      {
+        "id": "vocab1300_p211_003",
+        "source": "vocab1300",
+        "sourcePage": 211,
+        "type": "meaning_context",
+        "word": "耳にする",
+        "reading": "みみにする",
+        "sentence": "そのうわさを、帰り道で耳にしました。",
+        "question": "耳にする の意味はどれ？",
+        "choices": [
+          "服を直すこと",
+          "何となく耳に入ってくること",
+          "仲が悪くなること",
+          "結果を反対にすること"
+        ],
+        "answerIndex": 1,
+        "explanation": "耳にするは、はっきり聞こうとしたわけではなく、自然に聞こえてくることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p211"
+        ]
+      },
+      {
+        "id": "vocab1300_p211_004",
+        "source": "vocab1300",
+        "sourcePage": 211,
+        "type": "meaning_context",
+        "word": "覆す",
+        "reading": "くつがえす",
+        "sentence": "弱いと思われていたチームが、みんなの予想を覆しました。",
+        "question": "覆す の意味はどれ？",
+        "choices": [
+          "聞こえてくること",
+          "仲を悪くすること",
+          "人と人をつなぐこと",
+          "これまでの考えや結果を反対にすること"
+        ],
+        "answerIndex": 3,
+        "explanation": "覆すは、予想や結果などをひっくり返すことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p211"
+        ]
+      },
+      {
+        "id": "vocab1300_p211_005",
+        "source": "vocab1300",
+        "sourcePage": 211,
+        "type": "meaning_context",
+        "word": "きずな",
+        "reading": "きずな",
+        "sentence": "一緒に練習したことで、チームのきずなが深まりました。",
+        "question": "きずな の意味はどれ？",
+        "choices": [
+          "人と人との強い結びつき",
+          "服の破れを直すこと",
+          "内容がしっかりあること",
+          "予想を反対にすること"
+        ],
+        "answerIndex": 0,
+        "explanation": "きずなは、人と人を強くつなぐ気持ちや関係のことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p211"
+        ]
+      },
+      {
+        "id": "vocab1300_p211_006",
+        "source": "vocab1300",
+        "sourcePage": 211,
+        "type": "meaning_context",
+        "word": "繕う",
+        "reading": "つくろう",
+        "sentence": "母は、ほころびたズボンを繕ってくれました。",
+        "question": "繕う の意味はどれ？",
+        "choices": [
+          "人と人をつなぐこと",
+          "仲が悪くなること",
+          "服の破れたところなどを直すこと",
+          "何となく聞くこと"
+        ],
+        "answerIndex": 2,
+        "explanation": "繕うは、服などの破れたところやほころびを直すことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p211"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p211_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        2
+      ],
+      "countByIndex": {
+        "0": 2,
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "choiceLabelDistribution": {
+        "ア": 2,
+        "イ": 1,
+        "ウ": 2,
+        "エ": 1
+      },
+      "result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+    },
+    "ruleDraftRevisionNotes": []
+  },
+  {
+    "sourcePage": 212,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+    },
+    "extractedWords": [
+      {
+        "word": "耳が痛い",
+        "reading": "みみがいたい",
+        "meaning": "弱点や欠点をつかれて、聞くのがつらいこと",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "指摘",
+        "reading": "してき",
+        "meaning": "重要な点や欠点などを言って教えること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "存分",
+        "reading": "ぞんぶん",
+        "meaning": "好きなだけ。思うままに。",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "事情",
+        "reading": "じじょう",
+        "meaning": "その人なりの理由や立場、状況",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "目白押し",
+        "reading": "めじろおし",
+        "meaning": "たくさんの物事や人が、すきまなく並ぶこと",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "押しも押されもせぬ",
+        "reading": "おしもおされもせぬ",
+        "meaning": "ゆるぎないこと。確かなこと。",
+        "detectedType": "meaning_context"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p212_001",
+        "source": "vocab1300",
+        "sourcePage": 212,
+        "type": "meaning_context",
+        "word": "耳が痛い",
+        "reading": "みみがいたい",
+        "sentence": "『忘れ物が多いね』と言われて、耳が痛くなりました。",
+        "question": "耳が痛い の意味はどれ？",
+        "choices": [
+          "好きなだけできること",
+          "弱点をつかれて、聞くのがつらいこと",
+          "大事な点を教えること",
+          "すきまなく並ぶこと"
+        ],
+        "answerIndex": 1,
+        "explanation": "耳が痛いは、自分の弱点を言われて、聞くのがつらいことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p212"
+        ]
+      },
+      {
+        "id": "vocab1300_p212_002",
+        "source": "vocab1300",
+        "sourcePage": 212,
+        "type": "meaning_context",
+        "word": "指摘",
+        "reading": "してき",
+        "sentence": "先生は、作文の分かりにくいところを指摘しました。",
+        "question": "指摘 の意味はどれ？",
+        "choices": [
+          "その人なりの理由",
+          "好きなだけすること",
+          "重要な点や欠点などを言って教えること",
+          "ゆるぎないこと"
+        ],
+        "answerIndex": 2,
+        "explanation": "指摘は、大事な点や直した方がよい点を言って教えることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p212"
+        ]
+      },
+      {
+        "id": "vocab1300_p212_003",
+        "source": "vocab1300",
+        "sourcePage": 212,
+        "type": "meaning_context",
+        "word": "存分",
+        "reading": "ぞんぶん",
+        "sentence": "休みの日に、好きな本を存分に読みました。",
+        "question": "存分 の意味はどれ？",
+        "choices": [
+          "好きなだけ、思うままに",
+          "人がすきまなく並ぶこと",
+          "欠点を教えること",
+          "聞くのがつらいこと"
+        ],
+        "answerIndex": 0,
+        "explanation": "存分は、好きなだけ、思うままにという意味です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p212"
+        ]
+      },
+      {
+        "id": "vocab1300_p212_004",
+        "source": "vocab1300",
+        "sourcePage": 212,
+        "type": "meaning_context",
+        "word": "事情",
+        "reading": "じじょう",
+        "sentence": "遅れた事情を、先生にきちんと説明しました。",
+        "question": "事情 の意味はどれ？",
+        "choices": [
+          "ゆるぎない立場",
+          "その人なりの理由や状況",
+          "すきまなく並ぶこと",
+          "好きなだけすること"
+        ],
+        "answerIndex": 1,
+        "explanation": "事情は、そうなった理由や、そのときの状況のことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p212"
+        ]
+      },
+      {
+        "id": "vocab1300_p212_005",
+        "source": "vocab1300",
+        "sourcePage": 212,
+        "type": "meaning_context",
+        "word": "目白押し",
+        "reading": "めじろおし",
+        "sentence": "今週は、楽しみな行事が目白押しです。",
+        "question": "目白押し の意味はどれ？",
+        "choices": [
+          "大事な点を教えること",
+          "弱点を言われてつらいこと",
+          "たくさんの物事が、すきまなく並ぶこと",
+          "その人なりの理由"
+        ],
+        "answerIndex": 2,
+        "explanation": "目白押しは、予定や人などがたくさん続いていることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p212"
+        ]
+      },
+      {
+        "id": "vocab1300_p212_006",
+        "source": "vocab1300",
+        "sourcePage": 212,
+        "type": "meaning_context",
+        "word": "押しも押されもせぬ",
+        "reading": "おしもおされもせぬ",
+        "sentence": "姉は、押しも押されもせぬ学校のリーダーです。",
+        "question": "押しも押されもせぬ の意味はどれ？",
+        "choices": [
+          "好きなだけできること",
+          "ゆるぎない、確かなこと",
+          "聞くのがつらいこと",
+          "物事が並ぶこと"
+        ],
+        "answerIndex": 1,
+        "explanation": "押しも押されもせぬは、だれもが認めるほど確かなことを表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p212"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p212_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        1,
+        2,
+        0,
+        1,
+        2,
+        1
+      ],
+      "countByIndex": {
+        "0": 1,
+        "1": 3,
+        "2": 2,
+        "3": 0
+      },
+      "choiceLabelDistribution": {
+        "ア": 1,
+        "イ": 3,
+        "ウ": 2,
+        "エ": 0
+      },
+      "result": "answerIndex 1が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+    },
+    "ruleDraftRevisionNotes": [
+      {
+        "point": "体の部位を含む慣用句",
+        "suggestion": "『耳が痛い』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+      }
+    ]
+  },
+  {
+    "sourcePage": 213,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+    },
+    "extractedWords": [
+      {
+        "word": "ひしめく",
+        "reading": "ひしめく",
+        "meaning": "たくさんの人で混み合っている様子",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "素通り",
+        "reading": "すどおり",
+        "meaning": "立ち寄らずに通りすぎること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "てこずる",
+        "reading": "てこずる",
+        "meaning": "どう扱ったらよいか分からず困ること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "惑う",
+        "reading": "まどう",
+        "meaning": "どうしたらよいか分からず迷うこと",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "途方に暮れる",
+        "reading": "とほうにくれる",
+        "meaning": "どうしてよいか分からず困り果てること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "口が重い",
+        "reading": "くちがおもい",
+        "meaning": "なかなかしゃべらないこと",
+        "detectedType": "meaning_context"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p213_001",
+        "source": "vocab1300",
+        "sourcePage": 213,
+        "type": "meaning_context",
+        "word": "ひしめく",
+        "reading": "ひしめく",
+        "sentence": "人気の店の前には、人がひしめいていました。",
+        "question": "ひしめく の意味はどれ？",
+        "choices": [
+          "立ち寄らずに通りすぎること",
+          "どうしてよいか分からず困ること",
+          "たくさんの人で混み合っている様子",
+          "なかなか話さないこと"
+        ],
+        "answerIndex": 2,
+        "explanation": "ひしめくは、人や物がたくさん集まって、すきまなく混み合う様子です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p213"
+        ]
+      },
+      {
+        "id": "vocab1300_p213_002",
+        "source": "vocab1300",
+        "sourcePage": 213,
+        "type": "meaning_context",
+        "word": "素通り",
+        "reading": "すどおり",
+        "sentence": "友だちの家の前を素通りして、駅へ向かいました。",
+        "question": "素通り の意味はどれ？",
+        "choices": [
+          "どう扱うか困ること",
+          "立ち寄らずに通りすぎること",
+          "人が混み合うこと",
+          "迷ってしまうこと"
+        ],
+        "answerIndex": 1,
+        "explanation": "素通りは、途中で立ち寄らず、そのまま通りすぎることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p213"
+        ]
+      },
+      {
+        "id": "vocab1300_p213_003",
+        "source": "vocab1300",
+        "sourcePage": 213,
+        "type": "meaning_context",
+        "word": "てこずる",
+        "reading": "てこずる",
+        "sentence": "妹は、難しいパズルにてこずっていました。",
+        "question": "てこずる の意味はどれ？",
+        "choices": [
+          "なかなか話さないこと",
+          "たくさんの人がいること",
+          "どう扱ったらよいか分からず困ること",
+          "立ち寄らずに行くこと"
+        ],
+        "answerIndex": 2,
+        "explanation": "てこずるは、思うように進まず、困ることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p213"
+        ]
+      },
+      {
+        "id": "vocab1300_p213_004",
+        "source": "vocab1300",
+        "sourcePage": 213,
+        "type": "meaning_context",
+        "word": "惑う",
+        "reading": "まどう",
+        "sentence": "どの道を行けばよいか分からず、駅で惑いました。",
+        "question": "惑う の意味はどれ？",
+        "choices": [
+          "どうしたらよいか分からず迷うこと",
+          "人がすきまなく集まること",
+          "そのまま通りすぎること",
+          "口数が少ないこと"
+        ],
+        "answerIndex": 0,
+        "explanation": "惑うは、どうしたらよいか分からず迷うことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p213"
+        ]
+      },
+      {
+        "id": "vocab1300_p213_005",
+        "source": "vocab1300",
+        "sourcePage": 213,
+        "type": "meaning_context",
+        "word": "途方に暮れる",
+        "reading": "とほうにくれる",
+        "sentence": "電車が止まってしまい、帰り方が分からず途方に暮れました。",
+        "question": "途方に暮れる の意味はどれ？",
+        "choices": [
+          "混み合うこと",
+          "どうしてよいか分からず困り果てること",
+          "通りすぎること",
+          "なかなかしゃべらないこと"
+        ],
+        "answerIndex": 1,
+        "explanation": "途方に暮れるは、どうしてよいか分からず、困り果てることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p213"
+        ]
+      },
+      {
+        "id": "vocab1300_p213_006",
+        "source": "vocab1300",
+        "sourcePage": 213,
+        "type": "meaning_context",
+        "word": "口が重い",
+        "reading": "くちがおもい",
+        "sentence": "怒られた理由を聞いても、弟は口が重いままでした。",
+        "question": "口が重い の意味はどれ？",
+        "choices": [
+          "どう扱うか困ること",
+          "迷ってしまうこと",
+          "なかなかしゃべらないこと",
+          "そのまま通ること"
+        ],
+        "answerIndex": 2,
+        "explanation": "口が重いは、なかなか話さない様子です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p213"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p213_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        2,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "countByIndex": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "3": 0
+      },
+      "choiceLabelDistribution": {
+        "ア": 1,
+        "イ": 2,
+        "ウ": 3,
+        "エ": 0
+      },
+      "result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+    },
+    "ruleDraftRevisionNotes": [
+      {
+        "point": "体の部位を含む慣用句",
+        "suggestion": "『口が重い』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+      }
+    ]
+  },
+  {
+    "sourcePage": 214,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+    },
+    "extractedWords": [
+      {
+        "word": "種明かし",
+        "reading": "たねあかし",
+        "meaning": "しかけやからくりを見せること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "やましい",
+        "reading": "やましい",
+        "meaning": "自分に悪いところがあって、気が引けること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "健やか",
+        "reading": "すこやか",
+        "meaning": "丈夫にすくすくと育つ様子",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "裏目に出る",
+        "reading": "うらめにでる",
+        "meaning": "よいと思ってしたことが、思いがけず悪い結果になること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "いきさつ",
+        "reading": "いきさつ",
+        "meaning": "そうなるまでの事情や流れ",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "要点",
+        "reading": "ようてん",
+        "meaning": "大切なところ。ポイント。",
+        "detectedType": "meaning_context"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p214_001",
+        "source": "vocab1300",
+        "sourcePage": 214,
+        "type": "meaning_context",
+        "word": "種明かし",
+        "reading": "たねあかし",
+        "sentence": "マジックのあとで、先生が少しだけ種明かしをしました。",
+        "question": "種明かし の意味はどれ？",
+        "choices": [
+          "しかけやからくりを見せること",
+          "大切なところ",
+          "悪い結果になること",
+          "元気に育つこと"
+        ],
+        "answerIndex": 0,
+        "explanation": "種明かしは、秘密にしていたしかけやからくりを見せることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p214"
+        ]
+      },
+      {
+        "id": "vocab1300_p214_002",
+        "source": "vocab1300",
+        "sourcePage": 214,
+        "type": "meaning_context",
+        "word": "やましい",
+        "reading": "やましい",
+        "sentence": "うそをついたので、やましい気持ちになりました。",
+        "question": "やましい の意味はどれ？",
+        "choices": [
+          "そうなるまでの事情",
+          "自分に悪いところがあって、気が引けること",
+          "しかけを見せること",
+          "すくすく育つこと"
+        ],
+        "answerIndex": 1,
+        "explanation": "やましいは、自分に悪いところがあると感じて、落ち着かないことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p214"
+        ]
+      },
+      {
+        "id": "vocab1300_p214_003",
+        "source": "vocab1300",
+        "sourcePage": 214,
+        "type": "meaning_context",
+        "word": "健やか",
+        "reading": "すこやか",
+        "sentence": "家族は、赤ちゃんが健やかに育つことを願いました。",
+        "question": "健やか の意味はどれ？",
+        "choices": [
+          "気が引けること",
+          "大切なところ",
+          "丈夫にすくすくと育つ様子",
+          "悪い結果になること"
+        ],
+        "answerIndex": 2,
+        "explanation": "健やかは、心や体が元気で、すくすく育つ様子です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p214"
+        ]
+      },
+      {
+        "id": "vocab1300_p214_004",
+        "source": "vocab1300",
+        "sourcePage": 214,
+        "type": "meaning_context",
+        "word": "裏目に出る",
+        "reading": "うらめにでる",
+        "sentence": "早く終わらせようと急いだことが、裏目に出て失敗しました。",
+        "question": "裏目に出る の意味はどれ？",
+        "choices": [
+          "しかけを見せること",
+          "事情を説明すること",
+          "大切な点をまとめること",
+          "よいと思ってしたことが、悪い結果になること"
+        ],
+        "answerIndex": 3,
+        "explanation": "裏目に出るは、よかれと思ってしたことが、反対に悪い結果になることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p214"
+        ]
+      },
+      {
+        "id": "vocab1300_p214_005",
+        "source": "vocab1300",
+        "sourcePage": 214,
+        "type": "meaning_context",
+        "word": "いきさつ",
+        "reading": "いきさつ",
+        "sentence": "けんかになったいきさつを、二人から聞きました。",
+        "question": "いきさつ の意味はどれ？",
+        "choices": [
+          "そうなるまでの事情や流れ",
+          "健康に育つこと",
+          "しかけを見せること",
+          "悪いところがあること"
+        ],
+        "answerIndex": 0,
+        "explanation": "いきさつは、物事がそうなるまでの流れや事情です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p214"
+        ]
+      },
+      {
+        "id": "vocab1300_p214_006",
+        "source": "vocab1300",
+        "sourcePage": 214,
+        "type": "meaning_context",
+        "word": "要点",
+        "reading": "ようてん",
+        "sentence": "先生は、話の要点を黒板にまとめました。",
+        "question": "要点 の意味はどれ？",
+        "choices": [
+          "気が引けること",
+          "悪い結果になること",
+          "大切なところ、ポイント",
+          "健康に育つこと"
+        ],
+        "answerIndex": 2,
+        "explanation": "要点は、話や文章の中で特に大切なところです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p214"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p214_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        2
+      ],
+      "countByIndex": {
+        "0": 2,
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "choiceLabelDistribution": {
+        "ア": 2,
+        "イ": 1,
+        "ウ": 2,
+        "エ": 1
+      },
+      "result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+    },
+    "ruleDraftRevisionNotes": []
+  },
+  {
+    "sourcePage": 215,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。体の部位を含む慣用句もありますが、部位名そのものではないため meaning_context にしています。"
+    },
+    "extractedWords": [
+      {
+        "word": "手を抜く",
+        "reading": "てをぬく",
+        "meaning": "仕事などをいい加減にすること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "胸を張る",
+        "reading": "むねをはる",
+        "meaning": "自信を持って、堂々とすること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "貝のように黙る",
+        "reading": "かいのようにだまる",
+        "meaning": "じっと黙る様子",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "うぬぼれる",
+        "reading": "うぬぼれる",
+        "meaning": "自分はできる人間だと得意になること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "駆使",
+        "reading": "くし",
+        "meaning": "自由自在に何かを使いこなすこと",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "警戒",
+        "reading": "けいかい",
+        "meaning": "十分に注意し、用心すること",
+        "detectedType": "meaning_context"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p215_001",
+        "source": "vocab1300",
+        "sourcePage": 215,
+        "type": "meaning_context",
+        "word": "手を抜く",
+        "reading": "てをぬく",
+        "sentence": "掃除で手を抜いたので、部屋のすみにほこりが残っていました。",
+        "question": "手を抜く の意味はどれ？",
+        "choices": [
+          "自信を持つこと",
+          "仕事などをいい加減にすること",
+          "じっと黙ること",
+          "注意して用心すること"
+        ],
+        "answerIndex": 1,
+        "explanation": "手を抜くは、やるべきことをきちんとせず、いい加減にすることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p215"
+        ]
+      },
+      {
+        "id": "vocab1300_p215_002",
+        "source": "vocab1300",
+        "sourcePage": 215,
+        "type": "meaning_context",
+        "word": "胸を張る",
+        "reading": "むねをはる",
+        "sentence": "毎日練習したので、胸を張って発表できました。",
+        "question": "胸を張る の意味はどれ？",
+        "choices": [
+          "自由に使いこなすこと",
+          "いい加減にすること",
+          "自信を持って、堂々とすること",
+          "静かに黙ること"
+        ],
+        "answerIndex": 2,
+        "explanation": "胸を張るは、自信を持って堂々とすることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p215"
+        ]
+      },
+      {
+        "id": "vocab1300_p215_003",
+        "source": "vocab1300",
+        "sourcePage": 215,
+        "type": "meaning_context",
+        "word": "貝のように黙る",
+        "reading": "かいのようにだまる",
+        "sentence": "理由を聞かれても、弟は貝のように黙っていました。",
+        "question": "貝のように黙る の意味はどれ？",
+        "choices": [
+          "十分に用心すること",
+          "じっと黙る様子",
+          "得意になること",
+          "自由自在に使うこと"
+        ],
+        "answerIndex": 1,
+        "explanation": "貝のように黙るは、何も話さず、じっと黙っている様子です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p215"
+        ]
+      },
+      {
+        "id": "vocab1300_p215_004",
+        "source": "vocab1300",
+        "sourcePage": 215,
+        "type": "meaning_context",
+        "word": "うぬぼれる",
+        "reading": "うぬぼれる",
+        "sentence": "一度よい点を取ったからといって、うぬぼれてはいけません。",
+        "question": "うぬぼれる の意味はどれ？",
+        "choices": [
+          "自分はできる人間だと得意になること",
+          "仕事をいい加減にすること",
+          "十分に注意すること",
+          "じっと黙ること"
+        ],
+        "answerIndex": 0,
+        "explanation": "うぬぼれるは、自分はすごいと思いすぎて得意になることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p215"
+        ]
+      },
+      {
+        "id": "vocab1300_p215_005",
+        "source": "vocab1300",
+        "sourcePage": 215,
+        "type": "meaning_context",
+        "word": "駆使",
+        "reading": "くし",
+        "sentence": "姉は辞書とメモを駆使して、難しい文章を読みました。",
+        "question": "駆使 の意味はどれ？",
+        "choices": [
+          "自信を持つこと",
+          "得意になること",
+          "自由自在に何かを使いこなすこと",
+          "用心すること"
+        ],
+        "answerIndex": 2,
+        "explanation": "駆使は、道具や力などを上手に使いこなすことです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p215"
+        ]
+      },
+      {
+        "id": "vocab1300_p215_006",
+        "source": "vocab1300",
+        "sourcePage": 215,
+        "type": "meaning_context",
+        "word": "警戒",
+        "reading": "けいかい",
+        "sentence": "大雨のあとだったので、川の近くでは警戒しました。",
+        "question": "警戒 の意味はどれ？",
+        "choices": [
+          "仕事をいい加減にすること",
+          "じっと黙ること",
+          "自信を持つこと",
+          "十分に注意し、用心すること"
+        ],
+        "answerIndex": 3,
+        "explanation": "警戒は、危ないことが起きないように注意し、用心することです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p215"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p215_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        1,
+        2,
+        1,
+        0,
+        2,
+        3
+      ],
+      "countByIndex": {
+        "0": 1,
+        "1": 2,
+        "2": 2,
+        "3": 1
+      },
+      "choiceLabelDistribution": {
+        "ア": 1,
+        "イ": 2,
+        "ウ": 2,
+        "エ": 1
+      },
+      "result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+    },
+    "ruleDraftRevisionNotes": [
+      {
+        "point": "体の部位を含む慣用句",
+        "suggestion": "『手を抜く』『胸を張る』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+      }
+    ]
+  },
+  {
+    "sourcePage": 216,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+    },
+    "extractedWords": [
+      {
+        "word": "つけ入る",
+        "reading": "つけいる",
+        "meaning": "相手の弱点につけこむこと",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "肩を落とす",
+        "reading": "かたをおとす",
+        "meaning": "しょんぼりして、元気がなくなること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "きわめつき",
+        "reading": "きわめつき",
+        "meaning": "優れたものとして認められていること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "すかさず",
+        "reading": "すかさず",
+        "meaning": "すばやく。すぐに。",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "音頭をとる",
+        "reading": "おんどをとる",
+        "meaning": "率先して、みんなをまとめたり指示したりすること",
+        "detectedType": "meaning_context"
+      },
+      {
+        "word": "仕打ち",
+        "reading": "しうち",
+        "meaning": "人に対するひどい扱い",
+        "detectedType": "meaning_context"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p216_001",
+        "source": "vocab1300",
+        "sourcePage": 216,
+        "type": "meaning_context",
+        "word": "つけ入る",
+        "reading": "つけいる",
+        "sentence": "相手の弱みにむやみにつけ入るのは、よくありません。",
+        "question": "つけ入る の意味はどれ？",
+        "choices": [
+          "相手の弱点につけこむこと",
+          "すばやく行うこと",
+          "元気がなくなること",
+          "ひどく扱うこと"
+        ],
+        "answerIndex": 0,
+        "explanation": "つけ入るは、相手の弱いところを利用することです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p216"
+        ]
+      },
+      {
+        "id": "vocab1300_p216_002",
+        "source": "vocab1300",
+        "sourcePage": 216,
+        "type": "meaning_context",
+        "word": "肩を落とす",
+        "reading": "かたをおとす",
+        "sentence": "試合に負けて、チームのみんなは肩を落としました。",
+        "question": "肩を落とす の意味はどれ？",
+        "choices": [
+          "みんなをまとめること",
+          "しょんぼりして、元気がなくなること",
+          "相手につけこむこと",
+          "優れていること"
+        ],
+        "answerIndex": 1,
+        "explanation": "肩を落とすは、がっかりして元気がなくなる様子です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p216"
+        ]
+      },
+      {
+        "id": "vocab1300_p216_003",
+        "source": "vocab1300",
+        "sourcePage": 216,
+        "type": "meaning_context",
+        "word": "きわめつき",
+        "reading": "きわめつき",
+        "sentence": "この店のオムライスは、きわめつきのおいしさです。",
+        "question": "きわめつき の意味はどれ？",
+        "choices": [
+          "ひどく扱うこと",
+          "すぐに行うこと",
+          "優れたものとして認められていること",
+          "元気がなくなること"
+        ],
+        "answerIndex": 2,
+        "explanation": "きわめつきは、すぐれていると認められていることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p216"
+        ]
+      },
+      {
+        "id": "vocab1300_p216_004",
+        "source": "vocab1300",
+        "sourcePage": 216,
+        "type": "meaning_context",
+        "word": "すかさず",
+        "reading": "すかさず",
+        "sentence": "先生の質問に、青ちゃんはすかさず答えました。",
+        "question": "すかさず の意味はどれ？",
+        "choices": [
+          "みんなをまとめて",
+          "しょんぼりして",
+          "弱点につけこんで",
+          "すばやく、すぐに"
+        ],
+        "answerIndex": 3,
+        "explanation": "すかさずは、間をあけずにすばやくする様子です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p216"
+        ]
+      },
+      {
+        "id": "vocab1300_p216_005",
+        "source": "vocab1300",
+        "sourcePage": 216,
+        "type": "meaning_context",
+        "word": "音頭をとる",
+        "reading": "おんどをとる",
+        "sentence": "友だちの送別会で、姉が音頭をとりました。",
+        "question": "音頭をとる の意味はどれ？",
+        "choices": [
+          "率先して、みんなをまとめること",
+          "相手の弱点につけこむこと",
+          "人をひどく扱うこと",
+          "すぐに答えること"
+        ],
+        "answerIndex": 0,
+        "explanation": "音頭をとるは、みんなの先に立ってまとめたり、進めたりすることです。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p216"
+        ]
+      },
+      {
+        "id": "vocab1300_p216_006",
+        "source": "vocab1300",
+        "sourcePage": 216,
+        "type": "meaning_context",
+        "word": "仕打ち",
+        "reading": "しうち",
+        "sentence": "友だちにそんなひどい仕打ちをするのは、よくありません。",
+        "question": "仕打ち の意味はどれ？",
+        "choices": [
+          "優れていること",
+          "元気がなくなること",
+          "人に対するひどい扱い",
+          "みんなをまとめること"
+        ],
+        "answerIndex": 2,
+        "explanation": "仕打ちは、人に対してする扱いのことです。多くは、ひどい扱いを表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "p216"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p216_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        2
+      ],
+      "countByIndex": {
+        "0": 2,
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "choiceLabelDistribution": {
+        "ア": 2,
+        "イ": 1,
+        "ウ": 2,
+        "エ": 1
+      },
+      "result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+    },
+    "ruleDraftRevisionNotes": [
+      {
+        "point": "体の部位を含む慣用句",
+        "suggestion": "『肩を落とす』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+      }
+    ]
+  },
+  {
+    "sourcePage": 217,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "subtype": "eto_word",
+      "reason": "干支の漢字から動物を答える特殊暗記系のページです。既存typeでは meaning_context に寄せ、管理用に subtype: eto_word を提案します。"
+    },
+    "extractedWords": [
+      {
+        "word": "午",
+        "reading": "うま",
+        "meaning": "干支の一つで、馬を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "申",
+        "reading": "さる",
+        "meaning": "干支の一つで、猿を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "亥",
+        "reading": "い",
+        "meaning": "干支の一つで、いのししを表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "寅",
+        "reading": "とら",
+        "meaning": "干支の一つで、虎を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "辰",
+        "reading": "たつ",
+        "meaning": "干支の一つで、龍を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "子",
+        "reading": "ね",
+        "meaning": "干支の一つで、ねずみを表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p217_001",
+        "source": "vocab1300",
+        "sourcePage": 217,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "午",
+        "reading": "うま",
+        "sentence": "たてがみがあり、草原を走る動物を表します。",
+        "question": "午年 の動物はどれ？",
+        "choices": [
+          "馬",
+          "猿",
+          "虎",
+          "ねずみ"
+        ],
+        "answerIndex": 0,
+        "explanation": "午は『うま』と読み、干支では馬を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p217"
+        ]
+      },
+      {
+        "id": "vocab1300_p217_002",
+        "source": "vocab1300",
+        "sourcePage": 217,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "申",
+        "reading": "さる",
+        "sentence": "木に登ったり、すばしっこく動いたりする動物です。",
+        "question": "申年 の動物はどれ？",
+        "choices": [
+          "いのしし",
+          "猿",
+          "龍",
+          "馬"
+        ],
+        "answerIndex": 1,
+        "explanation": "申は『さる』と読み、干支では猿を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p217"
+        ]
+      },
+      {
+        "id": "vocab1300_p217_003",
+        "source": "vocab1300",
+        "sourcePage": 217,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "亥",
+        "reading": "い",
+        "sentence": "大きなきばを持つ、ぶたに似た野生の動物です。",
+        "question": "亥年 の動物はどれ？",
+        "choices": [
+          "ねずみ",
+          "虎",
+          "いのしし",
+          "猿"
+        ],
+        "answerIndex": 2,
+        "explanation": "亥は『い』と読み、干支ではいのししを表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p217"
+        ]
+      },
+      {
+        "id": "vocab1300_p217_004",
+        "source": "vocab1300",
+        "sourcePage": 217,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "寅",
+        "reading": "とら",
+        "sentence": "しま模様があり、大きな猫のような動物です。",
+        "question": "寅年 の動物はどれ？",
+        "choices": [
+          "馬",
+          "龍",
+          "猿",
+          "虎"
+        ],
+        "answerIndex": 3,
+        "explanation": "寅は『とら』と読み、干支では虎を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p217"
+        ]
+      },
+      {
+        "id": "vocab1300_p217_005",
+        "source": "vocab1300",
+        "sourcePage": 217,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "辰",
+        "reading": "たつ",
+        "sentence": "空想上の動物で、長い体を持ち、空を飛べるとされています。",
+        "question": "辰年 の動物はどれ？",
+        "choices": [
+          "いのしし",
+          "龍",
+          "ねずみ",
+          "虎"
+        ],
+        "answerIndex": 1,
+        "explanation": "辰は『たつ』と読み、干支では龍を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p217"
+        ]
+      },
+      {
+        "id": "vocab1300_p217_006",
+        "source": "vocab1300",
+        "sourcePage": 217,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "子",
+        "reading": "ね",
+        "sentence": "チューチューと鳴く、小さな動物です。",
+        "question": "子年 の動物はどれ？",
+        "choices": [
+          "猿",
+          "馬",
+          "ねずみ",
+          "龍"
+        ],
+        "answerIndex": 2,
+        "explanation": "子は『ね』と読み、干支ではねずみを表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p217"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p217_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "countByIndex": {
+        "0": 1,
+        "1": 2,
+        "2": 2,
+        "3": 1
+      },
+      "choiceLabelDistribution": {
+        "ア": 1,
+        "イ": 2,
+        "ウ": 2,
+        "エ": 1
+      },
+      "result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+    },
+    "ruleDraftRevisionNotes": [
+      {
+        "point": "新subtype候補",
+        "suggestion": "p217〜p218は干支の漢字と動物を結びつける特殊暗記系のため、subtype: eto_word を追加すると管理しやすそうです。"
+      }
+    ]
+  },
+  {
+    "sourcePage": 218,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "subtype": "eto_word",
+      "reason": "干支の漢字から動物を答える特殊暗記系のページです。既存typeでは meaning_context に寄せ、管理用に subtype: eto_word を提案します。"
+    },
+    "extractedWords": [
+      {
+        "word": "丑",
+        "reading": "うし",
+        "meaning": "干支の一つで、牛を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "巳",
+        "reading": "み",
+        "meaning": "干支の一つで、へびを表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "卯",
+        "reading": "う",
+        "meaning": "干支の一つで、うさぎを表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "未",
+        "reading": "ひつじ",
+        "meaning": "干支の一つで、羊を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "戌",
+        "reading": "いぬ",
+        "meaning": "干支の一つで、犬を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      },
+      {
+        "word": "酉",
+        "reading": "とり",
+        "meaning": "干支の一つで、鳥を表す",
+        "detectedType": "meaning_context",
+        "subtype": "eto_word"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p218_001",
+        "source": "vocab1300",
+        "sourcePage": 218,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "丑",
+        "reading": "うし",
+        "sentence": "牛乳を出す動物としても知られています。",
+        "question": "丑年 の動物はどれ？",
+        "choices": [
+          "へび",
+          "牛",
+          "羊",
+          "犬"
+        ],
+        "answerIndex": 1,
+        "explanation": "丑は『うし』と読み、干支では牛を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p218"
+        ]
+      },
+      {
+        "id": "vocab1300_p218_002",
+        "source": "vocab1300",
+        "sourcePage": 218,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "巳",
+        "reading": "み",
+        "sentence": "長い体で、はいながら前へ進む動物です。",
+        "question": "巳年 の動物はどれ？",
+        "choices": [
+          "鳥",
+          "うさぎ",
+          "へび",
+          "牛"
+        ],
+        "answerIndex": 2,
+        "explanation": "巳は『み』と読み、干支ではへびを表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p218"
+        ]
+      },
+      {
+        "id": "vocab1300_p218_003",
+        "source": "vocab1300",
+        "sourcePage": 218,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "卯",
+        "reading": "う",
+        "sentence": "ぴょんぴょん飛びはねて、長い耳が特徴です。",
+        "question": "卯年 の動物はどれ？",
+        "choices": [
+          "うさぎ",
+          "犬",
+          "羊",
+          "鳥"
+        ],
+        "answerIndex": 0,
+        "explanation": "卯は『う』と読み、干支ではうさぎを表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p218"
+        ]
+      },
+      {
+        "id": "vocab1300_p218_004",
+        "source": "vocab1300",
+        "sourcePage": 218,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "未",
+        "reading": "ひつじ",
+        "sentence": "毛から、あたたかいセーターを作ることがあります。",
+        "question": "未年 の動物はどれ？",
+        "choices": [
+          "牛",
+          "へび",
+          "犬",
+          "羊"
+        ],
+        "answerIndex": 3,
+        "explanation": "未は『ひつじ』と読み、干支では羊を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p218"
+        ]
+      },
+      {
+        "id": "vocab1300_p218_005",
+        "source": "vocab1300",
+        "sourcePage": 218,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "戌",
+        "reading": "いぬ",
+        "sentence": "ワンワンとほえる、身近な動物です。",
+        "question": "戌年 の動物はどれ？",
+        "choices": [
+          "鳥",
+          "犬",
+          "うさぎ",
+          "へび"
+        ],
+        "answerIndex": 1,
+        "explanation": "戌は『いぬ』と読み、干支では犬を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p218"
+        ]
+      },
+      {
+        "id": "vocab1300_p218_006",
+        "source": "vocab1300",
+        "sourcePage": 218,
+        "type": "meaning_context",
+        "subtype": "eto_word",
+        "word": "酉",
+        "reading": "とり",
+        "sentence": "ニワトリなど、人に時を知らせる動物です。",
+        "question": "酉年 の動物はどれ？",
+        "choices": [
+          "羊",
+          "牛",
+          "鳥",
+          "犬"
+        ],
+        "answerIndex": 2,
+        "explanation": "酉は『とり』と読み、干支では鳥を表します。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "eto_word",
+          "p218"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p218_all_6_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        1,
+        2,
+        0,
+        3,
+        1,
+        2
+      ],
+      "countByIndex": {
+        "0": 1,
+        "1": 2,
+        "2": 2,
+        "3": 1
+      },
+      "choiceLabelDistribution": {
+        "ア": 1,
+        "イ": 2,
+        "ウ": 2,
+        "エ": 1
+      },
+      "result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+    },
+    "ruleDraftRevisionNotes": [
+      {
+        "point": "新subtype候補",
+        "suggestion": "p217〜p218は干支の漢字と動物を結びつける特殊暗記系のため、subtype: eto_word を追加すると管理しやすそうです。"
+      }
+    ]
+  },
+  {
+    "sourcePage": 219,
+    "pageTypeJudgement": {
+      "detectedType": "meaning_context",
+      "subtype": "old_country_name_word",
+      "reason": "旧国名から現在の都道府県を答える特殊暗記系のページです。既存typeでは meaning_context に寄せ、管理用に subtype: old_country_name_word を提案します。"
+    },
+    "extractedWords": [
+      {
+        "word": "大和",
+        "reading": "やまと",
+        "meaning": "現在の奈良県あたりを表す旧国名",
+        "detectedType": "meaning_context",
+        "subtype": "old_country_name_word",
+        "currentPrefecture": "奈良県"
+      },
+      {
+        "word": "蝦夷",
+        "reading": "えぞ",
+        "meaning": "現在の北海道に関係する古い呼び名",
+        "detectedType": "meaning_context",
+        "subtype": "old_country_name_word",
+        "currentPrefecture": "北海道"
+      },
+      {
+        "word": "阿波",
+        "reading": "あわ",
+        "meaning": "現在の徳島県あたりを表す旧国名",
+        "detectedType": "meaning_context",
+        "subtype": "old_country_name_word",
+        "currentPrefecture": "徳島県"
+      },
+      {
+        "word": "土佐",
+        "reading": "とさ",
+        "meaning": "現在の高知県あたりを表す旧国名",
+        "detectedType": "meaning_context",
+        "subtype": "old_country_name_word",
+        "currentPrefecture": "高知県"
+      },
+      {
+        "word": "琉球",
+        "reading": "りゅうきゅう",
+        "meaning": "現在の沖縄県に関係する古い国名",
+        "detectedType": "meaning_context",
+        "subtype": "old_country_name_word",
+        "currentPrefecture": "沖縄県"
+      }
+    ],
+    "questions": [
+      {
+        "id": "vocab1300_p219_001",
+        "source": "vocab1300",
+        "sourcePage": 219,
+        "type": "meaning_context",
+        "subtype": "old_country_name_word",
+        "word": "大和",
+        "reading": "やまと",
+        "sentence": "昔、都があった場所で、春日大社や大仏でも有名です。",
+        "question": "大和 は現在のどこ？",
+        "choices": [
+          "奈良県",
+          "北海道",
+          "徳島県",
+          "高知県"
+        ],
+        "answerIndex": 0,
+        "explanation": "大和は『やまと』と読み、現在の奈良県あたりを表す旧国名です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "old_country_name_word",
+          "p219"
+        ]
+      },
+      {
+        "id": "vocab1300_p219_002",
+        "source": "vocab1300",
+        "sourcePage": 219,
+        "type": "meaning_context",
+        "subtype": "old_country_name_word",
+        "word": "蝦夷",
+        "reading": "えぞ",
+        "sentence": "日本の北にある地域で、シカやリスにもこの名前がついています。",
+        "question": "蝦夷 は現在のどこ？",
+        "choices": [
+          "沖縄県",
+          "北海道",
+          "高知県",
+          "奈良県"
+        ],
+        "answerIndex": 1,
+        "explanation": "蝦夷は『えぞ』と読み、現在の北海道に関係する古い呼び名です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "old_country_name_word",
+          "p219"
+        ]
+      },
+      {
+        "id": "vocab1300_p219_003",
+        "source": "vocab1300",
+        "sourcePage": 219,
+        "type": "meaning_context",
+        "subtype": "old_country_name_word",
+        "word": "阿波",
+        "reading": "あわ",
+        "sentence": "四国にあり、踊りやうず潮で有名なところです。",
+        "question": "阿波 は現在のどこ？",
+        "choices": [
+          "奈良県",
+          "高知県",
+          "徳島県",
+          "北海道"
+        ],
+        "answerIndex": 2,
+        "explanation": "阿波は『あわ』と読み、現在の徳島県あたりを表す旧国名です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "old_country_name_word",
+          "p219"
+        ]
+      },
+      {
+        "id": "vocab1300_p219_004",
+        "source": "vocab1300",
+        "sourcePage": 219,
+        "type": "meaning_context",
+        "subtype": "old_country_name_word",
+        "word": "土佐",
+        "reading": "とさ",
+        "sentence": "坂本龍馬が生まれ育ったことで有名なところです。",
+        "question": "土佐 は現在のどこ？",
+        "choices": [
+          "北海道",
+          "徳島県",
+          "沖縄県",
+          "高知県"
+        ],
+        "answerIndex": 3,
+        "explanation": "土佐は『とさ』と読み、現在の高知県あたりを表す旧国名です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "old_country_name_word",
+          "p219"
+        ]
+      },
+      {
+        "id": "vocab1300_p219_005",
+        "source": "vocab1300",
+        "sourcePage": 219,
+        "type": "meaning_context",
+        "subtype": "old_country_name_word",
+        "word": "琉球",
+        "reading": "りゅうきゅう",
+        "sentence": "日本の南にあり、昔は王国として栄えたところです。",
+        "question": "琉球 は現在のどこ？",
+        "choices": [
+          "徳島県",
+          "奈良県",
+          "沖縄県",
+          "高知県"
+        ],
+        "answerIndex": 2,
+        "explanation": "琉球は『りゅうきゅう』と読み、現在の沖縄県に関係する古い国名です。",
+        "image": null,
+        "tags": [
+          "vocab1300",
+          "meaning_context",
+          "old_country_name_word",
+          "p219"
+        ]
+      }
+    ],
+    "answerIndexCheck": {
+      "target": "p219_all_5_questions",
+      "policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+      "usedIndexes": [
+        0,
+        1,
+        2,
+        3,
+        2
+      ],
+      "countByIndex": {
+        "0": 1,
+        "1": 1,
+        "2": 2,
+        "3": 1
+      },
+      "choiceLabelDistribution": {
+        "ア": 1,
+        "イ": 1,
+        "ウ": 2,
+        "エ": 1
+      },
+      "result": "5問で2・1・1・1の分布になっており、極端な偏りはありません。"
+    },
+    "ruleDraftRevisionNotes": [
+      {
+        "point": "新subtype候補",
+        "suggestion": "旧国名と現在の都道府県を結びつけるページは、subtype: old_country_name_word を追加すると管理しやすそうです。"
+      }
+    ]
+  }
+]
