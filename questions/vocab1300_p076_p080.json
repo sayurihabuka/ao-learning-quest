@@ -1,0 +1,952 @@
+[
+{
+"sourcePage": 76,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "キャンセルする",
+"reading": "キャンセルする",
+"meaning": "予約・約束・予定を取り消すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "のさばる",
+"reading": "のさばる",
+"meaning": "我が物顔で勢いを増すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "肝に銘じる",
+"reading": "きもにめいじる",
+"meaning": "忘れないように、心に留めておくこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "聞こえよがし",
+"reading": "きこえよがし",
+"meaning": "悪口などを直接本人に言わず、わざと聞こえるように言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "あざむく",
+"reading": "あざむく",
+"meaning": "巧妙にうそをついてだますこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "短縮",
+"reading": "たんしゅく",
+"meaning": "時間や距離を縮めること。短くすること。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p076_001",
+"source": "vocab1300",
+"sourcePage": 76,
+"type": "meaning_context",
+"word": "キャンセルする",
+"reading": "キャンセルする",
+"sentence": "体調が悪くなったので、ピアノの予約をキャンセルしました。",
+"question": "キャンセルする の意味はどれ？",
+"choices": [
+"我が物顔で勢いを増すこと",
+"うそをついてだますこと",
+"予約・約束・予定を取り消すこと",
+"忘れないよう心に留めること"
+],
+"answerIndex": 2,
+"explanation": "キャンセルするは、予約・約束・予定を取り消すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p076"]
+},
+{
+"id": "vocab1300_p076_002",
+"source": "vocab1300",
+"sourcePage": 76,
+"type": "meaning_context",
+"word": "のさばる",
+"reading": "のさばる",
+"sentence": "注意する人がいないと、いじわるな子がのさばってしまいます。",
+"question": "のさばる の意味はどれ？",
+"choices": [
+"悪口を聞こえるように言うこと",
+"我が物顔で勢いを増すこと",
+"時間を短くすること",
+"予定を取り消すこと"
+],
+"answerIndex": 1,
+"explanation": "のさばるは、我が物顔で勢いを増すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p076"]
+},
+{
+"id": "vocab1300_p076_003",
+"source": "vocab1300",
+"sourcePage": 76,
+"type": "meaning_context",
+"word": "肝に銘じる",
+"reading": "きもにめいじる",
+"sentence": "失敗から学んだことを、肝に銘じておきます。",
+"question": "肝に銘じる の意味はどれ？",
+"choices": [
+"うそをついてだますこと",
+"悪口をわざと聞こえるように言うこと",
+"我が物顔で勢いを増すこと",
+"忘れないように、心に留めておくこと"
+],
+"answerIndex": 3,
+"explanation": "肝に銘じるは、忘れないように、心に留めておくことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p076"]
+},
+{
+"id": "vocab1300_p076_004",
+"source": "vocab1300",
+"sourcePage": 76,
+"type": "meaning_context",
+"word": "聞こえよがし",
+"reading": "きこえよがし",
+"sentence": "本人に言わず、聞こえよがしに文句を言うのはよくありません。",
+"question": "聞こえよがし の意味はどれ？",
+"choices": [
+"悪口などを直接本人に言わず、わざと聞こえるように言うこと",
+"予約を取り消すこと",
+"心に留めておくこと",
+"時間を短くすること"
+],
+"answerIndex": 0,
+"explanation": "聞こえよがしは、悪口などを直接本人に言わず、わざと聞こえるように言うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p076"]
+},
+{
+"id": "vocab1300_p076_005",
+"source": "vocab1300",
+"sourcePage": 76,
+"type": "meaning_context",
+"word": "あざむく",
+"reading": "あざむく",
+"sentence": "人をあざむいて得をしようとするのは、してはいけないことです。",
+"question": "あざむく の意味はどれ？",
+"choices": [
+"予定を取り消すこと",
+"うそをついてだますこと",
+"心に留めること",
+"勢いを増すこと"
+],
+"answerIndex": 1,
+"explanation": "あざむくは、巧妙にうそをついてだますことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p076"]
+},
+{
+"id": "vocab1300_p076_006",
+"source": "vocab1300",
+"sourcePage": 76,
+"type": "meaning_context",
+"word": "短縮",
+"reading": "たんしゅく",
+"sentence": "駅までの道を変えたら、時間を短縮できました。",
+"question": "短縮 の意味はどれ？",
+"choices": [
+"悪口を聞こえるように言うこと",
+"我が物顔でふるまうこと",
+"時間や距離を縮めること",
+"うそをつくこと"
+],
+"answerIndex": 2,
+"explanation": "短縮は、時間や距離を縮めること、短くすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p076"]
+}
+],
+"answerIndexCheck": {
+"target": "p076_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 3, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『キャンセルする』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 77,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "会釈",
+"reading": "えしゃく",
+"meaning": "軽く頭を下げたりしてあいさつをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "画期的",
+"reading": "かっきてき",
+"meaning": "新しい時代の到来を感じさせるように目覚ましい様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "交渉",
+"reading": "こうしょう",
+"meaning": "ある目的のために、当事者同士が話し合うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "おろそか",
+"reading": "おろそか",
+"meaning": "いい加減に何かをする様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "舌打ち",
+"reading": "したうち",
+"meaning": "いらいらしたときに、舌を鳴らすこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "鼻につく",
+"reading": "はなにつく",
+"meaning": "うっとうしくて嫌に感じられること。あきあきすること。",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p077_001",
+"source": "vocab1300",
+"sourcePage": 77,
+"type": "meaning_context",
+"word": "会釈",
+"reading": "えしゃく",
+"sentence": "近所の人に会ったので、軽く会釈をしました。",
+"question": "会釈 の意味はどれ？",
+"choices": [
+"いい加減にすること",
+"ある目的のために話し合うこと",
+"軽く頭を下げたりしてあいさつをすること",
+"いらいらして舌を鳴らすこと"
+],
+"answerIndex": 2,
+"explanation": "会釈は、軽く頭を下げたりしてあいさつをすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p077"]
+},
+{
+"id": "vocab1300_p077_002",
+"source": "vocab1300",
+"sourcePage": 77,
+"type": "meaning_context",
+"word": "画期的",
+"reading": "かっきてき",
+"sentence": "その道具は、だれでも簡単に使える画期的な発明でした。",
+"question": "画期的 の意味はどれ？",
+"choices": [
+"うっとうしく感じること",
+"新しい時代を感じさせるほど目覚ましい様子",
+"軽くあいさつすること",
+"いい加減にすること"
+],
+"answerIndex": 1,
+"explanation": "画期的は、新しい時代の到来を感じさせるように目覚ましい様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p077"]
+},
+{
+"id": "vocab1300_p077_003",
+"source": "vocab1300",
+"sourcePage": 77,
+"type": "meaning_context",
+"word": "交渉",
+"reading": "こうしょう",
+"sentence": "遊ぶ時間を少し増やせないか、母と交渉しました。",
+"question": "交渉 の意味はどれ？",
+"choices": [
+"ある目的のために、当事者同士が話し合うこと",
+"舌を鳴らすこと",
+"あきあきすること",
+"新しく目覚ましいこと"
+],
+"answerIndex": 0,
+"explanation": "交渉は、ある目的のために、当事者同士が話し合うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p077"]
+},
+{
+"id": "vocab1300_p077_004",
+"source": "vocab1300",
+"sourcePage": 77,
+"type": "meaning_context",
+"word": "おろそか",
+"reading": "おろそか",
+"sentence": "テレビに夢中で、宿題がおろそかになりました。",
+"question": "おろそか の意味はどれ？",
+"choices": [
+"軽く頭を下げること",
+"うっとうしく感じること",
+"いい加減に何かをする様子",
+"話し合うこと"
+],
+"answerIndex": 2,
+"explanation": "おろそかは、いい加減に何かをする様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p077"]
+},
+{
+"id": "vocab1300_p077_005",
+"source": "vocab1300",
+"sourcePage": 77,
+"type": "meaning_context",
+"word": "舌打ち",
+"reading": "したうち",
+"sentence": "思い通りにいかなくても、舌打ちをするのはよくありません。",
+"question": "舌打ち の意味はどれ？",
+"choices": [
+"新しい時代を感じさせること",
+"いらいらしたときに、舌を鳴らすこと",
+"軽くあいさつすること",
+"いい加減にすること"
+],
+"answerIndex": 1,
+"explanation": "舌打ちは、いらいらしたときに、舌を鳴らすことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p077"]
+},
+{
+"id": "vocab1300_p077_006",
+"source": "vocab1300",
+"sourcePage": 77,
+"type": "meaning_context",
+"word": "鼻につく",
+"reading": "はなにつく",
+"sentence": "妹の自慢話ばかり聞いていると、だんだん鼻についてきました。",
+"question": "鼻につく の意味はどれ？",
+"choices": [
+"うっとうしくて嫌に感じられること",
+"話し合うこと",
+"目覚ましい様子",
+"舌を鳴らすこと"
+],
+"answerIndex": 0,
+"explanation": "鼻につくは、うっとうしくて嫌に感じられること、あきあきすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p077"]
+}
+],
+"answerIndexCheck": {
+"target": "p077_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 0, 2, 1, 0],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 3が0回ですが、6問では大きな偏りではありません。アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の部位を含む慣用句",
+"suggestion": "『鼻につく』は体の部位を含みますが、v1ではmeaning_contextで扱えば十分です。"
+}
+]
+},
+{
+"sourcePage": 78,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "あっけにとられる",
+"reading": "あっけにとられる",
+"meaning": "驚いて、思わず言葉を失うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "おびただしい",
+"reading": "おびただしい",
+"meaning": "数や量が非常に多いこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "身じろぎもしない",
+"reading": "みじろぎもしない",
+"meaning": "体を少しも動かさないで、じっとしていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "見返す",
+"reading": "みかえす",
+"meaning": "自分を見下した相手に、以前より優れた自分を見せること",
+"detectedType": "meaning_context"
+},
+{
+"word": "屁理屈",
+"reading": "へりくつ",
+"meaning": "筋の通らない理屈",
+"detectedType": "meaning_context"
+},
+{
+"word": "偉人",
+"reading": "いじん",
+"meaning": "すばらしい仕事を成し遂げた人",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p078_001",
+"source": "vocab1300",
+"sourcePage": 78,
+"type": "meaning_context",
+"word": "あっけにとられる",
+"reading": "あっけにとられる",
+"sentence": "手品が成功した瞬間、みんなはあっけにとられました。",
+"question": "あっけにとられる の意味はどれ？",
+"choices": [
+"すばらしい仕事をした人",
+"筋の通らない理屈",
+"数や量がとても多いこと",
+"驚いて、思わず言葉を失うこと"
+],
+"answerIndex": 3,
+"explanation": "あっけにとられるは、驚いて、思わず言葉を失うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p078"]
+},
+{
+"id": "vocab1300_p078_002",
+"source": "vocab1300",
+"sourcePage": 78,
+"type": "meaning_context",
+"word": "おびただしい",
+"reading": "おびただしい",
+"sentence": "海辺には、おびただしい数の小さな貝が落ちていました。",
+"question": "おびただしい の意味はどれ？",
+"choices": [
+"体を動かさないこと",
+"数や量が非常に多いこと",
+"相手を見返すこと",
+"筋の通らない理屈"
+],
+"answerIndex": 1,
+"explanation": "おびただしいは、数や量が非常に多いことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p078"]
+},
+{
+"id": "vocab1300_p078_003",
+"source": "vocab1300",
+"sourcePage": 78,
+"type": "meaning_context",
+"word": "身じろぎもしない",
+"reading": "みじろぎもしない",
+"sentence": "猫は物音を聞いて、身じろぎもしないで外を見ていました。",
+"question": "身じろぎもしない の意味はどれ？",
+"choices": [
+"驚いて言葉を失うこと",
+"すばらしい仕事をすること",
+"体を少しも動かさず、じっとしていること",
+"数が多いこと"
+],
+"answerIndex": 2,
+"explanation": "身じろぎもしないは、体を少しも動かさず、じっとしていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p078"]
+},
+{
+"id": "vocab1300_p078_004",
+"source": "vocab1300",
+"sourcePage": 78,
+"type": "meaning_context",
+"word": "見返す",
+"reading": "みかえす",
+"sentence": "できないと言った人を見返すために、毎日練習しました。",
+"question": "見返す の意味はどれ？",
+"choices": [
+"自分を見下した相手に、以前より優れた自分を見せること",
+"筋の通らないことを言うこと",
+"じっとしていること",
+"数や量が多いこと"
+],
+"answerIndex": 0,
+"explanation": "見返すは、自分を見下した相手に、以前より優れた自分を見せることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p078"]
+},
+{
+"id": "vocab1300_p078_005",
+"source": "vocab1300",
+"sourcePage": 78,
+"type": "meaning_context",
+"word": "屁理屈",
+"reading": "へりくつ",
+"sentence": "やらない理由を並べても、ただの屁理屈に聞こえました。",
+"question": "屁理屈 の意味はどれ？",
+"choices": [
+"驚いて言葉を失うこと",
+"筋の通らない理屈",
+"人を見返すこと",
+"すばらしい仕事をした人"
+],
+"answerIndex": 1,
+"explanation": "屁理屈は、筋の通らない理屈です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p078"]
+},
+{
+"id": "vocab1300_p078_006",
+"source": "vocab1300",
+"sourcePage": 78,
+"type": "meaning_context",
+"word": "偉人",
+"reading": "いじん",
+"sentence": "この本には、国をよくした偉人の話がのっています。",
+"question": "偉人 の意味はどれ？",
+"choices": [
+"数や量が多いこと",
+"じっとしていること",
+"すばらしい仕事を成し遂げた人",
+"驚いて言葉を失うこと"
+],
+"answerIndex": 2,
+"explanation": "偉人は、すばらしい仕事を成し遂げた人です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p078"]
+}
+],
+"answerIndexCheck": {
+"target": "p078_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 1, 2, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 79,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "遠回し",
+"reading": "とおまわし",
+"meaning": "それとなく相手に伝わるように言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "敬意",
+"reading": "けいい",
+"meaning": "尊敬する気持ち",
+"detectedType": "meaning_context"
+},
+{
+"word": "人騒がせ",
+"reading": "ひとさわがせ",
+"meaning": "たいしたことではないのに、必要以上に大騒ぎすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "選択",
+"reading": "せんたく",
+"meaning": "たくさんの中から、自分の判断で何かを選ぶこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "水を打ったように",
+"reading": "みずをうったように",
+"meaning": "たくさんの人たちが、しんと静まり返っている様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "互角",
+"reading": "ごかく",
+"meaning": "力に差がないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p079_001",
+"source": "vocab1300",
+"sourcePage": 79,
+"type": "meaning_context",
+"word": "遠回し",
+"reading": "とおまわし",
+"sentence": "母は『そろそろ片づけたら』と遠回しに注意しました。",
+"question": "遠回し の意味はどれ？",
+"choices": [
+"尊敬する気持ち",
+"力に差がないこと",
+"大騒ぎすること",
+"それとなく相手に伝わるように言うこと"
+],
+"answerIndex": 3,
+"explanation": "遠回しは、それとなく相手に伝わるように言うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p079"]
+},
+{
+"id": "vocab1300_p079_002",
+"source": "vocab1300",
+"sourcePage": 79,
+"type": "meaning_context",
+"word": "敬意",
+"reading": "けいい",
+"sentence": "お世話になった先生に、敬意をこめて手紙を書きました。",
+"question": "敬意 の意味はどれ？",
+"choices": [
+"たくさんの中から選ぶこと",
+"尊敬する気持ち",
+"静まり返ること",
+"大騒ぎすること"
+],
+"answerIndex": 1,
+"explanation": "敬意は、尊敬する気持ちです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p079"]
+},
+{
+"id": "vocab1300_p079_003",
+"source": "vocab1300",
+"sourcePage": 79,
+"type": "meaning_context",
+"word": "人騒がせ",
+"reading": "ひとさわがせ",
+"sentence": "なくしたと思った本が机にあり、人騒がせな話でした。",
+"question": "人騒がせ の意味はどれ？",
+"choices": [
+"力に差がないこと",
+"それとなく言うこと",
+"たいしたことではないのに、必要以上に大騒ぎすること",
+"尊敬する気持ち"
+],
+"answerIndex": 2,
+"explanation": "人騒がせは、たいしたことではないのに、必要以上に大騒ぎすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p079"]
+},
+{
+"id": "vocab1300_p079_004",
+"source": "vocab1300",
+"sourcePage": 79,
+"type": "meaning_context",
+"word": "選択",
+"reading": "せんたく",
+"sentence": "たくさんの本の中から、読みたい一冊を選択しました。",
+"question": "選択 の意味はどれ？",
+"choices": [
+"たくさんの中から、自分の判断で何かを選ぶこと",
+"しんと静まること",
+"尊敬すること",
+"力に差がないこと"
+],
+"answerIndex": 0,
+"explanation": "選択は、たくさんの中から、自分の判断で何かを選ぶことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p079"]
+},
+{
+"id": "vocab1300_p079_005",
+"source": "vocab1300",
+"sourcePage": 79,
+"type": "meaning_context",
+"word": "水を打ったように",
+"reading": "みずをうったように",
+"sentence": "先生が話し始めると、教室は水を打ったように静かになりました。",
+"question": "水を打ったように の意味はどれ？",
+"choices": [
+"それとなく言うこと",
+"大騒ぎすること",
+"力に差がないこと",
+"たくさんの人たちが、しんと静まり返っている様子"
+],
+"answerIndex": 3,
+"explanation": "水を打ったようには、たくさんの人たちが、しんと静まり返っている様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p079"]
+},
+{
+"id": "vocab1300_p079_006",
+"source": "vocab1300",
+"sourcePage": 79,
+"type": "meaning_context",
+"word": "互角",
+"reading": "ごかく",
+"sentence": "二人の勝負は互角で、どちらが勝つか分かりませんでした。",
+"question": "互角 の意味はどれ？",
+"choices": [
+"尊敬する気持ち",
+"力に差がないこと",
+"自分で選ぶこと",
+"静まり返ること"
+],
+"answerIndex": 1,
+"explanation": "互角は、力に差がないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p079"]
+}
+],
+"answerIndexCheck": {
+"target": "p079_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [3, 1, 2, 0, 3, 1],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 1,
+"3": 2
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 1,
+"エ": 2
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "長い慣用句",
+"suggestion": "『水を打ったように』は比喩表現なので、解説では『しんと静まる』と短く言い換えると理解しやすいです。"
+}
+]
+},
+{
+"sourcePage": 80,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "生業",
+"reading": "なりわい",
+"meaning": "生活をしていくための仕事",
+"detectedType": "meaning_context"
+},
+{
+"word": "いざこざ",
+"reading": "いざこざ",
+"meaning": "トラブル",
+"detectedType": "meaning_context"
+},
+{
+"word": "糸口",
+"reading": "いとぐち",
+"meaning": "何かを解決するときの手がかり",
+"detectedType": "meaning_context"
+},
+{
+"word": "丸く収まる",
+"reading": "まるくおさまる",
+"meaning": "何の問題もなく、一件落着すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "野放し",
+"reading": "のばなし",
+"meaning": "ほったらかしにすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "翻訳する",
+"reading": "ほんやくする",
+"meaning": "他の言語に言い換えること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p080_001",
+"source": "vocab1300",
+"sourcePage": 80,
+"type": "meaning_context",
+"word": "生業",
+"reading": "なりわい",
+"sentence": "祖父は、野菜を作ることを生業にしてきました。",
+"question": "生業 の意味はどれ？",
+"choices": [
+"トラブル",
+"他の言語に言い換えること",
+"生活をしていくための仕事",
+"手がかり"
+],
+"answerIndex": 2,
+"explanation": "生業は、生活をしていくための仕事です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p080"]
+},
+{
+"id": "vocab1300_p080_002",
+"source": "vocab1300",
+"sourcePage": 80,
+"type": "meaning_context",
+"word": "いざこざ",
+"reading": "いざこざ",
+"sentence": "二人の間でいざこざが起きたので、先生が話を聞きました。",
+"question": "いざこざ の意味はどれ？",
+"choices": [
+"何の問題もなく解決すること",
+"トラブル",
+"ほったらかしにすること",
+"生活のための仕事"
+],
+"answerIndex": 1,
+"explanation": "いざこざは、トラブルのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p080"]
+},
+{
+"id": "vocab1300_p080_003",
+"source": "vocab1300",
+"sourcePage": 80,
+"type": "meaning_context",
+"word": "糸口",
+"reading": "いとぐち",
+"sentence": "話し合いの中で、問題解決の糸口が見つかりました。",
+"question": "糸口 の意味はどれ？",
+"choices": [
+"他の言語に言い換えること",
+"生活のための仕事",
+"何かを解決するときの手がかり",
+"ほったらかしにすること"
+],
+"answerIndex": 2,
+"explanation": "糸口は、何かを解決するときの手がかりです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p080"]
+},
+{
+"id": "vocab1300_p080_004",
+"source": "vocab1300",
+"sourcePage": 80,
+"type": "meaning_context",
+"word": "丸く収まる",
+"reading": "まるくおさまる",
+"sentence": "みんなが少しずつゆずったので、けんかは丸く収まりました。",
+"question": "丸く収まる の意味はどれ？",
+"choices": [
+"何の問題もなく、一件落着すること",
+"トラブルが起きること",
+"翻訳すること",
+"野放しにすること"
+],
+"answerIndex": 0,
+"explanation": "丸く収まるは、何の問題もなく、一件落着することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p080"]
+},
+{
+"id": "vocab1300_p080_005",
+"source": "vocab1300",
+"sourcePage": 80,
+"type": "meaning_context",
+"word": "野放し",
+"reading": "のばなし",
+"sentence": "危ない遊びを野放しにすると、大けがにつながることがあります。",
+"question": "野放し の意味はどれ？",
+"choices": [
+"生活のための仕事",
+"ほったらかしにすること",
+"手がかり",
+"他の言語に言い換えること"
+],
+"answerIndex": 1,
+"explanation": "野放しは、ほったらかしにすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p080"]
+},
+{
+"id": "vocab1300_p080_006",
+"source": "vocab1300",
+"sourcePage": 80,
+"type": "meaning_context",
+"word": "翻訳する",
+"reading": "ほんやくする",
+"sentence": "英語の手紙を日本語に翻訳しました。",
+"question": "翻訳する の意味はどれ？",
+"choices": [
+"トラブル",
+"問題を解決すること",
+"生活するための仕事",
+"他の言語に言い換えること"
+],
+"answerIndex": 3,
+"explanation": "翻訳するは、他の言語に言い換えることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p080"]
+}
+],
+"answerIndexCheck": {
+"target": "p080_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 2, 0, 1, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "抽象語の例文",
+"suggestion": "『糸口』『丸く収まる』は抽象的なので、けんかや話し合いなど、青ちゃんが想像しやすい場面に寄せると理解しやすいです。"
+}
+]
+}
+]
