@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-07-01（plant_idiom_word / house_part_word追加）  
+更新日：2026-07-01（cooking_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -54,6 +54,8 @@
 - `subtype: "house_part_word"` を追加
 - 植物ことわざ・慣用句の出題方針を追加
 - 家の部位語の出題方針・hint方針・画像ファイル名ルールを追加
+- `subtype: "cooking_word"` を追加
+- 料理動作語の出題方針・hint方針・画像ファイル名ルールを追加
 
 ---
 
@@ -1120,6 +1122,60 @@ images/house_ikinuki.png
 images/house_toi.png
 ```
 
+### cooking_word
+
+料理に関する動作を表す語は、`image_word` のまま扱い、`subtype: "cooking_word"` を入れる。
+
+対象例：
+
+- あえる
+- からめる
+- まぶす
+- きざむ
+- する
+- ねかす
+
+基本形：
+
+```json
+{
+  "type": "image_word",
+  "subtype": "cooking_word",
+  "word": "まぶす",
+  "image": "images/cooking_mabusu.png",
+  "hint": "食べ物の表面に、粉を全体につけています。"
+}
+```
+
+#### 出題方針
+
+- 料理のどの動作かが分かるように、食材・調理器具・手の動きを画像で示す
+- `hint` には、画像を見るときの注目ポイントを短く入れる
+
+各語の目安：
+
+- あえる：野菜などに調味料を入れて、軽く混ぜている
+- からめる：食べ物に、たれやソースを全体につけている
+- まぶす：食べ物の表面に、粉を全体につけている
+- きざむ：包丁で食材を細かく切っている
+- する：すり鉢で、ごまなどを細かくつぶしている
+- ねかす：生地を包んで、しばらく置いている
+
+#### 画像ファイル名
+
+`cooking_word` の画像ファイル名は `images/cooking_*.png` 形式にする。
+
+例：
+
+```txt
+images/cooking_aeru.png
+images/cooking_karameru.png
+images/cooking_mabusu.png
+images/cooking_kizamu.png
+images/cooking_suru.png
+images/cooking_nekasu.png
+```
+
 ### 画像の注意
 
 - 教材画像は流用しない
@@ -1527,6 +1583,8 @@ vocab1300_p205_001
 - [ ] `subtype: "plant_idiom_word"` の場合、解説でたとえや慣用句としての意味が分かるようにしている
 - [ ] `subtype: "house_part_word"` の場合、`hint` に家のどの部分かを示す説明が入っている
 - [ ] `subtype: "house_part_word"` の画像ファイル名が `images/house_*.png` 形式になっている
+- [ ] `subtype: "cooking_word"` の場合、`hint` に料理の動作が分かる注目ポイントが入っている
+- [ ] `subtype: "cooking_word"` の画像ファイル名が `images/cooking_*.png` 形式になっている
 - [ ] `month` がある場合、1〜12の数値になっている
 - [ ] `reading_context` で必要な場合、`answerReading` が入っている
 - [ ] `counter_image` で必要な場合、`counterTarget` / `counter` / `counterReading` が入っている
