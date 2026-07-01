@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-07-01（body_part_word追加）  
+更新日：2026-07-01（plant_idiom_word / house_part_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -50,6 +50,10 @@
 - 一日の時間帯語の出題方針・hint方針・period_word との区別を追加
 - `subtype: "body_part_word"` を追加
 - 体の部位語の出題方針・hint方針・画像ファイル名ルールを追加
+- `subtype: "plant_idiom_word"` を追加
+- `subtype: "house_part_word"` を追加
+- 植物ことわざ・慣用句の出題方針を追加
+- 家の部位語の出題方針・hint方針・画像ファイル名ルールを追加
 
 ---
 
@@ -601,6 +605,37 @@ v1では基本的に `meaning_context` として扱い、管理用に `subtype: 
 
 ---
 
+## 8.1.4 `meaning_context` + `subtype: "plant_idiom_word"`
+
+### 用途
+
+花・木・草・実など、植物を含むことわざ・慣用句を扱う問題。
+
+例：
+
+- 言わぬが花
+- 蓼食う虫も好き好き
+- 花が咲く
+- 花より団子
+- 木を見て森を見ず
+- どんぐりの背比べ
+
+v1では基本的に `meaning_context` として扱い、管理用に `subtype: "plant_idiom_word"` を付ける。
+
+```json
+{
+  "type": "meaning_context",
+  "subtype": "plant_idiom_word"
+}
+```
+
+### 出題方針
+
+- 言葉どおりの植物の意味ではなく、ことわざ・慣用句としての意味を問う
+- `animal_idiom_word` と同じように、必要に応じて解説でたとえであることが分かるようにする
+
+---
+
 ## 8.2 `reading_context`
 
 ### 用途
@@ -1031,6 +1066,60 @@ images/body_kibisu.png
 images/body_ninoude.png
 ```
 
+### house_part_word
+
+家・建物の部分を表す語は、`image_word` のまま扱い、`subtype: "house_part_word"` を入れる。
+
+対象例：
+
+- 軒
+- ひさし
+- 縁側
+- 戸袋
+- 息抜き
+- 樋
+
+基本形：
+
+```json
+{
+  "type": "image_word",
+  "subtype": "house_part_word",
+  "word": "縁側",
+  "image": "images/house_engawa.png",
+  "hint": "部屋と庭の間にある板張りの場所です。"
+}
+```
+
+#### 出題方針
+
+- 家のどの部分かが分かるように、画像で該当箇所を示す
+- `hint` には、画像を見るときの注目ポイントを短く入れる
+
+各語の目安：
+
+- 軒：屋根が建物の外に少し飛び出した部分
+- ひさし：玄関や窓の上にある小さな屋根
+- 縁側：部屋と庭の間にある板張りの場所
+- 戸袋：雨戸をしまう部分
+- 息抜き：空気を通すための小さな窓
+- 樋：屋根の雨水を下へ流す管
+
+#### 画像ファイル名
+
+`house_part_word` の画像ファイル名は `images/house_*.png` 形式にする。
+
+例：
+
+```txt
+images/house_noki.png
+images/house_hisashi.png
+images/house_engawa.png
+images/house_tobukuro.png
+images/house_ikinuki.png
+images/house_toi.png
+```
+
 ### 画像の注意
 
 - 教材画像は流用しない
@@ -1435,6 +1524,9 @@ vocab1300_p205_001
 - [ ] `subtype: "day_time_word"` の場合、`hint` に空の明るさ・太陽の位置など注目ポイントが入っている
 - [ ] `subtype: "body_part_word"` の場合、`hint` に体のどこかを示す短い説明が入っている
 - [ ] `subtype: "body_part_word"` の画像ファイル名が `images/body_*.png` 形式になっている
+- [ ] `subtype: "plant_idiom_word"` の場合、解説でたとえや慣用句としての意味が分かるようにしている
+- [ ] `subtype: "house_part_word"` の場合、`hint` に家のどの部分かを示す説明が入っている
+- [ ] `subtype: "house_part_word"` の画像ファイル名が `images/house_*.png` 形式になっている
 - [ ] `month` がある場合、1〜12の数値になっている
 - [ ] `reading_context` で必要な場合、`answerReading` が入っている
 - [ ] `counter_image` で必要な場合、`counterTarget` / `counter` / `counterReading` が入っている
