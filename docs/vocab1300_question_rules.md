@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-07-01（cooking_word追加）  
+更新日：2026-07-01（old_life_tool_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -56,6 +56,8 @@
 - 家の部位語の出題方針・hint方針・画像ファイル名ルールを追加
 - `subtype: "cooking_word"` を追加
 - 料理動作語の出題方針・hint方針・画像ファイル名ルールを追加
+- `subtype: "old_life_tool_word"` を追加
+- 昔の生活道具・場所を表す語の出題方針・hint方針・画像ファイル名ルールを追加
 
 ---
 
@@ -1176,6 +1178,60 @@ images/cooking_suru.png
 images/cooking_nekasu.png
 ```
 
+### old_life_tool_word
+
+昔の生活道具を表す語は、`image_word` のまま扱い、`subtype: "old_life_tool_word"` を入れる。
+
+対象例：
+
+- 火鉢
+- あんどん
+- ちゃぶ台
+- たらい
+- おけ
+- かまど
+
+基本形：
+
+```json
+{
+  "type": "image_word",
+  "subtype": "old_life_tool_word",
+  "word": "火鉢",
+  "image": "images/old_tool_hibachi.png",
+  "hint": "炭を入れて、手を温めたりする昔の道具です。"
+}
+```
+
+#### 出題方針
+
+- 道具の形や使い方が分かるように、画像で示す
+- `hint` には、画像を見るときの注目ポイントを短く入れる
+
+各語の目安：
+
+- 火鉢：炭を入れて、手を温めたりする昔の道具
+- あんどん：中に明かりを入れて使う、昔の照明
+- ちゃぶ台：床に座って使う低い食卓
+- たらい：水を入れて洗い物などに使う丸い入れ物
+- おけ：木でできた、水などを入れる入れ物
+- かまど：火を使ってご飯を炊く昔の台所道具
+
+#### 画像ファイル名
+
+`old_life_tool_word` の画像ファイル名は `images/old_tool_*.png` 形式にする。
+
+例：
+
+```txt
+images/old_tool_hibachi.png
+images/old_tool_andon.png
+images/old_tool_chabudai.png
+images/old_tool_tarai.png
+images/old_tool_oke.png
+images/old_tool_kamado.png
+```
+
 ### 画像の注意
 
 - 教材画像は流用しない
@@ -1585,6 +1641,8 @@ vocab1300_p205_001
 - [ ] `subtype: "house_part_word"` の画像ファイル名が `images/house_*.png` 形式になっている
 - [ ] `subtype: "cooking_word"` の場合、`hint` に料理の動作が分かる注目ポイントが入っている
 - [ ] `subtype: "cooking_word"` の画像ファイル名が `images/cooking_*.png` 形式になっている
+- [ ] `subtype: "old_life_tool_word"` の場合、`hint` に道具の形や使い方の注目ポイントが入っている
+- [ ] `subtype: "old_life_tool_word"` の画像ファイル名が `images/old_tool_*.png` 形式になっている
 - [ ] `month` がある場合、1〜12の数値になっている
 - [ ] `reading_context` で必要な場合、`answerReading` が入っている
 - [ ] `counter_image` で必要な場合、`counterTarget` / `counter` / `counterReading` が入っている

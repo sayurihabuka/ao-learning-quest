@@ -1,0 +1,1895 @@
+[
+{
+"sourcePage": 151,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "募金",
+"reading": "ぼきん",
+"meaning": "寄付金を集めること",
+"detectedType": "meaning_context"
+},
+{
+"word": "顔がこわばる",
+"reading": "かおがこわばる",
+"meaning": "緊張や恐怖で、表情がかたくなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "口が減らない",
+"reading": "くちがへらない",
+"meaning": "言い訳や屁理屈がうまく、言い返してくること",
+"detectedType": "meaning_context"
+},
+{
+"word": "生い立ち",
+"reading": "おいたち",
+"meaning": "子どものころから成長してきた様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "愛用",
+"reading": "あいよう",
+"meaning": "いつも好んで使うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "プログラマー",
+"reading": "プログラマー",
+"meaning": "コンピューターのプログラムを作る人",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p151_001",
+"source": "vocab1300",
+"sourcePage": 151,
+"type": "meaning_context",
+"word": "募金",
+"reading": "ぼきん",
+"sentence": "災害で困っている人を助けるため、学校で募金をしました。",
+"question": "募金 の意味はどれ？",
+"choices": [
+"子どもの成長",
+"寄付金を集めること",
+"表情がかたくなること",
+"言い訳がうまいこと"
+],
+"answerIndex": 1,
+"explanation": "募金は、寄付金を集めることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p151"]
+},
+{
+"id": "vocab1300_p151_002",
+"source": "vocab1300",
+"sourcePage": 151,
+"type": "meaning_context",
+"word": "顔がこわばる",
+"reading": "かおがこわばる",
+"sentence": "発表の順番が近づくと、緊張で顔がこわばりました。",
+"question": "顔がこわばる の意味はどれ？",
+"choices": [
+"好きで使うこと",
+"子どものころの成長",
+"緊張や恐怖で、表情がかたくなること",
+"プログラムを作ること"
+],
+"answerIndex": 2,
+"explanation": "顔がこわばるは、緊張や恐怖で表情がかたくなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p151"]
+},
+{
+"id": "vocab1300_p151_003",
+"source": "vocab1300",
+"sourcePage": 151,
+"type": "meaning_context",
+"word": "口が減らない",
+"reading": "くちがへらない",
+"sentence": "注意しても弟は口が減らず、また言い返してきました。",
+"question": "口が減らない の意味はどれ？",
+"choices": [
+"言い訳や屁理屈がうまく、言い返すこと",
+"寄付金を集めること",
+"表情がかたくなること",
+"いつも好んで使うこと"
+],
+"answerIndex": 0,
+"explanation": "口が減らないは、言い訳や屁理屈がうまく、言い返してくることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p151"]
+},
+{
+"id": "vocab1300_p151_004",
+"source": "vocab1300",
+"sourcePage": 151,
+"type": "meaning_context",
+"word": "生い立ち",
+"reading": "おいたち",
+"sentence": "祖父から、父の子どものころの生い立ちを聞きました。",
+"question": "生い立ち の意味はどれ？",
+"choices": [
+"好きで使うこと",
+"子どものころから成長してきた様子",
+"言い訳がうまいこと",
+"寄付金を集めること"
+],
+"answerIndex": 1,
+"explanation": "生い立ちは、子どものころから成長してきた様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p151"]
+},
+{
+"id": "vocab1300_p151_005",
+"source": "vocab1300",
+"sourcePage": 151,
+"type": "meaning_context",
+"word": "愛用",
+"reading": "あいよう",
+"sentence": "青ちゃんは、愛用のえんぴつで毎朝の計算をしています。",
+"question": "愛用 の意味はどれ？",
+"choices": [
+"表情がかたくなること",
+"いつも好んで使うこと",
+"プログラムを作ること",
+"子どもの成長"
+],
+"answerIndex": 1,
+"explanation": "愛用は、いつも好んで使うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p151"]
+},
+{
+"id": "vocab1300_p151_006",
+"source": "vocab1300",
+"sourcePage": 151,
+"type": "meaning_context",
+"word": "プログラマー",
+"reading": "プログラマー",
+"sentence": "将来、ゲームを作るプログラマーになりたいと思いました。",
+"question": "プログラマー の意味はどれ？",
+"choices": [
+"寄付金を集める人",
+"いつも使う道具",
+"コンピューターのプログラムを作る人",
+"言い訳がうまい人"
+],
+"answerIndex": 2,
+"explanation": "プログラマーは、コンピューターのプログラムを作る人です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p151"]
+}
+],
+"answerIndexCheck": {
+"target": "p151_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 0, 1, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 3,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 3,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 1が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『プログラマー』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 152,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "トラブル",
+"reading": "トラブル",
+"meaning": "事件や問題",
+"detectedType": "meaning_context"
+},
+{
+"word": "リフレッシュ",
+"reading": "リフレッシュ",
+"meaning": "体を動かしたり休んだりして、気分転換をすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "プライド",
+"reading": "プライド",
+"meaning": "自尊心。誇り。",
+"detectedType": "meaning_context"
+},
+{
+"word": "浮かない顔",
+"reading": "うかないかお",
+"meaning": "心配や不安があって、表情が暗いこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "小出し",
+"reading": "こだし",
+"meaning": "たくさんの中から、少しずつ出すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "そびれる",
+"reading": "そびれる",
+"meaning": "ついうっかり、何かをするチャンスを逃してしまうこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p152_001",
+"source": "vocab1300",
+"sourcePage": 152,
+"type": "meaning_context",
+"word": "トラブル",
+"reading": "トラブル",
+"sentence": "登校中にトラブルがあり、少し遅れて教室に入りました。",
+"question": "トラブル の意味はどれ？",
+"choices": [
+"事件や問題",
+"気分転換",
+"自尊心",
+"少しずつ出すこと"
+],
+"answerIndex": 0,
+"explanation": "トラブルは、事件や問題のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p152"]
+},
+{
+"id": "vocab1300_p152_002",
+"source": "vocab1300",
+"sourcePage": 152,
+"type": "meaning_context",
+"word": "リフレッシュ",
+"reading": "リフレッシュ",
+"sentence": "勉強の合間に散歩をして、気持ちをリフレッシュしました。",
+"question": "リフレッシュ の意味はどれ？",
+"choices": [
+"表情が暗いこと",
+"体を動かしたり休んだりして、気分転換をすること",
+"事件や問題",
+"チャンスを逃すこと"
+],
+"answerIndex": 1,
+"explanation": "リフレッシュは、体を動かしたり休んだりして気分転換をすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p152"]
+},
+{
+"id": "vocab1300_p152_003",
+"source": "vocab1300",
+"sourcePage": 152,
+"type": "meaning_context",
+"word": "プライド",
+"reading": "プライド",
+"sentence": "自分の仕事にはプライドを持って、最後までやり通します。",
+"question": "プライド の意味はどれ？",
+"choices": [
+"少しずつ出すこと",
+"心配で表情が暗いこと",
+"自尊心、誇り",
+"うっかり逃すこと"
+],
+"answerIndex": 2,
+"explanation": "プライドは、自尊心や誇りのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p152"]
+},
+{
+"id": "vocab1300_p152_004",
+"source": "vocab1300",
+"sourcePage": 152,
+"type": "meaning_context",
+"word": "浮かない顔",
+"reading": "うかないかお",
+"sentence": "テストの結果が心配で、友だちは浮かない顔をしていました。",
+"question": "浮かない顔 の意味はどれ？",
+"choices": [
+"事件が起きること",
+"気分転換すること",
+"少しずつ出すこと",
+"心配や不安があって、表情が暗いこと"
+],
+"answerIndex": 3,
+"explanation": "浮かない顔は、心配や不安があって、表情が暗いことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p152"]
+},
+{
+"id": "vocab1300_p152_005",
+"source": "vocab1300",
+"sourcePage": 152,
+"type": "meaning_context",
+"word": "小出し",
+"reading": "こだし",
+"sentence": "先生は、ヒントを小出しにしてくれました。",
+"question": "小出し の意味はどれ？",
+"choices": [
+"自尊心",
+"たくさんの中から、少しずつ出すこと",
+"事件や問題",
+"表情が暗いこと"
+],
+"answerIndex": 1,
+"explanation": "小出しは、たくさんの中から、少しずつ出すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p152"]
+},
+{
+"id": "vocab1300_p152_006",
+"source": "vocab1300",
+"sourcePage": 152,
+"type": "meaning_context",
+"word": "そびれる",
+"reading": "そびれる",
+"sentence": "忙しくしていたら、友だちに電話をかけそびれました。",
+"question": "そびれる の意味はどれ？",
+"choices": [
+"気分転換すること",
+"心配すること",
+"ついうっかり、何かをするチャンスを逃すこと",
+"誇りを持つこと"
+],
+"answerIndex": 2,
+"explanation": "そびれるは、ついうっかり何かをするチャンスを逃してしまうことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p152"]
+}
+],
+"answerIndexCheck": {
+"target": "p152_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『トラブル』『リフレッシュ』『プライド』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 153,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "矢つぎ早",
+"reading": "やつぎばや",
+"meaning": "次から次に、続けて何かを行う様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "はにかみながら",
+"reading": "はにかみながら",
+"meaning": "照れくさそうにしながら",
+"detectedType": "meaning_context"
+},
+{
+"word": "上の空",
+"reading": "うわのそら",
+"meaning": "何か他のことに気が散って、集中していない様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "あまねく",
+"reading": "あまねく",
+"meaning": "広くすべて",
+"detectedType": "meaning_context"
+},
+{
+"word": "ただならぬ",
+"reading": "ただならぬ",
+"meaning": "ふだんと違って、何かが起こりそうな様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "まことしやか",
+"reading": "まことしやか",
+"meaning": "いかにも本当らしく見せる様子",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p153_001",
+"source": "vocab1300",
+"sourcePage": 153,
+"type": "meaning_context",
+"word": "矢つぎ早",
+"reading": "やつぎばや",
+"sentence": "先生は、矢つぎ早に質問を出しました。",
+"question": "矢つぎ早 の意味はどれ？",
+"choices": [
+"広くすべて",
+"照れくさそうに",
+"次から次に、続けて何かを行う様子",
+"本当らしく見せる様子"
+],
+"answerIndex": 2,
+"explanation": "矢つぎ早は、次から次に、続けて何かを行う様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p153"]
+},
+{
+"id": "vocab1300_p153_002",
+"source": "vocab1300",
+"sourcePage": 153,
+"type": "meaning_context",
+"word": "はにかみながら",
+"reading": "はにかみながら",
+"sentence": "妹は、はにかみながら自己紹介をしました。",
+"question": "はにかみながら の意味はどれ？",
+"choices": [
+"何かが起こりそうに",
+"照れくさそうにしながら",
+"広くすべて",
+"集中していない様子で"
+],
+"answerIndex": 1,
+"explanation": "はにかみながらは、照れくさそうにしながら、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p153"]
+},
+{
+"id": "vocab1300_p153_003",
+"source": "vocab1300",
+"sourcePage": 153,
+"type": "meaning_context",
+"word": "上の空",
+"reading": "うわのそら",
+"sentence": "授業中、弟は上の空で先生の話を聞いていませんでした。",
+"question": "上の空 の意味はどれ？",
+"choices": [
+"いかにも本当らしく",
+"次から次に",
+"何か他のことに気が散って、集中していない様子",
+"ふだんと違う様子"
+],
+"answerIndex": 2,
+"explanation": "上の空は、何か他のことに気が散って、集中していない様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p153"]
+},
+{
+"id": "vocab1300_p153_004",
+"source": "vocab1300",
+"sourcePage": 153,
+"type": "meaning_context",
+"word": "あまねく",
+"reading": "あまねく",
+"sentence": "その知らせは、学校中にあまねく伝わりました。",
+"question": "あまねく の意味はどれ？",
+"choices": [
+"広くすべて",
+"照れくさそうに",
+"集中せずに",
+"本当らしく"
+],
+"answerIndex": 0,
+"explanation": "あまねくは、広くすべて、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p153"]
+},
+{
+"id": "vocab1300_p153_005",
+"source": "vocab1300",
+"sourcePage": 153,
+"type": "meaning_context",
+"word": "ただならぬ",
+"reading": "ただならぬ",
+"sentence": "先生の顔つきから、ただならぬ気配を感じました。",
+"question": "ただならぬ の意味はどれ？",
+"choices": [
+"照れくさい様子",
+"ふだんと違って、何かが起こりそうな様子",
+"広くすべて",
+"次から次に行う様子"
+],
+"answerIndex": 1,
+"explanation": "ただならぬは、ふだんと違って、何かが起こりそうな様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p153"]
+},
+{
+"id": "vocab1300_p153_006",
+"source": "vocab1300",
+"sourcePage": 153,
+"type": "meaning_context",
+"word": "まことしやか",
+"reading": "まことしやか",
+"sentence": "友だちは、まことしやかに不思議な話を語りました。",
+"question": "まことしやか の意味はどれ？",
+"choices": [
+"集中していない様子",
+"何かが起こりそうな様子",
+"本当らしく見せる様子",
+"広くすべて"
+],
+"answerIndex": 2,
+"explanation": "まことしやかは、いかにも本当らしく見せる様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p153"]
+}
+],
+"answerIndexCheck": {
+"target": "p153_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 2, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 3,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 3,
+"エ": 0
+},
+"result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 154,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "挽回",
+"reading": "ばんかい",
+"meaning": "巻き返すこと。失ったものを取り戻すこと。",
+"detectedType": "meaning_context"
+},
+{
+"word": "未知",
+"reading": "みち",
+"meaning": "まだ知らないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "環境",
+"reading": "かんきょう",
+"meaning": "周りの状況",
+"detectedType": "meaning_context"
+},
+{
+"word": "ウエート",
+"reading": "ウエート",
+"meaning": "もっとも大切なところ。重点。",
+"detectedType": "meaning_context"
+},
+{
+"word": "センス",
+"reading": "センス",
+"meaning": "良いものを感じとる感覚や能力",
+"detectedType": "meaning_context"
+},
+{
+"word": "助長",
+"reading": "じょちょう",
+"meaning": "余計な力を貸して、かえって状況を悪くすること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p154_001",
+"source": "vocab1300",
+"sourcePage": 154,
+"type": "meaning_context",
+"word": "挽回",
+"reading": "ばんかい",
+"sentence": "前半は負けていたけれど、後半で点を取り返して挽回しました。",
+"question": "挽回 の意味はどれ？",
+"choices": [
+"巻き返すこと",
+"まだ知らないこと",
+"良いものを感じとる力",
+"周りの状況"
+],
+"answerIndex": 0,
+"explanation": "挽回は、巻き返すこと、失ったものを取り戻すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p154"]
+},
+{
+"id": "vocab1300_p154_002",
+"source": "vocab1300",
+"sourcePage": 154,
+"type": "meaning_context",
+"word": "未知",
+"reading": "みち",
+"sentence": "宇宙には、まだ未知のことがたくさんあります。",
+"question": "未知 の意味はどれ？",
+"choices": [
+"状況を悪くすること",
+"まだ知らないこと",
+"重点",
+"巻き返すこと"
+],
+"answerIndex": 1,
+"explanation": "未知は、まだ知らないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p154"]
+},
+{
+"id": "vocab1300_p154_003",
+"source": "vocab1300",
+"sourcePage": 154,
+"type": "meaning_context",
+"word": "環境",
+"reading": "かんきょう",
+"sentence": "静かな環境だと、読書に集中しやすいです。",
+"question": "環境 の意味はどれ？",
+"choices": [
+"まだ知らないこと",
+"良いものを感じとる力",
+"周りの状況",
+"かえって悪くすること"
+],
+"answerIndex": 2,
+"explanation": "環境は、周りの状況のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p154"]
+},
+{
+"id": "vocab1300_p154_004",
+"source": "vocab1300",
+"sourcePage": 154,
+"type": "meaning_context",
+"word": "ウエート",
+"reading": "ウエート",
+"sentence": "今日の練習では、基礎にウエートを置きました。",
+"question": "ウエート の意味はどれ？",
+"choices": [
+"もっとも大切なところ、重点",
+"周りの状況",
+"まだ知らないこと",
+"良いものを感じる力"
+],
+"answerIndex": 0,
+"explanation": "ウエートは、もっとも大切なところ、重点という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p154"]
+},
+{
+"id": "vocab1300_p154_005",
+"source": "vocab1300",
+"sourcePage": 154,
+"type": "meaning_context",
+"word": "センス",
+"reading": "センス",
+"sentence": "姉は服を選ぶセンスがよく、色の組み合わせが上手です。",
+"question": "センス の意味はどれ？",
+"choices": [
+"巻き返すこと",
+"良いものを感じとる感覚や能力",
+"重点",
+"状況を悪くすること"
+],
+"answerIndex": 1,
+"explanation": "センスは、良いものを感じとる感覚や能力のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p154"]
+},
+{
+"id": "vocab1300_p154_006",
+"source": "vocab1300",
+"sourcePage": 154,
+"type": "meaning_context",
+"word": "助長",
+"reading": "じょちょう",
+"sentence": "甘やかしすぎると、わがままを助長してしまうことがあります。",
+"question": "助長 の意味はどれ？",
+"choices": [
+"まだ知らないこと",
+"周りの状況",
+"余計な力を貸して、かえって状況を悪くすること",
+"良いものを感じる力"
+],
+"answerIndex": 2,
+"explanation": "助長は、余計な力を貸して、かえって状況を悪くすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p154"]
+}
+],
+"answerIndexCheck": {
+"target": "p154_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 0, 1, 2],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 3が0回ですが、6問では大きな偏りではありません。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『ウエート』『センス』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 155,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "うつろな目",
+"reading": "うつろなめ",
+"meaning": "いきいきとしていない、ぼんやりした目",
+"detectedType": "meaning_context"
+},
+{
+"word": "出ばなをくじく",
+"reading": "でばなをくじく",
+"meaning": "意気込んで何かをしようとした矢先に、やる気を失わせること",
+"detectedType": "meaning_context"
+},
+{
+"word": "匹敵する",
+"reading": "ひってきする",
+"meaning": "大きさや強さが同じくらいであること",
+"detectedType": "meaning_context"
+},
+{
+"word": "鉢合わせ",
+"reading": "はちあわせ",
+"meaning": "思いがけず、誰かに出会うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "錯覚",
+"reading": "さっかく",
+"meaning": "思い違いや見間違い",
+"detectedType": "meaning_context"
+},
+{
+"word": "そっけない",
+"reading": "そっけない",
+"meaning": "思いやりがなく、冷たい感じ",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p155_001",
+"source": "vocab1300",
+"sourcePage": 155,
+"type": "meaning_context",
+"word": "うつろな目",
+"reading": "うつろなめ",
+"sentence": "びっくりすることがあり、弟はうつろな目をしていました。",
+"question": "うつろな目 の意味はどれ？",
+"choices": [
+"思いやりがなく冷たい目",
+"いきいきとしていない、ぼんやりした目",
+"思いがけず出会うこと",
+"大きさが同じくらいなこと"
+],
+"answerIndex": 1,
+"explanation": "うつろな目は、いきいきとしていない、ぼんやりした目のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p155"]
+},
+{
+"id": "vocab1300_p155_002",
+"source": "vocab1300",
+"sourcePage": 155,
+"type": "meaning_context",
+"word": "出ばなをくじく",
+"reading": "でばなをくじく",
+"sentence": "やる気になったところで悪い点を言われ、出ばなをくじかれました。",
+"question": "出ばなをくじく の意味はどれ？",
+"choices": [
+"思い違いをすること",
+"意気込んで何かをしようとした矢先に、やる気を失わせること",
+"冷たい態度をとること",
+"同じくらい強いこと"
+],
+"answerIndex": 1,
+"explanation": "出ばなをくじくは、何かをしようとした矢先に、やる気を失わせることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p155"]
+},
+{
+"id": "vocab1300_p155_003",
+"source": "vocab1300",
+"sourcePage": 155,
+"type": "meaning_context",
+"word": "匹敵する",
+"reading": "ひってきする",
+"sentence": "この選手の速さは、上級生にも匹敵します。",
+"question": "匹敵する の意味はどれ？",
+"choices": [
+"思いやりがないこと",
+"思いがけず出会うこと",
+"大きさや強さが同じくらいであること",
+"ぼんやりしていること"
+],
+"answerIndex": 2,
+"explanation": "匹敵するは、大きさや強さが同じくらいであることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p155"]
+},
+{
+"id": "vocab1300_p155_004",
+"source": "vocab1300",
+"sourcePage": 155,
+"type": "meaning_context",
+"word": "鉢合わせ",
+"reading": "はちあわせ",
+"sentence": "店を出たところで、昔の友だちと鉢合わせしました。",
+"question": "鉢合わせ の意味はどれ？",
+"choices": [
+"思いがけず、誰かに出会うこと",
+"見間違いをすること",
+"やる気を失わせること",
+"冷たい感じ"
+],
+"answerIndex": 0,
+"explanation": "鉢合わせは、思いがけず誰かに出会うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p155"]
+},
+{
+"id": "vocab1300_p155_005",
+"source": "vocab1300",
+"sourcePage": 155,
+"type": "meaning_context",
+"word": "錯覚",
+"reading": "さっかく",
+"sentence": "暗い道で、石を動物だと錯覚しました。",
+"question": "錯覚 の意味はどれ？",
+"choices": [
+"大きさが同じくらいなこと",
+"思い違いや見間違い",
+"やる気を失わせること",
+"思いやりがないこと"
+],
+"answerIndex": 1,
+"explanation": "錯覚は、思い違いや見間違いのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p155"]
+},
+{
+"id": "vocab1300_p155_006",
+"source": "vocab1300",
+"sourcePage": 155,
+"type": "meaning_context",
+"word": "そっけない",
+"reading": "そっけない",
+"sentence": "質問したのに、友だちはそっけない返事をしました。",
+"question": "そっけない の意味はどれ？",
+"choices": [
+"ぼんやりしていること",
+"思いがけず会うこと",
+"思いやりがなく、冷たい感じ",
+"同じくらい強いこと"
+],
+"answerIndex": 2,
+"explanation": "そっけないは、思いやりがなく、冷たい感じのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p155"]
+}
+],
+"answerIndexCheck": {
+"target": "p155_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 1, 2, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 3,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 3,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 1が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 156,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ふてくされる",
+"reading": "ふてくされる",
+"meaning": "機嫌が悪くなり、表情や態度が投げやりになること",
+"detectedType": "meaning_context"
+},
+{
+"word": "気晴らし",
+"reading": "きばらし",
+"meaning": "気分転換",
+"detectedType": "meaning_context"
+},
+{
+"word": "気兼ね",
+"reading": "きがね",
+"meaning": "相手に遠慮すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "企てる",
+"reading": "くわだてる",
+"meaning": "計画を立てること",
+"detectedType": "meaning_context"
+},
+{
+"word": "とげのある",
+"reading": "とげのある",
+"meaning": "言葉や態度に皮肉や悪意がこもっている様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "つたない",
+"reading": "つたない",
+"meaning": "こなれていない、上手でないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p156_001",
+"source": "vocab1300",
+"sourcePage": 156,
+"type": "meaning_context",
+"word": "ふてくされる",
+"reading": "ふてくされる",
+"sentence": "ゲームを止められて、弟はふてくされてしまいました。",
+"question": "ふてくされる の意味はどれ？",
+"choices": [
+"相手に遠慮すること",
+"計画を立てること",
+"機嫌が悪くなり、投げやりな態度になること",
+"上手でないこと"
+],
+"answerIndex": 2,
+"explanation": "ふてくされるは、機嫌が悪くなり、表情や態度が投げやりになることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p156"]
+},
+{
+"id": "vocab1300_p156_002",
+"source": "vocab1300",
+"sourcePage": 156,
+"type": "meaning_context",
+"word": "気晴らし",
+"reading": "きばらし",
+"sentence": "宿題のあと、気晴らしに犬と散歩へ行きました。",
+"question": "気晴らし の意味はどれ？",
+"choices": [
+"気分転換",
+"皮肉を言うこと",
+"上手でないこと",
+"計画を立てること"
+],
+"answerIndex": 0,
+"explanation": "気晴らしは、気分転換のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p156"]
+},
+{
+"id": "vocab1300_p156_003",
+"source": "vocab1300",
+"sourcePage": 156,
+"type": "meaning_context",
+"word": "気兼ね",
+"reading": "きがね",
+"sentence": "気兼ねしないで、好きなだけお茶を飲んでください。",
+"question": "気兼ね の意味はどれ？",
+"choices": [
+"機嫌が悪いこと",
+"相手に遠慮すること",
+"皮肉があること",
+"気分を変えること"
+],
+"answerIndex": 1,
+"explanation": "気兼ねは、相手に遠慮することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p156"]
+},
+{
+"id": "vocab1300_p156_004",
+"source": "vocab1300",
+"sourcePage": 156,
+"type": "meaning_context",
+"word": "企てる",
+"reading": "くわだてる",
+"sentence": "兄は、みんなを驚かせる作戦を企てました。",
+"question": "企てる の意味はどれ？",
+"choices": [
+"計画を立てること",
+"上手でないこと",
+"遠慮すること",
+"気分転換すること"
+],
+"answerIndex": 0,
+"explanation": "企てるは、計画を立てることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p156"]
+},
+{
+"id": "vocab1300_p156_005",
+"source": "vocab1300",
+"sourcePage": 156,
+"type": "meaning_context",
+"word": "とげのある",
+"reading": "とげのある",
+"sentence": "友だちのとげのある言い方に、少しむかっとしました。",
+"question": "とげのある の意味はどれ？",
+"choices": [
+"気分を変える",
+"皮肉や悪意がこもっている様子",
+"こなれていない様子",
+"投げやりな態度"
+],
+"answerIndex": 1,
+"explanation": "とげのあるは、言葉や態度に皮肉や悪意がこもっている様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p156"]
+},
+{
+"id": "vocab1300_p156_006",
+"source": "vocab1300",
+"sourcePage": 156,
+"type": "meaning_context",
+"word": "つたない",
+"reading": "つたない",
+"sentence": "つたない字だけれど、心をこめて手紙を書きました。",
+"question": "つたない の意味はどれ？",
+"choices": [
+"計画を立てること",
+"遠慮すること",
+"こなれていない、上手でないこと",
+"皮肉があること"
+],
+"answerIndex": 2,
+"explanation": "つたないは、こなれていない、上手でないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p156"]
+}
+],
+"answerIndexCheck": {
+"target": "p156_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 1, 0, 1, 2],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 3が0回ですが、6問では大きな偏りではありません。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 157,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "四字熟語の意味を文脈で問うページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "一攫千金",
+"reading": "いっかくせんきん",
+"meaning": "簡単な方法で、大金を一度に得ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "一進一退",
+"reading": "いっしんいったい",
+"meaning": "良くなったり悪くなったりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "順風満帆",
+"reading": "じゅんぷうまんぱん",
+"meaning": "順調に、自分の思い通りに物事が進むこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "抱腹絶倒",
+"reading": "ほうふくぜっとう",
+"meaning": "お腹を抱えて笑うほど面白いこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "正々堂々",
+"reading": "せいせいどうどう",
+"meaning": "態度や行いが正しく、立派な様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "十人十色",
+"reading": "じゅうにんといろ",
+"meaning": "人それぞれ考え方や好みが違うこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p157_001",
+"source": "vocab1300",
+"sourcePage": 157,
+"type": "meaning_context",
+"word": "一攫千金",
+"reading": "いっかくせんきん",
+"sentence": "宝くじで一攫千金をねらう人もいます。",
+"question": "一攫千金 の意味はどれ？",
+"choices": [
+"正しく立派な様子",
+"簡単な方法で、大金を一度に得ること",
+"とても面白いこと",
+"人それぞれ違うこと"
+],
+"answerIndex": 1,
+"explanation": "一攫千金は、簡単な方法で大金を一度に得ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p157"]
+},
+{
+"id": "vocab1300_p157_002",
+"source": "vocab1300",
+"sourcePage": 157,
+"type": "meaning_context",
+"word": "一進一退",
+"reading": "いっしんいったい",
+"sentence": "病気の具合は、一進一退をくり返しました。",
+"question": "一進一退 の意味はどれ？",
+"choices": [
+"良くなったり悪くなったりすること",
+"思い通りに進むこと",
+"大金を得ること",
+"考え方が違うこと"
+],
+"answerIndex": 0,
+"explanation": "一進一退は、良くなったり悪くなったりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p157"]
+},
+{
+"id": "vocab1300_p157_003",
+"source": "vocab1300",
+"sourcePage": 157,
+"type": "meaning_context",
+"word": "順風満帆",
+"reading": "じゅんぷうまんぱん",
+"sentence": "準備をしっかりしたので、発表は順風満帆に進みました。",
+"question": "順風満帆 の意味はどれ？",
+"choices": [
+"人それぞれ違うこと",
+"お腹を抱えて笑うこと",
+"順調に、思い通りに物事が進むこと",
+"正しい態度"
+],
+"answerIndex": 2,
+"explanation": "順風満帆は、順調に、自分の思い通りに物事が進むことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p157"]
+},
+{
+"id": "vocab1300_p157_004",
+"source": "vocab1300",
+"sourcePage": 157,
+"type": "meaning_context",
+"word": "抱腹絶倒",
+"reading": "ほうふくぜっとう",
+"sentence": "新しいコメディー映画は、抱腹絶倒の面白さでした。",
+"question": "抱腹絶倒 の意味はどれ？",
+"choices": [
+"大金を一度に得ること",
+"良くなったり悪くなったりすること",
+"正しく立派なこと",
+"お腹を抱えて笑うほど面白いこと"
+],
+"answerIndex": 3,
+"explanation": "抱腹絶倒は、お腹を抱えて笑うほど面白いことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p157"]
+},
+{
+"id": "vocab1300_p157_005",
+"source": "vocab1300",
+"sourcePage": 157,
+"type": "meaning_context",
+"word": "正々堂々",
+"reading": "せいせいどうどう",
+"sentence": "相手の悪口を言わず、正々堂々と試合をしました。",
+"question": "正々堂々 の意味はどれ？",
+"choices": [
+"態度や行いが正しく、立派な様子",
+"人それぞれ違うこと",
+"順調に進むこと",
+"とても笑えること"
+],
+"answerIndex": 0,
+"explanation": "正々堂々は、態度や行いが正しく、立派な様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p157"]
+},
+{
+"id": "vocab1300_p157_006",
+"source": "vocab1300",
+"sourcePage": 157,
+"type": "meaning_context",
+"word": "十人十色",
+"reading": "じゅうにんといろ",
+"sentence": "好きな本は人によって違います。まさに十人十色です。",
+"question": "十人十色 の意味はどれ？",
+"choices": [
+"大金を得ること",
+"良くなったり悪くなったりすること",
+"人それぞれ考え方や好みが違うこと",
+"正しく立派なこと"
+],
+"answerIndex": 2,
+"explanation": "十人十色は、人それぞれ考え方や好みが違うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p157"]
+}
+],
+"answerIndexCheck": {
+"target": "p157_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 158,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "cooking_word",
+"reason": "料理に関する動作語のページなので、正式ルール化済みのcooking_wordとしてimage_wordで扱います。"
+},
+"extractedWords": [
+{
+"word": "おろす",
+"reading": "おろす",
+"meaning": "魚を切り分けること",
+"detectedType": "image_word",
+"subtype": "cooking_word"
+},
+{
+"word": "湯がく",
+"reading": "ゆがく",
+"meaning": "野菜などのあくをのぞくために、さっと熱湯に通すこと",
+"detectedType": "image_word",
+"subtype": "cooking_word"
+},
+{
+"word": "ふかす",
+"reading": "ふかす",
+"meaning": "蒸気の熱で、野菜・肉・魚などに火を通すこと",
+"detectedType": "image_word",
+"subtype": "cooking_word"
+},
+{
+"word": "あぶる",
+"reading": "あぶる",
+"meaning": "火に当てて、軽く焼いたり焦げ目をつけたりすること",
+"detectedType": "image_word",
+"subtype": "cooking_word"
+},
+{
+"word": "炊く",
+"reading": "たく",
+"meaning": "米などの穀物を水と合わせて煮て、食べられるようにすること",
+"detectedType": "image_word",
+"subtype": "cooking_word"
+},
+{
+"word": "煮る",
+"reading": "にる",
+"meaning": "水に野菜・肉・魚などを入れて、火にかけて熱を通すこと",
+"detectedType": "image_word",
+"subtype": "cooking_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p158_001",
+"source": "vocab1300",
+"sourcePage": 158,
+"type": "image_word",
+"subtype": "cooking_word",
+"word": "おろす",
+"reading": "おろす",
+"image": "images/cooking_orosu.png",
+"hint": "魚を包丁で切り分けています。",
+"question": "この料理の動作を表す言葉はどれ？",
+"choices": [
+"湯がく",
+"炊く",
+"おろす",
+"あぶる"
+],
+"answerIndex": 2,
+"explanation": "おろすは、魚を切り分けることです。",
+"tags": ["vocab1300", "image_word", "cooking_word", "p158"]
+},
+{
+"id": "vocab1300_p158_002",
+"source": "vocab1300",
+"sourcePage": 158,
+"type": "image_word",
+"subtype": "cooking_word",
+"word": "湯がく",
+"reading": "ゆがく",
+"image": "images/cooking_yugaku.png",
+"hint": "野菜をさっと熱湯に通しています。",
+"question": "この料理の動作を表す言葉はどれ？",
+"choices": [
+"湯がく",
+"煮る",
+"ふかす",
+"おろす"
+],
+"answerIndex": 0,
+"explanation": "湯がくは、野菜などのあくをのぞくために、さっと熱湯に通すことです。",
+"tags": ["vocab1300", "image_word", "cooking_word", "p158"]
+},
+{
+"id": "vocab1300_p158_003",
+"source": "vocab1300",
+"sourcePage": 158,
+"type": "image_word",
+"subtype": "cooking_word",
+"word": "ふかす",
+"reading": "ふかす",
+"image": "images/cooking_fukasu.png",
+"hint": "蒸気で食べ物に火を通しています。",
+"question": "この料理の動作を表す言葉はどれ？",
+"choices": [
+"炊く",
+"あぶる",
+"湯がく",
+"ふかす"
+],
+"answerIndex": 3,
+"explanation": "ふかすは、蒸気の熱で食べ物に火を通すことです。",
+"tags": ["vocab1300", "image_word", "cooking_word", "p158"]
+},
+{
+"id": "vocab1300_p158_004",
+"source": "vocab1300",
+"sourcePage": 158,
+"type": "image_word",
+"subtype": "cooking_word",
+"word": "あぶる",
+"reading": "あぶる",
+"image": "images/cooking_aburu.png",
+"hint": "食べ物を火に近づけて、軽く焼いています。",
+"question": "この料理の動作を表す言葉はどれ？",
+"choices": [
+"煮る",
+"おろす",
+"あぶる",
+"湯がく"
+],
+"answerIndex": 2,
+"explanation": "あぶるは、火に当てて、軽く焼いたり焦げ目をつけたりすることです。",
+"tags": ["vocab1300", "image_word", "cooking_word", "p158"]
+},
+{
+"id": "vocab1300_p158_005",
+"source": "vocab1300",
+"sourcePage": 158,
+"type": "image_word",
+"subtype": "cooking_word",
+"word": "炊く",
+"reading": "たく",
+"image": "images/cooking_taku.png",
+"hint": "米に水を入れて、食べられるご飯にしています。",
+"question": "この料理の動作を表す言葉はどれ？",
+"choices": [
+"ふかす",
+"炊く",
+"煮る",
+"あぶる"
+],
+"answerIndex": 1,
+"explanation": "炊くは、米などの穀物を水と合わせて煮て、食べられるようにすることです。",
+"tags": ["vocab1300", "image_word", "cooking_word", "p158"]
+},
+{
+"id": "vocab1300_p158_006",
+"source": "vocab1300",
+"sourcePage": 158,
+"type": "image_word",
+"subtype": "cooking_word",
+"word": "煮る",
+"reading": "にる",
+"image": "images/cooking_niru.png",
+"hint": "水に食材を入れて、火にかけています。",
+"question": "この料理の動作を表す言葉はどれ？",
+"choices": [
+"煮る",
+"おろす",
+"湯がく",
+"炊く"
+],
+"answerIndex": 0,
+"explanation": "煮るは、水に野菜・肉・魚などを入れて、火にかけて熱を通すことです。",
+"tags": ["vocab1300", "image_word", "cooking_word", "p158"]
+}
+],
+"answerIndexCheck": {
+"target": "p158_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 3, 2, 1, 0],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 159,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ためしがない",
+"reading": "ためしがない",
+"meaning": "〜したことがない。そういう前例がない。",
+"detectedType": "meaning_context"
+},
+{
+"word": "万全",
+"reading": "ばんぜん",
+"meaning": "手ぬかりがなく、準備不足がないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "呆然",
+"reading": "ぼうぜん",
+"meaning": "あっけにとられて、ぼんやりとしている様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "切り札",
+"reading": "きりふだ",
+"meaning": "いちばん強力な手段。奥の手。",
+"detectedType": "meaning_context"
+},
+{
+"word": "謙遜",
+"reading": "けんそん",
+"meaning": "いばらない、控えめな態度",
+"detectedType": "meaning_context"
+},
+{
+"word": "むりじい",
+"reading": "むりじい",
+"meaning": "嫌がる相手に、強引に何かをさせること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p159_001",
+"source": "vocab1300",
+"sourcePage": 159,
+"type": "meaning_context",
+"word": "ためしがない",
+"reading": "ためしがない",
+"sentence": "姉は目覚まし時計なしで起きたためしがありません。",
+"question": "ためしがない の意味はどれ？",
+"choices": [
+"強引にさせること",
+"手ぬかりがないこと",
+"〜したことがない、前例がない",
+"控えめな態度"
+],
+"answerIndex": 2,
+"explanation": "ためしがないは、〜したことがない、そういう前例がない、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p159"]
+},
+{
+"id": "vocab1300_p159_002",
+"source": "vocab1300",
+"sourcePage": 159,
+"type": "meaning_context",
+"word": "万全",
+"reading": "ばんぜん",
+"sentence": "忘れ物がないよう、万全の準備で出発しました。",
+"question": "万全 の意味はどれ？",
+"choices": [
+"手ぬかりがなく、準備不足がないこと",
+"ぼんやりしている様子",
+"奥の手",
+"強引にさせること"
+],
+"answerIndex": 0,
+"explanation": "万全は、手ぬかりがなく、準備不足がないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p159"]
+},
+{
+"id": "vocab1300_p159_003",
+"source": "vocab1300",
+"sourcePage": 159,
+"type": "meaning_context",
+"word": "呆然",
+"reading": "ぼうぜん",
+"sentence": "家の焼け跡を見て、その人は呆然と立ちつくしました。",
+"question": "呆然 の意味はどれ？",
+"choices": [
+"控えめな態度",
+"前例がないこと",
+"あっけにとられて、ぼんやりとしている様子",
+"いちばん強い手段"
+],
+"answerIndex": 2,
+"explanation": "呆然は、あっけにとられて、ぼんやりとしている様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p159"]
+},
+{
+"id": "vocab1300_p159_004",
+"source": "vocab1300",
+"sourcePage": 159,
+"type": "meaning_context",
+"word": "切り札",
+"reading": "きりふだ",
+"sentence": "最後の切り札として、いちばん速い選手を出しました。",
+"question": "切り札 の意味はどれ？",
+"choices": [
+"手ぬかりがないこと",
+"いちばん強力な手段、奥の手",
+"ぼんやりすること",
+"強引にさせること"
+],
+"answerIndex": 1,
+"explanation": "切り札は、いちばん強力な手段、奥の手のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p159"]
+},
+{
+"id": "vocab1300_p159_005",
+"source": "vocab1300",
+"sourcePage": 159,
+"type": "meaning_context",
+"word": "謙遜",
+"reading": "けんそん",
+"sentence": "ほめられても、兄は『まだまだです』と謙遜しました。",
+"question": "謙遜 の意味はどれ？",
+"choices": [
+"ぼんやりしている様子",
+"いばらない、控えめな態度",
+"準備不足がないこと",
+"前例がないこと"
+],
+"answerIndex": 1,
+"explanation": "謙遜は、いばらない、控えめな態度のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p159"]
+},
+{
+"id": "vocab1300_p159_006",
+"source": "vocab1300",
+"sourcePage": 159,
+"type": "meaning_context",
+"word": "むりじい",
+"reading": "むりじい",
+"sentence": "嫌いな食べ物をむりじいするのはよくありません。",
+"question": "むりじい の意味はどれ？",
+"choices": [
+"控えめにすること",
+"奥の手を使うこと",
+"嫌がる相手に、強引に何かをさせること",
+"準備を整えること"
+],
+"answerIndex": 2,
+"explanation": "むりじいは、嫌がる相手に、強引に何かをさせることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p159"]
+}
+],
+"answerIndexCheck": {
+"target": "p159_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 2, 1, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 3,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 3,
+"エ": 0
+},
+"result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "否定表現とセットになりやすい語",
+"suggestion": "『ためしがない』は否定の形を含む語句なので、例文と解説で『〜したことがない』という形を明確にしました。"
+}
+]
+},
+{
+"sourcePage": 160,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "目と鼻の先",
+"reading": "めとはなのさき",
+"meaning": "すぐ近くであること。あまり離れていないこと。",
+"detectedType": "meaning_context"
+},
+{
+"word": "風物詩",
+"reading": "ふうぶつし",
+"meaning": "その季節の雰囲気をよく表した物事",
+"detectedType": "meaning_context"
+},
+{
+"word": "拒絶",
+"reading": "きょぜつ",
+"meaning": "強くこばむこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "大胆",
+"reading": "だいたん",
+"meaning": "度胸があり、思い切りよくやること",
+"detectedType": "meaning_context"
+},
+{
+"word": "中断",
+"reading": "ちゅうだん",
+"meaning": "途中でやめること",
+"detectedType": "meaning_context"
+},
+{
+"word": "こそふさわしい",
+"reading": "こそふさわしい",
+"meaning": "ぴったり合っていること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p160_001",
+"source": "vocab1300",
+"sourcePage": 160,
+"type": "meaning_context",
+"word": "目と鼻の先",
+"reading": "めとはなのさき",
+"sentence": "私の家は学校の目と鼻の先にあります。",
+"question": "目と鼻の先 の意味はどれ？",
+"choices": [
+"途中でやめること",
+"すぐ近くであること",
+"強くこばむこと",
+"その季節らしい物事"
+],
+"answerIndex": 1,
+"explanation": "目と鼻の先は、すぐ近くであること、あまり離れていないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p160"]
+},
+{
+"id": "vocab1300_p160_002",
+"source": "vocab1300",
+"sourcePage": 160,
+"type": "meaning_context",
+"word": "風物詩",
+"reading": "ふうぶつし",
+"sentence": "やきいも屋さんの声は、冬の風物詩です。",
+"question": "風物詩 の意味はどれ？",
+"choices": [
+"その季節の雰囲気をよく表した物事",
+"度胸があること",
+"ぴったり合うこと",
+"強くこばむこと"
+],
+"answerIndex": 0,
+"explanation": "風物詩は、その季節の雰囲気をよく表した物事です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p160"]
+},
+{
+"id": "vocab1300_p160_003",
+"source": "vocab1300",
+"sourcePage": 160,
+"type": "meaning_context",
+"word": "拒絶",
+"reading": "きょぜつ",
+"sentence": "頼んでみたけれど、きっぱり拒絶されてしまいました。",
+"question": "拒絶 の意味はどれ？",
+"choices": [
+"近くにあること",
+"途中でやめること",
+"強くこばむこと",
+"季節らしい物事"
+],
+"answerIndex": 2,
+"explanation": "拒絶は、強くこばむことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p160"]
+},
+{
+"id": "vocab1300_p160_004",
+"source": "vocab1300",
+"sourcePage": 160,
+"type": "meaning_context",
+"word": "大胆",
+"reading": "だいたん",
+"sentence": "決勝戦で、青ちゃんは大胆なプレーを見せました。",
+"question": "大胆 の意味はどれ？",
+"choices": [
+"ぴったり合うこと",
+"度胸があり、思い切りよくやること",
+"強くこばむこと",
+"すぐ近くであること"
+],
+"answerIndex": 1,
+"explanation": "大胆は、度胸があり、思い切りよくやることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p160"]
+},
+{
+"id": "vocab1300_p160_005",
+"source": "vocab1300",
+"sourcePage": 160,
+"type": "meaning_context",
+"word": "中断",
+"reading": "ちゅうだん",
+"sentence": "悪天候のため、試合を中断しました。",
+"question": "中断 の意味はどれ？",
+"choices": [
+"途中でやめること",
+"季節を表すこと",
+"ぴったり合うこと",
+"強くこばむこと"
+],
+"answerIndex": 0,
+"explanation": "中断は、途中でやめることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p160"]
+},
+{
+"id": "vocab1300_p160_006",
+"source": "vocab1300",
+"sourcePage": 160,
+"type": "meaning_context",
+"word": "こそふさわしい",
+"reading": "こそふさわしい",
+"sentence": "その役は、やさしい彼女にこそふさわしいと思います。",
+"question": "こそふさわしい の意味はどれ？",
+"choices": [
+"度胸があること",
+"すぐ近くにあること",
+"その季節らしいこと",
+"ぴったり合っていること"
+],
+"answerIndex": 3,
+"explanation": "こそふさわしいは、ぴったり合っているという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p160"]
+}
+],
+"answerIndexCheck": {
+"target": "p160_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 1, 0, 3],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+}
+]

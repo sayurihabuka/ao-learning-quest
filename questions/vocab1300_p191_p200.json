@@ -1,0 +1,1913 @@
+[
+{
+"sourcePage": 191,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "はたして",
+"reading": "はたして",
+"meaning": "やはり思った通り。案の定。",
+"detectedType": "meaning_context"
+},
+{
+"word": "おもむろに",
+"reading": "おもむろに",
+"meaning": "ゆったりと、静かに",
+"detectedType": "meaning_context"
+},
+{
+"word": "エピソード",
+"reading": "エピソード",
+"meaning": "ある人や物事についての、興味深く短い話。逸話。",
+"detectedType": "meaning_context"
+},
+{
+"word": "頭に血がのぼる",
+"reading": "あたまにちがのぼる",
+"meaning": "怒りでかっとなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "遅かれ早かれ",
+"reading": "おそかれはやかれ",
+"meaning": "いずれ、そのうちに",
+"detectedType": "meaning_context"
+},
+{
+"word": "気落ち",
+"reading": "きおち",
+"meaning": "がっかりして、元気がなくなった様子",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p191_001",
+"source": "vocab1300",
+"sourcePage": 191,
+"type": "meaning_context",
+"word": "はたして",
+"reading": "はたして",
+"sentence": "空が暗くなってきました。はたして、少しすると雨が降り出しました。",
+"question": "はたして の意味はどれ？",
+"choices": [
+"いずれ、そのうちに",
+"ゆったりと静かに",
+"やはり思った通り、案の定",
+"がっかりして元気がない様子"
+],
+"answerIndex": 2,
+"explanation": "はたしては、予想した通りに何かが起こったときに使います。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p191"]
+},
+{
+"id": "vocab1300_p191_002",
+"source": "vocab1300",
+"sourcePage": 191,
+"type": "meaning_context",
+"word": "おもむろに",
+"reading": "おもむろに",
+"sentence": "先生はおもむろに本を開き、静かに読み始めました。",
+"question": "おもむろに の意味はどれ？",
+"choices": [
+"怒りでかっとなって",
+"ゆったりと、静かに",
+"短い話として",
+"すぐに元気なく"
+],
+"answerIndex": 1,
+"explanation": "おもむろには、急がず、ゆったりと静かにする様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p191"]
+},
+{
+"id": "vocab1300_p191_003",
+"source": "vocab1300",
+"sourcePage": 191,
+"type": "meaning_context",
+"word": "エピソード",
+"reading": "エピソード",
+"sentence": "祖母は、子どものころの面白いエピソードを話してくれました。",
+"question": "エピソード の意味はどれ？",
+"choices": [
+"予想通りになること",
+"いずれ分かること",
+"怒りでかっとなること",
+"ある人や物事についての、興味深い短い話"
+],
+"answerIndex": 3,
+"explanation": "エピソードは、人や出来事についての短くて印象に残る話です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p191"]
+},
+{
+"id": "vocab1300_p191_004",
+"source": "vocab1300",
+"sourcePage": 191,
+"type": "meaning_context",
+"word": "頭に血がのぼる",
+"reading": "あたまにちがのぼる",
+"sentence": "大切なノートを勝手に使われて、頭に血がのぼりました。",
+"question": "頭に血がのぼる の意味はどれ？",
+"choices": [
+"怒りでかっとなること",
+"短い話をすること",
+"いずれそのうちに",
+"予想通りになること"
+],
+"answerIndex": 0,
+"explanation": "頭に血がのぼるは、怒りでかっとなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p191"]
+},
+{
+"id": "vocab1300_p191_005",
+"source": "vocab1300",
+"sourcePage": 191,
+"type": "meaning_context",
+"word": "遅かれ早かれ",
+"reading": "おそかれはやかれ",
+"sentence": "練習を続ければ、遅かれ早かれ結果は出るでしょう。",
+"question": "遅かれ早かれ の意味はどれ？",
+"choices": [
+"がっかりして",
+"いずれ、そのうちに",
+"ゆったりと",
+"怒りで"
+],
+"answerIndex": 1,
+"explanation": "遅かれ早かれは、早いか遅いかは別として、いずれそうなるという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p191"]
+},
+{
+"id": "vocab1300_p191_006",
+"source": "vocab1300",
+"sourcePage": 191,
+"type": "meaning_context",
+"word": "気落ち",
+"reading": "きおち",
+"sentence": "楽しみにしていた行事が中止になり、妹は気落ちしていました。",
+"question": "気落ち の意味はどれ？",
+"choices": [
+"予想通りであること",
+"急がず静かなこと",
+"がっかりして、元気がなくなった様子",
+"短い話のこと"
+],
+"answerIndex": 2,
+"explanation": "気落ちは、がっかりして元気がなくなっている様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p191"]
+}
+],
+"answerIndexCheck": {
+"target": "p191_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 3, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『エピソード』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 192,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ぶざま",
+"reading": "ぶざま",
+"meaning": "格好が悪いこと。やり方が見苦しいこと。",
+"detectedType": "meaning_context"
+},
+{
+"word": "必ずしも",
+"reading": "かならずしも",
+"meaning": "必ず〜とは限らない",
+"detectedType": "meaning_context"
+},
+{
+"word": "まんざらでもない",
+"reading": "まんざらでもない",
+"meaning": "全く悪くもなく、かなり気に入った様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "無断で",
+"reading": "むだんで",
+"meaning": "許可をもらわずに、勝手に",
+"detectedType": "meaning_context"
+},
+{
+"word": "悔やむ",
+"reading": "くやむ",
+"meaning": "後悔すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "本音",
+"reading": "ほんね",
+"meaning": "言葉にした本当の気持ち",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p192_001",
+"source": "vocab1300",
+"sourcePage": 192,
+"type": "meaning_context",
+"word": "ぶざま",
+"reading": "ぶざま",
+"sentence": "転んだあと、ぶざまな姿を見られて少し恥ずかしくなりました。",
+"question": "ぶざま の意味はどれ？",
+"choices": [
+"格好が悪く、見苦しいこと",
+"本当の気持ち",
+"後悔すること",
+"勝手にすること"
+],
+"answerIndex": 0,
+"explanation": "ぶざまは、格好が悪かったり、見苦しかったりする様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p192"]
+},
+{
+"id": "vocab1300_p192_002",
+"source": "vocab1300",
+"sourcePage": 192,
+"type": "meaning_context",
+"word": "必ずしも",
+"reading": "かならずしも",
+"sentence": "たくさん練習した人が、必ずしも勝てるとは限りません。",
+"question": "必ずしも の意味はどれ？",
+"choices": [
+"必ずそうなること",
+"必ず〜とは限らない",
+"かなり気に入ること",
+"許可をもらうこと"
+],
+"answerIndex": 1,
+"explanation": "必ずしもは、『絶対にそうだ』とは言えないときに使います。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p192"]
+},
+{
+"id": "vocab1300_p192_003",
+"source": "vocab1300",
+"sourcePage": 192,
+"type": "meaning_context",
+"word": "まんざらでもない",
+"reading": "まんざらでもない",
+"sentence": "ほめられた弟は、まんざらでもない顔をしていました。",
+"question": "まんざらでもない の意味はどれ？",
+"choices": [
+"格好が悪いこと",
+"無断ですること",
+"かなり気に入っている様子",
+"後悔している様子"
+],
+"answerIndex": 2,
+"explanation": "まんざらでもないは、いやではなく、むしろ少し気に入っているような様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p192"]
+},
+{
+"id": "vocab1300_p192_004",
+"source": "vocab1300",
+"sourcePage": 192,
+"type": "meaning_context",
+"word": "無断で",
+"reading": "むだんで",
+"sentence": "友だちの消しゴムを無断で使ってはいけません。",
+"question": "無断で の意味はどれ？",
+"choices": [
+"後悔して",
+"かなり気に入って",
+"本当の気持ちで",
+"許可をもらわずに、勝手に"
+],
+"answerIndex": 3,
+"explanation": "無断では、相手に許可をもらわず、勝手にすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p192"]
+},
+{
+"id": "vocab1300_p192_005",
+"source": "vocab1300",
+"sourcePage": 192,
+"type": "meaning_context",
+"word": "悔やむ",
+"reading": "くやむ",
+"sentence": "早く謝ればよかったと、あとから悔やみました。",
+"question": "悔やむ の意味はどれ？",
+"choices": [
+"勝手に使うこと",
+"後悔すること",
+"格好が悪いこと",
+"本音を言うこと"
+],
+"answerIndex": 1,
+"explanation": "悔やむは、あとから『こうすればよかった』と後悔することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p192"]
+},
+{
+"id": "vocab1300_p192_006",
+"source": "vocab1300",
+"sourcePage": 192,
+"type": "meaning_context",
+"word": "本音",
+"reading": "ほんね",
+"sentence": "友だちは笑っていたけれど、本音では少し悲しかったようです。",
+"question": "本音 の意味はどれ？",
+"choices": [
+"必ずとは限らないこと",
+"見苦しいこと",
+"言葉にした本当の気持ち",
+"勝手に使うこと"
+],
+"answerIndex": 2,
+"explanation": "本音は、うわべではなく、本当の気持ちのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p192"]
+}
+],
+"answerIndexCheck": {
+"target": "p192_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "否定表現とセットになりやすい語",
+"suggestion": "『必ずしも』は『必ずしも〜とは限らない』の形で覚えやすいよう、例文と解説に否定表現を入れています。"
+}
+]
+},
+{
+"sourcePage": 193,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "色を含むことわざ・慣用句の意味を問うページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "顔が青くなる",
+"reading": "かおがあおくなる",
+"meaning": "心配や恐怖で、顔色が悪くなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "目を白黒させる",
+"reading": "めをしろくろさせる",
+"meaning": "驚いたり、苦しんだりする様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "朱に交われば赤くなる",
+"reading": "しゅにまじわればあかくなる",
+"meaning": "人は付き合う人によって、影響を受けるということ",
+"detectedType": "meaning_context"
+},
+{
+"word": "白い目で見る",
+"reading": "しろいめでみる",
+"meaning": "冷たく、突き放した目で人を見ること",
+"detectedType": "meaning_context"
+},
+{
+"word": "尻が青い",
+"reading": "しりがあおい",
+"meaning": "経験が浅く、未熟であること",
+"detectedType": "meaning_context"
+},
+{
+"word": "青天の霹靂",
+"reading": "せいてんのへきれき",
+"meaning": "急に衝撃的なことが起こること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p193_001",
+"source": "vocab1300",
+"sourcePage": 193,
+"type": "meaning_context",
+"word": "顔が青くなる",
+"reading": "かおがあおくなる",
+"sentence": "大事なノートをなくしたと思い、顔が青くなりました。",
+"question": "顔が青くなる の意味はどれ？",
+"choices": [
+"経験が浅いこと",
+"冷たい目で見ること",
+"心配や恐怖で、顔色が悪くなること",
+"人から影響を受けること"
+],
+"answerIndex": 2,
+"explanation": "顔が青くなるは、心配や恐怖で顔色が悪くなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p193"]
+},
+{
+"id": "vocab1300_p193_002",
+"source": "vocab1300",
+"sourcePage": 193,
+"type": "meaning_context",
+"word": "目を白黒させる",
+"reading": "めをしろくろさせる",
+"sentence": "急に名前を呼ばれて、弟は目を白黒させました。",
+"question": "目を白黒させる の意味はどれ？",
+"choices": [
+"驚いたり、苦しんだりする様子",
+"急に大事件が起こること",
+"未熟であること",
+"冷たく見ること"
+],
+"answerIndex": 0,
+"explanation": "目を白黒させるは、驚いたり苦しんだりして、あわてる様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p193"]
+},
+{
+"id": "vocab1300_p193_003",
+"source": "vocab1300",
+"sourcePage": 193,
+"type": "meaning_context",
+"word": "朱に交われば赤くなる",
+"reading": "しゅにまじわればあかくなる",
+"sentence": "読書好きの友だちといるうちに、私も本を読むようになりました。朱に交われば赤くなるですね。",
+"question": "朱に交われば赤くなる の意味はどれ？",
+"choices": [
+"顔色が悪くなること",
+"人は付き合う人によって影響を受けること",
+"突然大変なことが起きること",
+"経験が浅いこと"
+],
+"answerIndex": 1,
+"explanation": "朱に交われば赤くなるは、人は周りの人から影響を受けるという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p193"]
+},
+{
+"id": "vocab1300_p193_004",
+"source": "vocab1300",
+"sourcePage": 193,
+"type": "meaning_context",
+"word": "白い目で見る",
+"reading": "しろいめでみる",
+"sentence": "約束を破った人を、みんなは白い目で見ました。",
+"question": "白い目で見る の意味はどれ？",
+"choices": [
+"驚いてあわてること",
+"人に影響されること",
+"冷たく、突き放した目で人を見ること",
+"未熟なこと"
+],
+"answerIndex": 2,
+"explanation": "白い目で見るは、相手を冷たく、突き放すように見ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p193"]
+},
+{
+"id": "vocab1300_p193_005",
+"source": "vocab1300",
+"sourcePage": 193,
+"type": "meaning_context",
+"word": "尻が青い",
+"reading": "しりがあおい",
+"sentence": "まだ始めたばかりなので、先輩に尻が青いと言われました。",
+"question": "尻が青い の意味はどれ？",
+"choices": [
+"急に衝撃的なことが起こること",
+"経験が浅く、未熟であること",
+"冷たい目で見ること",
+"恐怖で顔色が悪くなること"
+],
+"answerIndex": 1,
+"explanation": "尻が青いは、経験が少なく、まだ未熟であるという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p193"]
+},
+{
+"id": "vocab1300_p193_006",
+"source": "vocab1300",
+"sourcePage": 193,
+"type": "meaning_context",
+"word": "青天の霹靂",
+"reading": "せいてんのへきれき",
+"sentence": "急に引っ越しが決まり、家族にとって青天の霹靂でした。",
+"question": "青天の霹靂 の意味はどれ？",
+"choices": [
+"人から影響を受けること",
+"驚いたり苦しんだりすること",
+"経験が浅いこと",
+"急に衝撃的なことが起こること"
+],
+"answerIndex": 3,
+"explanation": "青天の霹靂は、思いがけず、急に衝撃的なことが起こることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p193"]
+}
+],
+"answerIndexCheck": {
+"target": "p193_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 1, 2, 1, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "色を含む慣用句",
+"suggestion": "p193は色を含む慣用句のページですが、既存ルールではmeaning_contextで問題ありません。"
+}
+]
+},
+{
+"sourcePage": 194,
+"pageTypeJudgement": {
+"detectedType": "image_word",
+"subtype": "old_life_tool_word",
+"reason": "昔の道具を絵で判別するページなので、image_wordに適しています。既存subtypeに完全一致するものがないため、old_life_tool_wordを提案します。"
+},
+"extractedWords": [
+{
+"word": "火鉢",
+"reading": "ひばち",
+"meaning": "炭を入れて火をおこし、暖をとる道具",
+"detectedType": "image_word",
+"subtype": "old_life_tool_word"
+},
+{
+"word": "おひつ",
+"reading": "おひつ",
+"meaning": "炊いたご飯を釜から移して入れておく木製の器",
+"detectedType": "image_word",
+"subtype": "old_life_tool_word"
+},
+{
+"word": "縁台",
+"reading": "えんだい",
+"meaning": "家の外や店先などに置く、木や竹の細長い腰掛け",
+"detectedType": "image_word",
+"subtype": "old_life_tool_word"
+},
+{
+"word": "すだれ",
+"reading": "すだれ",
+"meaning": "竹などで作られた、日よけなどに使うもの",
+"detectedType": "image_word",
+"subtype": "old_life_tool_word"
+},
+{
+"word": "蚊帳",
+"reading": "かや",
+"meaning": "虫をよせつけないように、寝床を覆う道具",
+"detectedType": "image_word",
+"subtype": "old_life_tool_word"
+},
+{
+"word": "いろり",
+"reading": "いろり",
+"meaning": "床の一部をくりぬいて、火をたけるようにした場所",
+"detectedType": "image_word",
+"subtype": "old_life_tool_word"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p194_001",
+"source": "vocab1300",
+"sourcePage": 194,
+"type": "image_word",
+"subtype": "old_life_tool_word",
+"word": "火鉢",
+"reading": "ひばち",
+"image": "images/old_tool_hibachi.png",
+"hint": "器の中の炭で、手や体をあたためます。",
+"question": "この昔の道具はどれ？",
+"choices": [
+"おひつ",
+"火鉢",
+"蚊帳",
+"縁台"
+],
+"answerIndex": 1,
+"explanation": "火鉢は、炭を入れて火をおこし、暖をとる道具です。",
+"tags": ["vocab1300", "image_word", "old_life_tool_word", "p194"]
+},
+{
+"id": "vocab1300_p194_002",
+"source": "vocab1300",
+"sourcePage": 194,
+"type": "image_word",
+"subtype": "old_life_tool_word",
+"word": "おひつ",
+"reading": "おひつ",
+"image": "images/old_tool_ohitsu.png",
+"hint": "炊いたご飯を入れておく木の器です。",
+"question": "この昔の道具はどれ？",
+"choices": [
+"すだれ",
+"おひつ",
+"火鉢",
+"いろり"
+],
+"answerIndex": 1,
+"explanation": "おひつは、炊いたご飯を釜から移して入れておく木製の器です。",
+"tags": ["vocab1300", "image_word", "old_life_tool_word", "p194"]
+},
+{
+"id": "vocab1300_p194_003",
+"source": "vocab1300",
+"sourcePage": 194,
+"type": "image_word",
+"subtype": "old_life_tool_word",
+"word": "縁台",
+"reading": "えんだい",
+"image": "images/old_tool_endai.png",
+"hint": "家の外に置かれた、細長い腰掛けです。",
+"question": "この昔の道具はどれ？",
+"choices": [
+"蚊帳",
+"すだれ",
+"縁台",
+"おひつ"
+],
+"answerIndex": 2,
+"explanation": "縁台は、家の外や店先などに置く、細長い腰掛けです。",
+"tags": ["vocab1300", "image_word", "old_life_tool_word", "p194"]
+},
+{
+"id": "vocab1300_p194_004",
+"source": "vocab1300",
+"sourcePage": 194,
+"type": "image_word",
+"subtype": "old_life_tool_word",
+"word": "すだれ",
+"reading": "すだれ",
+"image": "images/old_tool_sudare.png",
+"hint": "竹などを並べて作り、窓の日よけに使います。",
+"question": "この昔の道具はどれ？",
+"choices": [
+"すだれ",
+"火鉢",
+"いろり",
+"縁台"
+],
+"answerIndex": 0,
+"explanation": "すだれは、竹などで作られた、日よけなどに使うものです。",
+"tags": ["vocab1300", "image_word", "old_life_tool_word", "p194"]
+},
+{
+"id": "vocab1300_p194_005",
+"source": "vocab1300",
+"sourcePage": 194,
+"type": "image_word",
+"subtype": "old_life_tool_word",
+"word": "蚊帳",
+"reading": "かや",
+"image": "images/old_tool_kaya.png",
+"hint": "寝ている人を、虫から守るために覆います。",
+"question": "この昔の道具はどれ？",
+"choices": [
+"おひつ",
+"蚊帳",
+"火鉢",
+"すだれ"
+],
+"answerIndex": 1,
+"explanation": "蚊帳は、虫をよせつけないように寝床を覆う道具です。",
+"tags": ["vocab1300", "image_word", "old_life_tool_word", "p194"]
+},
+{
+"id": "vocab1300_p194_006",
+"source": "vocab1300",
+"sourcePage": 194,
+"type": "image_word",
+"subtype": "old_life_tool_word",
+"word": "いろり",
+"reading": "いろり",
+"image": "images/old_tool_irori.png",
+"hint": "床の中で火をたき、上に鍋をつるします。",
+"question": "この昔の場所・道具はどれ？",
+"choices": [
+"縁台",
+"おひつ",
+"いろり",
+"蚊帳"
+],
+"answerIndex": 2,
+"explanation": "いろりは、床の一部をくりぬいて、火をたけるようにした場所です。",
+"tags": ["vocab1300", "image_word", "old_life_tool_word", "p194"]
+}
+],
+"answerIndexCheck": {
+"target": "p194_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 1, 2, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 3,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 3,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 1が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "新subtype候補",
+"suggestion": "p194は昔の生活道具のページです。image_word用に subtype: old_life_tool_word を追加すると管理しやすそうです。"
+},
+{
+"point": "画像ファイル名候補",
+"suggestion": "old_life_tool_wordを正式化する場合、画像ファイル名は images/old_tool_*.png 形式にすると整理しやすいです。"
+}
+]
+},
+{
+"sourcePage": 195,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "指折り",
+"reading": "ゆびおり",
+"meaning": "たくさんの中で、非常に優れていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "その場逃れ",
+"reading": "そのばのがれ",
+"meaning": "その場だけ何とかすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "そぐわない",
+"reading": "そぐわない",
+"meaning": "釣り合わない。ふさわしくない。",
+"detectedType": "meaning_context"
+},
+{
+"word": "緊急",
+"reading": "きんきゅう",
+"meaning": "とても重要で、急いで対応すべきこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "かろうじて",
+"reading": "かろうじて",
+"meaning": "やっとのことで",
+"detectedType": "meaning_context"
+},
+{
+"word": "心のよりどころ",
+"reading": "こころのよりどころ",
+"meaning": "心の支えや、頼りとするもの",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p195_001",
+"source": "vocab1300",
+"sourcePage": 195,
+"type": "meaning_context",
+"word": "指折り",
+"reading": "ゆびおり",
+"sentence": "その学校は、都内でも指折りの進学校です。",
+"question": "指折り の意味はどれ？",
+"choices": [
+"その場だけ何とかすること",
+"たくさんの中で、非常に優れていること",
+"急いで対応すべきこと",
+"やっとのことで"
+],
+"answerIndex": 1,
+"explanation": "指折りは、たくさんある中でも特に優れていることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p195"]
+},
+{
+"id": "vocab1300_p195_002",
+"source": "vocab1300",
+"sourcePage": 195,
+"type": "meaning_context",
+"word": "その場逃れ",
+"reading": "そのばのがれ",
+"sentence": "その場逃れの言い訳をしても、あとで困るだけです。",
+"question": "その場逃れ の意味はどれ？",
+"choices": [
+"釣り合わないこと",
+"心の支え",
+"その場だけ何とかすること",
+"とても優れていること"
+],
+"answerIndex": 2,
+"explanation": "その場逃れは、先のことを考えず、その場だけ何とかしようとすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p195"]
+},
+{
+"id": "vocab1300_p195_003",
+"source": "vocab1300",
+"sourcePage": 195,
+"type": "meaning_context",
+"word": "そぐわない",
+"reading": "そぐわない",
+"sentence": "運動会に、そぐわない靴をはいてきてしまいました。",
+"question": "そぐわない の意味はどれ？",
+"choices": [
+"やっとできること",
+"急いで必要なこと",
+"心の支えになること",
+"釣り合わない、ふさわしくないこと"
+],
+"answerIndex": 3,
+"explanation": "そぐわないは、その場や目的に合わない、ふさわしくないという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p195"]
+},
+{
+"id": "vocab1300_p195_004",
+"source": "vocab1300",
+"sourcePage": 195,
+"type": "meaning_context",
+"word": "緊急",
+"reading": "きんきゅう",
+"sentence": "緊急の連絡が入り、すぐに家へ帰りました。",
+"question": "緊急 の意味はどれ？",
+"choices": [
+"とても重要で、急いで対応すべきこと",
+"たくさんの中で優れること",
+"その場だけ何とかすること",
+"ふさわしくないこと"
+],
+"answerIndex": 0,
+"explanation": "緊急は、とても重要で、急いで対応しなければならないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p195"]
+},
+{
+"id": "vocab1300_p195_005",
+"source": "vocab1300",
+"sourcePage": 195,
+"type": "meaning_context",
+"word": "かろうじて",
+"reading": "かろうじて",
+"sentence": "走って駅へ向かい、かろうじて電車に間に合いました。",
+"question": "かろうじて の意味はどれ？",
+"choices": [
+"心の支えとして",
+"やっとのことで",
+"急いで",
+"その場だけ"
+],
+"answerIndex": 1,
+"explanation": "かろうじては、ぎりぎりで何とかできたときに使います。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p195"]
+},
+{
+"id": "vocab1300_p195_006",
+"source": "vocab1300",
+"sourcePage": 195,
+"type": "meaning_context",
+"word": "心のよりどころ",
+"reading": "こころのよりどころ",
+"sentence": "つらいとき、家族の言葉が心のよりどころになります。",
+"question": "心のよりどころ の意味はどれ？",
+"choices": [
+"非常に優れているもの",
+"ふさわしくないもの",
+"心の支えや、頼りとするもの",
+"急いで対応するもの"
+],
+"answerIndex": 2,
+"explanation": "心のよりどころは、心の支えや、頼りにできるものです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p195"]
+}
+],
+"answerIndexCheck": {
+"target": "p195_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 3, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 196,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "骨折り損",
+"reading": "ほねおりぞん",
+"meaning": "せっかくやったことが無駄になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "場違い",
+"reading": "ばちがい",
+"meaning": "その場の雰囲気に合っていないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "歩み寄り",
+"reading": "あゆみより",
+"meaning": "違う意見の者が少しずつ譲り合って、合意に近づくこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "かさに着ていばる",
+"reading": "かさにきていばる",
+"meaning": "力のある人や権力のある人の力を借りて、いばること",
+"detectedType": "meaning_context"
+},
+{
+"word": "願望",
+"reading": "がんぼう",
+"meaning": "強く願うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "しぶる",
+"reading": "しぶる",
+"meaning": "何かをやりたがらない様子",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p196_001",
+"source": "vocab1300",
+"sourcePage": 196,
+"type": "meaning_context",
+"word": "骨折り損",
+"reading": "ほねおりぞん",
+"sentence": "一生懸命準備したのに使われず、骨折り損でした。",
+"question": "骨折り損 の意味はどれ？",
+"choices": [
+"強く願うこと",
+"せっかくやったことが無駄になること",
+"その場に合わないこと",
+"少しずつ譲り合うこと"
+],
+"answerIndex": 1,
+"explanation": "骨折り損は、がんばったことが無駄になってしまうことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p196"]
+},
+{
+"id": "vocab1300_p196_002",
+"source": "vocab1300",
+"sourcePage": 196,
+"type": "meaning_context",
+"word": "場違い",
+"reading": "ばちがい",
+"sentence": "静かな式に、大きな声で話すのは場違いです。",
+"question": "場違い の意味はどれ？",
+"choices": [
+"その場の雰囲気に合っていないこと",
+"やりたがらないこと",
+"権力を借りていばること",
+"強く願うこと"
+],
+"answerIndex": 0,
+"explanation": "場違いは、その場所や雰囲気に合っていないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p196"]
+},
+{
+"id": "vocab1300_p196_003",
+"source": "vocab1300",
+"sourcePage": 196,
+"type": "meaning_context",
+"word": "歩み寄り",
+"reading": "あゆみより",
+"sentence": "二人は少しずつ歩み寄り、けんかを終わらせました。",
+"question": "歩み寄り の意味はどれ？",
+"choices": [
+"何かをしぶること",
+"骨折り損になること",
+"違う意見の者が、譲り合って合意に近づくこと",
+"強く願うこと"
+],
+"answerIndex": 2,
+"explanation": "歩み寄りは、違う考えの人たちが少しずつ譲り合うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p196"]
+},
+{
+"id": "vocab1300_p196_004",
+"source": "vocab1300",
+"sourcePage": 196,
+"type": "meaning_context",
+"word": "かさに着ていばる",
+"reading": "かさにきていばる",
+"sentence": "強い友だちをかさに着ていばるのはよくありません。",
+"question": "かさに着ていばる の意味はどれ？",
+"choices": [
+"その場に合わないこと",
+"少しずつ譲り合うこと",
+"やりたがらないこと",
+"力のある人の力を借りて、いばること"
+],
+"answerIndex": 3,
+"explanation": "かさに着ていばるは、強い人や権力のある人を頼って、偉そうにすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p196"]
+},
+{
+"id": "vocab1300_p196_005",
+"source": "vocab1300",
+"sourcePage": 196,
+"type": "meaning_context",
+"word": "願望",
+"reading": "がんぼう",
+"sentence": "世界中を旅したいという願望があります。",
+"question": "願望 の意味はどれ？",
+"choices": [
+"強く願うこと",
+"無駄になること",
+"その場に合わないこと",
+"いばること"
+],
+"answerIndex": 0,
+"explanation": "願望は、強く願うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p196"]
+},
+{
+"id": "vocab1300_p196_006",
+"source": "vocab1300",
+"sourcePage": 196,
+"type": "meaning_context",
+"word": "しぶる",
+"reading": "しぶる",
+"sentence": "弟は漢字の練習をしぶって、なかなか始めません。",
+"question": "しぶる の意味はどれ？",
+"choices": [
+"強く願うこと",
+"合意に近づくこと",
+"何かをやりたがらない様子",
+"無駄になること"
+],
+"answerIndex": 2,
+"explanation": "しぶるは、何かをするのをいやがって、なかなか進まない様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p196"]
+}
+],
+"answerIndexCheck": {
+"target": "p196_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 197,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "しのぐ",
+"reading": "しのぐ",
+"meaning": "何とかやりすごす。我慢する。",
+"detectedType": "meaning_context"
+},
+{
+"word": "尾ひれをつける",
+"reading": "おひれをつける",
+"meaning": "話を大きくすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "口をはさむ",
+"reading": "くちをはさむ",
+"meaning": "人が話しているところに割り込んで話すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ユーモア",
+"reading": "ユーモア",
+"meaning": "人を笑わせる面白さ",
+"detectedType": "meaning_context"
+},
+{
+"word": "隔たり",
+"reading": "へだたり",
+"meaning": "違い。距離や考え方の開き。",
+"detectedType": "meaning_context"
+},
+{
+"word": "推敲",
+"reading": "すいこう",
+"meaning": "文章をよくしようと練り直すこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p197_001",
+"source": "vocab1300",
+"sourcePage": 197,
+"type": "meaning_context",
+"word": "しのぐ",
+"reading": "しのぐ",
+"sentence": "少ない水で、暑い一日を何とかしのぎました。",
+"question": "しのぐ の意味はどれ？",
+"choices": [
+"話を大きくすること",
+"何とかやりすごすこと",
+"文章を直すこと",
+"人を笑わせること"
+],
+"answerIndex": 1,
+"explanation": "しのぐは、大変なことを何とかやりすごす、我慢するという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p197"]
+},
+{
+"id": "vocab1300_p197_002",
+"source": "vocab1300",
+"sourcePage": 197,
+"type": "meaning_context",
+"word": "尾ひれをつける",
+"reading": "おひれをつける",
+"sentence": "小さな失敗に尾ひれをつけて話すのはやめましょう。",
+"question": "尾ひれをつける の意味はどれ？",
+"choices": [
+"話を大きくすること",
+"考え方に違いがあること",
+"途中で口を出すこと",
+"文章を練り直すこと"
+],
+"answerIndex": 0,
+"explanation": "尾ひれをつけるは、本当の話に余計なことを足して、話を大きくすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p197"]
+},
+{
+"id": "vocab1300_p197_003",
+"source": "vocab1300",
+"sourcePage": 197,
+"type": "meaning_context",
+"word": "口をはさむ",
+"reading": "くちをはさむ",
+"sentence": "友だちが話している途中で、つい口をはさんでしまいました。",
+"question": "口をはさむ の意味はどれ？",
+"choices": [
+"人を笑わせること",
+"違いがあること",
+"人が話しているところに割り込んで話すこと",
+"我慢すること"
+],
+"answerIndex": 2,
+"explanation": "口をはさむは、人の話の途中に割り込んで話すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p197"]
+},
+{
+"id": "vocab1300_p197_004",
+"source": "vocab1300",
+"sourcePage": 197,
+"type": "meaning_context",
+"word": "ユーモア",
+"reading": "ユーモア",
+"sentence": "その先生の話にはユーモアがあり、みんな笑っていました。",
+"question": "ユーモア の意味はどれ？",
+"choices": [
+"文章を練り直すこと",
+"人を笑わせる面白さ",
+"話を大きくすること",
+"考え方の違い"
+],
+"answerIndex": 1,
+"explanation": "ユーモアは、人を笑わせる面白さのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p197"]
+},
+{
+"id": "vocab1300_p197_005",
+"source": "vocab1300",
+"sourcePage": 197,
+"type": "meaning_context",
+"word": "隔たり",
+"reading": "へだたり",
+"sentence": "二人の考えには、大きな隔たりがありました。",
+"question": "隔たり の意味はどれ？",
+"choices": [
+"何とか我慢すること",
+"話を大きくすること",
+"違い、距離や考え方の開き",
+"人を笑わせること"
+],
+"answerIndex": 2,
+"explanation": "隔たりは、距離や考え方の間にある開きや違いのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p197"]
+},
+{
+"id": "vocab1300_p197_006",
+"source": "vocab1300",
+"sourcePage": 197,
+"type": "meaning_context",
+"word": "推敲",
+"reading": "すいこう",
+"sentence": "作文を何度も推敲して、読みやすくしました。",
+"question": "推敲 の意味はどれ？",
+"choices": [
+"人の話に割り込むこと",
+"面白く話すこと",
+"我慢してやりすごすこと",
+"文章をよくしようと練り直すこと"
+],
+"answerIndex": 3,
+"explanation": "推敲は、文章をよりよくするために、何度も直すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p197"]
+}
+],
+"answerIndexCheck": {
+"target": "p197_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 0, 2, 1, 2, 3],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『ユーモア』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 198,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "善し悪し",
+"reading": "よしあし",
+"meaning": "良いことと悪いこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "つつましい",
+"reading": "つつましい",
+"meaning": "物静かで遠慮深く、控えめな様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "手加減",
+"reading": "てかげん",
+"meaning": "相手の強さに応じて、力の出し方を変えること",
+"detectedType": "meaning_context"
+},
+{
+"word": "すごむ",
+"reading": "すごむ",
+"meaning": "相手を脅すようなことを言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ささい",
+"reading": "ささい",
+"meaning": "とるにたりない、ちょっとしたこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "推理",
+"reading": "すいり",
+"meaning": "ある事実をもとに、そうではないかと見当をつけること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p198_001",
+"source": "vocab1300",
+"sourcePage": 198,
+"type": "meaning_context",
+"word": "善し悪し",
+"reading": "よしあし",
+"sentence": "その方法の善し悪しを、みんなで話し合いました。",
+"question": "善し悪し の意味はどれ？",
+"choices": [
+"良いことと悪いこと",
+"力を弱めること",
+"相手を脅すこと",
+"見当をつけること"
+],
+"answerIndex": 0,
+"explanation": "善し悪しは、良いところと悪いところのことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p198"]
+},
+{
+"id": "vocab1300_p198_002",
+"source": "vocab1300",
+"sourcePage": 198,
+"type": "meaning_context",
+"word": "つつましい",
+"reading": "つつましい",
+"sentence": "その子はつつましい態度で、静かにお礼を言いました。",
+"question": "つつましい の意味はどれ？",
+"choices": [
+"ちょっとしたこと",
+"物静かで遠慮深く、控えめな様子",
+"脅すように言うこと",
+"良いことと悪いこと"
+],
+"answerIndex": 1,
+"explanation": "つつましいは、物静かで遠慮深く、控えめな様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p198"]
+},
+{
+"id": "vocab1300_p198_003",
+"source": "vocab1300",
+"sourcePage": 198,
+"type": "meaning_context",
+"word": "手加減",
+"reading": "てかげん",
+"sentence": "小さい子と遊ぶときは、少し手加減します。",
+"question": "手加減 の意味はどれ？",
+"choices": [
+"見当をつけること",
+"相手を脅すこと",
+"相手に合わせて、力の出し方を変えること",
+"控えめにすること"
+],
+"answerIndex": 2,
+"explanation": "手加減は、相手に合わせて、力の強さを調整することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p198"]
+},
+{
+"id": "vocab1300_p198_004",
+"source": "vocab1300",
+"sourcePage": 198,
+"type": "meaning_context",
+"word": "すごむ",
+"reading": "すごむ",
+"sentence": "相手を怖がらせるようにすごむのはよくありません。",
+"question": "すごむ の意味はどれ？",
+"choices": [
+"小さなこと",
+"良し悪しを考えること",
+"控えめにすること",
+"相手を脅すようなことを言うこと"
+],
+"answerIndex": 3,
+"explanation": "すごむは、相手を怖がらせるような強い言い方をすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p198"]
+},
+{
+"id": "vocab1300_p198_005",
+"source": "vocab1300",
+"sourcePage": 198,
+"type": "meaning_context",
+"word": "ささい",
+"reading": "ささい",
+"sentence": "ささいなことでけんかをせず、すぐに仲直りしました。",
+"question": "ささい の意味はどれ？",
+"choices": [
+"相手を脅すこと",
+"とるにたりない、ちょっとしたこと",
+"力を加減すること",
+"推理すること"
+],
+"answerIndex": 1,
+"explanation": "ささいは、大したことではない、ちょっとしたことという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p198"]
+},
+{
+"id": "vocab1300_p198_006",
+"source": "vocab1300",
+"sourcePage": 198,
+"type": "meaning_context",
+"word": "推理",
+"reading": "すいり",
+"sentence": "足跡を見て、どちらへ行ったのか推理しました。",
+"question": "推理 の意味はどれ？",
+"choices": [
+"良いことと悪いこと",
+"控えめな様子",
+"ある事実をもとに、見当をつけること",
+"相手に合わせること"
+],
+"answerIndex": 2,
+"explanation": "推理は、分かっていることをもとに、そうではないかと考えることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p198"]
+}
+],
+"answerIndexCheck": {
+"target": "p198_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 199,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "指図",
+"reading": "さしず",
+"meaning": "あれこれ人に命令すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "いたいけ",
+"reading": "いたいけ",
+"meaning": "いじらしく、守ってあげたくなる様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "あおむけ",
+"reading": "あおむけ",
+"meaning": "上を向いて横になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "悪あがき",
+"reading": "わるあがき",
+"meaning": "往生際が悪く、じたばたすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "心おきなく",
+"reading": "こころおきなく",
+"meaning": "思う存分、好きなだけ、思い切り",
+"detectedType": "meaning_context"
+},
+{
+"word": "蒸し返す",
+"reading": "むしかえす",
+"meaning": "解決したことを、また問題にすること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p199_001",
+"source": "vocab1300",
+"sourcePage": 199,
+"type": "meaning_context",
+"word": "指図",
+"reading": "さしず",
+"sentence": "妹は、兄からあれこれ指図されるのが好きではありません。",
+"question": "指図 の意味はどれ？",
+"choices": [
+"思い切りすること",
+"上を向いて寝ること",
+"あれこれ人に命令すること",
+"また問題にすること"
+],
+"answerIndex": 2,
+"explanation": "指図は、あれこれ人に命令することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p199"]
+},
+{
+"id": "vocab1300_p199_002",
+"source": "vocab1300",
+"sourcePage": 199,
+"type": "meaning_context",
+"word": "いたいけ",
+"reading": "いたいけ",
+"sentence": "涙をこらえる子どものいたいけな姿を見て、胸が痛みました。",
+"question": "いたいけ の意味はどれ？",
+"choices": [
+"守ってあげたくなる様子",
+"命令すること",
+"じたばたすること",
+"横になること"
+],
+"answerIndex": 0,
+"explanation": "いたいけは、いじらしくて、守ってあげたくなる様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p199"]
+},
+{
+"id": "vocab1300_p199_003",
+"source": "vocab1300",
+"sourcePage": 199,
+"type": "meaning_context",
+"word": "あおむけ",
+"reading": "あおむけ",
+"sentence": "ベッドにあおむけに寝て、天井を見ました。",
+"question": "あおむけ の意味はどれ？",
+"choices": [
+"好きなだけすること",
+"解決した話をまた出すこと",
+"上を向いて横になること",
+"あれこれ命令すること"
+],
+"answerIndex": 2,
+"explanation": "あおむけは、顔を上に向けて横になることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p199"]
+},
+{
+"id": "vocab1300_p199_004",
+"source": "vocab1300",
+"sourcePage": 199,
+"type": "meaning_context",
+"word": "悪あがき",
+"reading": "わるあがき",
+"sentence": "負けを認めずに悪あがきしても、結果は変わりません。",
+"question": "悪あがき の意味はどれ？",
+"choices": [
+"じたばたすること",
+"横になって寝ること",
+"人に命令すること",
+"守りたくなること"
+],
+"answerIndex": 0,
+"explanation": "悪あがきは、どうにもならないのに、じたばたすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p199"]
+},
+{
+"id": "vocab1300_p199_005",
+"source": "vocab1300",
+"sourcePage": 199,
+"type": "meaning_context",
+"word": "心おきなく",
+"reading": "こころおきなく",
+"sentence": "宿題が終わったので、心おきなく遊べます。",
+"question": "心おきなく の意味はどれ？",
+"choices": [
+"また問題にして",
+"思う存分、好きなだけ",
+"守ってあげたく",
+"命令して"
+],
+"answerIndex": 1,
+"explanation": "心おきなくは、気にすることなく、思う存分という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p199"]
+},
+{
+"id": "vocab1300_p199_006",
+"source": "vocab1300",
+"sourcePage": 199,
+"type": "meaning_context",
+"word": "蒸し返す",
+"reading": "むしかえす",
+"sentence": "終わった話を蒸し返すと、またけんかになります。",
+"question": "蒸し返す の意味はどれ？",
+"choices": [
+"人に命令すること",
+"上を向いて寝ること",
+"解決したことを、また問題にすること",
+"思い切り遊ぶこと"
+],
+"answerIndex": 2,
+"explanation": "蒸し返すは、一度解決したことを、また問題にすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p199"]
+}
+],
+"answerIndexCheck": {
+"target": "p199_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 0, 2, 0, 1, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 3,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 3,
+"エ": 0
+},
+"result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 200,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "足がすくむ",
+"reading": "あしがすくむ",
+"meaning": "恐怖や緊張で、足が動かなくなること",
+"detectedType": "meaning_context"
+},
+{
+"word": "例外",
+"reading": "れいがい",
+"meaning": "原則に当てはまらないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "おおらか",
+"reading": "おおらか",
+"meaning": "心がゆったりとした様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "さきがけ",
+"reading": "さきがけ",
+"meaning": "最初に何かを始めたり、成し遂げたりした人",
+"detectedType": "meaning_context"
+},
+{
+"word": "リタイア",
+"reading": "リタイア",
+"meaning": "試合や競技の途中で退場すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "災い",
+"reading": "わざわい",
+"meaning": "災難",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p200_001",
+"source": "vocab1300",
+"sourcePage": 200,
+"type": "meaning_context",
+"word": "足がすくむ",
+"reading": "あしがすくむ",
+"sentence": "高い橋の上から下を見ると、足がすくみました。",
+"question": "足がすくむ の意味はどれ？",
+"choices": [
+"心がゆったりすること",
+"災難が起こること",
+"恐怖や緊張で、足が動かなくなること",
+"途中で退場すること"
+],
+"answerIndex": 2,
+"explanation": "足がすくむは、怖さや緊張で足が動かなくなることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p200"]
+},
+{
+"id": "vocab1300_p200_002",
+"source": "vocab1300",
+"sourcePage": 200,
+"type": "meaning_context",
+"word": "例外",
+"reading": "れいがい",
+"sentence": "おやつは一人一つですが、今日は妹だけ例外にしました。",
+"question": "例外 の意味はどれ？",
+"choices": [
+"最初に始めた人",
+"原則に当てはまらないこと",
+"災難のこと",
+"足が動かないこと"
+],
+"answerIndex": 1,
+"explanation": "例外は、ふつうの決まりや原則に当てはまらないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p200"]
+},
+{
+"id": "vocab1300_p200_003",
+"source": "vocab1300",
+"sourcePage": 200,
+"type": "meaning_context",
+"word": "おおらか",
+"reading": "おおらか",
+"sentence": "私のおばさんはおおらかで、小さな失敗を笑ってくれます。",
+"question": "おおらか の意味はどれ？",
+"choices": [
+"災難であること",
+"原則に合わないこと",
+"心がゆったりとした様子",
+"途中でやめること"
+],
+"answerIndex": 2,
+"explanation": "おおらかは、細かいことを気にしすぎず、心がゆったりしている様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p200"]
+},
+{
+"id": "vocab1300_p200_004",
+"source": "vocab1300",
+"sourcePage": 200,
+"type": "meaning_context",
+"word": "さきがけ",
+"reading": "さきがけ",
+"sentence": "その人は、日本で新しいスポーツを広めたさきがけです。",
+"question": "さきがけ の意味はどれ？",
+"choices": [
+"最初に何かを始めたり、成し遂げたりした人",
+"心がゆったりした人",
+"原則から外れる人",
+"災難にあった人"
+],
+"answerIndex": 0,
+"explanation": "さきがけは、他の人より先に何かを始めたり、成し遂げたりした人です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p200"]
+},
+{
+"id": "vocab1300_p200_005",
+"source": "vocab1300",
+"sourcePage": 200,
+"type": "meaning_context",
+"word": "リタイア",
+"reading": "リタイア",
+"sentence": "足を痛めて、マラソンを途中でリタイアしました。",
+"question": "リタイア の意味はどれ？",
+"choices": [
+"足が動かなくなること",
+"途中で退場すること",
+"ゆったりすること",
+"最初に始めること"
+],
+"answerIndex": 1,
+"explanation": "リタイアは、試合や競技などを途中でやめて退場することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p200"]
+},
+{
+"id": "vocab1300_p200_006",
+"source": "vocab1300",
+"sourcePage": 200,
+"type": "meaning_context",
+"word": "災い",
+"reading": "わざわい",
+"sentence": "軽はずみな発言は、大きな災いを招くことがあります。",
+"question": "災い の意味はどれ？",
+"choices": [
+"原則に合わないこと",
+"ゆったりした様子",
+"災難",
+"途中でやめること"
+],
+"answerIndex": 2,
+"explanation": "災いは、よくない出来事や災難のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p200"]
+}
+],
+"answerIndexCheck": {
+"target": "p200_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 2, 0, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 3,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 3,
+"エ": 0
+},
+"result": "answerIndex 2が3回、3が0回でやや偏りがあります。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『リタイア』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+},
+{
+"point": "体の部位を含む慣用句",
+"suggestion": "『足がすくむ』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+}
+]
+}
+]
