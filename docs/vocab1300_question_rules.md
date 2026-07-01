@@ -1278,11 +1278,11 @@ images/cooking_nekasu.png
 対象例：
 
 - 火鉢
-- あんどん
-- ちゃぶ台
-- たらい
-- おけ
-- かまど
+- おひつ
+- 縁台
+- すだれ
+- 蚊帳
+- いろり
 
 基本形：
 
@@ -1304,11 +1304,11 @@ images/cooking_nekasu.png
 各語の目安：
 
 - 火鉢：炭を入れて、手を温めたりする昔の道具
-- あんどん：中に明かりを入れて使う、昔の照明
-- ちゃぶ台：床に座って使う低い食卓
-- たらい：水を入れて洗い物などに使う丸い入れ物
-- おけ：木でできた、水などを入れる入れ物
-- かまど：火を使ってご飯を炊く昔の台所道具
+- おひつ：炊いたご飯を入れておく、木でできた丸い容器
+- 縁台：縁側や軒先に置く、板でできた腰かけ台
+- すだれ：細い竹や葦を並べてつないだ、窓などに掛ける日よけ
+- 蚊帳：蚊を防ぐために寝るところに吊る、薄い布の網
+- いろり：部屋の床に四角く切り込んで作った、火を起こす炉
 
 #### 画像ファイル名
 
@@ -1318,11 +1318,11 @@ images/cooking_nekasu.png
 
 ```txt
 images/old_tool_hibachi.png
-images/old_tool_andon.png
-images/old_tool_chabudai.png
-images/old_tool_tarai.png
-images/old_tool_oke.png
-images/old_tool_kamado.png
+images/old_tool_ohitsu.png
+images/old_tool_endai.png
+images/old_tool_sudare.png
+images/old_tool_kaya.png
+images/old_tool_irori.png
 ```
 
 ### 画像の注意

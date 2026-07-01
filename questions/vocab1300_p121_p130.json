@@ -439,7 +439,7 @@
 {
 "word": "暗黙",
 "reading": "あんもく",
-"meaning": "何かが始まろうとする気配",
+"meaning": "言葉に出さなくても、みんなの間で分かっていること",
 "detectedType": "meaning_context"
 },
 {
@@ -723,7 +723,7 @@
 "しかたがないこと"
 ],
 "answerIndex": 0,
-"explanation": "がぜんは、突然、急に、という意味です。",
+"explanation": "がぜんは、突然、急に、という意味です。急にやる気や勢いが出るときにも使います。",
 "image": null,
 "tags": ["vocab1300", "meaning_context", "p124"]
 },
@@ -804,7 +804,7 @@
 {
 "word": "否定",
 "reading": "ひてい",
-"meaning": "あることをもとにして、他のことの見当をつけること",
+"meaning": "正しくない、そうではないと言うこと",
 "detectedType": "meaning_context"
 },
 {
@@ -1379,7 +1379,7 @@
 {
 "word": "案じる",
 "reading": "あんじる",
-"meaning": "疲れてやせ衰える",
+"meaning": "心配すること",
 "detectedType": "meaning_context"
 },
 {

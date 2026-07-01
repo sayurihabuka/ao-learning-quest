@@ -776,7 +776,7 @@
 {
 "word": "さんさん",
 "reading": "さんさん",
-"meaning": "太陽が光り輝くようす",
+"meaning": "太陽などが明るく光り輝くようす",
 "detectedType": "meaning_context",
 "subtype": "onomatopoeia_word"
 },
@@ -843,12 +843,12 @@
 "question": "さんさん の意味はどれ？",
 "choices": [
 "音が大きく響くようす",
-"明るくきらきら輝くようす",
-"太陽が光り輝くようす",
+"水などがとめどなく流れるようす",
+"太陽などが明るく光り輝くようす",
 "いっぱいに満ちているようす"
 ],
 "answerIndex": 2,
-"explanation": "さんさんは、太陽が光り輝くようすです。",
+"explanation": "さんさんは、太陽などが明るく光り輝くようすです。",
 "image": null,
 "tags": ["vocab1300", "meaning_context", "onomatopoeia_word", "p025"]
 },

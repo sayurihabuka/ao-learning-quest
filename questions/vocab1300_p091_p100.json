@@ -385,7 +385,7 @@
 "extractedWords": [
 {
 "word": "不得手",
-"reading": "ふえて",
+"reading": "ふとくて",
 "meaning": "苦手なこと",
 "detectedType": "meaning_context"
 },
@@ -427,7 +427,7 @@
 "sourcePage": 93,
 "type": "meaning_context",
 "word": "不得手",
-"reading": "ふえて",
+"reading": "ふとくて",
 "sentence": "私は人前で話すことが不得手です。",
 "question": "不得手 の意味はどれ？",
 "choices": [
@@ -699,7 +699,7 @@
 "type": "meaning_context",
 "word": "いとわない",
 "reading": "いとわない",
-"sentence": "友だちのためなら、少し遠回りすることもいといません。",
+"sentence": "青ちゃんは、友だちのためなら遠回りもいとわずに歩きました。",
 "question": "いとわない の意味はどれ？",
 "choices": [
 "嫌に思わない、わずらわしいと思わない",
