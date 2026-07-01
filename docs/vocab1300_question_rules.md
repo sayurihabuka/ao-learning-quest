@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-07-01（day_time_word追加）  
+更新日：2026-07-01（body_part_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -48,6 +48,8 @@
 - 時期・期間語の出題方針と month_hint との区別を追加
 - `subtype: "day_time_word"` を追加
 - 一日の時間帯語の出題方針・hint方針・period_word との区別を追加
+- `subtype: "body_part_word"` を追加
+- 体の部位語の出題方針・hint方針・画像ファイル名ルールを追加
 
 ---
 
@@ -975,6 +977,60 @@ images/weather_karatsuyu.png
 - `period_word`：上旬・中旬・下旬・年始・年末など、日付や期間を表す語
 - `day_time_word`：一日の中の時間帯を表す語
 
+### body_part_word
+
+体の部位を表す語は、`image_word` のまま扱い、`subtype: "body_part_word"` を入れる。
+
+対象例：
+
+- 眉間
+- ふくらはぎ
+- すね
+- 土ふまず
+- きびす
+- 二の腕
+
+基本形：
+
+```json
+{
+  "type": "image_word",
+  "subtype": "body_part_word",
+  "word": "ふくらはぎ",
+  "image": "images/body_fukurahagi.png",
+  "hint": "足の後ろ側、ひざと足首の間のふくらんだ部分です。"
+}
+```
+
+#### 出題方針
+
+- 体のどの部分かが分かるように、画像で該当箇所を示す
+- `hint` には、画像を見るときの注目ポイントを短く入れる
+
+各語の目安：
+
+- 眉間：左右のまゆの間
+- ふくらはぎ：足の後ろ側、ひざと足首の間
+- すね：足の前側、ひざから足首までのあたり
+- 土ふまず：足の裏のへこんだ部分
+- きびす：かかとの部分
+- 二の腕：肩から肘までの間
+
+#### 画像ファイル名
+
+`body_part_word` の画像ファイル名は `images/body_*.png` 形式にする。
+
+例：
+
+```txt
+images/body_miken.png
+images/body_fukurahagi.png
+images/body_sune.png
+images/body_tsuchifumazu.png
+images/body_kibisu.png
+images/body_ninoude.png
+```
+
 ### 画像の注意
 
 - 教材画像は流用しない
@@ -1377,6 +1433,8 @@ vocab1300_p205_001
 - [ ] `subtype: "weather_word"` の場合、`hint` に雨の強さ・季節・時間帯・続き方が入っている
 - [ ] `subtype: "weather_word"` の画像ファイル名が `images/weather_*.png` 形式になっている
 - [ ] `subtype: "day_time_word"` の場合、`hint` に空の明るさ・太陽の位置など注目ポイントが入っている
+- [ ] `subtype: "body_part_word"` の場合、`hint` に体のどこかを示す短い説明が入っている
+- [ ] `subtype: "body_part_word"` の画像ファイル名が `images/body_*.png` 形式になっている
 - [ ] `month` がある場合、1〜12の数値になっている
 - [ ] `reading_context` で必要な場合、`answerReading` が入っている
 - [ ] `counter_image` で必要な場合、`counterTarget` / `counter` / `counterReading` が入っている
