@@ -4,7 +4,7 @@
 語彙力UP1300 作問ルール
 
 作成日：2026-06-29  
-更新日：2026-07-01（old_life_tool_word追加）  
+更新日：2026-07-01（eto_word / old_country_name_word追加）  
 状態：stable（作問運用中）  
 用途：問題作成スレッドで本番作問を行うためのルール
 
@@ -58,6 +58,10 @@
 - 料理動作語の出題方針・hint方針・画像ファイル名ルールを追加
 - `subtype: "old_life_tool_word"` を追加
 - 昔の生活道具・場所を表す語の出題方針・hint方針・画像ファイル名ルールを追加
+- `subtype: "eto_word"` を追加
+- 干支の漢字と動物を結びつける語の出題方針を追加
+- `subtype: "old_country_name_word"` を追加
+- 旧国名と現在の都道府県を結びつける語の出題方針を追加
 
 ---
 
@@ -637,6 +641,95 @@ v1では基本的に `meaning_context` として扱い、管理用に `subtype: 
 
 - 言葉どおりの植物の意味ではなく、ことわざ・慣用句としての意味を問う
 - `animal_idiom_word` と同じように、必要に応じて解説でたとえであることが分かるようにする
+
+## 8.1.5 `meaning_context` + `subtype: "eto_word"`
+
+### 用途
+
+干支の漢字を見て、対応する動物を選ぶ問題。
+
+対象：
+
+| 漢字 | 読み | 動物 |
+|---|---|---|
+| 子 | ね | ねずみ |
+| 丑 | うし | うし |
+| 寅 | とら | とら |
+| 卯 | う | うさぎ |
+| 辰 | たつ | たつ（龍） |
+| 巳 | み | へび |
+| 午 | うま | うま |
+| 未 | ひつじ | ひつじ |
+| 申 | さる | さる |
+| 酉 | とり | とり |
+| 戌 | いぬ | いぬ |
+| 亥 | い | いのしし |
+
+v1では基本的に `meaning_context` として扱い、管理用に `subtype: "eto_word"` を付ける。
+
+```json
+{
+  "type": "meaning_context",
+  "subtype": "eto_word"
+}
+```
+
+### 出題方針
+
+- 干支の漢字を見て、対応する動物を4択で選ぶ形式にする
+- 画像ではなく、動物の特徴を短い `sentence` で示す
+- 解説には「読み方」と「どの動物を表すか」を入れる
+
+例：
+
+```json
+{
+  "sentence": "しま模様があり、大きな猫のような動物です。",
+  "question": "寅年 の動物はどれ？",
+  "explanation": "寅は『とら』と読み、干支では虎を表します。"
+}
+```
+
+---
+
+## 8.1.6 `meaning_context` + `subtype: "old_country_name_word"`
+
+### 用途
+
+旧国名を見て、現在のおおよその都道府県・地域を選ぶ問題。
+
+対象例：
+
+- 大和 → 奈良県
+- 蝦夷 → 北海道
+- 阿波 → 徳島県
+- 土佐 → 高知県
+- 琉球 → 沖縄県
+
+v1では基本的に `meaning_context` として扱い、管理用に `subtype: "old_country_name_word"` を付ける。
+
+```json
+{
+  "type": "meaning_context",
+  "subtype": "old_country_name_word"
+}
+```
+
+### 出題方針
+
+- 旧国名を見て、現在の都道府県・地域を4択で選ぶ形式にする
+- `sentence` には、その地域の特徴や有名な場所・人物などを短いヒントとして入れる
+- 解説には「読み方」と「現在のどこにあたるか」を入れる
+
+例：
+
+```json
+{
+  "sentence": "坂本龍馬が生まれ育ったことで有名なところです。",
+  "question": "土佐 は現在のどこ？",
+  "explanation": "土佐は『とさ』と読み、現在の高知県あたりを表す旧国名です。"
+}
+```
 
 ---
 
@@ -1643,6 +1736,8 @@ vocab1300_p205_001
 - [ ] `subtype: "cooking_word"` の画像ファイル名が `images/cooking_*.png` 形式になっている
 - [ ] `subtype: "old_life_tool_word"` の場合、`hint` に道具の形や使い方の注目ポイントが入っている
 - [ ] `subtype: "old_life_tool_word"` の画像ファイル名が `images/old_tool_*.png` 形式になっている
+- [ ] `subtype: "eto_word"` の場合、解説に「読み方」と「どの動物を表すか」が入っている
+- [ ] `subtype: "old_country_name_word"` の場合、解説に「読み方」と「現在のどこにあたるか」が入っている
 - [ ] `month` がある場合、1〜12の数値になっている
 - [ ] `reading_context` で必要な場合、`answerReading` が入っている
 - [ ] `counter_image` で必要な場合、`counterTarget` / `counter` / `counterReading` が入っている
