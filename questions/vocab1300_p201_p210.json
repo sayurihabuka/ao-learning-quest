@@ -1,0 +1,1942 @@
+[
+{
+"sourcePage": 201,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "請け負う",
+"reading": "うけおう",
+"meaning": "仕事を引き受けること",
+"detectedType": "meaning_context"
+},
+{
+"word": "身に沁みる",
+"reading": "みにしみる",
+"meaning": "しみじみと感じること",
+"detectedType": "meaning_context"
+},
+{
+"word": "納得",
+"reading": "なっとく",
+"meaning": "十分に理解して、承知すること",
+"detectedType": "meaning_context"
+},
+{
+"word": "重きを置く",
+"reading": "おもきをおく",
+"meaning": "重要なことと見なすこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "引っ込み思案",
+"reading": "ひっこみじあん",
+"meaning": "消極的で、自分から進んで行動しないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "おおまか",
+"reading": "おおまか",
+"meaning": "細かいことにこだわらず、物事をとらえること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p201_001",
+"source": "vocab1300",
+"sourcePage": 201,
+"type": "meaning_context",
+"word": "請け負う",
+"reading": "うけおう",
+"sentence": "父は、会社から新しい仕事を請け負いました。",
+"question": "請け負う の意味はどれ？",
+"choices": [
+"仕事を引き受けること",
+"しみじみと感じること",
+"大事だと見ること",
+"自分から動かないこと"
+],
+"answerIndex": 0,
+"explanation": "請け負うは、仕事などを引き受けることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p201"]
+},
+{
+"id": "vocab1300_p201_002",
+"source": "vocab1300",
+"sourcePage": 201,
+"type": "meaning_context",
+"word": "身に沁みる",
+"reading": "みにしみる",
+"sentence": "友だちのやさしい言葉が、身に沁みました。",
+"question": "身に沁みる の意味はどれ？",
+"choices": [
+"仕事を受けること",
+"しみじみと感じること",
+"細かく考えること",
+"自分から動くこと"
+],
+"answerIndex": 1,
+"explanation": "身に沁みるは、心の中で深くしみじみと感じることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p201"]
+},
+{
+"id": "vocab1300_p201_003",
+"source": "vocab1300",
+"sourcePage": 201,
+"type": "meaning_context",
+"word": "納得",
+"reading": "なっとく",
+"sentence": "先生の説明を聞いて、やっと納得しました。",
+"question": "納得 の意味はどれ？",
+"choices": [
+"重要なことと見ること",
+"自分から行動しないこと",
+"十分に理解して、承知すること",
+"物事をざっくり見ること"
+],
+"answerIndex": 2,
+"explanation": "納得は、よく分かって『それでよい』と思うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p201"]
+},
+{
+"id": "vocab1300_p201_004",
+"source": "vocab1300",
+"sourcePage": 201,
+"type": "meaning_context",
+"word": "重きを置く",
+"reading": "おもきをおく",
+"sentence": "この学校では、読書に重きを置いています。",
+"question": "重きを置く の意味はどれ？",
+"choices": [
+"しみじみ感じること",
+"細かく計画すること",
+"仕事を受けること",
+"重要なことと見なすこと"
+],
+"answerIndex": 3,
+"explanation": "重きを置くは、それを大事なこととして扱うという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p201"]
+},
+{
+"id": "vocab1300_p201_005",
+"source": "vocab1300",
+"sourcePage": 201,
+"type": "meaning_context",
+"word": "引っ込み思案",
+"reading": "ひっこみじあん",
+"sentence": "青ちゃんは少し引っ込み思案で、発表の前に緊張しました。",
+"question": "引っ込み思案 の意味はどれ？",
+"choices": [
+"消極的で、自分から進んで行動しないこと",
+"十分に理解すること",
+"重要なことと見ること",
+"仕事を引き受けること"
+],
+"answerIndex": 0,
+"explanation": "引っ込み思案は、消極的で、自分から前に出にくい様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p201"]
+},
+{
+"id": "vocab1300_p201_006",
+"source": "vocab1300",
+"sourcePage": 201,
+"type": "meaning_context",
+"word": "おおまか",
+"reading": "おおまか",
+"sentence": "作文を書く前に、おおまかな話の流れを考えました。",
+"question": "おおまか の意味はどれ？",
+"choices": [
+"自分から動かないこと",
+"しみじみ感じること",
+"細かいことにこだわらず、物事をとらえること",
+"承知すること"
+],
+"answerIndex": 2,
+"explanation": "おおまかは、細かいところよりも全体をざっくり見ることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p201"]
+}
+],
+"answerIndexCheck": {
+"target": "p201_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 202,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "ちなみに",
+"reading": "ちなみに",
+"meaning": "ついでに関連したことを言うと",
+"detectedType": "meaning_context"
+},
+{
+"word": "まがりなりにも",
+"reading": "まがりなりにも",
+"meaning": "不完全でも、どうにかこうにか",
+"detectedType": "meaning_context"
+},
+{
+"word": "巧み",
+"reading": "たくみ",
+"meaning": "とても上手で、手ぎわが良いこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "小言",
+"reading": "こごと",
+"meaning": "人に注意や文句を言うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "取り柄",
+"reading": "とりえ",
+"meaning": "良いところ、長所",
+"detectedType": "meaning_context"
+},
+{
+"word": "災難",
+"reading": "さいなん",
+"meaning": "思いがけず身の上に起こる嫌な出来事",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p202_001",
+"source": "vocab1300",
+"sourcePage": 202,
+"type": "meaning_context",
+"word": "ちなみに",
+"reading": "ちなみに",
+"sentence": "姉はフランス語も話せます。ちなみに、英語も得意です。",
+"question": "ちなみに の意味はどれ？",
+"choices": [
+"ついでに関連したことを言うと",
+"良いところ",
+"人に文句を言うこと",
+"思いがけない嫌な出来事"
+],
+"answerIndex": 0,
+"explanation": "ちなみに は、話に関係することをついでに言うときに使います。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p202"]
+},
+{
+"id": "vocab1300_p202_002",
+"source": "vocab1300",
+"sourcePage": 202,
+"type": "meaning_context",
+"word": "まがりなりにも",
+"reading": "まがりなりにも",
+"sentence": "まがりなりにも、一人で作品を完成させました。",
+"question": "まがりなりにも の意味はどれ？",
+"choices": [
+"とても上手に",
+"不完全でも、どうにかこうにか",
+"ついでに",
+"文句を言って"
+],
+"answerIndex": 1,
+"explanation": "まがりなりにも は、十分ではなくても、どうにかできたという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p202"]
+},
+{
+"id": "vocab1300_p202_003",
+"source": "vocab1300",
+"sourcePage": 202,
+"type": "meaning_context",
+"word": "巧み",
+"reading": "たくみ",
+"sentence": "その人は、巧みな話し方でみんなを楽しませました。",
+"question": "巧み の意味はどれ？",
+"choices": [
+"良いところ",
+"嫌な出来事",
+"とても上手で、手ぎわが良いこと",
+"不完全なこと"
+],
+"answerIndex": 2,
+"explanation": "巧みは、とても上手で、やり方がうまいことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p202"]
+},
+{
+"id": "vocab1300_p202_004",
+"source": "vocab1300",
+"sourcePage": 202,
+"type": "meaning_context",
+"word": "小言",
+"reading": "こごと",
+"sentence": "宿題を忘れて、母に小言を言われました。",
+"question": "小言 の意味はどれ？",
+"choices": [
+"ついでの話",
+"上手なこと",
+"良いところ",
+"人に注意や文句を言うこと"
+],
+"answerIndex": 3,
+"explanation": "小言は、人に注意したり、文句を言ったりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p202"]
+},
+{
+"id": "vocab1300_p202_005",
+"source": "vocab1300",
+"sourcePage": 202,
+"type": "meaning_context",
+"word": "取り柄",
+"reading": "とりえ",
+"sentence": "妹の取り柄は、誰にでもやさしくできるところです。",
+"question": "取り柄 の意味はどれ？",
+"choices": [
+"思いがけない嫌な出来事",
+"良いところ、長所",
+"不完全なこと",
+"文句を言うこと"
+],
+"answerIndex": 1,
+"explanation": "取り柄は、その人や物の良いところです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p202"]
+},
+{
+"id": "vocab1300_p202_006",
+"source": "vocab1300",
+"sourcePage": 202,
+"type": "meaning_context",
+"word": "災難",
+"reading": "さいなん",
+"sentence": "電車が止まって帰れず、今日は災難でした。",
+"question": "災難 の意味はどれ？",
+"choices": [
+"上手なこと",
+"ついでの話",
+"思いがけず起こる嫌な出来事",
+"良いところ"
+],
+"answerIndex": 2,
+"explanation": "災難は、思いがけず身に起こる嫌な出来事です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p202"]
+}
+],
+"answerIndexCheck": {
+"target": "p202_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 203,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "コミュニケーション",
+"reading": "コミュニケーション",
+"meaning": "人間がお互いに気持ち・意思・情報などを伝え合うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "目をかける",
+"reading": "めをかける",
+"meaning": "ひいきにする。気にかける。",
+"detectedType": "meaning_context"
+},
+{
+"word": "くすねる",
+"reading": "くすねる",
+"meaning": "人に知られないように盗むこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "ゆううつ",
+"reading": "ゆううつ",
+"meaning": "不安や心配で、心が晴れない様子",
+"detectedType": "meaning_context"
+},
+{
+"word": "二の舞",
+"reading": "にのまい",
+"meaning": "他の人がした失敗を繰り返すこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "大それた",
+"reading": "だいそれた",
+"meaning": "まったく非常識な、とんでもないこと",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p203_001",
+"source": "vocab1300",
+"sourcePage": 203,
+"type": "meaning_context",
+"word": "コミュニケーション",
+"reading": "コミュニケーション",
+"sentence": "友だちと仲良くするには、コミュニケーションが大切です。",
+"question": "コミュニケーション の意味はどれ？",
+"choices": [
+"心が晴れないこと",
+"人に知られず盗むこと",
+"気持ちや情報などを伝え合うこと",
+"他人の失敗を繰り返すこと"
+],
+"answerIndex": 2,
+"explanation": "コミュニケーションは、気持ちや考え、情報などを伝え合うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p203"]
+},
+{
+"id": "vocab1300_p203_002",
+"source": "vocab1300",
+"sourcePage": 203,
+"type": "meaning_context",
+"word": "目をかける",
+"reading": "めをかける",
+"sentence": "先生は、新しく入った子に目をかけていました。",
+"question": "目をかける の意味はどれ？",
+"choices": [
+"人に知られないようにすること",
+"ひいきにする、気にかけること",
+"とんでもないことをすること",
+"失敗を繰り返すこと"
+],
+"answerIndex": 1,
+"explanation": "目をかけるは、その人を特に気にかけて世話することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p203"]
+},
+{
+"id": "vocab1300_p203_003",
+"source": "vocab1300",
+"sourcePage": 203,
+"type": "meaning_context",
+"word": "くすねる",
+"reading": "くすねる",
+"sentence": "人の物をこっそりくすねるのは、絶対にいけません。",
+"question": "くすねる の意味はどれ？",
+"choices": [
+"心配で気分が晴れないこと",
+"気持ちを伝えること",
+"人に知られないように盗むこと",
+"気にかけること"
+],
+"answerIndex": 2,
+"explanation": "くすねるは、人に知られないように盗むことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p203"]
+},
+{
+"id": "vocab1300_p203_004",
+"source": "vocab1300",
+"sourcePage": 203,
+"type": "meaning_context",
+"word": "ゆううつ",
+"reading": "ゆううつ",
+"sentence": "明日のテストを考えると、少しゆううつです。",
+"question": "ゆううつ の意味はどれ？",
+"choices": [
+"まったく非常識なこと",
+"失敗を繰り返すこと",
+"人に知られず盗むこと",
+"不安や心配で、心が晴れない様子"
+],
+"answerIndex": 3,
+"explanation": "ゆううつは、不安や心配で、気持ちが晴れない様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p203"]
+},
+{
+"id": "vocab1300_p203_005",
+"source": "vocab1300",
+"sourcePage": 203,
+"type": "meaning_context",
+"word": "二の舞",
+"reading": "にのまい",
+"sentence": "同じ失敗をして、兄の二の舞にならないよう気をつけました。",
+"question": "二の舞 の意味はどれ？",
+"choices": [
+"他の人がした失敗を繰り返すこと",
+"情報を伝え合うこと",
+"気にかけること",
+"非常識なこと"
+],
+"answerIndex": 0,
+"explanation": "二の舞は、他の人がした失敗を、同じように繰り返すことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p203"]
+},
+{
+"id": "vocab1300_p203_006",
+"source": "vocab1300",
+"sourcePage": 203,
+"type": "meaning_context",
+"word": "大それた",
+"reading": "だいそれた",
+"sentence": "一人で学校を作るなんて、大それた計画だと思いました。",
+"question": "大それた の意味はどれ？",
+"choices": [
+"気持ちを伝えること",
+"人に知られず盗むこと",
+"まったく非常識な、とんでもないこと",
+"気にかけること"
+],
+"answerIndex": 2,
+"explanation": "大それたは、ふつうでは考えにくい、とんでもなく大きなことを表します。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p203"]
+}
+],
+"answerIndexCheck": {
+"target": "p203_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 1, 2, 3, 0, 2],
+"countByIndex": {
+"0": 1,
+"1": 1,
+"2": 3,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 1,
+"ウ": 3,
+"エ": 1
+},
+"result": "answerIndex 2が3回でやや多めですが、6問中3回までであり、アプリ側で選択肢をシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "外来語のreading",
+"suggestion": "『コミュニケーション』のような外来語は、wordとreadingを同じカタカナ表記にする運用で問題ありません。"
+}
+]
+},
+{
+"sourcePage": 204,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "疑わしい",
+"reading": "うたがわしい",
+"meaning": "本当かどうか信用できないこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "純粋",
+"reading": "じゅんすい",
+"meaning": "まじりけのない様子。不純物が入っていない様子。",
+"detectedType": "meaning_context"
+},
+{
+"word": "抱負",
+"reading": "ほうふ",
+"meaning": "目標や計画",
+"detectedType": "meaning_context"
+},
+{
+"word": "円滑",
+"reading": "えんかつ",
+"meaning": "物事がとどこおりなく進むこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "うなぎのぼり",
+"reading": "うなぎのぼり",
+"meaning": "物の値段や人気・地位などが一気に上がること",
+"detectedType": "meaning_context"
+},
+{
+"word": "徹底的",
+"reading": "てっていてき",
+"meaning": "やり残しのないように、とことん何かをする様子",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p204_001",
+"source": "vocab1300",
+"sourcePage": 204,
+"type": "meaning_context",
+"word": "疑わしい",
+"reading": "うたがわしい",
+"sentence": "彼が言っていることは、少し疑わしいと思いました。",
+"question": "疑わしい の意味はどれ？",
+"choices": [
+"本当かどうか信用できないこと",
+"まじりけがないこと",
+"目標や計画",
+"人気が上がること"
+],
+"answerIndex": 0,
+"explanation": "疑わしいは、本当かどうか、すぐには信じられないことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p204"]
+},
+{
+"id": "vocab1300_p204_002",
+"source": "vocab1300",
+"sourcePage": 204,
+"type": "meaning_context",
+"word": "純粋",
+"reading": "じゅんすい",
+"sentence": "添加物の入っていない純粋なジュースを飲みました。",
+"question": "純粋 の意味はどれ？",
+"choices": [
+"とことん行うこと",
+"まじりけのない様子",
+"人気が上がること",
+"目標を立てること"
+],
+"answerIndex": 1,
+"explanation": "純粋は、まじりけがない様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p204"]
+},
+{
+"id": "vocab1300_p204_003",
+"source": "vocab1300",
+"sourcePage": 204,
+"type": "meaning_context",
+"word": "抱負",
+"reading": "ほうふ",
+"sentence": "新年の抱負は、毎日読書をすることです。",
+"question": "抱負 の意味はどれ？",
+"choices": [
+"信用できないこと",
+"物事が進むこと",
+"目標や計画",
+"まじりけがないこと"
+],
+"answerIndex": 2,
+"explanation": "抱負は、これからの目標や計画のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p204"]
+},
+{
+"id": "vocab1300_p204_004",
+"source": "vocab1300",
+"sourcePage": 204,
+"type": "meaning_context",
+"word": "円滑",
+"reading": "えんかつ",
+"sentence": "発表会の準備は、みんなの協力で円滑に進みました。",
+"question": "円滑 の意味はどれ？",
+"choices": [
+"やり残しなく行うこと",
+"人気が上がること",
+"疑わしいこと",
+"物事がとどこおりなく進むこと"
+],
+"answerIndex": 3,
+"explanation": "円滑は、物事が止まらず、なめらかに進むことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p204"]
+},
+{
+"id": "vocab1300_p204_005",
+"source": "vocab1300",
+"sourcePage": 204,
+"type": "meaning_context",
+"word": "うなぎのぼり",
+"reading": "うなぎのぼり",
+"sentence": "テレビで紹介されてから、その店の人気はうなぎのぼりです。",
+"question": "うなぎのぼり の意味はどれ？",
+"choices": [
+"物の値段や人気などが、一気に上がること",
+"目標を決めること",
+"まじりけがないこと",
+"信用できないこと"
+],
+"answerIndex": 0,
+"explanation": "うなぎのぼりは、人気や値段などがぐんぐん上がることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p204"]
+},
+{
+"id": "vocab1300_p204_006",
+"source": "vocab1300",
+"sourcePage": 204,
+"type": "meaning_context",
+"word": "徹底的",
+"reading": "てっていてき",
+"sentence": "満点をとるために、英語のつづりを徹底的に覚えました。",
+"question": "徹底的 の意味はどれ？",
+"choices": [
+"人気が上がる様子",
+"物事が進む様子",
+"やり残しのないように、とことん何かをする様子",
+"目標を立てる様子"
+],
+"answerIndex": 2,
+"explanation": "徹底的は、やり残しがないように、とことん行う様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p204"]
+}
+],
+"answerIndexCheck": {
+"target": "p204_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+},
+{
+"sourcePage": 205,
+"pageTypeJudgement": {
+"detectedType": "month_hint",
+"subtype": "month_word",
+"reason": "月の異名をヒントから何月か答えるページなので、month_hint / month_word に適しています。"
+},
+"extractedWords": [
+{
+"word": "弥生",
+"reading": "やよい",
+"meaning": "三月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 3
+},
+{
+"word": "文月",
+"reading": "ふみづき",
+"meaning": "七月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 7
+},
+{
+"word": "霜月",
+"reading": "しもつき",
+"meaning": "十一月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 11
+},
+{
+"word": "睦月",
+"reading": "むつき",
+"meaning": "一月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 1
+},
+{
+"word": "師走",
+"reading": "しわす",
+"meaning": "十二月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 12
+},
+{
+"word": "葉月",
+"reading": "はづき",
+"meaning": "八月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 8
+}
+],
+"questions": [
+{
+"id": "vocab1300_p205_001",
+"source": "vocab1300",
+"sourcePage": 205,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "弥生",
+"reading": "やよい",
+"month": 3,
+"hint": "草木が芽を出し、ひな祭りのある月です。",
+"question": "弥生 は何月のこと？",
+"choices": [
+"1月",
+"2月",
+"3月",
+"4月"
+],
+"answerIndex": 2,
+"explanation": "弥生は三月の異名です。草木が芽を出すころの月です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p205"]
+},
+{
+"id": "vocab1300_p205_002",
+"source": "vocab1300",
+"sourcePage": 205,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "文月",
+"reading": "ふみづき",
+"month": 7,
+"hint": "七夕があり、短冊に願いごとを書く月です。",
+"question": "文月 は何月のこと？",
+"choices": [
+"5月",
+"6月",
+"7月",
+"8月"
+],
+"answerIndex": 2,
+"explanation": "文月は七月の異名です。七夕の行事と結びつけて覚えると分かりやすいです。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p205"]
+},
+{
+"id": "vocab1300_p205_003",
+"source": "vocab1300",
+"sourcePage": 205,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "霜月",
+"reading": "しもつき",
+"month": 11,
+"hint": "朝に霜が降りるころの月です。",
+"question": "霜月 は何月のこと？",
+"choices": [
+"9月",
+"10月",
+"11月",
+"12月"
+],
+"answerIndex": 2,
+"explanation": "霜月は十一月の異名です。霜が降りるころの月と覚えます。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p205"]
+},
+{
+"id": "vocab1300_p205_004",
+"source": "vocab1300",
+"sourcePage": 205,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "睦月",
+"reading": "むつき",
+"month": 1,
+"hint": "お正月に、人々が集まって仲良く過ごす月です。",
+"question": "睦月 は何月のこと？",
+"choices": [
+"1月",
+"2月",
+"3月",
+"4月"
+],
+"answerIndex": 0,
+"explanation": "睦月は一月の異名です。お正月の月です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p205"]
+},
+{
+"id": "vocab1300_p205_005",
+"source": "vocab1300",
+"sourcePage": 205,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "師走",
+"reading": "しわす",
+"month": 12,
+"hint": "一年の最後で、年末の準備に忙しい月です。",
+"question": "師走 は何月のこと？",
+"choices": [
+"9月",
+"10月",
+"11月",
+"12月"
+],
+"answerIndex": 3,
+"explanation": "師走は十二月の異名です。一年の最後の月です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p205"]
+},
+{
+"id": "vocab1300_p205_006",
+"source": "vocab1300",
+"sourcePage": 205,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "葉月",
+"reading": "はづき",
+"month": 8,
+"hint": "夏休みのころで、終戦記念日のある月です。",
+"question": "葉月 は何月のこと？",
+"choices": [
+"6月",
+"7月",
+"8月",
+"9月"
+],
+"answerIndex": 2,
+"explanation": "葉月は八月の異名です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p205"]
+}
+],
+"answerIndexCheck": {
+"target": "p205_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [2, 2, 2, 0, 3, 2],
+"countByIndex": {
+"0": 1,
+"1": 0,
+"2": 4,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 0,
+"ウ": 4,
+"エ": 1
+},
+"result": "answerIndex 2が4回で偏りがありますが、月の選択肢を自然な順序にしたためです。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "month_hint",
+"suggestion": "月の選択肢は自然な月順にすると answerIndex が偏りやすいため、シャッフル前提で運用するのがよさそうです。"
+}
+]
+},
+{
+"sourcePage": 206,
+"pageTypeJudgement": {
+"detectedType": "month_hint",
+"subtype": "month_word",
+"reason": "月の異名をヒントから何月か答えるページなので、month_hint / month_word に適しています。"
+},
+"extractedWords": [
+{
+"word": "如月",
+"reading": "きさらぎ",
+"meaning": "二月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 2
+},
+{
+"word": "卯月",
+"reading": "うづき",
+"meaning": "四月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 4
+},
+{
+"word": "長月",
+"reading": "ながつき",
+"meaning": "九月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 9
+},
+{
+"word": "皐月",
+"reading": "さつき",
+"meaning": "五月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 5
+},
+{
+"word": "神無月",
+"reading": "かんなづき",
+"meaning": "十月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 10
+},
+{
+"word": "水無月",
+"reading": "みなづき",
+"meaning": "六月の異名",
+"detectedType": "month_hint",
+"subtype": "month_word",
+"month": 6
+}
+],
+"questions": [
+{
+"id": "vocab1300_p206_001",
+"source": "vocab1300",
+"sourcePage": 206,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "如月",
+"reading": "きさらぎ",
+"month": 2,
+"hint": "まだ寒く、節分やバレンタインデーのある月です。",
+"question": "如月 は何月のこと？",
+"choices": [
+"1月",
+"2月",
+"3月",
+"4月"
+],
+"answerIndex": 1,
+"explanation": "如月は二月の異名です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p206"]
+},
+{
+"id": "vocab1300_p206_002",
+"source": "vocab1300",
+"sourcePage": 206,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "卯月",
+"reading": "うづき",
+"month": 4,
+"hint": "入学式のあるころで、卯の花が咲く月です。",
+"question": "卯月 は何月のこと？",
+"choices": [
+"2月",
+"3月",
+"4月",
+"5月"
+],
+"answerIndex": 2,
+"explanation": "卯月は四月の異名です。卯の花が咲くころの月とされています。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p206"]
+},
+{
+"id": "vocab1300_p206_003",
+"source": "vocab1300",
+"sourcePage": 206,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "長月",
+"reading": "ながつき",
+"month": 9,
+"hint": "二学期が始まり、夜がだんだん長くなるころの月です。",
+"question": "長月 は何月のこと？",
+"choices": [
+"8月",
+"9月",
+"10月",
+"11月"
+],
+"answerIndex": 1,
+"explanation": "長月は九月の異名です。夜が長くなるころの月です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p206"]
+},
+{
+"id": "vocab1300_p206_004",
+"source": "vocab1300",
+"sourcePage": 206,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "皐月",
+"reading": "さつき",
+"month": 5,
+"hint": "こどもの日や憲法記念日のある月です。",
+"question": "皐月 は何月のこと？",
+"choices": [
+"4月",
+"5月",
+"6月",
+"7月"
+],
+"answerIndex": 1,
+"explanation": "皐月は五月の異名です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p206"]
+},
+{
+"id": "vocab1300_p206_005",
+"source": "vocab1300",
+"sourcePage": 206,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "神無月",
+"reading": "かんなづき",
+"month": 10,
+"hint": "秋が深まり、神様にまつわる呼び名がある月です。",
+"question": "神無月 は何月のこと？",
+"choices": [
+"8月",
+"9月",
+"10月",
+"11月"
+],
+"answerIndex": 2,
+"explanation": "神無月は十月の異名です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p206"]
+},
+{
+"id": "vocab1300_p206_006",
+"source": "vocab1300",
+"sourcePage": 206,
+"type": "month_hint",
+"subtype": "month_word",
+"word": "水無月",
+"reading": "みなづき",
+"month": 6,
+"hint": "田植えの水を使うころで、梅雨のある月です。",
+"question": "水無月 は何月のこと？",
+"choices": [
+"5月",
+"6月",
+"7月",
+"8月"
+],
+"answerIndex": 1,
+"explanation": "水無月は六月の異名です。",
+"image": null,
+"tags": ["vocab1300", "month_hint", "month_word", "p206"]
+}
+],
+"answerIndexCheck": {
+"target": "p206_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [1, 2, 1, 1, 2, 1],
+"countByIndex": {
+"0": 0,
+"1": 4,
+"2": 2,
+"3": 0
+},
+"choiceLabelDistribution": {
+"ア": 0,
+"イ": 4,
+"ウ": 2,
+"エ": 0
+},
+"result": "answerIndex 1が4回で偏りがありますが、月の選択肢を自然な順序にしたためです。アプリ側でシャッフルする前提なら許容範囲です。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "month_hint",
+"suggestion": "p206も月順選択肢のため answerIndex が偏りやすいです。表示時シャッフルで調整する前提がよさそうです。"
+}
+]
+},
+{
+"sourcePage": 207,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "いっさい",
+"reading": "いっさい",
+"meaning": "まったく、ぜんぜん",
+"detectedType": "meaning_context"
+},
+{
+"word": "一躍",
+"reading": "いちやく",
+"meaning": "あっというまに有名になること",
+"detectedType": "meaning_context"
+},
+{
+"word": "罪滅ぼし",
+"reading": "つみほろぼし",
+"meaning": "悪いことをしたつぐないをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "手を切る",
+"reading": "てをきる",
+"meaning": "悪い関係を断つこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "悪循環",
+"reading": "あくじゅんかん",
+"meaning": "悪いことが影響し合って、その状態が続くこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "頭が下がる",
+"reading": "あたまがさがる",
+"meaning": "立派な人や行いに対し、感心させられること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p207_001",
+"source": "vocab1300",
+"sourcePage": 207,
+"type": "meaning_context",
+"word": "いっさい",
+"reading": "いっさい",
+"sentence": "おじいちゃんは、戦争体験をいっさい語りません。",
+"question": "いっさい の意味はどれ？",
+"choices": [
+"まったく、ぜんぜん",
+"悪い関係を断つこと",
+"つぐないをすること",
+"有名になること"
+],
+"answerIndex": 0,
+"explanation": "いっさい は、まったく、ぜんぜんという意味で、打ち消しと一緒によく使います。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p207"]
+},
+{
+"id": "vocab1300_p207_002",
+"source": "vocab1300",
+"sourcePage": 207,
+"type": "meaning_context",
+"word": "一躍",
+"reading": "いちやく",
+"sentence": "その歌がヒットして、あのグループは一躍有名になりました。",
+"question": "一躍 の意味はどれ？",
+"choices": [
+"感心させられること",
+"あっというまに有名になること",
+"悪い状態が続くこと",
+"関係を断つこと"
+],
+"answerIndex": 1,
+"explanation": "一躍は、短い時間で急に有名になったり目立ったりすることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p207"]
+},
+{
+"id": "vocab1300_p207_003",
+"source": "vocab1300",
+"sourcePage": 207,
+"type": "meaning_context",
+"word": "罪滅ぼし",
+"reading": "つみほろぼし",
+"sentence": "心配をかけた罪滅ぼしに、家の手伝いをしました。",
+"question": "罪滅ぼし の意味はどれ？",
+"choices": [
+"まったくしないこと",
+"人を感心させること",
+"悪いことをしたつぐないをすること",
+"有名になること"
+],
+"answerIndex": 2,
+"explanation": "罪滅ぼしは、自分の悪い行いをつぐなうことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p207"]
+},
+{
+"id": "vocab1300_p207_004",
+"source": "vocab1300",
+"sourcePage": 207,
+"type": "meaning_context",
+"word": "手を切る",
+"reading": "てをきる",
+"sentence": "悪い友だちとは手を切ることにしました。",
+"question": "手を切る の意味はどれ？",
+"choices": [
+"感心すること",
+"つぐないをすること",
+"急に有名になること",
+"悪い関係を断つこと"
+],
+"answerIndex": 3,
+"explanation": "手を切るは、よくない関係を終わらせることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p207"]
+},
+{
+"id": "vocab1300_p207_005",
+"source": "vocab1300",
+"sourcePage": 207,
+"type": "meaning_context",
+"word": "悪循環",
+"reading": "あくじゅんかん",
+"sentence": "夜ふかしして朝起きられず、また夜に眠れない悪循環です。",
+"question": "悪循環 の意味はどれ？",
+"choices": [
+"悪いことが影響し合って、その状態が続くこと",
+"まったくしないこと",
+"つぐないをすること",
+"有名になること"
+],
+"answerIndex": 0,
+"explanation": "悪循環は、悪いことが次の悪いことにつながり、その状態が続くことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p207"]
+},
+{
+"id": "vocab1300_p207_006",
+"source": "vocab1300",
+"sourcePage": 207,
+"type": "meaning_context",
+"word": "頭が下がる",
+"reading": "あたまがさがる",
+"sentence": "被災地で活動する人たちの努力には、頭が下がります。",
+"question": "頭が下がる の意味はどれ？",
+"choices": [
+"悪い関係を断つこと",
+"立派な行いに感心させられること",
+"まったくしないこと",
+"あっというまに有名になること"
+],
+"answerIndex": 1,
+"explanation": "頭が下がるは、立派な人や行いに深く感心することです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p207"]
+}
+],
+"answerIndexCheck": {
+"target": "p207_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 1],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の部位を含む慣用句",
+"suggestion": "『手を切る』『頭が下がる』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+}
+]
+},
+{
+"sourcePage": 208,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "腕に覚えがある",
+"reading": "うでにおぼえがある",
+"meaning": "自分の腕前や能力に自信があること",
+"detectedType": "meaning_context"
+},
+{
+"word": "的中",
+"reading": "てきちゅう",
+"meaning": "見事に予想が当たること",
+"detectedType": "meaning_context"
+},
+{
+"word": "包容力",
+"reading": "ほうようりょく",
+"meaning": "相手のあるがままを受け入れる心の大きさ",
+"detectedType": "meaning_context"
+},
+{
+"word": "蛇足",
+"reading": "だそく",
+"meaning": "無駄なもの、いらないもの",
+"detectedType": "meaning_context"
+},
+{
+"word": "長所",
+"reading": "ちょうしょ",
+"meaning": "良いところ、秀でているところ、取り柄",
+"detectedType": "meaning_context"
+},
+{
+"word": "はびこる",
+"reading": "はびこる",
+"meaning": "悪いものが勢いを持って広がること",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p208_001",
+"source": "vocab1300",
+"sourcePage": 208,
+"type": "meaning_context",
+"word": "腕に覚えがある",
+"reading": "うでにおぼえがある",
+"sentence": "お菓子作りには、少し腕に覚えがあります。",
+"question": "腕に覚えがある の意味はどれ？",
+"choices": [
+"自分の腕前や能力に自信があること",
+"予想が当たること",
+"相手を受け入れること",
+"悪いものが広がること"
+],
+"answerIndex": 0,
+"explanation": "腕に覚えがあるは、自分の技術や能力に自信があることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p208"]
+},
+{
+"id": "vocab1300_p208_002",
+"source": "vocab1300",
+"sourcePage": 208,
+"type": "meaning_context",
+"word": "的中",
+"reading": "てきちゅう",
+"sentence": "明日は雨だという予想が的中しました。",
+"question": "的中 の意味はどれ？",
+"choices": [
+"無駄なもの",
+"見事に予想が当たること",
+"良いところ",
+"心が大きいこと"
+],
+"answerIndex": 1,
+"explanation": "的中は、予想やねらいがぴったり当たることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p208"]
+},
+{
+"id": "vocab1300_p208_003",
+"source": "vocab1300",
+"sourcePage": 208,
+"type": "meaning_context",
+"word": "包容力",
+"reading": "ほうようりょく",
+"sentence": "相手の意見をじっくり聞く姉は、包容力のある人です。",
+"question": "包容力 の意味はどれ？",
+"choices": [
+"自信があること",
+"予想が当たること",
+"相手を受け入れる心の大きさ",
+"悪が広がること"
+],
+"answerIndex": 2,
+"explanation": "包容力は、相手のことを広い心で受け入れる力です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p208"]
+},
+{
+"id": "vocab1300_p208_004",
+"source": "vocab1300",
+"sourcePage": 208,
+"type": "meaning_context",
+"word": "蛇足",
+"reading": "だそく",
+"sentence": "最後の説明は、なくてもよい蛇足だと思いました。",
+"question": "蛇足 の意味はどれ？",
+"choices": [
+"予想が当たること",
+"良いところ",
+"心が大きいこと",
+"無駄なもの、いらないもの"
+],
+"answerIndex": 3,
+"explanation": "蛇足は、あっても役に立たない余計なものです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p208"]
+},
+{
+"id": "vocab1300_p208_005",
+"source": "vocab1300",
+"sourcePage": 208,
+"type": "meaning_context",
+"word": "長所",
+"reading": "ちょうしょ",
+"sentence": "兄の長所は、記憶力がよいところです。",
+"question": "長所 の意味はどれ？",
+"choices": [
+"悪いものが広がること",
+"良いところ、取り柄",
+"余計なもの",
+"予想が当たること"
+],
+"answerIndex": 1,
+"explanation": "長所は、その人や物の良いところです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p208"]
+},
+{
+"id": "vocab1300_p208_006",
+"source": "vocab1300",
+"sourcePage": 208,
+"type": "meaning_context",
+"word": "はびこる",
+"reading": "はびこる",
+"sentence": "悪いことがはびこらないよう、みんなで注意しました。",
+"question": "はびこる の意味はどれ？",
+"choices": [
+"心が大きいこと",
+"余計なもの",
+"悪いものが勢いを持って広がること",
+"腕前に自信があること"
+],
+"answerIndex": 2,
+"explanation": "はびこるは、悪いものが広がって勢いを持つことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p208"]
+}
+],
+"answerIndexCheck": {
+"target": "p208_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 1, 2],
+"countByIndex": {
+"0": 1,
+"1": 2,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 1,
+"イ": 2,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の部位を含む慣用句",
+"suggestion": "『腕に覚えがある』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+}
+]
+},
+{
+"sourcePage": 209,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "肩を並べる",
+"reading": "かたをならべる",
+"meaning": "対等に張り合うこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "つとめて",
+"reading": "つとめて",
+"meaning": "できる限り、心がけてするようにすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "えこひいき",
+"reading": "えこひいき",
+"meaning": "一方だけを特別にかわいがること",
+"detectedType": "meaning_context"
+},
+{
+"word": "涙ぐましい",
+"reading": "なみだぐましい",
+"meaning": "涙が出るくらい、感心したり同情したりすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "誤差",
+"reading": "ごさ",
+"meaning": "本当の数や数値との違い、くるい",
+"detectedType": "meaning_context"
+},
+{
+"word": "見てくれ",
+"reading": "みてくれ",
+"meaning": "見た目、外見",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p209_001",
+"source": "vocab1300",
+"sourcePage": 209,
+"type": "meaning_context",
+"word": "肩を並べる",
+"reading": "かたをならべる",
+"sentence": "日本のリレーチームは、強い国と肩を並べて戦いました。",
+"question": "肩を並べる の意味はどれ？",
+"choices": [
+"対等に張り合うこと",
+"一方だけを大事にすること",
+"数値が違うこと",
+"外見のこと"
+],
+"answerIndex": 0,
+"explanation": "肩を並べるは、同じくらいの力で張り合うことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p209"]
+},
+{
+"id": "vocab1300_p209_002",
+"source": "vocab1300",
+"sourcePage": 209,
+"type": "meaning_context",
+"word": "つとめて",
+"reading": "つとめて",
+"sentence": "歩数計をつけているので、つとめて歩くようにしています。",
+"question": "つとめて の意味はどれ？",
+"choices": [
+"感心するほど",
+"できる限り、心がけてするように",
+"対等に",
+"見た目だけ"
+],
+"answerIndex": 1,
+"explanation": "つとめては、できるだけそうするよう心がけるという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p209"]
+},
+{
+"id": "vocab1300_p209_003",
+"source": "vocab1300",
+"sourcePage": 209,
+"type": "meaning_context",
+"word": "えこひいき",
+"reading": "えこひいき",
+"sentence": "母は弟ばかりえこひいきする、と兄が言いました。",
+"question": "えこひいき の意味はどれ？",
+"choices": [
+"数の違い",
+"外見のこと",
+"一方だけを特別にかわいがること",
+"努力すること"
+],
+"answerIndex": 2,
+"explanation": "えこひいきは、どちらか一方だけを特別にかわいがることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p209"]
+},
+{
+"id": "vocab1300_p209_004",
+"source": "vocab1300",
+"sourcePage": 209,
+"type": "meaning_context",
+"word": "涙ぐましい",
+"reading": "なみだぐましい",
+"sentence": "彼の涙ぐましい努力が、みんなに伝わりました。",
+"question": "涙ぐましい の意味はどれ？",
+"choices": [
+"対等に張り合うこと",
+"一方だけをかわいがること",
+"見た目だけのこと",
+"涙が出るくらい、感心したり同情したりすること"
+],
+"answerIndex": 3,
+"explanation": "涙ぐましいは、涙が出そうになるほど感心したり同情したりする様子です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p209"]
+},
+{
+"id": "vocab1300_p209_005",
+"source": "vocab1300",
+"sourcePage": 209,
+"type": "meaning_context",
+"word": "誤差",
+"reading": "ごさ",
+"sentence": "この時計には、ほとんど誤差がありません。",
+"question": "誤差 の意味はどれ？",
+"choices": [
+"本当の数や数値との違い、くるい",
+"できる限りすること",
+"一方だけを大事にすること",
+"外見のこと"
+],
+"answerIndex": 0,
+"explanation": "誤差は、本当の数や数値との少しの違いです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p209"]
+},
+{
+"id": "vocab1300_p209_006",
+"source": "vocab1300",
+"sourcePage": 209,
+"type": "meaning_context",
+"word": "見てくれ",
+"reading": "みてくれ",
+"sentence": "中身のない本は、見てくればかり良くても困ります。",
+"question": "見てくれ の意味はどれ？",
+"choices": [
+"感心すること",
+"努力すること",
+"見た目、外見",
+"数値の違い"
+],
+"answerIndex": 2,
+"explanation": "見てくれは、中身ではなく、見た目や外見のことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p209"]
+}
+],
+"answerIndexCheck": {
+"target": "p209_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 2],
+"countByIndex": {
+"0": 2,
+"1": 1,
+"2": 2,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 1,
+"ウ": 2,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": [
+{
+"point": "体の部位を含む慣用句",
+"suggestion": "『肩を並べる』は体の部位を含む慣用句ですが、体の部位名そのものではないため body_part_word ではなく meaning_context で扱います。"
+}
+]
+},
+{
+"sourcePage": 210,
+"pageTypeJudgement": {
+"detectedType": "meaning_context",
+"reason": "例文中の語句の意味を選ぶページなので、meaning_contextに適しています。"
+},
+"extractedWords": [
+{
+"word": "待ちかねて",
+"reading": "まちかねて",
+"meaning": "長い時間、今か今かと待つこと",
+"detectedType": "meaning_context"
+},
+{
+"word": "調和",
+"reading": "ちょうわ",
+"meaning": "バランスがとれていること",
+"detectedType": "meaning_context"
+},
+{
+"word": "劣等感",
+"reading": "れっとうかん",
+"meaning": "他の人よりも自分の方が劣っていると感じる気持ち",
+"detectedType": "meaning_context"
+},
+{
+"word": "からいばり",
+"reading": "からいばり",
+"meaning": "本当は弱いのに、強そうなふりをすること",
+"detectedType": "meaning_context"
+},
+{
+"word": "束の間",
+"reading": "つかのま",
+"meaning": "ほんのひととき",
+"detectedType": "meaning_context"
+},
+{
+"word": "さながら",
+"reading": "さながら",
+"meaning": "まるで、大変よく似ているさま",
+"detectedType": "meaning_context"
+}
+],
+"questions": [
+{
+"id": "vocab1300_p210_001",
+"source": "vocab1300",
+"sourcePage": 210,
+"type": "meaning_context",
+"word": "待ちかねて",
+"reading": "まちかねて",
+"sentence": "友だちの返事を待ちかねて、自分から連絡しました。",
+"question": "待ちかねて の意味はどれ？",
+"choices": [
+"長い時間、今か今かと待つこと",
+"本当は弱いのに強そうにすること",
+"ほんの少しの時間",
+"よく似ていること"
+],
+"answerIndex": 0,
+"explanation": "待ちかねては、待ちきれないほど長く待つことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p210"]
+},
+{
+"id": "vocab1300_p210_002",
+"source": "vocab1300",
+"sourcePage": 210,
+"type": "meaning_context",
+"word": "調和",
+"reading": "ちょうわ",
+"sentence": "この服は色の調和がとれていて、センスのいい着こなしです。",
+"question": "調和 の意味はどれ？",
+"choices": [
+"長く待つこと",
+"バランスがとれていること",
+"弱そうに感じること",
+"少しの時間"
+],
+"answerIndex": 1,
+"explanation": "調和は、色や音、形などのバランスがよいことです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p210"]
+},
+{
+"id": "vocab1300_p210_003",
+"source": "vocab1300",
+"sourcePage": 210,
+"type": "meaning_context",
+"word": "劣等感",
+"reading": "れっとうかん",
+"sentence": "友だちと比べて、少し劣等感を持ってしまいました。",
+"question": "劣等感 の意味はどれ？",
+"choices": [
+"よく似ている様子",
+"バランスがよいこと",
+"他の人より自分が劣っていると感じる気持ち",
+"ほんのひととき"
+],
+"answerIndex": 2,
+"explanation": "劣等感は、自分が他の人より劣っていると感じる気持ちです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p210"]
+},
+{
+"id": "vocab1300_p210_004",
+"source": "vocab1300",
+"sourcePage": 210,
+"type": "meaning_context",
+"word": "からいばり",
+"reading": "からいばり",
+"sentence": "小心者のくせに、後輩の前だとからいばりします。",
+"question": "からいばり の意味はどれ？",
+"choices": [
+"長く待つこと",
+"ほんの少しの時間",
+"よく似ていること",
+"本当は弱いのに、強そうなふりをすること"
+],
+"answerIndex": 3,
+"explanation": "からいばりは、本当は自信がないのに、強そうに見せることです。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p210"]
+},
+{
+"id": "vocab1300_p210_005",
+"source": "vocab1300",
+"sourcePage": 210,
+"type": "meaning_context",
+"word": "束の間",
+"reading": "つかのま",
+"sentence": "彼がここにいたのは、ほんの束の間でした。",
+"question": "束の間 の意味はどれ？",
+"choices": [
+"ほんのひととき",
+"弱いふりをすること",
+"バランスがよいこと",
+"長く待つこと"
+],
+"answerIndex": 0,
+"explanation": "束の間は、とても短い時間、ほんのひとときという意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p210"]
+},
+{
+"id": "vocab1300_p210_006",
+"source": "vocab1300",
+"sourcePage": 210,
+"type": "meaning_context",
+"word": "さながら",
+"reading": "さながら",
+"sentence": "色とりどりのチョコレートは、さながら宝石のようでした。",
+"question": "さながら の意味はどれ？",
+"choices": [
+"他人より劣ること",
+"まるで、大変よく似ているさま",
+"待ちきれないこと",
+"少しの時間"
+],
+"answerIndex": 1,
+"explanation": "さながらは、まるで〜のようだ、という意味です。",
+"image": null,
+"tags": ["vocab1300", "meaning_context", "p210"]
+}
+],
+"answerIndexCheck": {
+"target": "p210_all_6_questions",
+"policy": "answerIndexは作問データ上の正解位置として保持し、アプリ側で選択肢をシャッフルする前提。作問時は極端な偏りのみ確認する。",
+"usedIndexes": [0, 1, 2, 3, 0, 1],
+"countByIndex": {
+"0": 2,
+"1": 2,
+"2": 1,
+"3": 1
+},
+"choiceLabelDistribution": {
+"ア": 2,
+"イ": 2,
+"ウ": 1,
+"エ": 1
+},
+"result": "6問で2・2・1・1の分布になっており、極端な偏りはありません。"
+},
+"ruleDraftRevisionNotes": []
+}
+]
