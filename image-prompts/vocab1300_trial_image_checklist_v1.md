@@ -24,17 +24,17 @@
 
 | No | word | file | 生成済み | 文字なし | 意味が合う | 小さくても分かる | 採用/再生成 | メモ |
 |---:|---|---|:---:|:---:|:---:|:---:|---|---|
-| 01 | 一羽 | counter_rabbit_wa.png | | | | | | |
-| 02 | 傘かしげ | manners_kasakashige.png | | | | | | |
-| 03 | 袂 | clothing_tamoto.png | | | | | | |
-| 04 | 篠突く雨 | weather_shinotsuku_ame.png | | | | | | |
-| 05 | おろし | weather_oroshi.png | | | | | | |
-| 06 | 霧 | weather_kiri.png | | | | | | |
-| 07 | たそがれ | daytime_tasogare.png | | | | | | |
-| 08 | 土ふまず | body_tsuchifumazu.png | | | | | | |
-| 09 | 鴨居 | house_kamoi.png | | | | | | |
-| 10 | おろす | cooking_orosu.png | | | | | | |
-| 11 | いろり | old_tool_irori.png | | | | | | |
+| 01 | 一羽 | counter_rabbit_wa.png | ✓ | ✓ | ✓ | ✓ | 採用 | |
+| 02 | 傘かしげ | manners_kasakashige.png | ✓ | ✓ | ✓ | ✓ | 採用 | |
+| 03 | 袂 | clothing_tamoto.png | ✓ | ✓ | ✓ | ✓ | 採用 | |
+| 04 | 篠突く雨 | weather_shinotsuku_ame.png | ✓ | ✓ | ✓ | ✓ | 採用寄り | |
+| 05 | おろし | weather_oroshi.png | ✓ | ✓ | ✓ | ✓ | 採用寄り | 最新生成版は採用寄り |
+| 06 | 霧 | weather_kiri.png | ✓ | ✓ | ✓ | ✓ | 採用寄り | Firefly GP2版は採用寄り。Gemini版は薄すぎるため要注意 |
+| 07 | たそがれ | daytime_tasogare.png | ✓ | | ✓ | ✓ | 採用寄り | GP生成版またはFirefly GP2版が採用候補。Gemini版は黒ベタ・枠ありになりやすく要注意 |
+| 08 | 土ふまず | body_tsuchifumazu.png | ✓ | ✓ | ✓ | ✓ | 採用 | |
+| 09 | 鴨居 | house_kamoi.png | ✓ | ✓ | ✓ | ✓ | 採用寄り | 矢印あり版で改善。必要なら正面構図でもう一度検討 |
+| 10 | おろす | cooking_orosu.png | ✓ | ✓ | ✓ | ✓ | 採用 | |
+| 11 | いろり | old_tool_irori.png | ✓ | ✓ | ✓ | ✓ | 採用寄り | 矢印あり版で改善 |
 
 ---
 
