@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "vocab1300_p014_001",
+    "sourcePage": 14,
+    "type": "image_word",
+    "subtype": "manner_word",
+    "word": "傘かしげ",
+    "reading": "かさかしげ",
+    "image": "images/manners_kasakashige.png",
+    "hint": "雨の日、すれちがう人の傘にぶつからないようにします。",
+    "question": "この場面を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "時どろぼう",
+      "七三の道",
+      "傘かしげ",
+      "肩ひき"
+    ],
+    "explanation": "傘かしげは、雨の日に人とすれちがうとき、傘がぶつからないように少し傾ける気づかいです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "manner_word",
+      "p014"
+    ]
+  },
+  {
+    "id": "vocab1300_p014_002",
+    "sourcePage": 14,
+    "type": "image_word",
+    "subtype": "manner_word",
+    "word": "こぶし腰浮かせ",
+    "reading": "こぶしこしうかせ",
+    "image": "images/manners_kobushi_koshi_ukase.png",
+    "hint": "あとから座る人のために、少しだけつめます。",
+    "question": "この場面を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "こぶし腰浮かせ",
+      "うかつあやまり",
+      "肩ひき",
+      "時どろぼう"
+    ],
+    "explanation": "こぶし腰浮かせは、あとから乗ってきた人のために、座席でこぶし一つ分くらい腰を浮かせてつめる気づかいです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "manner_word",
+      "p014"
+    ]
+  },
+  {
+    "id": "vocab1300_p014_003",
+    "sourcePage": 14,
+    "type": "image_word",
+    "subtype": "manner_word",
+    "word": "肩ひき",
+    "reading": "かたひき",
+    "image": "images/manners_katahiki.png",
+    "hint": "せまい場所で、人とぶつからないようにします。",
+    "question": "この場面を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "七三の道",
+      "傘かしげ",
+      "時どろぼう",
+      "肩ひき"
+    ],
+    "explanation": "肩ひきは、せまい場所ですれちがうとき、ぶつからないように肩を後ろへ引く気づかいです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "manner_word",
+      "p014"
+    ]
+  },
+  {
+    "id": "vocab1300_p014_004",
+    "sourcePage": 14,
+    "type": "image_word",
+    "subtype": "manner_word",
+    "word": "うかつあやまり",
+    "reading": "うかつあやまり",
+    "image": "images/manners_ukatsu_ayamari.png",
+    "hint": "人に足をふまれた場面です。相手が言う前に、自分から一言伝えます。",
+    "question": "この場面を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "時どろぼう",
+      "うかつあやまり",
+      "七三の道",
+      "傘かしげ"
+    ],
+    "explanation": "うかつあやまりは、相手に足をふまれたときなどに、相手が謝る前に自分から謝り、その場を丸くおさめる気づかいです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "manner_word",
+      "p014"
+    ]
+  },
+  {
+    "id": "vocab1300_p014_005",
+    "sourcePage": 14,
+    "type": "image_word",
+    "subtype": "manner_word",
+    "word": "七三の道",
+    "reading": "しちさんのみち",
+    "image": "images/manners_shichisan_no_michi.png",
+    "hint": "道を歩くとき、自分の通る場所を少しにして、相手の場所を広くあけます。",
+    "question": "この場面を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "肩ひき",
+      "こぶし腰浮かせ",
+      "七三の道",
+      "うかつあやまり"
+    ],
+    "explanation": "七三の道は、道を歩くとき、自分は三割ほどを使い、残りをほかの人のためにあけておく気づかいです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "manner_word",
+      "p014"
+    ]
+  },
+  {
+    "id": "vocab1300_p014_006",
+    "sourcePage": 14,
+    "type": "image_word",
+    "subtype": "manner_word",
+    "word": "時どろぼう",
+    "reading": "ときどろぼう",
+    "image": "images/manners_toki_dorobou.png",
+    "hint": "急にたずねて、相手の予定していた時間を使わせてしまいます。",
+    "question": "この場面を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "傘かしげ",
+      "時どろぼう",
+      "肩ひき",
+      "七三の道"
+    ],
+    "explanation": "時どろぼうは、前もって知らせずに相手を訪ねるなどして、相手の時間をうばってしまうことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "manner_word",
+      "p014"
+    ]
+  },
+  {
+    "id": "vocab1300_p026_001",
+    "sourcePage": 26,
+    "type": "image_word",
+    "subtype": "clothing_word",
+    "word": "裾",
+    "reading": "すそ",
+    "image": "images/clothing_kimono_suso.png",
+    "hint": "着物の下のはしの部分を見ています。",
+    "question": "この部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "袂",
+      "裾",
+      "懐",
+      "振り袖"
+    ],
+    "explanation": "裾は、着物や服の下のはしの部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "clothing_word",
+      "p026"
+    ]
+  },
+  {
+    "id": "vocab1300_p026_002",
+    "sourcePage": 26,
+    "type": "image_word",
+    "subtype": "clothing_word",
+    "word": "法被",
+    "reading": "はっぴ",
+    "image": "images/clothing_happi.png",
+    "hint": "祭りで太鼓をたたく人が着ていそうな上着です。",
+    "question": "この着物を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "留め袖",
+      "振り袖",
+      "法被",
+      "袂"
+    ],
+    "explanation": "法被は、祭りや仕事などで着る、短い上着です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "clothing_word",
+      "p026"
+    ]
+  },
+  {
+    "id": "vocab1300_p026_003",
+    "sourcePage": 26,
+    "type": "image_word",
+    "subtype": "clothing_word",
+    "word": "留め袖",
+    "reading": "とめそで",
+    "image": "images/clothing_tomesode.png",
+    "hint": "大人の女性が、あらたまった場で着る着物です。",
+    "question": "この着物を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "法被",
+      "裾",
+      "懐",
+      "留め袖"
+    ],
+    "explanation": "留め袖は、結婚した女性が着る、袖の短めの礼装用の着物です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "clothing_word",
+      "p026"
+    ]
+  },
+  {
+    "id": "vocab1300_p026_004",
+    "sourcePage": 26,
+    "type": "image_word",
+    "subtype": "clothing_word",
+    "word": "袂",
+    "reading": "たもと",
+    "image": "images/clothing_tamoto.png",
+    "hint": "和服の袖の下に、袋のようにたれている部分です。",
+    "question": "この部分を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "袂",
+      "裾",
+      "懐",
+      "法被"
+    ],
+    "explanation": "袂は、和服の袖の下にたれている袋のような部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "clothing_word",
+      "p026"
+    ]
+  },
+  {
+    "id": "vocab1300_p026_005",
+    "sourcePage": 26,
+    "type": "image_word",
+    "subtype": "clothing_word",
+    "word": "振り袖",
+    "reading": "ふりそで",
+    "image": "images/clothing_furisode.png",
+    "hint": "成人式などで見かける、袖の長い着物です。",
+    "question": "この着物を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "留め袖",
+      "法被",
+      "振り袖",
+      "裾"
+    ],
+    "explanation": "振り袖は、結婚していない女性が着る、袖の長い着物です。成人式でもよく着られます。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "clothing_word",
+      "p026"
+    ]
+  },
+  {
+    "id": "vocab1300_p026_006",
+    "sourcePage": 26,
+    "type": "image_word",
+    "subtype": "clothing_word",
+    "word": "懐",
+    "reading": "ふところ",
+    "image": "images/clothing_futokoro.png",
+    "hint": "和服の胸のあたりを見ています。",
+    "question": "この部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "袂",
+      "懐",
+      "裾",
+      "振り袖"
+    ],
+    "explanation": "懐は、和服の胸のあたりを表す言葉です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "clothing_word",
+      "p026"
+    ]
+  },
+  {
+    "id": "vocab1300_p038_001",
+    "sourcePage": 38,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "篠突く雨",
+    "reading": "しのつくあめ",
+    "image": "images/weather_shinotsuku_ame.png",
+    "hint": "雨が細い線のように、激しくたくさん降っています。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "通り雨",
+      "篠突く雨",
+      "空梅雨",
+      "菜種梅雨"
+    ],
+    "explanation": "篠突く雨は、細い竹を束ねたように、激しくたくさん降る雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p038"
+    ]
+  },
+  {
+    "id": "vocab1300_p038_002",
+    "sourcePage": 38,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "通り雨",
+    "reading": "とおりあめ",
+    "image": "images/weather_tooriame.png",
+    "hint": "少しだけ降って、すぐにやみそうな雨です。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "夕立",
+      "空梅雨",
+      "通り雨",
+      "篠突く雨"
+    ],
+    "explanation": "通り雨は、さっと降って、すぐにやんでしまう雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p038"
+    ]
+  },
+  {
+    "id": "vocab1300_p038_003",
+    "sourcePage": 38,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "にわか雨",
+    "reading": "にわかあめ",
+    "image": "images/weather_niwakaame.png",
+    "hint": "さっきまで晴れていたのに、急に雨が降り出しました。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "菜種梅雨",
+      "にわか雨",
+      "空梅雨",
+      "篠突く雨"
+    ],
+    "explanation": "にわか雨は、急に降り出して、すぐにやんでしまう雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p038"
+    ]
+  },
+  {
+    "id": "vocab1300_p038_004",
+    "sourcePage": 38,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "夕立",
+    "reading": "ゆうだち",
+    "image": "images/weather_yuudachi.png",
+    "hint": "夏の午後、急に強い雨が降っています。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "夕立",
+      "通り雨",
+      "菜種梅雨",
+      "空梅雨"
+    ],
+    "explanation": "夕立は、夏の午後などに急に激しく降って、すぐにやむ雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p038"
+    ]
+  },
+  {
+    "id": "vocab1300_p038_005",
+    "sourcePage": 38,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "菜種梅雨",
+    "reading": "なたねづゆ",
+    "image": "images/weather_natanezuyu.png",
+    "hint": "春、菜の花が咲くころに雨が続いています。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "空梅雨",
+      "篠突く雨",
+      "夕立",
+      "菜種梅雨"
+    ],
+    "explanation": "菜種梅雨は、菜の花が咲くころに長く降り続く雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p038"
+    ]
+  },
+  {
+    "id": "vocab1300_p038_006",
+    "sourcePage": 38,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "空梅雨",
+    "reading": "からつゆ",
+    "image": "images/weather_karatsuyu.png",
+    "hint": "梅雨の季節なのに、空が晴れて雨があまり降りません。",
+    "question": "この天気を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "にわか雨",
+      "空梅雨",
+      "通り雨",
+      "菜種梅雨"
+    ],
+    "explanation": "空梅雨は、梅雨の季節なのに、あまり雨が降らないことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p038"
+    ]
+  },
+  {
+    "id": "vocab1300_p050_001",
+    "sourcePage": 50,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "しぐれ",
+    "reading": "しぐれ",
+    "image": "images/weather_shigure.png",
+    "hint": "秋の終わりから冬の初めに、雨がぱらぱら降っています。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "五月雨",
+      "春雨",
+      "しぐれ",
+      "狐の嫁入り"
+    ],
+    "explanation": "しぐれは、晩秋から初冬にかけて、ぱらぱらと降る一時的な雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p050"
+    ]
+  },
+  {
+    "id": "vocab1300_p050_002",
+    "sourcePage": 50,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "五月雨",
+    "reading": "さみだれ",
+    "image": "images/weather_samidare.png",
+    "hint": "梅雨のころに、雨が長く降り続いています。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "小糠雨",
+      "入梅",
+      "五月雨",
+      "しぐれ"
+    ],
+    "explanation": "五月雨は、梅雨のころに降り続く長雨のことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p050"
+    ]
+  },
+  {
+    "id": "vocab1300_p050_003",
+    "sourcePage": 50,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "小糠雨",
+    "reading": "こぬかあめ",
+    "image": "images/weather_konukaame.png",
+    "hint": "霧のように、とても細かい雨が降っています。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "春雨",
+      "小糠雨",
+      "狐の嫁入り",
+      "五月雨"
+    ],
+    "explanation": "小糠雨は、霧のように細かく降る雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p050"
+    ]
+  },
+  {
+    "id": "vocab1300_p050_004",
+    "sourcePage": 50,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "狐の嫁入り",
+    "reading": "きつねのよめいり",
+    "image": "images/weather_kitsune_no_yomeiri.png",
+    "hint": "日が照っているのに、雨が降っています。",
+    "question": "この天気を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "しぐれ",
+      "春雨",
+      "狐の嫁入り",
+      "小糠雨"
+    ],
+    "explanation": "狐の嫁入りは、日が照っているのに降る雨です。天気雨とも言います。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p050"
+    ]
+  },
+  {
+    "id": "vocab1300_p050_005",
+    "sourcePage": 50,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "春雨",
+    "reading": "はるさめ",
+    "image": "images/weather_harusame.png",
+    "hint": "春、花の咲くころに、雨がしとしと降っています。",
+    "question": "この雨を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "春雨",
+      "入梅",
+      "五月雨",
+      "しぐれ"
+    ],
+    "explanation": "春雨は、春にしとしと降る雨です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p050"
+    ]
+  },
+  {
+    "id": "vocab1300_p050_006",
+    "sourcePage": 50,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "入梅",
+    "reading": "にゅうばい",
+    "image": "images/weather_nyuubai.png",
+    "hint": "雨の季節に入り、これから梅雨が始まります。",
+    "question": "この時期を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "五月雨",
+      "狐の嫁入り",
+      "小糠雨",
+      "入梅"
+    ],
+    "explanation": "入梅は、梅雨に入ること、梅雨になることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p050"
+    ]
+  },
+  {
+    "id": "vocab1300_p062_001",
+    "sourcePage": 62,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "はやて",
+    "reading": "はやて",
+    "image": "images/weather_hayate.png",
+    "hint": "急に強い風が吹いて、人がびっくりしています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "山背",
+      "はやて",
+      "春一番",
+      "木枯らし"
+    ],
+    "explanation": "はやては、急に強く吹く風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p062"
+    ]
+  },
+  {
+    "id": "vocab1300_p062_002",
+    "sourcePage": 62,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "野分け",
+    "reading": "のわけ",
+    "image": "images/weather_nowake.png",
+    "hint": "秋から冬にかけて、強い風が吹き荒れています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "春一番",
+      "おろし",
+      "はやて",
+      "野分け"
+    ],
+    "explanation": "野分けは、秋から冬にかけて吹く暴風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p062"
+    ]
+  },
+  {
+    "id": "vocab1300_p062_003",
+    "sourcePage": 62,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "春一番",
+    "reading": "はるいちばん",
+    "image": "images/weather_haruichiban.png",
+    "hint": "春の初めに、暖かい南風が強く吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "春一番",
+      "山背",
+      "木枯らし",
+      "おろし"
+    ],
+    "explanation": "春一番は、立春のころ、その年で最初に強く吹く南風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p062"
+    ]
+  },
+  {
+    "id": "vocab1300_p062_004",
+    "sourcePage": 62,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "山背",
+    "reading": "やませ",
+    "image": "images/weather_yamase.png",
+    "hint": "夏、東北地方の海側に冷たい風が吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "木枯らし",
+      "はやて",
+      "山背",
+      "春一番"
+    ],
+    "explanation": "山背は、夏に東北地方の太平洋岸に吹く冷たい北東の風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p062"
+    ]
+  },
+  {
+    "id": "vocab1300_p062_005",
+    "sourcePage": 62,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "おろし",
+    "reading": "おろし",
+    "image": "images/weather_oroshi.png",
+    "hint": "山の上から、下へ向かって風が吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "山背",
+      "おろし",
+      "野分け",
+      "木枯らし"
+    ],
+    "explanation": "おろしは、山から吹きおろす風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p062"
+    ]
+  },
+  {
+    "id": "vocab1300_p062_006",
+    "sourcePage": 62,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "木枯らし",
+    "reading": "こがらし",
+    "image": "images/weather_kogarashi.png",
+    "hint": "秋の終わりから冬の初めに、冷たい強い風が吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "春一番",
+      "山背",
+      "はやて",
+      "木枯らし"
+    ],
+    "explanation": "木枯らしは、晩秋から初冬にかけて吹く冷たい強風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p062"
+    ]
+  },
+  {
+    "id": "vocab1300_p074_001",
+    "sourcePage": 74,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "つむじ風",
+    "reading": "つむじかぜ",
+    "image": "images/weather_tsumujikaze.png",
+    "hint": "風がうずまきのように、ぐるぐる吹き上がっています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "追い風",
+      "つむじ風",
+      "空っ風",
+      "青嵐"
+    ],
+    "explanation": "つむじ風は、うずまき状に吹き上がる強い風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p074"
+    ]
+  },
+  {
+    "id": "vocab1300_p074_002",
+    "sourcePage": 74,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "空っ風",
+    "reading": "からっかぜ",
+    "image": "images/weather_karakkaze.png",
+    "hint": "雨や雪はなく、冷たい北風だけが強く吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "花風",
+      "青嵐",
+      "向かい風",
+      "空っ風"
+    ],
+    "explanation": "空っ風は、雨や雪を伴わない、晩秋から初冬にかけて吹く北風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p074"
+    ]
+  },
+  {
+    "id": "vocab1300_p074_003",
+    "sourcePage": 74,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "花風",
+    "reading": "はなかぜ",
+    "image": "images/weather_hanakaze.png",
+    "hint": "桜の花が咲くころ、花びらを揺らす風が吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "花風",
+      "追い風",
+      "つむじ風",
+      "空っ風"
+    ],
+    "explanation": "花風は、桜の花が咲きほこる頃に吹く風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p074"
+    ]
+  },
+  {
+    "id": "vocab1300_p074_004",
+    "sourcePage": 74,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "追い風",
+    "reading": "おいかぜ",
+    "image": "images/weather_oikaze.png",
+    "hint": "進む方向と同じ向きに、後ろから風が吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "向かい風",
+      "空っ風",
+      "追い風",
+      "青嵐"
+    ],
+    "explanation": "追い風は、後方から吹く風、行く方向に吹く風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p074"
+    ]
+  },
+  {
+    "id": "vocab1300_p074_005",
+    "sourcePage": 74,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "青嵐",
+    "reading": "せいらん",
+    "image": "images/weather_seiran.png",
+    "hint": "初夏、青い若葉を大きく揺らす風が吹いています。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "花風",
+      "青嵐",
+      "空っ風",
+      "つむじ風"
+    ],
+    "explanation": "青嵐は、初夏の頃、青々とした若葉を揺すって吹き渡るやや強い風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p074"
+    ]
+  },
+  {
+    "id": "vocab1300_p074_006",
+    "sourcePage": 74,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "向かい風",
+    "reading": "むかいかぜ",
+    "image": "images/weather_mukaikaze.png",
+    "hint": "進む方向から風が吹いてきて、前に進みにくそうです。",
+    "question": "この風を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "追い風",
+      "空っ風",
+      "花風",
+      "向かい風"
+    ],
+    "explanation": "向かい風は、行く方向から吹いてくる風、逆風です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p074"
+    ]
+  },
+  {
+    "id": "vocab1300_p086_001",
+    "sourcePage": 86,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "入道雲",
+    "reading": "にゅうどうぐも",
+    "image": "images/weather_nyuudougumo.png",
+    "hint": "夏の空に、もくもくと高く盛り上がった大きな雲があります。",
+    "question": "この雲を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "入道雲",
+      "ひつじ雲",
+      "霧",
+      "いわし雲"
+    ],
+    "explanation": "入道雲は、高く盛り上がった、夏に見える雲です。積乱雲とも言います。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p086"
+    ]
+  },
+  {
+    "id": "vocab1300_p086_002",
+    "sourcePage": 86,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "霞",
+    "reading": "かすみ",
+    "image": "images/weather_kasumi.png",
+    "hint": "春、遠くの山がぼんやり見えにくくなっています。",
+    "question": "この現象を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "靄",
+      "霞",
+      "霧",
+      "入道雲"
+    ],
+    "explanation": "霞は、細かい水滴などで遠くのものが見えにくくなる、春によく見られる現象です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p086"
+    ]
+  },
+  {
+    "id": "vocab1300_p086_003",
+    "sourcePage": 86,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "霧",
+    "reading": "きり",
+    "image": "images/weather_kiri.png",
+    "hint": "地面の近くが白くなり、前が見えにくくなっています。",
+    "question": "この現象を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "霧",
+      "霞",
+      "いわし雲",
+      "ひつじ雲"
+    ],
+    "explanation": "霧は、地表や海面近くに低く立ちこめる細かい水滴です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p086"
+    ]
+  },
+  {
+    "id": "vocab1300_p086_004",
+    "sourcePage": 86,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "ひつじ雲",
+    "reading": "ひつじぐも",
+    "image": "images/weather_hitsujigumo.png",
+    "hint": "ひつじの群れのような雲が、空にたくさん並んでいます。",
+    "question": "この雲を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "霞",
+      "ひつじ雲",
+      "靄",
+      "入道雲"
+    ],
+    "explanation": "ひつじ雲は、ひつじの群れのように見える雲です。高積雲とも言います。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p086"
+    ]
+  },
+  {
+    "id": "vocab1300_p086_005",
+    "sourcePage": 86,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "靄",
+    "reading": "もや",
+    "image": "images/weather_moya.png",
+    "hint": "空気中に細かい水滴があり、景色がぼんやり見えます。",
+    "question": "この現象を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "入道雲",
+      "霧",
+      "靄",
+      "いわし雲"
+    ],
+    "explanation": "靄は、細かい水滴が空気中に浮かんで、視界が見えにくくなる現象です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p086"
+    ]
+  },
+  {
+    "id": "vocab1300_p086_006",
+    "sourcePage": 86,
+    "type": "image_word",
+    "subtype": "weather_word",
+    "word": "いわし雲",
+    "reading": "いわしぐも",
+    "image": "images/weather_iwashigumo.png",
+    "hint": "魚のうろこのような小さな雲が、空に広がっています。",
+    "question": "この雲を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "霞",
+      "ひつじ雲",
+      "霧",
+      "いわし雲"
+    ],
+    "explanation": "いわし雲は、小さな雲が集まり、魚のうろこのように見える雲です。巻積雲とも言います。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "weather_word",
+      "p086"
+    ]
+  },
+  {
+    "id": "vocab1300_p098_001",
+    "sourcePage": 98,
+    "type": "image_word",
+    "subtype": "day_time_word",
+    "word": "あけぼの",
+    "reading": "あけぼの",
+    "image": "images/daytime_akebono.png",
+    "hint": "空が少し明るくなり、夜が明け始めています。",
+    "question": "この時間帯を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "未明",
+      "あけぼの",
+      "宵の口",
+      "昼下がり"
+    ],
+    "explanation": "あけぼのは、夜が明け始めるころのことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "day_time_word",
+      "p098"
+    ]
+  },
+  {
+    "id": "vocab1300_p098_002",
+    "sourcePage": 98,
+    "type": "image_word",
+    "subtype": "day_time_word",
+    "word": "未明",
+    "reading": "みめい",
+    "image": "images/daytime_mimei.png",
+    "hint": "夜中を過ぎていますが、まだ夜が明けきっていません。",
+    "question": "この時間帯を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "夜半",
+      "昼下がり",
+      "未明",
+      "たそがれ"
+    ],
+    "explanation": "未明は、夜がまだ明けきらないころ、午前0時から3時ごろを表します。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "day_time_word",
+      "p098"
+    ]
+  },
+  {
+    "id": "vocab1300_p098_003",
+    "sourcePage": 98,
+    "type": "image_word",
+    "subtype": "day_time_word",
+    "word": "昼下がり",
+    "reading": "ひるさがり",
+    "image": "images/daytime_hirusagari.png",
+    "hint": "お昼を少し過ぎて、明るい時間です。",
+    "question": "この時間帯を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "昼下がり",
+      "夜半",
+      "宵の口",
+      "あけぼの"
+    ],
+    "explanation": "昼下がりは、正午を少し過ぎたころです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "day_time_word",
+      "p098"
+    ]
+  },
+  {
+    "id": "vocab1300_p098_004",
+    "sourcePage": 98,
+    "type": "image_word",
+    "subtype": "day_time_word",
+    "word": "たそがれ",
+    "reading": "たそがれ",
+    "image": "images/daytime_tasogare.png",
+    "hint": "夕方、日が暮れてきて空が薄暗くなっています。",
+    "question": "この時間帯を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "未明",
+      "あけぼの",
+      "たそがれ",
+      "夜半"
+    ],
+    "explanation": "たそがれは、日が暮れるころ、夕方の薄暗いころです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "day_time_word",
+      "p098"
+    ]
+  },
+  {
+    "id": "vocab1300_p098_005",
+    "sourcePage": 98,
+    "type": "image_word",
+    "subtype": "day_time_word",
+    "word": "宵の口",
+    "reading": "よいのくち",
+    "image": "images/daytime_yoinokuchi.png",
+    "hint": "日が暮れて、夜になったばかりの時間です。",
+    "question": "この時間帯を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "宵の口",
+      "昼下がり",
+      "未明",
+      "あけぼの"
+    ],
+    "explanation": "宵の口は、日が暮れて間もないころです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "day_time_word",
+      "p098"
+    ]
+  },
+  {
+    "id": "vocab1300_p098_006",
+    "sourcePage": 98,
+    "type": "image_word",
+    "subtype": "day_time_word",
+    "word": "夜半",
+    "reading": "やはん",
+    "image": "images/daytime_yahan.png",
+    "hint": "家の明かりも少なく、夜中の時間です。",
+    "question": "この時間帯を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "たそがれ",
+      "夜半",
+      "昼下がり",
+      "宵の口"
+    ],
+    "explanation": "夜半は、夜中のことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "day_time_word",
+      "p098"
+    ]
+  },
+  {
+    "id": "vocab1300_p110_001",
+    "sourcePage": 110,
+    "type": "image_word",
+    "subtype": "body_part_word",
+    "word": "眉間",
+    "reading": "みけん",
+    "image": "images/body_miken.png",
+    "hint": "顔の中で、左右のまゆの間を見ています。",
+    "question": "この体の部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "ふくらはぎ",
+      "眉間",
+      "きびす",
+      "土ふまず"
+    ],
+    "explanation": "眉間は、眉と眉の間のことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "body_part_word",
+      "p110"
+    ]
+  },
+  {
+    "id": "vocab1300_p110_002",
+    "sourcePage": 110,
+    "type": "image_word",
+    "subtype": "body_part_word",
+    "word": "ふくらはぎ",
+    "reading": "ふくらはぎ",
+    "image": "images/body_fukurahagi.png",
+    "hint": "足の後ろ側で、ひざと足首の間のふくらんだ部分を見ています。",
+    "question": "この体の部分を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "すね",
+      "二の腕",
+      "ふくらはぎ",
+      "眉間"
+    ],
+    "explanation": "ふくらはぎは、すねの後ろ側のふくらんだ部分です。こむらとも言います。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "body_part_word",
+      "p110"
+    ]
+  },
+  {
+    "id": "vocab1300_p110_003",
+    "sourcePage": 110,
+    "type": "image_word",
+    "subtype": "body_part_word",
+    "word": "すね",
+    "reading": "すね",
+    "image": "images/body_sune.png",
+    "hint": "足の前側で、ひざから足首までのあたりを見ています。",
+    "question": "この体の部分を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "すね",
+      "土ふまず",
+      "きびす",
+      "眉間"
+    ],
+    "explanation": "すねは、ひざからくるぶしまでの部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "body_part_word",
+      "p110"
+    ]
+  },
+  {
+    "id": "vocab1300_p110_004",
+    "sourcePage": 110,
+    "type": "image_word",
+    "subtype": "body_part_word",
+    "word": "土ふまず",
+    "reading": "つちふまず",
+    "image": "images/body_tsuchifumazu.png",
+    "hint": "足の裏の、地面につきにくいへこんだ部分を見ています。",
+    "question": "この体の部分を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "きびす",
+      "すね",
+      "二の腕",
+      "土ふまず"
+    ],
+    "explanation": "土ふまずは、足の裏のへこんだ部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "body_part_word",
+      "p110"
+    ]
+  },
+  {
+    "id": "vocab1300_p110_005",
+    "sourcePage": 110,
+    "type": "image_word",
+    "subtype": "body_part_word",
+    "word": "きびす",
+    "reading": "きびす",
+    "image": "images/body_kibisu.png",
+    "hint": "足の後ろのはし、かかとの部分を見ています。",
+    "question": "この体の部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "眉間",
+      "きびす",
+      "土ふまず",
+      "ふくらはぎ"
+    ],
+    "explanation": "きびすは、かかとのことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "body_part_word",
+      "p110"
+    ]
+  },
+  {
+    "id": "vocab1300_p110_006",
+    "sourcePage": 110,
+    "type": "image_word",
+    "subtype": "body_part_word",
+    "word": "二の腕",
+    "reading": "にのうで",
+    "image": "images/body_ninoude.png",
+    "hint": "腕の中で、肩から肘までの間を見ています。",
+    "question": "この体の部分を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "すね",
+      "ふくらはぎ",
+      "二の腕",
+      "きびす"
+    ],
+    "explanation": "二の腕は、肩から肘までの間の部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "body_part_word",
+      "p110"
+    ]
+  },
+  {
+    "id": "vocab1300_p122_001",
+    "sourcePage": 122,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "軒",
+    "reading": "のき",
+    "image": "images/house_noki.png",
+    "hint": "屋根が建物の外に少し飛び出している部分を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "軒",
+      "戸袋",
+      "縁側",
+      "樋"
+    ],
+    "explanation": "軒は、屋根が建物の外に飛び出した部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p122"
+    ]
+  },
+  {
+    "id": "vocab1300_p122_002",
+    "sourcePage": 122,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "ひさし",
+    "reading": "ひさし",
+    "image": "images/house_hisashi.png",
+    "hint": "玄関や窓の上にある、小さな屋根の部分を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "息抜き",
+      "ひさし",
+      "樋",
+      "縁側"
+    ],
+    "explanation": "ひさしは、玄関・縁側・窓などの上にある小さな屋根です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p122"
+    ]
+  },
+  {
+    "id": "vocab1300_p122_003",
+    "sourcePage": 122,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "縁側",
+    "reading": "えんがわ",
+    "image": "images/house_engawa.png",
+    "hint": "家の部屋と庭の間にある、板張りの場所を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "軒",
+      "ひさし",
+      "縁側",
+      "戸袋"
+    ],
+    "explanation": "縁側は、家の座敷と庭の間にある、板張りの部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p122"
+    ]
+  },
+  {
+    "id": "vocab1300_p122_004",
+    "sourcePage": 122,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "戸袋",
+    "reading": "とぶくろ",
+    "image": "images/house_tobukuro.png",
+    "hint": "窓の横にある、雨戸をしまう部分を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "樋",
+      "息抜き",
+      "軒",
+      "戸袋"
+    ],
+    "explanation": "戸袋は、窓に取り付けられた、雨戸を収納する部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p122"
+    ]
+  },
+  {
+    "id": "vocab1300_p122_005",
+    "sourcePage": 122,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "息抜き",
+    "reading": "いきぬき",
+    "image": "images/house_ikinuki.png",
+    "hint": "屋根の近くにある、空気を通すための小さな窓を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "縁側",
+      "息抜き",
+      "ひさし",
+      "樋"
+    ],
+    "explanation": "息抜きは、換気や通気のために、屋根に作られた小さな窓です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p122"
+    ]
+  },
+  {
+    "id": "vocab1300_p122_006",
+    "sourcePage": 122,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "樋",
+    "reading": "とい",
+    "image": "images/house_toi.png",
+    "hint": "屋根から雨水を下へ流す、細長い管を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "軒",
+      "戸袋",
+      "樋",
+      "ひさし"
+    ],
+    "explanation": "樋は、雨水などを屋根から地面に導くための筒状の装置です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p122"
+    ]
+  },
+  {
+    "id": "vocab1300_p134_001",
+    "sourcePage": 134,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "鴨居",
+    "reading": "かもい",
+    "image": "images/house_kamoi.png",
+    "hint": "障子やふすまの上にある、溝のついた横木を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "敷居",
+      "鴨居",
+      "長押",
+      "床の間"
+    ],
+    "explanation": "鴨居は、障子やふすまの上にある、溝のついた横木です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p134"
+    ]
+  },
+  {
+    "id": "vocab1300_p134_002",
+    "sourcePage": 134,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "敷居",
+    "reading": "しきい",
+    "image": "images/house_shikii.png",
+    "hint": "障子やふすまの下にある、溝のついた横木を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "ふすま",
+      "床の間",
+      "敷居",
+      "鴨居"
+    ],
+    "explanation": "敷居は、障子やふすまの下にある、溝のついた横木です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p134"
+    ]
+  },
+  {
+    "id": "vocab1300_p134_003",
+    "sourcePage": 134,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "ふすま",
+    "reading": "ふすま",
+    "image": "images/house_fusuma.png",
+    "hint": "部屋と部屋の間にある、紙や布を張った引き戸を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "ふすま",
+      "障子",
+      "長押",
+      "敷居"
+    ],
+    "explanation": "ふすまは、部屋の仕切りに使われる、紙や布を張った戸です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p134"
+    ]
+  },
+  {
+    "id": "vocab1300_p134_004",
+    "sourcePage": 134,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "障子",
+    "reading": "しょうじ",
+    "image": "images/house_shouji.png",
+    "hint": "木のわくに白い紙を張った引き戸を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "鴨居",
+      "ふすま",
+      "床の間",
+      "障子"
+    ],
+    "explanation": "障子は、木のわくに紙を張った戸です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p134"
+    ]
+  },
+  {
+    "id": "vocab1300_p134_005",
+    "sourcePage": 134,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "床の間",
+    "reading": "とこのま",
+    "image": "images/house_tokonoma.png",
+    "hint": "和室で、花や掛け軸を飾る一段高い場所を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "敷居",
+      "床の間",
+      "障子",
+      "長押"
+    ],
+    "explanation": "床の間は、花や掛け軸を飾るために、座敷を一段高くした部分です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p134"
+    ]
+  },
+  {
+    "id": "vocab1300_p134_006",
+    "sourcePage": 134,
+    "type": "image_word",
+    "subtype": "house_part_word",
+    "word": "長押",
+    "reading": "なげし",
+    "image": "images/house_nageshi.png",
+    "hint": "部屋の上のほうで、柱と柱を横につなぐ木を見ています。",
+    "question": "この家の部分を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "ふすま",
+      "鴨居",
+      "長押",
+      "床の間"
+    ],
+    "explanation": "長押は、柱と柱を水平につなぐ横木です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "house_part_word",
+      "p134"
+    ]
+  },
+  {
+    "id": "vocab1300_p146_001",
+    "sourcePage": 146,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "あえる",
+    "reading": "あえる",
+    "image": "images/cooking_aeru.png",
+    "hint": "野菜に調味料を入れて、軽く混ぜています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "きざむ",
+      "あえる",
+      "ねかす",
+      "まぶす"
+    ],
+    "explanation": "あえるは、野菜や魚介類などに、調味料などを混ぜることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p146"
+    ]
+  },
+  {
+    "id": "vocab1300_p146_002",
+    "sourcePage": 146,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "からめる",
+    "reading": "からめる",
+    "image": "images/cooking_karameru.png",
+    "hint": "食べ物に、たれやソースを全体につけています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "する",
+      "まぶす",
+      "からめる",
+      "あえる"
+    ],
+    "explanation": "からめるは、あんこやソースなどの粘り気のあるものを、全体によくつけることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p146"
+    ]
+  },
+  {
+    "id": "vocab1300_p146_003",
+    "sourcePage": 146,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "まぶす",
+    "reading": "まぶす",
+    "image": "images/cooking_mabusu.png",
+    "hint": "食べ物の表面に、粉を全体につけています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "まぶす",
+      "からめる",
+      "きざむ",
+      "ねかす"
+    ],
+    "explanation": "まぶすは、きな粉・パン粉・小麦粉などを、一面につけることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p146"
+    ]
+  },
+  {
+    "id": "vocab1300_p146_004",
+    "sourcePage": 146,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "きざむ",
+    "reading": "きざむ",
+    "image": "images/cooking_kizamu.png",
+    "hint": "包丁で食材を細かく切っています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "あえる",
+      "ねかす",
+      "する",
+      "きざむ"
+    ],
+    "explanation": "きざむは、包丁で細かく切ることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p146"
+    ]
+  },
+  {
+    "id": "vocab1300_p146_005",
+    "sourcePage": 146,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "する",
+    "reading": "する",
+    "image": "images/cooking_suru.png",
+    "hint": "すり鉢で、ごまなどを細かくつぶしています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "きざむ",
+      "する",
+      "まぶす",
+      "からめる"
+    ],
+    "explanation": "するは、ごまなどをすりつぶして細かくすることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p146"
+    ]
+  },
+  {
+    "id": "vocab1300_p146_006",
+    "sourcePage": 146,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "ねかす",
+    "reading": "ねかす",
+    "image": "images/cooking_nekasu.png",
+    "hint": "生地を包んで、しばらく置いています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "ねかす",
+      "あえる",
+      "する",
+      "まぶす"
+    ],
+    "explanation": "ねかすは、発酵・熟成させるために、一定の温度のところでしばらく置いておくことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p146"
+    ]
+  },
+  {
+    "id": "vocab1300_p158_001",
+    "sourcePage": 158,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "おろす",
+    "reading": "おろす",
+    "image": "images/cooking_orosu.png",
+    "hint": "魚を包丁で切り分けています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "湯がく",
+      "炊く",
+      "おろす",
+      "あぶる"
+    ],
+    "explanation": "おろすは、魚を切り分けることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p158"
+    ]
+  },
+  {
+    "id": "vocab1300_p158_002",
+    "sourcePage": 158,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "湯がく",
+    "reading": "ゆがく",
+    "image": "images/cooking_yugaku.png",
+    "hint": "野菜をさっと熱湯に通しています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "湯がく",
+      "煮る",
+      "ふかす",
+      "おろす"
+    ],
+    "explanation": "湯がくは、野菜などのあくをのぞくために、さっと熱湯に通すことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p158"
+    ]
+  },
+  {
+    "id": "vocab1300_p158_003",
+    "sourcePage": 158,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "ふかす",
+    "reading": "ふかす",
+    "image": "images/cooking_fukasu.png",
+    "hint": "蒸気で食べ物に火を通しています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 3,
+    "choices": [
+      "炊く",
+      "あぶる",
+      "湯がく",
+      "ふかす"
+    ],
+    "explanation": "ふかすは、蒸気の熱で食べ物に火を通すことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p158"
+    ]
+  },
+  {
+    "id": "vocab1300_p158_004",
+    "sourcePage": 158,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "あぶる",
+    "reading": "あぶる",
+    "image": "images/cooking_aburu.png",
+    "hint": "食べ物を火に近づけて、軽く焼いています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "煮る",
+      "おろす",
+      "あぶる",
+      "湯がく"
+    ],
+    "explanation": "あぶるは、火に当てて、軽く焼いたり焦げ目をつけたりすることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p158"
+    ]
+  },
+  {
+    "id": "vocab1300_p158_005",
+    "sourcePage": 158,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "炊く",
+    "reading": "たく",
+    "image": "images/cooking_taku.png",
+    "hint": "米に水を入れて、食べられるご飯にしています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "ふかす",
+      "炊く",
+      "煮る",
+      "あぶる"
+    ],
+    "explanation": "炊くは、米などの穀物を水と合わせて煮て、食べられるようにすることです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p158"
+    ]
+  },
+  {
+    "id": "vocab1300_p158_006",
+    "sourcePage": 158,
+    "type": "image_word",
+    "subtype": "cooking_word",
+    "word": "煮る",
+    "reading": "にる",
+    "image": "images/cooking_niru.png",
+    "hint": "水に食材を入れて、火にかけています。",
+    "question": "この料理の動作を表す言葉はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "煮る",
+      "おろす",
+      "湯がく",
+      "炊く"
+    ],
+    "explanation": "煮るは、水に野菜・肉・魚などを入れて、火にかけて熱を通すことです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "cooking_word",
+      "p158"
+    ]
+  },
+  {
+    "id": "vocab1300_p170_001",
+    "sourcePage": 170,
+    "type": "counter_image",
+    "word": "一膳",
+    "reading": "いちぜん",
+    "image": "images/counter_hashi_zen.png",
+    "hint": "食事で使う二本そろった道具を見ています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "一串",
+      "一面",
+      "一膳",
+      "一輪"
+    ],
+    "explanation": "箸は、一膳、二膳と数えます。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p170"
+    ]
+  },
+  {
+    "id": "vocab1300_p170_002",
+    "sourcePage": 170,
+    "type": "counter_image",
+    "word": "一串",
+    "reading": "ひとくし",
+    "image": "images/counter_dango_kushi.png",
+    "hint": "食べ物が一本の串にささっています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "一串",
+      "一丁",
+      "一番",
+      "一膳"
+    ],
+    "explanation": "串にさした食べ物は、一串、二串と数えます。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p170"
+    ]
+  },
+  {
+    "id": "vocab1300_p170_003",
+    "sourcePage": 170,
+    "type": "counter_image",
+    "word": "一面",
+    "reading": "いちめん",
+    "image": "images/counter_tanbo_men.png",
+    "hint": "広がっている田んぼを見ています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "一番",
+      "一輪",
+      "一面",
+      "一丁"
+    ],
+    "explanation": "田んぼや畑など、広がった場所は、一面、二面と数えることがあります。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p170"
+    ]
+  },
+  {
+    "id": "vocab1300_p170_004",
+    "sourcePage": 170,
+    "type": "counter_image",
+    "word": "一丁",
+    "reading": "いっちょう",
+    "image": "images/counter_soroban_chou.png",
+    "hint": "計算に使う道具を見ています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "一丁",
+      "一膳",
+      "一面",
+      "一串"
+    ],
+    "explanation": "そろばんなどの道具は、一丁、二丁と数えることがあります。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p170"
+    ]
+  },
+  {
+    "id": "vocab1300_p170_005",
+    "sourcePage": 170,
+    "type": "counter_image",
+    "word": "一輪",
+    "reading": "いちりん",
+    "image": "images/counter_flower_rin.png",
+    "hint": "一本の花が花びんに入っています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "一面",
+      "一膳",
+      "一輪",
+      "一番"
+    ],
+    "explanation": "花は、一輪、二輪と数えます。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p170"
+    ]
+  },
+  {
+    "id": "vocab1300_p170_006",
+    "sourcePage": 170,
+    "type": "counter_image",
+    "word": "一番",
+    "reading": "いちばん",
+    "image": "images/counter_sumo_ban.png",
+    "hint": "二人が土俵で勝負をしています。",
+    "question": "この勝負の数え方はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "一串",
+      "一番",
+      "一丁",
+      "一輪"
+    ],
+    "explanation": "相撲などの勝負は、一番、二番と数えます。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p170"
+    ]
+  },
+  {
+    "id": "vocab1300_p182_001",
+    "sourcePage": 182,
+    "type": "counter_image",
+    "word": "一丁",
+    "reading": "いっちょう",
+    "image": "images/counter_tofu_chou.png",
+    "hint": "四角い豆腐が一つあります。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "一玉",
+      "一丁",
+      "一反",
+      "一足"
+    ],
+    "explanation": "豆腐は、一丁、二丁と数えます。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p182"
+    ]
+  },
+  {
+    "id": "vocab1300_p182_002",
+    "sourcePage": 182,
+    "type": "counter_image",
+    "word": "一棹",
+    "reading": "ひとさお",
+    "image": "images/counter_tansu_sao.png",
+    "hint": "引き出しのある大きな家具を見ています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "一反",
+      "一羽",
+      "一棹",
+      "一丁"
+    ],
+    "explanation": "たんすは、一棹、二棹と数えることがあります。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p182"
+    ]
+  },
+  {
+    "id": "vocab1300_p182_003",
+    "sourcePage": 182,
+    "type": "counter_image",
+    "word": "一玉",
+    "reading": "ひとたま",
+    "image": "images/counter_noodle_tama.png",
+    "hint": "一人分の麺がまとまっています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "一棹",
+      "一足",
+      "一玉",
+      "一羽"
+    ],
+    "explanation": "麺は、一玉、二玉と数えることがあります。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p182"
+    ]
+  },
+  {
+    "id": "vocab1300_p182_004",
+    "sourcePage": 182,
+    "type": "counter_image",
+    "word": "一反",
+    "reading": "いったん",
+    "image": "images/counter_tanmono_tan.png",
+    "hint": "長い布が巻かれています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "一反",
+      "一丁",
+      "一玉",
+      "一足"
+    ],
+    "explanation": "反物は、一反、二反と数えます。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p182"
+    ]
+  },
+  {
+    "id": "vocab1300_p182_005",
+    "sourcePage": 182,
+    "type": "counter_image",
+    "word": "一羽",
+    "reading": "いちわ",
+    "image": "images/counter_rabbit_wa.png",
+    "hint": "耳の長い動物が一匹います。",
+    "question": "この動物の数え方はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "一足",
+      "一羽",
+      "一棹",
+      "一反"
+    ],
+    "explanation": "うさぎは、一羽、二羽と数えることがあります。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p182"
+    ]
+  },
+  {
+    "id": "vocab1300_p182_006",
+    "sourcePage": 182,
+    "type": "counter_image",
+    "word": "一足",
+    "reading": "いっそく",
+    "image": "images/counter_shoes_soku.png",
+    "hint": "左右そろった靴を見ています。",
+    "question": "この物の数え方はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "一玉",
+      "一反",
+      "一足",
+      "一丁"
+    ],
+    "explanation": "靴は、左右そろって一足、二足と数えます。",
+    "tags": [
+      "vocab1300",
+      "counter_image",
+      "p182"
+    ]
+  },
+  {
+    "id": "vocab1300_p194_001",
+    "sourcePage": 194,
+    "type": "image_word",
+    "subtype": "old_life_tool_word",
+    "word": "火鉢",
+    "reading": "ひばち",
+    "image": "images/old_tool_hibachi.png",
+    "hint": "器の中の炭で、手や体をあたためます。",
+    "question": "この昔の道具はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "おひつ",
+      "火鉢",
+      "蚊帳",
+      "縁台"
+    ],
+    "explanation": "火鉢は、炭を入れて火をおこし、暖をとる道具です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "old_life_tool_word",
+      "p194"
+    ]
+  },
+  {
+    "id": "vocab1300_p194_002",
+    "sourcePage": 194,
+    "type": "image_word",
+    "subtype": "old_life_tool_word",
+    "word": "おひつ",
+    "reading": "おひつ",
+    "image": "images/old_tool_ohitsu.png",
+    "hint": "炊いたご飯を入れておく木の器です。",
+    "question": "この昔の道具はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "すだれ",
+      "おひつ",
+      "火鉢",
+      "いろり"
+    ],
+    "explanation": "おひつは、炊いたご飯を釜から移して入れておく木製の器です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "old_life_tool_word",
+      "p194"
+    ]
+  },
+  {
+    "id": "vocab1300_p194_003",
+    "sourcePage": 194,
+    "type": "image_word",
+    "subtype": "old_life_tool_word",
+    "word": "縁台",
+    "reading": "えんだい",
+    "image": "images/old_tool_endai.png",
+    "hint": "家の外に置かれた、細長い腰掛けです。",
+    "question": "この昔の道具はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "蚊帳",
+      "すだれ",
+      "縁台",
+      "おひつ"
+    ],
+    "explanation": "縁台は、家の外や店先などに置く、細長い腰掛けです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "old_life_tool_word",
+      "p194"
+    ]
+  },
+  {
+    "id": "vocab1300_p194_004",
+    "sourcePage": 194,
+    "type": "image_word",
+    "subtype": "old_life_tool_word",
+    "word": "すだれ",
+    "reading": "すだれ",
+    "image": "images/old_tool_sudare.png",
+    "hint": "竹などを並べて作り、窓の日よけに使います。",
+    "question": "この昔の道具はどれ？",
+    "answerIndex": 0,
+    "choices": [
+      "すだれ",
+      "火鉢",
+      "いろり",
+      "縁台"
+    ],
+    "explanation": "すだれは、竹などで作られた、日よけなどに使うものです。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "old_life_tool_word",
+      "p194"
+    ]
+  },
+  {
+    "id": "vocab1300_p194_005",
+    "sourcePage": 194,
+    "type": "image_word",
+    "subtype": "old_life_tool_word",
+    "word": "蚊帳",
+    "reading": "かや",
+    "image": "images/old_tool_kaya.png",
+    "hint": "寝ている人を、虫から守るために覆います。",
+    "question": "この昔の道具はどれ？",
+    "answerIndex": 1,
+    "choices": [
+      "おひつ",
+      "蚊帳",
+      "火鉢",
+      "すだれ"
+    ],
+    "explanation": "蚊帳は、虫をよせつけないように寝床を覆う道具です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "old_life_tool_word",
+      "p194"
+    ]
+  },
+  {
+    "id": "vocab1300_p194_006",
+    "sourcePage": 194,
+    "type": "image_word",
+    "subtype": "old_life_tool_word",
+    "word": "いろり",
+    "reading": "いろり",
+    "image": "images/old_tool_irori.png",
+    "hint": "床の中で火をたき、上に鍋をつるします。",
+    "question": "この昔の場所・道具はどれ？",
+    "answerIndex": 2,
+    "choices": [
+      "縁台",
+      "おひつ",
+      "いろり",
+      "蚊帳"
+    ],
+    "explanation": "いろりは、床の一部をくりぬいて、火をたけるようにした場所です。",
+    "tags": [
+      "vocab1300",
+      "image_word",
+      "old_life_tool_word",
+      "p194"
+    ]
+  }
+]
