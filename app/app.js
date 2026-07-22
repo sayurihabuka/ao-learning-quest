@@ -2,6 +2,39 @@
    青のまなびクエスト — app.js
    ============================================================ */
 
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js';
+import { getDatabase, ref as dbRef, get, set } from 'https://www.gstatic.com/firebasejs/12.16.0/firebase-database.js';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyADUL3Zu7ZkguKuz7LUSarfAj7JFkteTMw",
+  authDomain: "hahuka-tools.firebaseapp.com",
+  databaseURL: "https://hahuka-tools-default-rtdb.firebaseio.com",
+  projectId: "hahuka-tools",
+  storageBucket: "hahuka-tools.firebasestorage.app",
+  messagingSenderId: "1097903942252",
+  appId: "1:1097903942252:web:f5713546094f3b4f55c649"
+};
+
+const fbApp = initializeApp(firebaseConfig);
+const db    = getDatabase(fbApp);
+const FB_PATH = 'ao-learning-quest/progress';
+
+async function loadProgressFromFirebase() {
+  try {
+    const snapshot = await get(dbRef(db, FB_PATH));
+    return snapshot.exists() ? snapshot.val() : {};
+  } catch (e) {
+    console.warn('[ao] Firebase読み込み失敗:', e);
+    return {};
+  }
+}
+
+function saveProgressToFirebase() {
+  set(dbRef(db, FB_PATH), progress).catch(e => {
+    console.warn('[ao] Firebase保存失敗:', e);
+  });
+}
+
 // ============================================================
 // 定数
 // ============================================================
@@ -99,6 +132,7 @@ function loadProgress() {
 
 function saveProgress() {
   localStorage.setItem(KEY_PROGRESS, JSON.stringify(progress));
+  saveProgressToFirebase();
 }
 
 function getOrCreateProgressItem(id) {
@@ -782,8 +816,22 @@ async function init() {
     return;
   }
 
-  // 進捗読み込み
+  // 進捗読み込み（localStorage を即時ロード → Firebase でマージ）
   progress = loadProgress();
+  loadProgressFromFirebase().then(fbData => {
+    let updated = false;
+    for (const [id, fbItem] of Object.entries(fbData)) {
+      const local = progress[id];
+      if (!local || (fbItem.lastAnsweredAt || 0) > (local.lastAnsweredAt || 0)) {
+        progress[id] = fbItem;
+        updated = true;
+      }
+    }
+    if (updated) {
+      localStorage.setItem(KEY_PROGRESS, JSON.stringify(progress));
+      console.log('[ao] Firebase から進捗をマージしました');
+    }
+  });
 
   // セッション復元または新規作成
   const today  = getStudyDate();
@@ -807,5 +855,17 @@ async function init() {
     renderHome(app);
   }
 }
+
+// type="module" ではモジュールスコープになるため、
+// onclick="..." から呼べるよう window に登録する
+window.startSession  = startSession;
+window.viewResult    = viewResult;
+window.goHome        = goHome;
+window.answerNormal  = answerNormal;
+window.toggleUnsure  = toggleUnsure;
+window.nextNormal    = nextNormal;
+window.answerRetry1  = answerRetry1;
+window.answerRetry2  = answerRetry2;
+window.nextRetry     = nextRetry;
 
 init();
