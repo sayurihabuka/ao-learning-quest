@@ -471,7 +471,7 @@ function renderHome(app) {
   app.innerHTML = `
     <div class="screen screen-home">
       <div class="home-header">
-        <div class="home-title">青のまなびクエスト</div>
+        <div class="home-title"><img src="images/slime.png" class="title-slime" alt="">青のまなびクエスト<img src="images/slime-orange.png" class="title-slime" alt=""></div>
         <div class="home-subtitle">語彙力UP1300</div>
       </div>
       <div class="home-body">

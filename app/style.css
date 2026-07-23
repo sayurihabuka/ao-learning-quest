@@ -84,6 +84,14 @@ html, body {
   font-weight: bold;
   color: var(--color-primary);
   letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title-slime {
+  width: 32px;
+  height: auto;
+  display: inline-block;
 }
 
 .home-subtitle {
