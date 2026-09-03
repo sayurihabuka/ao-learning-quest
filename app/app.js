@@ -38,11 +38,20 @@ function saveProgressToFirebase() {
 // ============================================================
 // 定数
 // ============================================================
-const TOTAL_NORMAL = 40;
+const TOTAL_NORMAL = 60;
 const REVIEW_DAYS  = [1, 3, 7, 14, 30, 60]; // level 0〜5 に対応する次回復習日数
 const IMAGE_TYPES  = new Set(['image_word', 'counter_image']);
-const KEY_SESSION  = 'ao_session_v1';
-const KEY_PROGRESS = 'ao_progress_v1';
+const KEY_SESSION    = 'ao_session_v1';
+const KEY_PROGRESS   = 'ao_progress_v1';
+const KEY_GOAL_SHOWN = 'ao_goal_shown_v1'; // コンプリート画面を一度表示したかどうか
+const GOAL_RATIO     = 0.9; // コンプリート判定（対象問題の90%が「なかまになった」時点）
+
+// 前日の△×数に応じた新規／復習の出し分け（忘却曲線対応・合計はTOTAL_NORMALと一致させる）
+const NEW_REVIEW_TIERS = [
+  { maxPrevIssues: 14,       newCount: 53, reviewCount: 7  },
+  { maxPrevIssues: 29,       newCount: 45, reviewCount: 15 },
+  { maxPrevIssues: Infinity, newCount: 30, reviewCount: 30 }
+];
 
 // ============================================================
 // アプリ状態
@@ -52,16 +61,22 @@ let eligibleQuestions = []; // 出題可能な問題
 let questionMap     = {};   // id -> question（高速参照用）
 let session         = null; // 当日セッション
 let progress        = {};   // 正式進捗
+let masteryGoal     = 0;    // コンプリートに必要な「なかまになった」問題数
 
 // ============================================================
 // 日時ユーティリティ（日本時間基準）
 // ============================================================
 
+/** 指定タイムスタンプ(ms)の学習日 YYYY-MM-DD（JST）を返す */
+function toStudyDateStr(ms) {
+  const d   = new Date(ms);
+  const jst = new Date(d.getTime() + (9 * 60 + d.getTimezoneOffset()) * 60000);
+  return jst.toISOString().slice(0, 10);
+}
+
 /** 今日の学習日 YYYY-MM-DD（JST） */
 function getStudyDate() {
-  const now = new Date();
-  const jst = new Date(now.getTime() + (9 * 60 + now.getTimezoneOffset()) * 60000);
-  return jst.toISOString().slice(0, 10);
+  return toStudyDateStr(Date.now());
 }
 
 /** 指定日 + plusDays の JST 0:00 の UTC タイムスタンプ */
@@ -222,10 +237,138 @@ function saveSession() {
   localStorage.setItem(KEY_SESSION, JSON.stringify(session));
 }
 
+/** 前日（＝直近に学習した日）の△×数を数える */
+function countPreviousDayIssues() {
+  let lastDate = null;
+  for (const p of Object.values(progress)) {
+    if (!p.lastAnsweredAt) continue;
+    const d = toStudyDateStr(p.lastAnsweredAt);
+    if (!lastDate || d > lastDate) lastDate = d;
+  }
+  if (!lastDate) return 0;
+
+  let count = 0;
+  for (const p of Object.values(progress)) {
+    if (!p.lastAnsweredAt) continue;
+    if (toStudyDateStr(p.lastAnsweredAt) === lastDate && (p.mark === 'triangle' || p.mark === 'cross')) {
+      count++;
+    }
+  }
+  return count;
+}
+
+/** 前日の△×数から今日の新規／復習の出題数を決める */
+function getTierCounts(prevIssues) {
+  return NEW_REVIEW_TIERS.find(t => prevIssues <= t.maxPrevIssues)
+    || NEW_REVIEW_TIERS[NEW_REVIEW_TIERS.length - 1];
+}
+
+/** 忘却曲線に沿って当日の出題を選ぶ（復習期限が来ている語を優先＋未導入の新規語） */
+function selectDailyQuestions() {
+  const today         = getStudyDate();
+  const todayMidnight = jstMidnight(today, 0);
+  const prevIssues    = countPreviousDayIssues();
+  const { newCount, reviewCount } = getTierCounts(prevIssues);
+
+  const reviewCandidates = eligibleQuestions.filter(q => {
+    const p = progress[q.id];
+    return p && p.nextReviewAt != null && p.nextReviewAt <= todayMidnight;
+  });
+  const newCandidates = eligibleQuestions.filter(q => !progress[q.id]);
+
+  // 復習は期限をより過ぎている語を優先
+  const selectedReview = reviewCandidates
+    .slice()
+    .sort((a, b) => progress[a.id].nextReviewAt - progress[b.id].nextReviewAt)
+    .slice(0, reviewCount);
+  const selectedNew = shuffleArray(newCandidates).slice(0, newCount);
+
+  const selectedIds = new Set([...selectedReview, ...selectedNew].map(q => q.id));
+
+  // 新規・復習の候補だけでTOTAL_NORMALに満たない場合は残りから補完する
+  const remaining = TOTAL_NORMAL - selectedIds.size;
+  if (remaining > 0) {
+    const fallbackPool = eligibleQuestions.filter(q => !selectedIds.has(q.id));
+    shuffleArray(fallbackPool).slice(0, remaining).forEach(q => selectedIds.add(q.id));
+  }
+
+  console.log(`[ao] 前日△×数:${prevIssues} → 新規${newCount}問+復習${reviewCount}問（復習期限到来:${reviewCandidates.length}問）`);
+
+  return shuffleArray(eligibleQuestions.filter(q => selectedIds.has(q.id)));
+}
+
+// ============================================================
+// 全体進捗・コンプリート判定
+// ============================================================
+
+/** 「なかまになった」（isMastered）問題数を数える */
+function countMasteredQuestions() {
+  let n = 0;
+  for (const q of eligibleQuestions) {
+    const p = progress[q.id];
+    if (p && p.isMastered) n++;
+  }
+  return n;
+}
+
+/** これまでに学習した日数（appliedKeysの日付部分から重複なく集計） */
+function countStudyDays() {
+  const dates = new Set();
+  for (const p of Object.values(progress)) {
+    if (!p.appliedKeys) continue;
+    for (const key of Object.keys(p.appliedKeys)) {
+      dates.add(key.split(':')[0]);
+    }
+  }
+  return dates.size;
+}
+
+function hasGoalBeenShown() {
+  return localStorage.getItem(KEY_GOAL_SHOWN) === 'true';
+}
+
+function markGoalShown() {
+  localStorage.setItem(KEY_GOAL_SHOWN, 'true');
+}
+
+/**
+ * その日の最終フェーズを決める。
+ * 初めて目標（masteryGoal）に到達した回だけ 'goal_achieved' を返す。
+ */
+function resolveFinalPhase(defaultPhase) {
+  if (!hasGoalBeenShown() && countMasteredQuestions() >= masteryGoal) {
+    markGoalShown();
+    return 'goal_achieved';
+  }
+  return defaultPhase;
+}
+
+/** 完了・振り返り画面共通：全体進捗バーのHTML */
+function overallProgressHtml() {
+  const masteredCount = countMasteredQuestions();
+  const percent        = Math.min(100, Math.round((masteredCount / masteryGoal) * 100));
+  const remaining      = Math.max(0, masteryGoal - masteredCount);
+
+  return `
+    <div class="overall-progress">
+      <div class="overall-progress-title">📊 ぜんたいの学習じょうきょう</div>
+      <div class="overall-progress-bar">
+        <div class="overall-progress-fill" style="width:${percent}%"></div>
+      </div>
+      <div class="overall-progress-numbers">
+        <span>なかまになった語：${masteredCount}問</span>
+        <span>${percent}%</span>
+      </div>
+      <div class="overall-progress-remaining">${
+        remaining > 0 ? `あと ${remaining}問でコンプリート！` : '🎉 コンプリート達成ずみ！'
+      }</div>
+    </div>`;
+}
+
 /** 当日の新規セッションを生成する */
 function createNewSession() {
   const today    = getStudyDate();
-  const selected = shuffleArray(eligibleQuestions).slice(0, TOTAL_NORMAL);
+  const selected = selectDailyQuestions();
   const ids      = selected.map(q => q.id);
 
   // 選択肢シャッフルを一度だけ行い保存（リロードで変わらない）
@@ -290,7 +433,7 @@ function finishNormalQuestion() {
       qid => ['triangle', 'cross'].includes(session.normalResults[qid])
     );
     if (retryIds.length === 0) {
-      session.phase = 'complete';
+      session.phase = resolveFinalPhase('complete');
     } else {
       session.retry1Queue = retryIds;
       session.retry1Index = 0;
@@ -314,7 +457,7 @@ function finishRetry1Question() {
   if (session.retry1Index >= session.retry1Queue.length) {
     const failed = session.retry1Queue.filter(qid => session.retry1Results[qid] === 'failed');
     if (failed.length === 0) {
-      session.phase = 'review';
+      session.phase = resolveFinalPhase('review');
     } else {
       session.retry2Queue = failed;
       session.retry2Index = 0;
@@ -342,7 +485,7 @@ function finishRetry2Question() {
         session.sameDayFinalStatus[qid] = 'retry_tomorrow';
       }
     });
-    session.phase = 'review';
+    session.phase = resolveFinalPhase('review');
   }
   saveSession();
 }
@@ -437,12 +580,13 @@ function render() {
   const app = document.getElementById('app');
   if (!session) { renderHome(app); return; }
   switch (session.phase) {
-    case 'normal':   renderNormal(app);   break;
-    case 'complete': renderComplete(app); break;
-    case 'retry1':   renderRetry(app, 1); break;
-    case 'retry2':   renderRetry(app, 2); break;
-    case 'review':   renderReview(app);   break;
-    default:         renderHome(app);
+    case 'normal':        renderNormal(app);       break;
+    case 'complete':      renderComplete(app);     break;
+    case 'retry1':        renderRetry(app, 1);     break;
+    case 'retry2':        renderRetry(app, 2);     break;
+    case 'review':        renderReview(app);       break;
+    case 'goal_achieved': renderGoalAchieved(app); break;
+    default:              renderHome(app);
   }
 }
 
@@ -450,7 +594,7 @@ function render() {
 function renderHome(app) {
   const today    = getStudyDate();
   const hasToday = session && session.studyDate === today;
-  const isDone   = hasToday && (session.phase === 'complete' || session.phase === 'review');
+  const isDone   = hasToday && ['complete', 'review', 'goal_achieved'].includes(session.phase);
   const isInProgress = hasToday && !isDone &&
     (session.normalIndex > 0 || session.pendingNormal || Object.keys(session.normalResults).length > 0);
 
@@ -545,7 +689,7 @@ function renderComplete(app) {
         <img class="hanamaru" src="images/hanamaru.png" alt="花丸">
         <div class="praise-word">${praise}</div>
       </div>
-      <div class="complete-header">40問、完了！</div>
+      <div class="complete-header">${TOTAL_NORMAL}問、完了！</div>
       <div class="complete-summary">
         <div class="summary-item summary-circle">○ せいかい：<strong>${circles}問</strong></div>
         <div class="summary-item summary-triangle">△ あやしい：<strong>0問</strong></div>
@@ -555,7 +699,8 @@ function renderComplete(app) {
         <p>△も×も<strong>0問</strong>だったよ！</p>
         <p>やり直しは必要なし。<br>今日もよくがんばりました！</p>
       </div>
-      ${mastered > 0 ? `<div class="mastered-count">⭐ 今日、定着○になった語：<strong>${mastered}語</strong></div>` : ''}
+      ${mastered > 0 ? `<div class="mastered-count">⭐ 今日、なかまになった語：<strong>${mastered}語</strong></div>` : ''}
+      ${overallProgressHtml()}
       <button class="btn btn-start" onclick="goHome()">ホームへ戻る</button>
     </div>`;
 }
@@ -663,10 +808,41 @@ function renderReview(app) {
           <span>明日もう一度</span><strong>${retryTmr}問</strong>
         </div>
         ${mastered > 0 ? `<div class="review-summary-row" style="color:var(--color-primary)">
-          <span>⭐ 定着○になった語</span><strong>${mastered}語</strong>
+          <span>⭐ なかまになった語</span><strong>${mastered}語</strong>
         </div>` : ''}
       </div>
       <div class="review-list">${itemsHtml}</div>
+      ${overallProgressHtml()}
+      <button class="btn btn-start" onclick="goHome()">ホームへ戻る</button>
+    </div>`;
+}
+
+// ---- コンプリート画面（目標90%を初めて達成した日だけ表示） ----
+function renderGoalAchieved(app) {
+  const masteredCount = countMasteredQuestions();
+  const studyDays      = countStudyDays();
+  const totalCorrect   = Object.values(progress).reduce((s, p) => s + (p.correctCount || 0), 0);
+
+  spawnConfetti();
+  setTimeout(spawnConfetti, 300);
+
+  app.innerHTML = `
+    <div class="screen screen-goal-achieved">
+      <div class="hanamaru-wrap">
+        <img class="hanamaru" src="images/hanamaru.png" alt="花丸">
+      </div>
+      <div class="goal-achieved-title">🎉🌟 コンプリート！！ 🌟🎉</div>
+      <div class="goal-achieved-message">
+        語彙力UP1300、目標の90%を<br>なかまにしたよ！<br>本当によくがんばりました！
+      </div>
+      <div class="goal-achieved-stats">
+        <div>学習した日数：<strong>${studyDays}日</strong></div>
+        <div>累計正解数：<strong>${totalCorrect}問</strong></div>
+        <div>なかまにした語：<strong>${masteredCount}問</strong></div>
+      </div>
+      <div class="complete-message">
+        <p>このあとも、忘れていないか<br>たまに復習していこうね。</p>
+      </div>
       <button class="btn btn-start" onclick="goHome()">ホームへ戻る</button>
     </div>`;
 }
@@ -800,6 +976,7 @@ async function init() {
   const imageWaiting  = allQuestions.filter(q => requiresImage(q));
   const dataInvalid   = allQuestions.filter(q => !requiresImage(q) && !isQuestionReady(q));
   eligibleQuestions   = allQuestions.filter(q => isQuestionReady(q));
+  masteryGoal         = Math.ceil(eligibleQuestions.length * GOAL_RATIO);
 
   // 開発者コンソールに件数を出力（青ちゃんの画面には表示しない）
   console.log(`[ao] 総件数: ${allQuestions.length}`);

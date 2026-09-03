@@ -463,6 +463,93 @@ html, body {
 }
 
 /* ============================================================
+   ぜんたい進捗バー（完了・振り返り画面 共通）
+   ============================================================ */
+.overall-progress {
+  background: var(--color-card);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.overall-progress-title {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  margin-bottom: 10px;
+}
+
+.overall-progress-bar {
+  width: 100%;
+  height: 16px;
+  background: var(--color-primary-light);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.overall-progress-fill {
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.overall-progress-numbers {
+  font-size: 15px;
+  color: var(--color-text);
+  display: flex;
+  justify-content: space-between;
+}
+
+.overall-progress-remaining {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-top: 8px;
+}
+
+/* ============================================================
+   コンプリート画面（目標90%達成）
+   ============================================================ */
+.screen-goal-achieved {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  gap: 24px;
+  text-align: center;
+}
+
+.goal-achieved-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--color-primary-dark);
+}
+
+.goal-achieved-message {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.goal-achieved-stats {
+  background: var(--color-card);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  font-size: 17px;
+}
+
+/* ============================================================
    振り返り画面
    ============================================================ */
 .screen-review {
