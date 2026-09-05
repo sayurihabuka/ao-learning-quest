@@ -69,9 +69,8 @@ let masteryGoal     = 0;    // コンプリートに必要な「なかまにな�
 
 /** 指定タイムスタンプ(ms)の学習日 YYYY-MM-DD（JST）を返す */
 function toStudyDateStr(ms) {
-  const d   = new Date(ms);
-  const jst = new Date(d.getTime() + (9 * 60 + d.getTimezoneOffset()) * 60000);
-  return jst.toISOString().slice(0, 10);
+  // ms は UTC epoch なので、端末のタイムゾーン設定に関係なく常に +9時間で正しいJST日付になる
+  return new Date(ms + 9 * 3600 * 1000).toISOString().slice(0, 10);
 }
 
 /** 今日の学習日 YYYY-MM-DD（JST） */
@@ -578,6 +577,10 @@ function resultBlockHtml(isCorrect, correctText, explanation) {
 /** 現在の session.phase に応じて適切な画面を描画 */
 function render() {
   const app = document.getElementById('app');
+  if (session && session.studyDate !== getStudyDate()) {
+    // 日付が変わったのに古いセッションのままだった場合は破棄する
+    session = null;
+  }
   if (!session) { renderHome(app); return; }
   switch (session.phase) {
     case 'normal':        renderNormal(app);       break;
