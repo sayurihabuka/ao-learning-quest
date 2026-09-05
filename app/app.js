@@ -48,9 +48,15 @@ async function loadSessionFromFirebase() {
 }
 
 function saveSessionToFirebase() {
-  set(dbRef(db, FB_SESSION_PATH), session).catch(e => {
-    console.warn('[ao] Firebaseセッション保存失敗:', e);
-  });
+  // set()は不正な値(undefined等)があると同期的にthrowすることがあるため、
+  // ここで確実に握りつぶし、画面遷移が止まらないようにする
+  try {
+    set(dbRef(db, FB_SESSION_PATH), session).catch(e => {
+      console.warn('[ao] Firebaseセッション保存失敗:', e);
+    });
+  } catch (e) {
+    console.warn('[ao] Firebaseセッション保存で例外:', e);
+  }
 }
 
 // ============================================================
