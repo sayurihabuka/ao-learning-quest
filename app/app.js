@@ -17,7 +17,8 @@ const firebaseConfig = {
 
 const fbApp = initializeApp(firebaseConfig);
 const db    = getDatabase(fbApp);
-const FB_PATH = 'ao-learning-quest/progress';
+const FB_PATH         = 'ao-learning-quest/progress';
+const FB_SESSION_PATH = 'ao-learning-quest/session';
 
 async function loadProgressFromFirebase() {
   try {
@@ -32,6 +33,23 @@ async function loadProgressFromFirebase() {
 function saveProgressToFirebase() {
   set(dbRef(db, FB_PATH), progress).catch(e => {
     console.warn('[ao] Firebase保存失敗:', e);
+  });
+}
+
+// 今日のセッション（途中経過）も同期し、別の端末で続きから再開できるようにする
+async function loadSessionFromFirebase() {
+  try {
+    const snapshot = await get(dbRef(db, FB_SESSION_PATH));
+    return snapshot.exists() ? snapshot.val() : null;
+  } catch (e) {
+    console.warn('[ao] Firebaseセッション読み込み失敗:', e);
+    return null;
+  }
+}
+
+function saveSessionToFirebase() {
+  set(dbRef(db, FB_SESSION_PATH), session).catch(e => {
+    console.warn('[ao] Firebaseセッション保存失敗:', e);
   });
 }
 
@@ -233,7 +251,9 @@ function loadSessionFromStorage() {
 }
 
 function saveSession() {
+  session.updatedAt = Date.now(); // 端末間でどちらが新しいか比較するための時刻
   localStorage.setItem(KEY_SESSION, JSON.stringify(session));
+  saveSessionToFirebase();
 }
 
 /** 前日（＝直近に学習した日）の△×数を数える */
@@ -996,29 +1016,42 @@ async function init() {
     return;
   }
 
-  // 進捗読み込み（localStorage を即時ロード → Firebase でマージ）
+  // 進捗・セッションを読み込む（localStorageを即時ロードしつつ、Firebaseの取得完了を待ってからマージする。
+  // 他の端末で進めた分を取り込む前に問題選択やセッション再開の判断をしてしまわないようにするため）
   progress = loadProgress();
-  loadProgressFromFirebase().then(fbData => {
-    let updated = false;
-    for (const [id, fbItem] of Object.entries(fbData)) {
-      const local = progress[id];
-      if (!local || (fbItem.lastAnsweredAt || 0) > (local.lastAnsweredAt || 0)) {
-        progress[id] = fbItem;
-        updated = true;
-      }
-    }
-    if (updated) {
-      localStorage.setItem(KEY_PROGRESS, JSON.stringify(progress));
-      console.log('[ao] Firebase から進捗をマージしました');
-    }
-  });
+  const localSession = loadSessionFromStorage();
+  const today = getStudyDate();
 
-  // セッション復元または新規作成
-  const today  = getStudyDate();
-  const stored = loadSessionFromStorage();
+  const [fbProgress, fbSession] = await Promise.all([
+    loadProgressFromFirebase(),
+    loadSessionFromFirebase()
+  ]);
 
-  if (stored && stored.studyDate === today) {
-    session = stored;
+  let progressUpdated = false;
+  for (const [id, fbItem] of Object.entries(fbProgress)) {
+    const local = progress[id];
+    if (!local || (fbItem.lastAnsweredAt || 0) > (local.lastAnsweredAt || 0)) {
+      progress[id] = fbItem;
+      progressUpdated = true;
+    }
+  }
+  if (progressUpdated) {
+    localStorage.setItem(KEY_PROGRESS, JSON.stringify(progress));
+    console.log('[ao] Firebase から進捗をマージしました');
+  }
+
+  // セッションはローカル・Firebase双方のうち「今日の分」で更新時刻が新しい方を採用する
+  let candidate = null;
+  if (localSession && localSession.studyDate === today) candidate = localSession;
+  if (fbSession && fbSession.studyDate === today) {
+    if (!candidate || (fbSession.updatedAt || 0) > (candidate.updatedAt || 0)) {
+      candidate = fbSession;
+    }
+  }
+
+  if (candidate) {
+    session = candidate;
+    localStorage.setItem(KEY_SESSION, JSON.stringify(session));
     // 完了済みまたは途中の場合はそのまま描画
     const isFresh = session.normalIndex === 0
       && !session.pendingNormal
