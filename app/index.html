@@ -4,13 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>青のまなびクエスト</title>
-  <link rel="icon" href="favicon.png" type="image/png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="vocab1300/favicon.png" type="image/png">
+  <style>
+    :root {
+      --color-primary: #1565C0;
+      --color-primary-dark: #0D47A1;
+      --color-bg: #F0F4F8;
+      --color-card: #FFFFFF;
+      --color-text: #1A1A2E;
+      --color-text-secondary: #546E7A;
+      --radius: 16px;
+      --shadow: 0 2px 12px rgba(0,0,0,0.10);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%;
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Meiryo', sans-serif;
+      -webkit-text-size-adjust: 100%;
+    }
+    #hub {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+    }
+    .hub-title {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .hub-title img { width: 40px; height: 40px; }
+    .quest-list {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .quest-card {
+      display: block;
+      background: var(--color-card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+    .quest-card:active { background: var(--color-primary-dark); color: #fff; }
+  </style>
 </head>
 <body>
-  <div id="app">
-    <div class="loading">読み込み中…</div>
+  <div id="hub">
+    <div class="hub-title">
+      <img src="vocab1300/images/slime.png" alt="">
+      青のまなびクエスト
+      <img src="vocab1300/images/slime-orange.png" alt="">
+    </div>
+    <div class="quest-list">
+      <a class="quest-card" href="vocab1300/index.html">語彙力UPクエスト</a>
+      <!-- 算数クエスト: 準備中のため非表示。実装できたらここに quest-card を追加 -->
+    </div>
   </div>
-  <script type="module" src="app.js"></script>
 </body>
 </html>

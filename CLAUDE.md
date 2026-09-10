@@ -14,23 +14,29 @@ ao-learning-quest/
   README.md
 
   docs/
-    vocab1300_question_rules.md         # 問題作成ルール（GPが作成）
-    vocab1300_question_prompt_template.md
-    vocab_image_generation_rules.md     # 画像生成ルール
-    claude_code_implementation.md       # 実装指示書（GPが作成）
+    vocab1300/                          # 語彙力UPクエスト関連ドキュメント
+      question_rules.md                # 問題作成ルール（GPが作成）
+      question_prompt_template.md
+      image_generation_rules.md        # 画像生成ルール
+      for_coding_claude.md             # 実装引き継ぎドキュメント
+      gemini_review/, fable_review/    # 校正レビュー資料
+    (math/ など、今後増える教科ドキュメントも docs/ 配下に追加していく)
 
   scans/vocab1300/          # スキャンPDF（非公開・コミット禁止）
-  extracted/                # 抽出CSV（非公開・コミット禁止）
-  questions/                # 問題JSON（作業用）
-  image-prompts/            # 画像生成プロンプトCSV
-  generated-images/         # 生成画像（採用前のストック）
+  extracted/                # 抽出CSV（非公開・コミット禁止、教科ごとにサブフォルダ）
+  questions/vocab1300/      # 問題JSON（作業用、教科ごとにサブフォルダ）
+  image-prompts/vocab1300/  # 画像生成プロンプト（教科ごとにサブフォルダ）
+  generated-images/vocab1300/  # 生成画像（採用前のストック、教科ごとにサブフォルダ）
 
   app/                      # GitHub Pages公開対象（ここだけ公開）
-    index.html
-    style.css
-    app.js
-    data/vocab1300.json
-    images/
+    index.html              # クエスト選択メニュー（各クエストへのリンク）
+    vocab1300/              # 語彙力UPクエスト
+      index.html
+      style.css
+      app.js
+      data/vocab1300.json
+      images/
+    (math/ など、今後増える教科クエストも app/ 配下に追加していく)
 ```
 
 ## 技術構成
