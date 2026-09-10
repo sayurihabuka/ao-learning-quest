@@ -62,20 +62,12 @@ function saveSessionToFirebase() {
 // ============================================================
 // 定数
 // ============================================================
-const TOTAL_NORMAL = 60;
-const REVIEW_DAYS  = [1, 3, 7, 14, 30, 60]; // level 0〜5 に対応する次回復習日数
+const TOTAL_NORMAL = 40;
 const IMAGE_TYPES  = new Set(['image_word', 'counter_image']);
 const KEY_SESSION    = 'ao_session_v1';
 const KEY_PROGRESS   = 'ao_progress_v1';
 const KEY_GOAL_SHOWN = 'ao_goal_shown_v1'; // コンプリート画面を一度表示したかどうか
 const GOAL_RATIO     = 0.9; // コンプリート判定（対象問題の90%が「なかまになった」時点）
-
-// 前日の△×数に応じた新規／復習の出し分け（忘却曲線対応・合計はTOTAL_NORMALと一致させる）
-const NEW_REVIEW_TIERS = [
-  { maxPrevIssues: 14,       newCount: 53, reviewCount: 7  },
-  { maxPrevIssues: 29,       newCount: 45, reviewCount: 15 },
-  { maxPrevIssues: Infinity, newCount: 30, reviewCount: 30 }
-];
 
 // ============================================================
 // アプリ状態
@@ -100,13 +92,6 @@ function toStudyDateStr(ms) {
 /** 今日の学習日 YYYY-MM-DD（JST） */
 function getStudyDate() {
   return toStudyDateStr(Date.now());
-}
-
-/** 指定日 + plusDays の JST 0:00 の UTC タイムスタンプ */
-function jstMidnight(dateStr, plusDays) {
-  const [y, m, d] = dateStr.split('-').map(Number);
-  // JST 0:00 = UTC 前日 15:00 → Date.UTC から 9h 引く
-  return Date.UTC(y, m - 1, d + (plusDays || 0)) - 9 * 3600 * 1000;
 }
 
 // ============================================================
@@ -176,21 +161,45 @@ function saveProgress() {
 function getOrCreateProgressItem(id) {
   if (!progress[id]) {
     progress[id] = {
-      level: 0,
       mark: null,
       correctCount: 0,
       wrongCount: 0,
       unsureCount: 0,
-      streak: 0,
       firstAnsweredAt: null,
       lastAnsweredAt: null,
-      nextReviewAt: null,
-      stableCorrectCount: 0,  // 異なる日に正解した回数
-      lastCorrectDate: null,   // 最後に正解した学習日 YYYY-MM-DD
-      isMastered: false
+      understood: false,    // 「なかまになった」＝完了
+      roundsFailed: 0,      // 何回のラウンドで理解できなかったか（0=未着手/初回対象）
+      completedRound: null  // 完了した時点のroundsFailedの値（何ラウンド目で完了したか）
     };
   }
   return progress[id];
+}
+
+/**
+ * 旧データ（level・nextReviewAt等を使っていた忘却曲線方式）を
+ * 新しい理解度トラッキング形式に一度だけ変換する。
+ * ルール: 一度も間違えていなければ完了、一度でも間違えていれば「復習1回目」の対象にする。
+ */
+function migrateAllProgress() {
+  let migrated = false;
+  for (const p of Object.values(progress)) {
+    if (p.understood !== undefined) continue; // 既に移行済み
+    p.understood     = p.correctCount >= 1 && p.wrongCount === 0;
+    p.roundsFailed    = p.wrongCount >= 1 ? 1 : 0;
+    p.completedRound  = p.understood ? 0 : null;
+    delete p.level;
+    delete p.streak;
+    delete p.nextReviewAt;
+    delete p.stableCorrectCount;
+    delete p.lastCorrectDate;
+    delete p.isMastered;
+    migrated = true;
+  }
+  if (migrated) {
+    localStorage.setItem(KEY_PROGRESS, JSON.stringify(progress));
+    saveProgressToFirebase();
+    console.log('[ao] 旧データを新しい理解度トラッキング形式に移行しました');
+  }
 }
 
 /**
@@ -198,9 +207,8 @@ function getOrCreateProgressItem(id) {
  * 同日やり直しからは呼び出さない。
  */
 function applyNormalResult(id, mark, applicationKey) {
-  const p     = getOrCreateProgressItem(id);
-  const now   = Date.now();
-  const today = getStudyDate();
+  const p   = getOrCreateProgressItem(id);
+  const now = Date.now();
 
   // 冪等性チェック: 同じ applicationKey がすでに適用済みならスキップ
   if (applicationKey) {
@@ -213,27 +221,21 @@ function applyNormalResult(id, mark, applicationKey) {
   p.mark = mark;
 
   if (mark === 'circle') {
-    p.level = Math.min(p.level + 1, 5);
+    // 迷いなく正解 → その場で完了。何ラウンド目で完了したかを記録する
     p.correctCount++;
-    p.streak++;
-    if (p.lastCorrectDate !== today) {
-      p.stableCorrectCount++;
-      p.lastCorrectDate = today;
-    }
-    p.nextReviewAt = jstMidnight(today, REVIEW_DAYS[Math.min(p.level, REVIEW_DAYS.length - 1)]);
-    p.isMastered = p.level >= 2 && p.stableCorrectCount >= 2;
+    p.understood = true;
+    p.completedRound = p.roundsFailed;
 
   } else if (mark === 'triangle') {
+    // 正解だが「ちょっとあやしい」→ 完了にはせず、次のラウンドへ
     p.unsureCount++;
-    p.nextReviewAt = jstMidnight(today, 1);
-    p.isMastered = false;
+    p.roundsFailed++;
+    p.understood = false;
 
   } else if (mark === 'cross') {
-    p.level = Math.max(p.level - 1, 0);
     p.wrongCount++;
-    p.streak = 0;
-    p.nextReviewAt = jstMidnight(today, 1);
-    p.isMastered = false;
+    p.roundsFailed++;
+    p.understood = false;
   }
 
   // 適用済みとして記録してから保存
@@ -262,76 +264,39 @@ function saveSession() {
   saveSessionToFirebase();
 }
 
-/** 前日（＝直近に学習した日）の△×数を数える */
-function countPreviousDayIssues() {
-  let lastDate = null;
-  for (const p of Object.values(progress)) {
-    if (!p.lastAnsweredAt) continue;
-    const d = toStudyDateStr(p.lastAnsweredAt);
-    if (!lastDate || d > lastDate) lastDate = d;
-  }
-  if (!lastDate) return 0;
-
-  let count = 0;
-  for (const p of Object.values(progress)) {
-    if (!p.lastAnsweredAt) continue;
-    if (toStudyDateStr(p.lastAnsweredAt) === lastDate && (p.mark === 'triangle' || p.mark === 'cross')) {
-      count++;
-    }
-  }
-  return count;
-}
-
-/** 前日の△×数から今日の新規／復習の出題数を決める */
-function getTierCounts(prevIssues) {
-  return NEW_REVIEW_TIERS.find(t => prevIssues <= t.maxPrevIssues)
-    || NEW_REVIEW_TIERS[NEW_REVIEW_TIERS.length - 1];
-}
-
-/** 忘却曲線に沿って当日の出題を選ぶ（復習期限が来ている語を優先＋未導入の新規語） */
+/**
+ * 当日の出題を選ぶ。
+ * 「未着手（ラウンド0）→ まだ理解していない・ラウンド1 → ラウンド2…」の順に、
+ * 一番早い段階の問題だけをまとめて出す（前の段階を出し切るまで次の段階には手をつけない）。
+ */
 function selectDailyQuestions() {
-  const today         = getStudyDate();
-  const todayMidnight = jstMidnight(today, 0);
-  const prevIssues    = countPreviousDayIssues();
-  const { newCount, reviewCount } = getTierCounts(prevIssues);
+  const notUnderstood = eligibleQuestions.filter(q => !progress[q.id]?.understood);
 
-  const reviewCandidates = eligibleQuestions.filter(q => {
-    const p = progress[q.id];
-    return p && p.nextReviewAt != null && p.nextReviewAt <= todayMidnight;
-  });
-  const newCandidates = eligibleQuestions.filter(q => !progress[q.id]);
-
-  // 復習は期限をより過ぎている語を優先
-  const selectedReview = reviewCandidates
-    .slice()
-    .sort((a, b) => progress[a.id].nextReviewAt - progress[b.id].nextReviewAt)
-    .slice(0, reviewCount);
-  const selectedNew = shuffleArray(newCandidates).slice(0, newCount);
-
-  const selectedIds = new Set([...selectedReview, ...selectedNew].map(q => q.id));
-
-  // 新規・復習の候補だけでTOTAL_NORMALに満たない場合は残りから補完する
-  const remaining = TOTAL_NORMAL - selectedIds.size;
-  if (remaining > 0) {
-    const fallbackPool = eligibleQuestions.filter(q => !selectedIds.has(q.id));
-    shuffleArray(fallbackPool).slice(0, remaining).forEach(q => selectedIds.add(q.id));
+  if (notUnderstood.length === 0) {
+    // 全問「なかまになった」後のフォールバック: ランダムに復習として出す
+    return shuffleArray(eligibleQuestions).slice(0, TOTAL_NORMAL);
   }
 
-  console.log(`[ao] 前日△×数:${prevIssues} → 新規${newCount}問+復習${reviewCount}問（復習期限到来:${reviewCandidates.length}問）`);
+  const roundOf = q => progress[q.id]?.roundsFailed ?? 0;
+  const minRound = Math.min(...notUnderstood.map(roundOf));
+  const currentTier = notUnderstood.filter(q => roundOf(q) === minRound);
 
-  return shuffleArray(eligibleQuestions.filter(q => selectedIds.has(q.id)));
+  const roundLabel = minRound === 0 ? '初回' : `復習${minRound}回目`;
+  console.log(`[ao] 現在のラウンド:${roundLabel}（対象${currentTier.length}問）`);
+
+  return shuffleArray(currentTier).slice(0, TOTAL_NORMAL);
 }
 
 // ============================================================
 // 全体進捗・コンプリート判定
 // ============================================================
 
-/** 「なかまになった」（isMastered）問題数を数える */
+/** 「なかまになった」（understood）問題数を数える */
 function countMasteredQuestions() {
   let n = 0;
   for (const q of eligibleQuestions) {
     const p = progress[q.id];
-    if (p && p.isMastered) n++;
+    if (p && p.understood) n++;
   }
   return n;
 }
@@ -444,7 +409,7 @@ function finishNormalQuestion() {
 
   // 正式進捗に反映（applicationKey による冪等チェックで二重適用を防ぐ）
   applyNormalResult(id, mark, applicationKey);
-  if (progress[id] && progress[id].isMastered && !session.newlyMasteredIds.includes(id)) {
+  if (progress[id] && progress[id].understood && !session.newlyMasteredIds.includes(id)) {
     session.newlyMasteredIds.push(id);
   }
 
@@ -452,7 +417,7 @@ function finishNormalQuestion() {
   session.pendingNormal = null;
   session.normalIndex++;
 
-  if (session.normalIndex >= TOTAL_NORMAL) {
+  if (session.normalIndex >= session.questionIds.length) {
     // 通常40問完了
     const retryIds = session.questionIds.filter(
       qid => ['triangle', 'cross'].includes(session.normalResults[qid])
@@ -674,7 +639,7 @@ function renderNormal(app) {
 
     app.innerHTML = `
       <div class="screen screen-question">
-        ${questionHeaderHtml(normalIndex + 1, TOTAL_NORMAL, '通常問題')}
+        ${questionHeaderHtml(normalIndex + 1, questionIds.length, '通常問題')}
         ${wordBlockHtml(q)}
         ${contextHtml(q)}
         <div class="question-text"><span class="context-label">問題</span>${esc(q.question)}</div>
@@ -692,7 +657,7 @@ function renderNormal(app) {
   const buttons = choiceButtonsHtml(sd, 'answerNormal', false, -1);
   app.innerHTML = `
     <div class="screen screen-question">
-      ${questionHeaderHtml(normalIndex + 1, TOTAL_NORMAL, '通常問題')}
+      ${questionHeaderHtml(normalIndex + 1, questionIds.length, '通常問題')}
       ${wordBlockHtml(q)}
       ${contextHtml(q)}
       <div class="question-text">${esc(q.question)}</div>
@@ -718,7 +683,7 @@ function renderComplete(app) {
         <img class="hanamaru" src="images/hanamaru.png" alt="花丸">
         <div class="praise-word">${praise}</div>
       </div>
-      <div class="complete-header">${TOTAL_NORMAL}問、完了！</div>
+      <div class="complete-header">${session.questionIds.length}問、完了！</div>
       <div class="complete-summary">
         <div class="summary-item summary-circle">○ せいかい：<strong>${circles}問</strong></div>
         <div class="summary-item summary-triangle">△ あやしい：<strong>0問</strong></div>
@@ -1045,6 +1010,9 @@ async function init() {
     localStorage.setItem(KEY_PROGRESS, JSON.stringify(progress));
     console.log('[ao] Firebase から進捗をマージしました');
   }
+
+  // 旧形式(忘却曲線)のデータが残っていれば、新しい理解度トラッキング形式に変換する
+  migrateAllProgress();
 
   // セッションはローカル・Firebase双方のうち「今日の分」で更新時刻が新しい方を採用する
   let candidate = null;
