@@ -240,8 +240,23 @@ function render() {
       </div>
 
       <div id="itemScreen">
+        <button class="key func" id="goToStudyHubBtn" style="width:100%; height:auto; padding:12px; margin-bottom:14px; font-size:15px;">📖 おぼえるページ</button>
         <div class="note" style="margin-bottom:12px;">練習したい項目を選んでね</div>
         <div class="limit-chips" id="itemList" style="flex-direction:column; gap:10px;"></div>
+      </div>
+
+      <div id="studyHubScreen" hidden>
+        <button class="key func" id="backFromStudyHubBtn" style="width:auto; padding:6px 14px; height:auto; margin-bottom:10px;">&larr; 項目選択にもどる</button>
+        <div class="note" style="margin-bottom:12px;">見たい項目を選んでね</div>
+        <div class="limit-chips" id="studyItemList" style="flex-direction:column; gap:10px;"></div>
+      </div>
+
+      <div id="studyScreen" hidden>
+        <button class="key func" id="backFromStudyBtn" style="width:auto; padding:6px 14px; height:auto; margin-bottom:10px;">&larr; おぼえるページ一覧にもどる</button>
+        <div class="worksheet-card">
+          <div class="q-category" id="studyTitle"></div>
+          <div id="studyContent"></div>
+        </div>
       </div>
 
       <div id="setupScreen" hidden>
@@ -441,6 +456,8 @@ function hideAllScreens() {
   document.getElementById('worksheetSetupScreen').hidden = true;
   document.getElementById('worksheetScreen').hidden = true;
   document.getElementById('primeScreen').hidden = true;
+  document.getElementById('studyHubScreen').hidden = true;
+  document.getElementById('studyScreen').hidden = true;
 }
 
 function showItemScreen() {
@@ -448,6 +465,86 @@ function showItemScreen() {
   hideAllScreens();
   document.getElementById('itemScreen').hidden = false;
   document.getElementById('pageSubtitle').textContent = '';
+}
+
+function studyLineFor(it) {
+  if (it.stem) {
+    if (it.stem.includes(' = ?')) return it.stem.replace(' = ?', ` = ${it.answer}`);
+    if (it.stem.includes('&rarr; ?')) return it.stem.replace('&rarr; ?', `&rarr; ${it.answer}`);
+    return `${it.stem} ${it.answer}`;
+  }
+  if (it.label) return `${it.label} = ${it.answer}`;
+  return '';
+}
+
+function showStudyHubScreen() {
+  hideAllScreens();
+  document.getElementById('studyHubScreen').hidden = false;
+  document.getElementById('pageSubtitle').textContent = '';
+  renderStudyHubList();
+}
+
+const STUDY_HIDDEN_KEYS = ['dec_to_frac']; // 覚えるページには出さない（分数⇔小数はfrac_to_decに統合して表示）
+const STUDY_LABEL_OVERRIDE = { frac_to_dec: '分数⇔小数' };
+
+function renderStudyHubList() {
+  const list = document.getElementById('studyItemList');
+  list.innerHTML = Object.entries(QUEST_ITEMS)
+    .filter(([key]) => !STUDY_HIDDEN_KEYS.includes(key))
+    .map(([key, def]) => `
+      <div class="item-row" data-item="${key}">
+        <div class="item-card study">
+          <div class="ic-title">${STUDY_LABEL_OVERRIDE[key] || def.label}</div>
+          <div class="ic-sub">${def.sub}</div>
+        </div>
+      </div>
+    `).join('');
+  list.querySelectorAll('.item-row').forEach(row => {
+    row.querySelector('.item-card').addEventListener('click', () => {
+      showStudyScreen(row.dataset.item);
+    });
+  });
+}
+
+function renderStudyList(items) {
+  return `<div class="study-list">${items.map((it, i, arr) => {
+    const wide = (arr.length % 2 === 1 && i === arr.length - 1) ? ' wide' : '';
+    return `<div class="study-line${wide}">${studyLineFor(it)}</div>`;
+  }).join('')}</div>`;
+}
+
+function showStudyScreen(key) {
+  hideAllScreens();
+  document.getElementById('studyScreen').hidden = false;
+  const def = QUEST_ITEMS[key];
+  const label = STUDY_LABEL_OVERRIDE[key] || def.label;
+  document.getElementById('pageSubtitle').textContent = label;
+  document.getElementById('studyTitle').textContent = label;
+  const content = document.getElementById('studyContent');
+
+  if (key === 'prime100') {
+    const primes = Array.from({ length: 100 }, (_, i) => i + 1).filter(isPrimeNum);
+    content.innerHTML = `<div class="study-primes">${primes.join('、')}</div>`;
+  } else if (key === 'triangle') {
+    content.innerHTML = `<div class="study-primes">${def.items.map(it => it.answer).join('、')}</div>`;
+  } else if (key === 'squares_round') {
+    const squares = def.items.slice(0, 15);
+    const rounds = def.items.slice(15);
+    content.innerHTML = `
+      <div class="study-section-title">■平方数</div>
+      ${renderStudyList(squares)}
+      <div class="study-section-title">■100・1000を作る組</div>
+      ${renderStudyList(rounds)}
+    `;
+  } else if (key === 'frac_to_dec') {
+    const pairs = FRAC_PAIRS.map(([n, d, dec]) => ({ stem: '', answer: '', line: `${dec} = ${staticFrac(n, d)}` }));
+    content.innerHTML = `<div class="study-list">${pairs.map((it, i, arr) => {
+      const wide = (arr.length % 2 === 1 && i === arr.length - 1) ? ' wide' : '';
+      return `<div class="study-line${wide}">${it.line}</div>`;
+    }).join('')}</div>`;
+  } else {
+    content.innerHTML = renderStudyList(def.items);
+  }
 }
 
 function showSetupScreen() {
@@ -633,6 +730,9 @@ function checkWorksheet(isTimeout) {
 
 function bindEvents() {
   document.getElementById('backToItemsBtn').addEventListener('click', showItemScreen);
+  document.getElementById('goToStudyHubBtn').addEventListener('click', showStudyHubScreen);
+  document.getElementById('backFromStudyHubBtn').addEventListener('click', showItemScreen);
+  document.getElementById('backFromStudyBtn').addEventListener('click', showStudyHubScreen);
   document.getElementById('backFromWsSetupBtn').addEventListener('click', showItemScreen);
   document.getElementById('backFromWorksheetBtn').addEventListener('click', showItemScreen);
   document.getElementById('backFromPrimeBtn').addEventListener('click', showItemScreen);

@@ -147,6 +147,7 @@ html, body {
   box-shadow: 0 6px 16px rgba(75, 30, 120, 0.28);
 }
 .item-card:active { transform: scale(.98); }
+.item-card.study { background: var(--color-correct); }
 .item-card .ic-title { font-size: 18px; font-weight: 700; text-wrap: balance; }
 .item-card .ic-sub { font-size: 12px; font-weight: 600; opacity: .9; margin-top: 4px; text-wrap: balance; }
 
@@ -229,6 +230,10 @@ html, body {
   font-weight: 700;
   color: var(--color-text-secondary);
   margin-top: 10px;
+}
+#studyTitle {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .q-stem {
   font-size: 44px;
@@ -525,5 +530,38 @@ html, body {
 .pl-correct { background: var(--color-correct); }
 .pl-wrong { background: var(--color-wrong); }
 .pl-missed { background: var(--color-warn); }
+
+/* ---- おぼえるページ ---- */
+.study-section-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-primary);
+  margin: 16px 0 8px;
+  text-align: left;
+}
+.study-section-title:first-child { margin-top: 0; }
+.study-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 16px;
+}
+.study-line {
+  font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: left;
+  white-space: nowrap;
+}
+.study-line.wide {
+  grid-column: span 2;
+  text-align: left;
+}
+.study-primes {
+  font-size: 19px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 2.1;
+  text-align: left;
+}
 
 [hidden] { display: none !important; }
