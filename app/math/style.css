@@ -576,10 +576,12 @@ html, body {
 }
 .study-list.single-col {
   grid-template-columns: 1fr;
+  gap: 12px 16px;
 }
 .study-list.single-col .study-line {
   white-space: normal;
   line-height: 1.5;
+  font-size: 13px;
 }
 .study-line {
   font-size: 16px;
