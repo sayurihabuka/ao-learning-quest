@@ -85,6 +85,18 @@ function fracToDecItem([n, d, dec]) {
   return { type: 'number', prompt: '小数になおすと？', stem: `${staticFrac(n, d)} &rarr; ?`, answer: dec };
 }
 
+const DIVISIBILITY_RULES = [
+  ['2', '1の位が0・2・4・6・8', ['各位の数字の和が2の倍数', '下2けたが2の倍数、または00', '1の位が2・4・6・8']],
+  ['3', '各位の数字の和が3の倍数', ['1の位が0・3・6・9', '下2けたが3の倍数、または00', '各位の数字の和が9の倍数']],
+  ['4', '下2けたが4の倍数、または00', ['1の位が0・4・8', '各位の数字の和が4の倍数', '下3けたが4の倍数、または000']],
+  ['5', '1の位が0・5', ['各位の数字の和が5の倍数', '下2けたが5の倍数、または00', '1の位が0・1・5']],
+  ['8', '下3けたが8の倍数、または000', ['下2けたが8の倍数、または00', '各位の数字の和が8の倍数', '1の位が0・8']],
+  ['9', '各位の数字の和が9の倍数', ['各位の数字の和が3の倍数', '1の位が0・9', '下2けたが9の倍数、または00']],
+];
+function divisibilityItem([n, correct, distractors]) {
+  return { type: 'mcq', prompt: '正しい説明を選ぼう', stem: `${n}の倍数の見分け方は？`, answer: correct, choices: [correct, ...distractors] };
+}
+
 const QUEST_ITEMS = {
   squares_round: {
     label: '平方数＆100/1000を作る組',
@@ -135,6 +147,12 @@ const QUEST_ITEMS = {
     primeGrid: true, // 1〜100のボタンから選んでまとめて判定するタイプ
     items: [],
   },
+  divisibility: {
+    label: '倍数の見分け方',
+    sub: '2・3・4・5・8・9（4択）',
+    untimed: true, // 制限時間なし・正解数のみで合否判定し、合格に2ヶ月の有効期限を設ける
+    items: DIVISIBILITY_RULES.map(divisibilityItem),
+  },
 };
 
 function isPrimeNum(n) {
@@ -144,6 +162,13 @@ function isPrimeNum(n) {
 }
 
 const RESTRICTED = ['3000', '4000', '40000', '60000']; // 1日1回だけ挑戦できる制限時間
+const RENEWAL_MS = 60 * 24 * 3600 * 1000; // 制限時間なし項目の合格有効期限（2ヶ月 ≒ 60日）
+
+function untimedStatus(key) {
+  const p = progress[key];
+  if (!p || !p.passedAt) return 'new';
+  return (Date.now() - p.passedAt < RENEWAL_MS) ? 'valid' : 'expired';
+}
 const PASS_MESSAGES = {
   none: 'なかなかやるね！', '5000': 'あともう少しだ！', '4000': '合格！', '3000': 'きみは王者だ！誰よりも強い！！',
   '60000': '合格！', '40000': 'きみは王者だ！誰よりも強い！！',
@@ -171,6 +196,7 @@ let buffer = '';
 let denomBuf = '';
 let numerBuf = '';
 let fracPhase = 'denom'; // 分数は書き順どおり「分母→分子」
+let mcqSelected = null; // 4択で選んだ選択肢のテキスト
 let wsActiveIndex = 0; // ワークシートで今タップしている入力欄
 let wsLimitMs = 60000;
 let wsStartTime = 0;
@@ -287,6 +313,7 @@ function render() {
             <div class="fbar"></div>
             <div class="fden placeholder" id="fracDen">?</div>
           </div>
+          <div class="mcq-choices" id="mcqChoices" hidden></div>
           <div class="feedback-overlay" id="feedback">
             <div class="fb-big" id="fbBig"></div>
             <div class="fb-sub" id="fbSub"></div>
@@ -379,10 +406,23 @@ function render() {
 function renderItemList() {
   const list = document.getElementById('itemList');
   list.innerHTML = Object.entries(QUEST_ITEMS).map(([key, def]) => {
-    const best = progress[key] && progress[key].bestTier;
-    const info = best ? RANK_INFO[best] : { icon: null, text: '挑戦だ！' };
-    const rankHtml = (info.icon ? `<div class="rank-icon">${info.icon}</div>` : '')
-      + `<div class="rank-text${best ? '' : ' rank-text-new'}">${info.text}</div>`;
+    let rankHtml;
+    if (def.untimed) {
+      const status = untimedStatus(key);
+      if (status === 'valid') {
+        const daysLeft = Math.max(1, Math.ceil((progress[key].passedAt + RENEWAL_MS - Date.now()) / 86400000));
+        rankHtml = `<div class="rank-icon">🥇</div><div class="rank-text">合格中<br>（あと${daysLeft}日）</div>`;
+      } else if (status === 'expired') {
+        rankHtml = `<div class="rank-text" style="color:var(--color-warn)">きげんぎれ<br>もう一度！</div>`;
+      } else {
+        rankHtml = `<div class="rank-text rank-text-new">挑戦だ！</div>`;
+      }
+    } else {
+      const best = progress[key] && progress[key].bestTier;
+      const info = best ? RANK_INFO[best] : { icon: null, text: '挑戦だ！' };
+      rankHtml = (info.icon ? `<div class="rank-icon">${info.icon}</div>` : '')
+        + `<div class="rank-text${best ? '' : ' rank-text-new'}">${info.text}</div>`;
+    }
     const subText = def.primeGrid ? def.sub : `全${def.items.length}問（${def.sub}）`;
     return `
       <div class="item-row" data-item="${key}">
@@ -399,11 +439,23 @@ function renderItemList() {
       itemKey = row.dataset.item;
       if (QUEST_ITEMS[itemKey].worksheet || QUEST_ITEMS[itemKey].primeGrid) {
         showWorksheetSetupScreen();
+      } else if (QUEST_ITEMS[itemKey].untimed) {
+        startUntimedQuiz(itemKey);
       } else {
         showSetupScreen();
       }
     });
   });
+}
+
+function startUntimedQuiz(key) {
+  itemKey = key;
+  limitMs = null;
+  queue = shuffle(QUEST_ITEMS[key].items);
+  qIndex = 0;
+  results = [];
+  showQuizScreen();
+  loadQuestion();
 }
 
 function refreshChipLocksIn(containerId, limitVar) {
@@ -468,6 +520,7 @@ function showItemScreen() {
 }
 
 function studyLineFor(it) {
+  if (it.choices) return `${it.stem} &rarr; ${it.answer}`;
   if (it.stem) {
     if (it.stem.includes(' = ?')) return it.stem.replace(' = ?', ` = ${it.answer}`);
     if (it.stem.includes('&rarr; ?')) return it.stem.replace('&rarr; ?', `&rarr; ${it.answer}`);
@@ -542,6 +595,8 @@ function showStudyScreen(key) {
       const wide = (arr.length % 2 === 1 && i === arr.length - 1) ? ' wide' : '';
       return `<div class="study-line${wide}">${it.line}</div>`;
     }).join('')}</div>`;
+  } else if (key === 'divisibility') {
+    content.innerHTML = `<div class="study-list single-col">${def.items.map(it => `<div class="study-line">${studyLineFor(it)}</div>`).join('')}</div>`;
   } else {
     content.innerHTML = renderStudyList(def.items);
   }
@@ -551,8 +606,16 @@ function showSetupScreen() {
   hideAllScreens();
   document.getElementById('setupScreen').hidden = false;
   document.getElementById('pageSubtitle').textContent = QUEST_ITEMS[itemKey].label;
+  syncLimitFromActiveChip('limitChips', (v) => { limitMs = v; });
   refreshChipLocks();
   renderBestBadge();
+}
+
+function syncLimitFromActiveChip(containerId, setter) {
+  const activeChip = document.querySelector(`#${containerId} .chip.active`);
+  if (activeChip) {
+    setter(activeChip.dataset.limit === 'none' ? null : parseInt(activeChip.dataset.limit, 10));
+  }
 }
 
 function showQuizScreen() {
@@ -565,6 +628,7 @@ function showWorksheetSetupScreen() {
   hideAllScreens();
   document.getElementById('worksheetSetupScreen').hidden = false;
   document.getElementById('pageSubtitle').textContent = QUEST_ITEMS[itemKey].label;
+  syncLimitFromActiveChip('wsLimitChips', (v) => { wsLimitMs = v; });
   refreshWsChipLocks();
   renderWsBestBadge();
 }
@@ -817,9 +881,20 @@ function bindEvents() {
 
   document.getElementById('submitBtn').addEventListener('click', () => onSubmit(false));
 
+  document.getElementById('mcqChoices').addEventListener('click', (e) => {
+    const btn = e.target.closest('.mcq-btn');
+    if (!btn || locked) return;
+    mcqSelected = btn.textContent;
+    onSubmit(false);
+  });
+
   document.getElementById('retryBtn').addEventListener('click', () => {
-    // 合否・制限時間を問わず、必ず制限時間の設定画面に戻ってから選び直す
-    showSetupScreen();
+    if (QUEST_ITEMS[itemKey].untimed) {
+      showItemScreen();
+    } else {
+      // 合否・制限時間を問わず、必ず制限時間の設定画面に戻ってから選び直す
+      showSetupScreen();
+    }
   });
 }
 
@@ -876,7 +951,22 @@ function loadQuestion() {
   denomBuf = '';
   numerBuf = '';
   fracPhase = 'denom';
-  renderAnswer();
+  mcqSelected = null;
+  const isMcq = queue[qIndex].type === 'mcq';
+  document.getElementById('keypad').hidden = isMcq;
+  const answerReadout = document.getElementById('answerReadout');
+  const fracInput = document.getElementById('fracInput');
+  const mcqChoicesEl = document.getElementById('mcqChoices');
+  if (isMcq) {
+    answerReadout.hidden = true;
+    fracInput.hidden = true;
+    mcqChoicesEl.hidden = false;
+    const shuffled = shuffle(queue[qIndex].choices);
+    mcqChoicesEl.innerHTML = shuffled.map(choice => `<button class="mcq-btn">${choice}</button>`).join('');
+  } else {
+    mcqChoicesEl.hidden = true;
+    renderAnswer();
+  }
   document.getElementById('progressPill').textContent = `${qIndex + 1} / ${queue.length}`;
   document.getElementById('qCategory').textContent = queue[qIndex].prompt;
   const qStem = document.getElementById('qStem');
@@ -895,8 +985,18 @@ function onSubmit(isTimeout) {
   clearTimers();
   const elapsed = performance.now() - startTime;
   const isFrac = queue[qIndex].type === 'fraction';
-  const given = isFrac ? `${numerBuf}/${denomBuf}` : buffer;
-  const correct = !isTimeout && (isFrac ? given === queue[qIndex].answer : answersMatch(given, queue[qIndex].answer));
+  const isMcq = queue[qIndex].type === 'mcq';
+  let given, correct;
+  if (isFrac) {
+    given = `${numerBuf}/${denomBuf}`;
+    correct = !isTimeout && given === queue[qIndex].answer;
+  } else if (isMcq) {
+    given = isTimeout ? '(未回答)' : (mcqSelected || '(未選択)');
+    correct = !isTimeout && mcqSelected === queue[qIndex].answer;
+  } else {
+    given = buffer;
+    correct = !isTimeout && answersMatch(given, queue[qIndex].answer);
+  }
   const withinTime = limitMs == null ? true : elapsed <= limitMs;
   const pass = correct && withinTime;
 
@@ -937,31 +1037,46 @@ function showResults() {
   document.getElementById('quizScreen').hidden = true;
   document.getElementById('resultScreen').hidden = false;
 
-  const limitKey = limitKeyOf(limitMs);
-  const isRestricted = RESTRICTED.includes(limitKey);
+  const def = QUEST_ITEMS[itemKey];
   const allPass = results.every(r => r.pass);
-
-  if (isRestricted) lockToday(limitKey); // 合否に関わらず、その日の挑戦権を使い切る
-  if (allPass) updateBestTier(limitKey);
-  curProgress().lastResult = { limitKey, allPass, timestamp: Date.now() };
-  saveProgressToFirebase();
 
   const resultBanner = document.getElementById('resultBanner');
   const resultSub = document.getElementById('resultSub');
   const resultGrid = document.getElementById('resultGrid');
   const retryBtn = document.getElementById('retryBtn');
-
-  resultBanner.textContent = allPass ? PASS_MESSAGES[limitKey] : 'もういちど';
-  resultBanner.className = 'result-banner ' + (allPass ? 'pass' : 'fail');
-  if (allPass) {
-    retryBtn.textContent = 'つぎの制限時間に挑戦する';
-  } else if (isRestricted) {
-    retryBtn.textContent = 'せっていにもどる（今日はここまで）';
-  } else {
-    retryBtn.textContent = 'もういちど挑戦する';
-  }
   const passCount = results.filter(r => r.pass).length;
-  resultSub.textContent = `${queue.length}問中${passCount}問、制限時間内に正解`;
+
+  if (def.untimed) {
+    if (allPass) {
+      progress[itemKey] = progress[itemKey] || {};
+      progress[itemKey].passedAt = Date.now();
+    }
+    saveProgressToFirebase();
+    resultBanner.textContent = allPass ? '合格！' : 'もういちど';
+    resultBanner.className = 'result-banner ' + (allPass ? 'pass' : 'fail');
+    retryBtn.textContent = allPass ? '項目一覧にもどる' : 'もういちど挑戦する';
+    resultSub.textContent = `${queue.length}問中${passCount}問正解`;
+  } else {
+    const limitKey = limitKeyOf(limitMs);
+    const isRestricted = RESTRICTED.includes(limitKey);
+    if (isRestricted) lockToday(limitKey); // 合否に関わらず、その日の挑戦権を使い切る
+    if (allPass) updateBestTier(limitKey);
+    curProgress().lastResult = { limitKey, allPass, timestamp: Date.now() };
+    saveProgressToFirebase();
+
+    resultBanner.textContent = allPass ? PASS_MESSAGES[limitKey] : 'もういちど';
+    resultBanner.className = 'result-banner ' + (allPass ? 'pass' : 'fail');
+    if (allPass) {
+      retryBtn.textContent = 'つぎの制限時間に挑戦する';
+    } else if (isRestricted) {
+      retryBtn.textContent = 'せっていにもどる（今日はここまで）';
+    } else {
+      retryBtn.textContent = 'もういちど挑戦する';
+    }
+    resultSub.textContent = `${queue.length}問中${passCount}問、制限時間内に正解`;
+  }
+
+  resultGrid.classList.toggle('single-col', !!def.untimed);
   resultGrid.innerHTML = '';
   results.forEach(r => {
     const div = document.createElement('div');
