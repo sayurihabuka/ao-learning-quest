@@ -1,0 +1,529 @@
+/* ============================================================
+   算数クエスト — 平方数（検定テスト方式） style.css
+   語彙クエストと同じ配色トークンを使用（iPad縦向き基準）
+   ============================================================ */
+
+:root {
+  --color-primary: #1565C0;
+  --color-primary-dark: #0D47A1;
+  --color-primary-light: #E3F2FD;
+  --color-correct: #2E7D32;
+  --color-correct-bg: #E8F5E9;
+  --color-wrong: #C62828;
+  --color-wrong-bg: #FFEBEE;
+  --color-warn: #E65100;
+  --color-warn-bg: #FFF3E0;
+  --color-cleared1: #1565C0;
+  --color-cleared2: #6A1B9A;
+  --color-bg: #F0F4F8;
+  --color-card: #FFFFFF;
+  --color-card-2: #F7FAFC;
+  --color-text: #1A1A2E;
+  --color-text-secondary: #546E7A;
+  --color-border: #CFD8DC;
+  --radius: 20px;
+  --radius-sm: 12px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Meiryo', sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+.loading {
+  margin-top: 40vh;
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 20px;
+}
+
+.stage {
+  max-width: 430px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 18px 32px;
+  gap: 14px;
+}
+
+/* ---- top bar ---- */
+.page-header {
+  text-align: center;
+  margin-bottom: 4px;
+}
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.title-slime { width: 36px; height: 36px; }
+.page-subtitle {
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.progress-pill {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-light);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-variant-numeric: tabular-nums;
+}
+.quiz-progress {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+/* ---- setup screen ---- */
+.limit-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  box-shadow: var(--shadow);
+}
+.limit-row span.lbl {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.limit-chips { display: flex; gap: 6px; flex: 1; }
+.chip {
+  flex: 1;
+  border: 1px solid var(--color-border);
+  background: var(--color-card-2);
+  color: var(--color-text-secondary);
+  border-radius: 999px;
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+}
+.chip.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+.chip.locked {
+  opacity: .45;
+  cursor: not-allowed;
+  font-size: 11px;
+}
+
+.item-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0px;
+}
+.item-card {
+  flex: 1;
+  display: block;
+  text-align: center;
+  padding: 16px 18px;
+  border-radius: 20px;
+  background: var(--color-cleared1);
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(75, 30, 120, 0.28);
+}
+.item-card:active { transform: scale(.98); }
+.item-card .ic-title { font-size: 18px; font-weight: 700; text-wrap: balance; }
+.item-card .ic-sub { font-size: 12px; font-weight: 600; opacity: .9; margin-top: 4px; text-wrap: balance; }
+
+.rank-badge {
+  flex: none;
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 4px;
+}
+.rank-icon { font-size: 24px; line-height: 1; }
+.rank-text {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-warn);
+  margin-top: 4px;
+  text-align: center;
+  text-wrap: balance;
+}
+.rank-text-new { color: var(--color-primary); font-size: 12px; margin-top: 0; }
+
+@media (max-width: 430px) {
+  .item-row {
+    flex-direction: column;
+  }
+  .rank-badge {
+    width: auto;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 20px;
+  }
+  .rank-text br {
+    display: none;
+  }
+}
+.note {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  line-height: 1.6;
+}
+.best-badge {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  min-height: 18px;
+  margin-bottom: 10px;
+}
+
+/* ---- quiz card ---- */
+.quiz-card {
+  position: relative;
+  background: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 26px 22px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.timer-track {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: var(--color-border);
+}
+.timer-fill {
+  height: 100%;
+  width: 100%;
+  background: var(--color-primary);
+  transition: background-color .15s;
+}
+.timer-fill.warn { background: var(--color-warn); }
+.timer-fill.danger { background: var(--color-wrong); }
+
+.q-category {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  margin-top: 10px;
+}
+.q-stem {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 14px 0 18px;
+  font-variant-numeric: tabular-nums;
+  text-wrap: balance;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .14em;
+}
+.q-stem.q-stem-long {
+  font-size: 32px;
+}
+
+/* ---- 教科書スタイルの分数（分子／横棒／分母） ---- */
+.frac {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.15;
+  vertical-align: middle;
+}
+.frac .fnum, .frac .fden {
+  padding: 0 6px;
+  min-width: 1.3em;
+  text-align: center;
+}
+.frac .fbar {
+  width: 100%;
+  height: 3px;
+  background: currentColor;
+  margin: 3px 0;
+  border-radius: 2px;
+}
+.frac.static {
+  font-size: .6em;
+}
+.frac-input {
+  margin: 6px auto 0;
+  font-size: 34px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-primary-dark);
+}
+.frac-input .fnum, .frac-input .fden {
+  border-radius: 8px;
+  min-height: 1.25em;
+}
+.frac-input .fnum.active, .frac-input .fden.active {
+  background: var(--color-primary-light);
+}
+.frac-input .fnum.placeholder, .frac-input .fden.placeholder {
+  color: var(--color-text-secondary);
+  opacity: .45;
+}
+
+.answer-readout {
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-primary-dark);
+  border-bottom: 3px solid var(--color-border);
+  margin: 0 auto;
+  width: 70%;
+}
+.answer-readout .cursor {
+  display: inline-block;
+  width: 2px;
+  height: 30px;
+  background: var(--color-primary);
+  margin-left: 3px;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+.answer-readout.placeholder { color: var(--color-text-secondary); opacity: .4; }
+
+.feedback-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 700;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .12s;
+}
+.feedback-overlay.show { opacity: 1; }
+.feedback-overlay.correct { background: var(--color-correct-bg); color: var(--color-correct); }
+.feedback-overlay.wrong { background: var(--color-wrong-bg); color: var(--color-wrong); }
+.feedback-overlay.slow { background: var(--color-warn-bg); color: var(--color-warn); }
+.feedback-overlay .fb-big { font-size: 30px; }
+.feedback-overlay .fb-sub { font-size: 14px; font-weight: 600; }
+
+/* ---- keypad ---- */
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+.key {
+  height: 58px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-text);
+  font-size: 22px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.key:active { background: var(--color-primary-light); transform: scale(.96); }
+.key.func { color: var(--color-text-secondary); font-size: 16px; }
+.submit-btn {
+  grid-column: span 3;
+  height: 58px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  box-shadow: var(--shadow);
+}
+.submit-btn:active { background: var(--color-primary-dark); }
+
+/* ---- result screen ---- */
+.result-screen {
+  background: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 22px;
+  text-align: center;
+}
+.result-banner {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.result-banner.pass { color: var(--color-correct); }
+.result-banner.fail { color: var(--color-warn); }
+.result-sub {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-bottom: 20px;
+}
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.result-item {
+  border-radius: var(--radius-sm);
+  padding: 10px 4px;
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.result-item .ri-q { font-size: 13px; margin-bottom: 4px; }
+.result-item .ri-t { font-size: 11px; font-weight: 600; opacity: .85; }
+.result-item .ri-a { font-size: 10px; font-weight: 600; opacity: .85; margin-top: 2px; }
+.result-item.ok { background: var(--color-correct-bg); color: var(--color-correct); }
+.result-item.ng { background: var(--color-wrong-bg); color: var(--color-wrong); }
+.retry-btn {
+  width: 100%;
+  height: 52px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.retry-btn:active { background: var(--color-primary-dark); }
+
+/* ---- ワークシート形式（三角数など、一画面でまとめて回答） ---- */
+.worksheet-card {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px 20px;
+  text-align: center;
+}
+.worksheet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 14px;
+  margin-top: 16px;
+}
+.ws-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.ws-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  width: 52px;
+  text-align: right;
+  flex: none;
+}
+.ws-input {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 30px;
+  border: 2px solid var(--color-border);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  background: var(--color-card-2);
+  color: var(--color-text);
+  box-sizing: border-box;
+}
+.ws-input:focus { outline: none; border-color: var(--color-primary); }
+.ws-input.correct { border-color: var(--color-correct); background: var(--color-correct-bg); color: var(--color-correct); }
+.ws-input.wrong { border-color: var(--color-wrong); background: var(--color-wrong-bg); color: var(--color-wrong); }
+
+.worksheet-summary {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  min-height: 22px;
+}
+.worksheet-summary.pass { color: var(--color-correct); }
+.worksheet-summary.fail { color: var(--color-warn); }
+
+/* ---- 素数グリッド（1〜100のボタンから選ぶ） ---- */
+.prime-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px;
+  margin-top: 14px;
+}
+.pb {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-card-2);
+  color: var(--color-text);
+  font-size: 11px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.pb.selected { background: var(--color-primary); border-color: var(--color-primary); color: #fff; }
+.pb.correct { background: var(--color-correct); border-color: var(--color-correct); color: #fff; }
+.pb.wrong { background: var(--color-wrong-bg); border-color: var(--color-wrong); color: var(--color-wrong); }
+.pb.missed { background: var(--color-warn-bg); border-color: var(--color-warn); color: var(--color-warn); }
+
+.prime-legend {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.pl-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+}
+.pl-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.pl-correct { background: var(--color-correct); }
+.pl-wrong { background: var(--color-wrong); }
+.pl-missed { background: var(--color-warn); }
+
+[hidden] { display: none !important; }
