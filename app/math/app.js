@@ -29,7 +29,7 @@ async function loadProgressFromFirebase() {
     return snap.exists() ? snap.val() : {};
   } catch (e) {
     console.warn('[ao-math] Firebase読み込み失敗:', e);
-    return {};
+    return null; // 失敗と空データを区別する（失敗時に保存して記録を上書きしないため）
   }
 }
 
@@ -137,9 +137,10 @@ const QUEST_ITEMS = {
   },
   triangle: {
     label: '三角数',
-    sub: '1番目〜10番目をまとめて入力',
+    sub: '1番目〜20番目をまとめて入力',
     worksheet: true, // 1画面にまとめて回答するタイプ
-    items: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(triangle),
+    wsTiers: { king: 60000, pass: 90000 }, // 20問あるので素数より長めの制限時間にする
+    items: Array.from({ length: 20 }, (_, i) => i + 1).map(triangle),
   },
   prime100: {
     label: '100までの素数',
@@ -161,7 +162,7 @@ function isPrimeNum(n) {
   return true;
 }
 
-const RESTRICTED = ['3000', '4000', '40000', '60000']; // 1日1回だけ挑戦できる制限時間
+const RESTRICTED = ['3000', '4000']; // 1日1回だけ挑戦できる制限時間（まとめて回答するタイプは isRestrictedTier で判定）
 const RENEWAL_MS = 60 * 24 * 3600 * 1000; // 制限時間なし項目の合格有効期限（2ヶ月 ≒ 60日）
 
 function untimedStatus(key) {
@@ -171,18 +172,55 @@ function untimedStatus(key) {
 }
 const PASS_MESSAGES = {
   none: 'なかなかやるね！', '5000': 'あともう少しだ！', '4000': '合格！', '3000': 'きみは王者だ！誰よりも強い！！',
-  '60000': '合格！', '40000': 'きみは王者だ！誰よりも強い！！',
 };
-const TIER_RANK = { '3000': 1, '4000': 2, '5000': 3, '40000': 1, '60000': 2, none: 4 }; // 小さいほど厳しい（項目ごとに独立して比較するため文字列の重複は問題ない）
-const TIER_LABEL = { '3000': '3秒', '4000': '4秒', '5000': '5秒', '40000': '40秒', '60000': '60秒', none: 'なし' };
+const TIER_RANK = { '3000': 1, '4000': 2, '5000': 3, none: 4 }; // 小さいほど厳しい
+const TIER_LABEL = { '3000': '3秒', '4000': '4秒', '5000': '5秒', none: 'なし' };
 const RANK_INFO = {
   none: { icon: null, text: 'がんばれ！' },
   '5000': { icon: '🥈', text: '5秒クリア <br>あと少し！' },
   '4000': { icon: '🥇', text: '4秒クリア 合格！次は王者に挑戦だ' },
   '3000': { icon: '👑', text: '3秒クリア <br>きみは王者だ！' },
-  '60000': { icon: '🥇', text: '60秒クリア <br>合格！' },
-  '40000': { icon: '👑', text: '40秒クリア <br>きみは王者だ！' },
 };
+
+// まとめて回答するタイプ（ワークシート・素数）は項目ごとに制限時間を変えられるので、
+// 同じ秒数でも項目によって王者/合格の意味が変わる。そのため上の表ではなくここで判定する
+const WS_TIERS_DEFAULT = { king: 40000, pass: 60000 };
+function isWsItem(key) {
+  return !!(QUEST_ITEMS[key].worksheet || QUEST_ITEMS[key].primeGrid);
+}
+function wsTiersOf(key) {
+  return QUEST_ITEMS[key].wsTiers || WS_TIERS_DEFAULT;
+}
+function wsRoleOf(key, limitKey) {
+  const t = wsTiersOf(key);
+  if (limitKey === String(t.king)) return 'king';
+  if (limitKey === String(t.pass)) return 'pass';
+  if (limitKey === 'none') return 'none';
+  return null; // 制限時間を変える前の古い記録
+}
+function tierLabel(limitKey) {
+  return limitKey === 'none' ? 'なし' : `${Number(limitKey) / 1000}秒`;
+}
+function tierRankOf(key, limitKey) {
+  if (!isWsItem(key)) return TIER_RANK[limitKey];
+  return { king: 1, pass: 2, none: 4 }[wsRoleOf(key, limitKey)] ?? Infinity;
+}
+function isRestrictedTier(key, limitKey) {
+  return isWsItem(key) ? ['king', 'pass'].includes(wsRoleOf(key, limitKey)) : RESTRICTED.includes(limitKey);
+}
+function passMessageOf(key, limitKey) {
+  if (!isWsItem(key)) return PASS_MESSAGES[limitKey];
+  return { king: 'きみは王者だ！誰よりも強い！！', pass: '合格！' }[wsRoleOf(key, limitKey)];
+}
+function rankInfoOf(key, limitKey) {
+  if (!isWsItem(key)) return RANK_INFO[limitKey];
+  const role = wsRoleOf(key, limitKey);
+  const label = tierLabel(limitKey);
+  if (role === 'king') return { icon: '👑', text: `${label}クリア <br>きみは王者だ！` };
+  if (role === 'pass') return { icon: '🥇', text: `${label}クリア <br>合格！` };
+  if (role === 'none') return RANK_INFO.none;
+  return null;
+}
 
 // ============================================================
 // 状態
@@ -228,8 +266,8 @@ function lockToday(key) {
 
 function updateBestTier(key) {
   const p = curProgress();
-  const rank = TIER_RANK[key];
-  const currentRank = p.bestTier ? TIER_RANK[p.bestTier] : Infinity;
+  const rank = tierRankOf(itemKey, key);
+  const currentRank = p.bestTier ? tierRankOf(itemKey, p.bestTier) : Infinity;
   if (rank < currentRank) p.bestTier = key;
 }
 
@@ -348,13 +386,9 @@ function render() {
         <div class="best-badge" id="wsBestBadge"></div>
         <div class="limit-row" id="wsLimitRow">
           <span class="lbl">制限時間</span>
-          <div class="limit-chips" id="wsLimitChips">
-            <div class="chip" data-limit="40000" data-label="40秒">40秒</div>
-            <div class="chip active" data-limit="60000" data-label="60秒">60秒</div>
-            <div class="chip" data-limit="none" data-label="なし">なし</div>
-          </div>
+          <div class="limit-chips" id="wsLimitChips"></div>
         </div>
-        <div class="note" style="margin:16px 0 20px;">「なし」は何度でも練習できます。「40秒」「60秒」は1日1回だけ挑戦できます（挑戦したら合否に関わらずその日は終了、翌日また挑戦できます）。</div>
+        <div class="note" id="wsLimitNote" style="margin:16px 0 20px;"></div>
         <button class="submit-btn" id="wsStartBtn" style="width:100%;">けんてい を はじめる</button>
       </div>
 
@@ -419,9 +453,10 @@ function renderItemList() {
       }
     } else {
       const best = progress[key] && progress[key].bestTier;
-      const info = best ? RANK_INFO[best] : { icon: null, text: '挑戦だ！' };
+      const bestInfo = best ? rankInfoOf(key, best) : null;
+      const info = bestInfo || { icon: null, text: '挑戦だ！' };
       rankHtml = (info.icon ? `<div class="rank-icon">${info.icon}</div>` : '')
-        + `<div class="rank-text${best ? '' : ' rank-text-new'}">${info.text}</div>`;
+        + `<div class="rank-text${bestInfo ? '' : ' rank-text-new'}">${info.text}</div>`;
     }
     const subText = def.primeGrid ? def.sub : `全${def.items.length}問（${def.sub}）`;
     return `
@@ -463,7 +498,7 @@ function refreshChipLocksIn(containerId, limitVar) {
   let activeIsLocked = false;
   [...chips.children].forEach(chip => {
     const v = chip.dataset.limit;
-    const isLocked = RESTRICTED.includes(v) && isLockedToday(v);
+    const isLocked = isRestrictedTier(itemKey, v) && isLockedToday(v);
     chip.classList.toggle('locked', isLocked);
     chip.innerHTML = isLocked ? `${chip.dataset.label}<br>（本日終了）` : chip.dataset.label;
     if (isLocked && chip.classList.contains('active')) activeIsLocked = true;
@@ -497,7 +532,21 @@ function renderBestBadge() {
 function renderWsBestBadge() {
   const badge = document.getElementById('wsBestBadge');
   const best = curProgress().bestTier;
-  badge.textContent = best ? `これまでの最高記録: ${TIER_LABEL[best]}` : '';
+  badge.textContent = best && wsRoleOf(itemKey, best) ? `これまでの最高記録: ${tierLabel(best)}` : '';
+}
+
+// 項目ごとの制限時間に合わせて、ワークシート型の制限時間ボタンと説明文を作り直す
+function renderWsLimitChips() {
+  const t = wsTiersOf(itemKey);
+  const kingLabel = tierLabel(String(t.king));
+  const passLabel = tierLabel(String(t.pass));
+  document.getElementById('wsLimitChips').innerHTML = `
+    <div class="chip" data-limit="${t.king}" data-label="${kingLabel}">${kingLabel}</div>
+    <div class="chip active" data-limit="${t.pass}" data-label="${passLabel}">${passLabel}</div>
+    <div class="chip" data-limit="none" data-label="なし">なし</div>
+  `;
+  document.getElementById('wsLimitNote').textContent =
+    `「なし」は何度でも練習できます。「${kingLabel}」「${passLabel}」は1日1回だけ挑戦できます（挑戦したら合否に関わらずその日は終了、翌日また挑戦できます）。`;
 }
 
 function hideAllScreens() {
@@ -628,6 +677,7 @@ function showWorksheetSetupScreen() {
   hideAllScreens();
   document.getElementById('worksheetSetupScreen').hidden = false;
   document.getElementById('pageSubtitle').textContent = QUEST_ITEMS[itemKey].label;
+  renderWsLimitChips();
   syncLimitFromActiveChip('wsLimitChips', (v) => { wsLimitMs = v; });
   refreshWsChipLocks();
   renderWsBestBadge();
@@ -687,7 +737,7 @@ function checkPrimeGrid(isTimeout) {
   });
 
   const limitKey = limitKeyOf(wsLimitMs);
-  const isRestricted = RESTRICTED.includes(limitKey);
+  const isRestricted = isRestrictedTier(itemKey, limitKey);
   const withinTime = wsLimitMs == null ? true : elapsed <= wsLimitMs;
   const pass = allCorrect && withinTime && !isTimeout;
 
@@ -699,7 +749,7 @@ function checkPrimeGrid(isTimeout) {
   const summary = document.getElementById('primeSummary');
   const legend = document.getElementById('primeLegend');
   if (pass) {
-    summary.textContent = PASS_MESSAGES[limitKey] || '🎉 ぜんぶ正解！';
+    summary.textContent = passMessageOf(itemKey, limitKey) || '🎉 ぜんぶ正解！';
     summary.className = 'worksheet-summary pass';
     legend.hidden = true;
   } else if (isTimeout) {
@@ -767,7 +817,7 @@ function checkWorksheet(isTimeout) {
   });
 
   const limitKey = limitKeyOf(wsLimitMs);
-  const isRestricted = RESTRICTED.includes(limitKey);
+  const isRestricted = isRestrictedTier(itemKey, limitKey);
   const withinTime = wsLimitMs == null ? true : elapsed <= wsLimitMs;
   const pass = allCorrect && withinTime && !isTimeout;
 
@@ -778,7 +828,7 @@ function checkWorksheet(isTimeout) {
 
   const summary = document.getElementById('worksheetSummary');
   if (pass) {
-    summary.textContent = PASS_MESSAGES[limitKey] || '🎉 ぜんぶ正解！';
+    summary.textContent = passMessageOf(itemKey, limitKey) || '🎉 ぜんぶ正解！';
     summary.className = 'worksheet-summary pass';
   } else if (isTimeout) {
     summary.textContent = '時間切れ！もういちど挑戦しよう';
@@ -1058,7 +1108,7 @@ function showResults() {
     resultSub.textContent = `${queue.length}問中${passCount}問正解`;
   } else {
     const limitKey = limitKeyOf(limitMs);
-    const isRestricted = RESTRICTED.includes(limitKey);
+    const isRestricted = isRestrictedTier(itemKey, limitKey);
     if (isRestricted) lockToday(limitKey); // 合否に関わらず、その日の挑戦権を使い切る
     if (allPass) updateBestTier(limitKey);
     curProgress().lastResult = { limitKey, allPass, timestamp: Date.now() };
@@ -1091,8 +1141,20 @@ function showResults() {
 // ============================================================
 // 起動
 // ============================================================
+// 出題内容を変えた項目の古い記録を1回だけ消す（消したら目印を残して二度と消さない）
+function runOneTimeResets() {
+  progress.migrations = progress.migrations || {};
+  if (!progress.migrations.triangle20) {
+    delete progress.triangle; // 10問→20問・制限時間60/90秒に変えたので、10問時代の記録はリセットする
+    progress.migrations.triangle20 = true;
+    saveProgressToFirebase();
+  }
+}
+
 async function boot() {
-  progress = await loadProgressFromFirebase();
+  const loaded = await loadProgressFromFirebase();
+  progress = loaded || {};
+  if (loaded) runOneTimeResets();
   render();
 }
 boot();
