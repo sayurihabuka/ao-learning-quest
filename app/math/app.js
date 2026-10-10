@@ -296,9 +296,9 @@ function render() {
     <div class="stage">
       <div class="page-header">
         <div class="page-title">
-          <img src="../vocab1300/images/slime.png" class="title-slime" alt="">
+          <img src="../vocab/vocab1300/images/slime.png" class="title-slime" alt="">
           算数クエスト
-          <img src="../vocab1300/images/slime-orange.png" class="title-slime" alt="">
+          <img src="../vocab/vocab1300/images/slime-orange.png" class="title-slime" alt="">
         </div>
         <div class="page-subtitle" id="pageSubtitle"></div>
       </div>
