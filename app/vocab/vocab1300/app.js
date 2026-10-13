@@ -269,12 +269,13 @@ function saveSession() {
  * 「未着手（ラウンド0）→ まだ理解していない・ラウンド1 → ラウンド2…」の順に、
  * 一番早い段階の問題だけをまとめて出す（前の段階を出し切るまで次の段階には手をつけない）。
  */
-function selectDailyQuestions() {
+/** 今日出題する対象となる問題の集合を返す（未完了のうち一番早い段階だけ） */
+function getCurrentTier() {
   const notUnderstood = eligibleQuestions.filter(q => !progress[q.id]?.understood);
 
   if (notUnderstood.length === 0) {
-    // 全問「なかまになった」後のフォールバック: ランダムに復習として出す
-    return shuffleArray(eligibleQuestions).slice(0, TOTAL_NORMAL);
+    // 全問「なかまになった」後のフォールバック: 全問が対象
+    return eligibleQuestions;
   }
 
   const roundOf = q => progress[q.id]?.roundsFailed ?? 0;
@@ -284,7 +285,16 @@ function selectDailyQuestions() {
   const roundLabel = minRound === 0 ? '初回' : `復習${minRound}回目`;
   console.log(`[ao] 現在のラウンド:${roundLabel}（対象${currentTier.length}問）`);
 
-  return shuffleArray(currentTier).slice(0, TOTAL_NORMAL);
+  return currentTier;
+}
+
+/** 今日実際に選ばれる問題数（ホーム画面表示用。セッション作成前のプレビュー） */
+function getTodayQuestionCount() {
+  return Math.min(TOTAL_NORMAL, getCurrentTier().length);
+}
+
+function selectDailyQuestions() {
+  return shuffleArray(getCurrentTier()).slice(0, TOTAL_NORMAL);
 }
 
 // ============================================================
@@ -592,6 +602,9 @@ function renderHome(app) {
   const isInProgress = hasToday && !isDone &&
     (session.normalIndex > 0 || session.pendingNormal || Object.keys(session.normalResults).length > 0);
 
+  // 既にセッションがあれば実数を、無ければ「今はじめた場合」のプレビュー数を表示する
+  const todayQuestionCount = hasToday ? session.questionIds.length : getTodayQuestionCount();
+
   let actionHtml;
   if (isDone) {
     actionHtml = `
@@ -613,7 +626,7 @@ function renderHome(app) {
         <div class="home-subtitle">語彙力UP1300</div>
       </div>
       <div class="home-body">
-        <div class="home-info">今日の問題数：<strong>${TOTAL_NORMAL}問</strong></div>
+        <div class="home-info">今日の問題数：<strong>${todayQuestionCount}問</strong></div>
         ${actionHtml}
       </div>
     </div>`;
